@@ -1,347 +1,556 @@
-> *The reference page numbers are given from `ENT.pdf`*
+> *The reference page numbers are given from `IS.pdf`*
 
 -----
 
 ## Short Answers
 
 
-**1. Define Conception of idea.**
+### 1. Define Brute force Attack.
 
-Conception of idea, also referred to as idea generation, is the initial step in the entrepreneurial process. It involves generating new ideas through various methods, such as brainstorming, analyzing customer feedback, conducting market research, and performing competitive analysis.
-
-*(Source: ENT.pdf, Page 23)*
-
------
-
-**2. Define project formulation.**
-
-In the context of entrepreneurship, project formulation is the systematic process of designing, planning, and structuring a new business venture. It involves identifying the business idea, evaluating its feasibility, defining clear objectives, and preparing a detailed roadmap to successfully launch and grow the business. It is the crucial step in turning an entrepreneurial vision into a tangible, viable business.
-
-*(Source: ENT.pdf, Page 33)*
-
------
-
-**3. Define Economic Environment.**
-
-The economic environment is one of the broad categories of the industrial environment. It encompasses all the economic factors that affect business operations, including the economic system, national income and its distribution, monetary policy, fiscal policy, natural resources, and infrastructural facilities (such as power, transport, raw materials, and financial facilities).
-
-*(Source: ENT.pdf, Page 2)*
-
------
-
-**4. Explain the meaning of first-generation Entrepreneur.**
-
-A first-generation entrepreneur is an individual who starts a new business enterprise without having any prior entrepreneurial or business background in their family. They are the first in their family to start such a venture. These entrepreneurs are essentially innovators who use their own skills to combine different technologies or ideas to produce a marketable product or service. They must learn from their own mistakes, as they do not have an established family business to guide or support them.
-
-*(Source: ENT.pdf, Pages 11, 22)*
-
------
-
-**5. Define the term Entrepreneur and Entrepreneurship.**
-
-  * **Entrepreneur:** An entrepreneur is a person who identifies a business opportunity, organizes and manages a new business undertaking, and assumes the inherent risks for the sake of profit. The term originates from the French word *entreprendre*, meaning "to undertake." An entrepreneur is an innovator who assembles the necessary inputs (like resources, capital, and managers) and sets the organization in motion.
-  * **Entrepreneurship:** Entrepreneurship is the process or purposeful activity undertaken by an entrepreneur to create value. It involves the functions of seeking investment and production opportunities, creating something new (innovation), organizing and coordinating resources, and bearing the risks and uncertainty associated with starting and running a business.
-
-*(Source: ENT.pdf, Pages 3, 4, 15, 17, 20)*
-
------
-
-**6. Define Indian Industrial Environment Competency and its Importance.**
-
-The "Competence" of the Indian Industrial Environment refers to the enhanced capabilities and favorable conditions available for entrepreneurship. This includes:
-
-  * Vastly improved infrastructural facilities (land, power, transport, communication).
-  * Enhanced investment capabilities.
-  * Easy access to technology and R\&D laboratories.
-  * A ready supply of skilled labor, technical experts, and professional managers.
-
-The **importance** of this competence is that it enables Indian businesses to meet international quality standards and is supported by governmental encouragement, making the environment more conducive to starting and growing new enterprises.
-
-*(Source: ENT.pdf, Page 5)*
-
------
-
-**7. List & draw different types of Enterprises.**
-
-The provided document lists the following four main types of enterprises:
-
-1.  **Service enterprises:** (e.g., Consulting agencies, repair shops, professionals like doctors and lawyers)
-2.  **Trading enterprises:** (e.g., Provision shops, medical shops, dealerships)
-3.  **Manufacturing enterprises:** (Further classified by form, e.g., sole proprietorship, partnership)
-4.  **Co-operative enterprises**
-
-Here is a diagram illustrating these types:
-
-```mermaid
-graph TD
-    A[Types of Enterprises] --> B(Service Enterprises);
-    A --> C(Trading Enterprises);
-    A --> D(Manufacturing Enterprises);
-    A --> E(Co-operative Enterprises);
-
-    B --> B1(e.g., Consulting);
-    B --> B2(e.g., Repair Shops);
-    B --> B3(e.g., Professionals);
-
-    C --> C1(e.g., Provision Shops);
-    C --> C2(e.g., Medical Shops);
-    C --> C3(e.g., Dealerships);
-```
-
-*(Source: ENT.pdf, Page 9)*
-
------
-
-**8. Explain the choice of technology in Entrepreneurship.**
-
-The choice of technology is a critical decision made during the early stages of a project, which can have a significant impact on its success. It is an important economic decision that affects how a society allocates its resources, its productivity, and its competitiveness. Key factors that influence this choice include operation and maintenance costs, labor rates, uncertainty about future policies (e.g., climate policy), and uncertainty about future prices for inputs like electricity.
-
-*(Source: ENT.pdf, Page 26)*
-
------
-
-**9. List any two characteristics of a successful Entrepreneur.**
-
-Based on the provided text, two key characteristics of a successful entrepreneur are:
-
-1.  **Self-Confidence:** Entrepreneurs must have a strong belief in themselves and their ability to achieve their goals. They are confident that they can make their business succeed.
-2.  **Calculated Risk-Taking Ability:** An entrepreneur must be a moderate risk-taker. They must be able to assume risks but also learn from any failures, viewing defeat as an opportunity for success.
-
-*(Source: ENT.pdf, Pages 5, 15, 17-18)*
-
------
-
-**10. Differentiate between small industries and heavy industries.**
-
-The primary difference relates to their scale, investment, and output.
-
-  * **Small Industries (Small Scale):** These require a lower capital investment (defined in the text as 25 Lakh up to 1 crore on plant and machinery). They typically have a high labor orientation and often produce consumer goods or components.
-  * **Heavy Industries (Large Scale):** These involve a much larger investment (defined as anything above 5 crore). They undertake the manufacturing of bigger, more complex systems or machines that demand high technology.
-
-These industries are often linked, as heavy industries may outsource the production of various components to small-scale industries to lower production costs.
-
-*(Source: ENT.pdf, Pages 1, 9, 12)*
-
------
-
-**11. Define economic growth.**
-
-Economic growth is the result of creative activity and innovation. It is defined as the process of employing resources in a new way or bringing in a new combination of means of production. An economy's growth depends on its rate of innovation and technical progress. Entrepreneurs play a key role in accelerating this process by identifying new ideas and putting them into effect.
-
-*(Source: ENT.pdf, Page 5)*
-
------
-
-**12. Define women entrepreneurs.**
-
-Women entrepreneurs are defined as female individuals who are involved in establishing and managing entrepreneurial enterprises. The document provides examples such as Vandana Luthra (VLCC) and Suchi Mukherjee (Limeroad).
-
-*(Source: ENT.pdf, Pages 11-12)*
-
------
-
-**13. Identify any three sources of entrepreneurial ideas.**
-
-Three sources for generating entrepreneurial ideas mentioned in the document are:
-
-1.  Customer feedback
-2.  Market research
-3.  Competitive analysis
-
-*(Source: ENT.pdf, Page 23)*
-
------
-
-**14. Recall any two important stages of project formulation.**
-
-Two important stages (or components) of project formulation are:
-
-1.  **Business Idea and Opportunity Identification:** This initial stage involves generating the business idea, conducting market research to validate it, and clearly defining the unique value proposition the business will offer.
-2.  **Conducting Feasibility Analysis:** This stage is a critical evaluation to determine the idea's viability. It assesses market feasibility (is there demand?), technical feasibility (can it be built?), financial feasibility (is it financially sustainable?), and legal/regulatory feasibility.
-
-*(Source: ENT.pdf, Pages 33-34)*
-
------
-
-**15. Difference between Entrepreneurs and First-Generation Entrepreneurs?**
-
-The primary difference lies in their family and business background.
-
-  * An **Entrepreneur** is a broad term for any individual who founds, runs, and assumes the risk of a new business.
-  * A **First-Generation Entrepreneur** is a specific type of entrepreneur who is the *first person* in their family to start a business. They do not have a pre-existing family business background to provide guidance or inheritance. This is in contrast to "second-generation entrepreneurs," who inherit and manage existing family firms.
-
-*(Source: ENT.pdf, Pages 11, 22)*
-
------
-
-**16. Define the Conception of India.**
-
-The term "Conception of India" is not defined in the provided documents. The question itself appears in the source PDF (`HtmltoPdf.pdf`), but no corresponding answer or explanation exists in the texts. It is likely a typographical error for "Conception of idea," which is defined in the answer to question 1.
-
-*(Source: N/A - Not found in documents)*
-
------
-
-**17. Define Collaborative Interaction in Technology Development.**
-
-Collaborative interaction in technology development refers to the use of technology (known as "collaborative technologies") to enable and facilitate communication, collaboration, and the sharing of information among different individuals and groups. These technologies can include tools for real-time communication (like video conferencing), project management platforms, and shared document systems (like Google Docs).
-
-*(Source: ENT.pdf, Page 29)*
-
+A Brute force attack is the application of computing and network resources to try every possible combination of options for a password. This is often an attempt to repeatedly guess passwords for commonly used accounts.
+(Found on Page 32, 160)
 
 ---
+
+### 2. List the components used in security models.
+
+The NSTISSC Security Model, for example, lists three dimensions (or components) that form a $3\times3\times3$ cube:
+* **Information States:** Storage, Processing, Transmission
+* **Security Characteristics:** Confidentiality, Integrity, Availability
+* **Security Measures:** Policy, Education, Technology
+(Found on Page 8-9)
+
+---
+
+### 3. Name the counter measures on threats.
+
+Counter measures on threats generally fall under risk control strategies. The four basic strategies are:
+* **Avoidance:** Applying safeguards to eliminate or prevent the exploitation of the vulnerability.
+* **Transference:** Shifting the risk to other areas or outside entities, such as by purchasing insurance.
+* **Mitigation:** Reducing the impact of an exploited vulnerability through planning and preparation, such as having a Disaster Recovery Plan.
+* **Acceptance:** Understanding and accepting the risk without implementing a control, often when the cost of the control outweighs the potential loss.
+(Found on Page 63-66)
+
+---
+
+### 4. Explain the common methods for risk avoidance.
+
+The three common methods for risk avoidance are:
+1.  **Application of policy:** Using policies to guide organizational behavior and prevent risky actions.
+2.  **Application of Training & Education:** Ensuring personnel are properly trained and aware of security measures and threats.
+3.  **Application of Technology:** Using technology safeguards to counter threats and remove vulnerabilities.
+(Found on Page 64)
+
+---
+
+### 5. State the roles involved in risk management.
+
+The responsibility for risk management is shared across three main "communities of interest" within an organization:
+* **Information Security:** Understands threats and attacks, and takes a leadership role in addressing risk.
+* **Management & Users:** Allocates resources and understands the value of the information assets.
+* **Information Technology:** Builds and operates secure systems.
+(Found on Page 45)
+
+---
+
+### 6. Define policy. How it is different from law?
+
+A **policy** is a course of action used by an organization to convey instructions from management to those who perform duties; it defines organizational rules for acceptable and unacceptable behavior. **Laws** are rules that mandate or prohibit certain behavior in society. The key difference is that laws carry the sanctions of a governing authority, while policies are enforced by an organization. Policies must also not conflict with laws.
+(Found on Page 35, 40, 81)
+
+---
+
+### 7. Define Information Security?
+
+Information security is a well-informed sense of assurance that the information risks and controls are in balance. It includes the broad areas of information security management, computer and data security, and network security, all aimed at protecting information and the systems that store, transport, and process it.
+(Found on Page 4, 166)
+
+---
+
+### 8. What are the components of an Information System?
+
+The six components of an information system are:
+* Software
+* Hardware
+* Data
+* People
+* Procedures
+* Networks
+(Found on Page 9, 158)
+
+---
+
+### 9. Why is it necessary to balance between Information Security and Access?
+
+It is necessary to balance information security and access because security cannot be absolute; it is a process, not a goal. An organization must provide adequate security while also ensuring its systems are feasible to access for legitimate applications. The goal is to balance protection (security) with availability (access) to authorized users.
+(Found on Page 12)
+
+---
+
+### 10. What is brute force attack?
+
+A Brute force attack is the application of computing and network resources to try every possible combination of options for a password. This is often an attempt to repeatedly guess passwords for commonly used accounts.
+(Found on Page 32, 160)
+
+---
+
+### 11. What are the components of risk management?
+
+Risk management is the formal process of identifying and controlling risks. Its three main components (or steps) are:
+1.  **Risk Identification:** The process of examining and documenting the security posture of an organization's IT and the risks it faces.
+2.  **Risk Assessment:** The documentation of the results of the risk identification process.
+3.  **Risk Control:** The process of applying controls to reduce the risks to an organization's data and information systems.
+(Found on Page 42)
+
+---
+
+### 12. Give a list of risk control strategies?
+
+The four basic risk control strategies are:
+* **Avoidance:** Applying safeguards to prevent the exploitation of a vulnerability.
+* **Transference:** Shifting the risk to other assets, processes, or outside entities (e.g., insurance).
+* **Mitigation:** Reducing the impact of an exploited vulnerability through planning and preparation (e.g., DRP, BCP).
+* **Acceptance:** The choice to do nothing to protect a vulnerability and accept the outcome of its exploitation.
+(Found on Page 63-64)
+
+---
+
+### 13. Define information security.
+
+Information security is a well-informed sense of assurance that the information risks and controls are in balance. It includes the broad areas of information security management, computer and data security, and network security, all aimed at protecting information and the systems that store, transport, and process it.
+(Found on Page 4, 166)
+
+---
+
+### 14. State the types of password attacks.
+
+The document lists several types of password attacks:
+* **Password Crack:** The general attempt to reverse-calculate a password, often by comparing a hashed password to the hash of a guessed password.
+* **Brute Force:** Trying every possible combination of options for a password.
+* **Dictionary Attack:** A form of brute force attack that narrows the field by using a list of common words and passwords instead of all possible combinations.
+(Found on Page 32-33)
+
+---
+
+### 15. Differentiate DOS & DDOS.
+
+A **Denial-of-Service (DoS)** attack is when an attacker sends a large number of connection or information requests to a single target, overwhelming it and making it unable to perform ordinary functions. A **Distributed Denial-of-Service (DDoS)** attack is an advanced form of a DoS attack where a *coordinated stream* of requests is launched against a target from *many different locations* at the same time, making it much harder to block.
+(Found on Page 33)
+
+---
+
+### 16. Define risk management.
+
+Risk management is the formal process of identifying and controlling the risks facing an organization. It involves three main steps: risk identification, risk assessment, and risk control.
+(Found on Page 42)
+
+---
+
+### 17. Define firewall.
+
+A firewall is a software or hardware component that restricts network communication between two computers or networks. It is a device that selectively discriminates against information flowing into or out of an organization, preventing specific types of information from moving between an untrusted network (like the Internet) and a trusted internal network.
+(Found on Page 98, 108, 163)
+
+---
+
+### 18. Write the difference between criminal law and civil law.
+
+The document categorizes **Criminal Law** as a type of **Public Law**, which regulates the structure and administration of government agencies and their relationship with citizens. **Civil Law** (which includes commercial and family law) is described as **Private Law**, which regulates the relationship between individuals and organizations.
+(Found on Page 35, 174)
+
+---
+
+### 19. What are the characteristics of Information Security?
+
+The key characteristics of information security (often expanding on the C.I.A. triangle) include:
+* **Confidentiality:** Ensures that only those with sufficient privileges may access certain information.
+* **Integrity:** The quality of being whole and uncorrupted; data cannot be modified without authorization.
+* **Availability:** Ensures that information is accessible to authorized users without interference.
+* **Privacy:** Information is used only for purposes known to the person providing it.
+* **Identification:** The ability to recognize individual users.
+* **Authentication:** Providing proof that a user possesses the identity they claim.
+* **Authorization:** Granting explicit permission to access, update, or delete content.
+* **Accountability:** The ability to attribute every activity to a named person or process.
+(Found on Page 5-8, 166)
+
+---
+
+### 20. What are the multiple layers of security?
+
+A successful organization should have multiple layers of security, which include:
+* **Physical security:** Protecting people, physical assets, and the workplace.
+* **Personal security:** Protecting the people within the organization.
+* **Operations security:** Securing the organization's ability to carry out its activities without interruption.
+* **Communications security:** Protecting communications media, technology, and content.
+* **Network security:** Protecting data networking devices, connections, and contents.
+* **Information security:** Protecting information and its critical elements (systems, hardware, etc.).
+(Found on Page 4, 108, 166)
+
+---
+
+### 21. What is the need for Security?
+
+The need for security is to ensure business continuity and reduce business damage by preventing and minimizing the impact of security incidents. At a practical level, it is needed to:
+* Ensure information remains **confidential** and only accessible by authorized users.
+* Ensure the **integrity** of information, so its accuracy can be depended upon.
+* Ensure the **availability** of information when it is needed.
+(Found on Page 21)
+
+---
+
+### 22. What is the difference between Laws and Ethics?
+
+Laws are rules that mandate or prohibit certain behaviors in society, and they are drawn from ethics. The key difference is that **laws carry the sanctions of a governing authority**, while **ethics do not**. Ethics define socially acceptable behaviors, which in turn form the basis for laws.
+(Found on Page 35)
+
+---
+
+### 23. What is risk and how to identify it?
+
+**Risk** is the probability that an undesired event can happen, such as the probability of a threat to a system. **Risk Identification** is the process of examining and documenting the security posture of an organization's information technology and the risks it faces. This process involves identifying, classifying, and prioritizing the organization's information assets, identifying the threats they face, and identifying the vulnerabilities that exist.
+(Found on Page 20, 42, 46, 159)
+
+---
+
+### 24. Mention any one U.S. law related to Information Security.
+
+One U.S. law related to information security is the **Computer Fraud and Abuse Act of 1986**. This law defines and formalizes laws to counter threats from computer-related acts and offenses.
+(Found on Page 35, 37)
+
+---
+
 
 ## Long Answers
 
-
-
-### 1. Explain the basic concepts of Entrepreneurship.
-
-(Page number: 4, 20, 21)
-
-Entrepreneurship is the purposeful activity of an entrepreneur. It is not just about starting a business, but a process involving several core concepts:
-
-* **Value Creation:** It is an attempt to create value by recognizing a business opportunity.
-* **Innovation:** It is the function of creating something new, such as a new product, service, or process, or continuously searching for new ideas.
-* **Organization & Coordination:** It involves organizing and coordinating the necessary resources (like land, labor, and capital) to pursue the opportunity.
-* **Risk-Bearing:** It is defined by the willingness to accept the risks and handle the economic uncertainty associated with a new enterprise.
-* **Profit Potential:** It is an economic activity where the goal is to initiate, maintain, or grow a venture to create wealth or profit.
+Here are the answers to your questions, based on the provided PDF document.
 
 ---
 
-### 2. Explain major challenges faced by women Entrepreneurs in India.
+### 1. Describe the phases in the security systems development life cycle.
+The Security Systems Development Life Cycle (SecSDLC) adapts the traditional SDLC to focus on security. Its phases are:
 
-(Page number: Not found in the provided PDF)
+* **Investigation:** Begins with a directive from management, defining the project's goals, scope, and constraints.
+* **Analysis:** The team studies existing security, analyzes documents, and begins the risk management process to identify threats and vulnerabilities.
+* **Logical Design:** Creates the blueprints for security, including plans for incident response and business continuity.
+* **Physical Design:** The specific technologies (e.g., firewalls, IDS) and physical security measures needed to support the logical blueprint are evaluated and selected.
+* **Implementation:** Security solutions are acquired, tested, and implemented. This phase also includes personnel training.
+* **Maintenance and Change:** The final, ongoing phase involves constant monitoring, testing, modification, and updating of security controls to meet new threats.
 
-The provided documents mention women entrepreneurs as a topic but do not detail the specific challenges they face. However, based on general information, the major challenges for women entrepreneurs in India typically include:
-
-* **Limited Access to Finance:** Women often face greater difficulty securing loans and venture capital. This can be due to a lack of collateral in their own name, as property is often held by male relatives, and biases from lenders who may underestimate their business acumen.
-* **Balancing Work and Family:** Societal expectations often place the primary responsibility for household chores and childcare on women. This "double burden" makes it extremely difficult to dedicate the long hours and intense focus required to build a successful enterprise.
-* **Lack of Support Networks:** Many business and professional networks are male-dominated, limiting women's access to valuable mentors, industry contacts, and partnership opportunities that are crucial for growth.
-* **Societal and Gender Bias:** Women entrepreneurs may not be taken as seriously as their male counterparts by suppliers, clients, or even employees. They often have to work harder to prove their credibility and overcome stereotypes about their capabilities in business.
-
----
-
-### 3. Demonstrate the Entrepreneurship & Economic growth.
-
-(Page number: 5)
-
-Entrepreneurship is a creative and innovative function that directly contributes to economic growth. It acts as a key driver of the economy in the following ways:
-
-* **Acts as an Agent of Production:** The entrepreneur is the agent who brings together all the other factors of production (land, labor, capital) and provides the management and control to make them productive.
-* **Spurs Industrialization:** Entrepreneurship leads to industrial development. This industrialization, in turn, creates vast employment opportunities and expands related sectors like transport and communication.
-* **Exploits New Ideas:** Entrepreneurs look for new ideas and put them into effect for economic development. This includes introducing new products, using new methods of production, or opening new markets.
-* **Augments National Income:** The resulting industrial activity increases the national income and contributes effectively to government revenue by paying direct and indirect taxes, which can then be used for public welfare.
+(Source: IS.pdf, Pages 15-17)
 
 ---
 
-### 4. Explain the concept of collaborative interaction for technology development.
+### 2. List and explain the critical characteristics of information system.
 
-(Page number: 29)
+The document lists the critical characteristics of information, which are the goals of information security:
 
-Collaborative interaction in technology development refers to the use of technology to help individuals and groups communicate, collaborate, and share information. The main goal is to drive innovation, enhance productivity, and create a cohesive work culture, which is especially important in a globalized world with remote work.
+* **Confidentiality:** Ensures only authorized individuals can access information.
+* **Integrity:** Ensures information is whole, complete, and uncorrupted, and not modified without authorization.
+* **Availability:** Ensures information is accessible to authorized users when needed.
+* **Privacy:** Ensures information is used only for the purposes stated to the data owner.
+* **Identification:** The system's ability to recognize individual users.
+* **Authentication:** Providing proof that a user is the person they claim to be.
+* **Authorization:** Granting a user explicit permission to access, update, or delete information.
+* **Accountability:** Ensures activities can be traced to a specific person or process.
+* **Accuracy:** Information is free from mistakes or errors.
+* **Utility:** Information has value for a specific purpose.
+* **Possession:** Having ownership or control of the information.
 
-These technologies can be broken into two main types:
-
-* **Synchronous (Real-time):** These tools allow people to communicate at the same time, regardless of location. Examples include internal messaging systems, online meeting platforms, and video conferencing.
-* **Asynchronous (Not at the same time):** These technologies allow for collaboration when participants are working at different times. Examples include email, shared document systems (like Google Docs), and project management platforms.
-
----
-
-### 5. Illustrate the small-scale industries in India.
-
-(Page number: 8)
-
-Small Scale Industries (SSI) are illustrated by their significant role and distinct characteristics within the Indian economy.
-
-* **Economic Role:** Their primary importance lies in their high potential for creating employment, ensuring a more equitable distribution of wealth, and promoting balanced regional growth (i.e., developing rural areas).
-* **Contribution:** As a sector, they are a major contributor to the nation's economy, accounting for nearly 55% of the total industrial output and 40% of the total exports.
-* **Characteristics:** They are defined by having a low capital intensity (requiring less investment to start) and a high labor orientation (creating many jobs). They are also noted for achieving a high degree of sophistication and being highly adaptable to changing situations.
+(Source: IS.pdf, Pages 5-8)
 
 ---
 
+### 3. Explain the NSTISSC security model in detail.
 
-### 6. List the main objectives of small-scale industries with examples.
+The NSTISSC (National Security Telecommunications and Information Systems Security Committee) Security Model, also known as the "security cube," provides a detailed, multi-dimensional perspective on security. It visualizes the security challenge as a 3x3x3 cube, with each of its 27 cells representing an area that must be addressed to secure an information system.
 
-(Page number: 8)
+The three dimensions (or axes) of the cube are:
 
-The main objectives of small-scale industries are:
+1.  **Security Goals (Y-axis):** This axis represents the core principles of security: **Confidentiality**, **Integrity**, and **Availability**.
+2.  **Information States (X-axis):** This axis represents the states in which information can exist: **Storage**, **Processing**, and **Transmission**.
+3.  **Security Countermeasures (Z-axis):** This represents the types of controls used to protect information: **Policy**, **Education (and Training)**, and **Technology**.
 
-* **Expanding employment opportunities:** To create more jobs, as SSIs are labor-intensive (e.g., a local bakery or textile unit).
-* **Dispersal of industries in rural areas:** To promote balanced regional development and reduce urban migration (e.g., a food processing unit set up near a farm).
-* **Production of consumer goods on large scale:** To meet the demands of the population (e.g., manufacturing of soap, pens, or plastic goods).
-* **Mobilization of local skills and capital:** To use resources that might otherwise remain idle (e.g., a handicraft business using local artisan skills).
-* **Equalitarian distribution of income and wealth:** To spread economic benefits more widely in society.
-* **Adoption of modern techniques:** To improve quality and efficiency.
+To ensure a system is secure, each cell must be addressed. For example, the intersection of (Technology, Integrity, Storage) would require a control that uses technology (like a checksum) to protect the integrity of data while it is in storage.
 
----
-
-
-### 7. Explain the significance of risk management in project formulation.
-
-(Page number: 33, 35)
-
-Risk management is a critical step in the project formulation process. It involves identifying potential risks that could threaten the venture, such as financial risk, market risk, operational risk, or personal risk.
-
-Its significance is that it allows the entrepreneur to move from just an idea to a viable plan. Instead of ignoring threats, the entrepreneur proactively develops:
-
-* **Mitigation Strategies:** Plans to reduce the risks.
-* **Contingency Plans:** Backup plans in case things go wrong.
-
-For example, when formulating a project, an entrepreneur might identify "data migration issues" as a risk and develop a "mitigation strategy" to back up all data first. By doing this, risk management is crucial for turning an entrepreneurial vision into a tangible and viable business and ultimately improves the chances of successful project execution.
+*(Source: IS.pdf, Pages 8-9)*
 
 ---
 
-### 8. Explain the choice of technology in industry in detail.
+### 4. Describe the process of risk identification in detail.
 
-(Page number: 26, 27, 28)
+Risk identification is the first major step in the formal risk management process. It involves examining and documenting the security posture of an organization's information technology and the risks it faces.
 
-The choice of technology is a critical decision made in the early stages of a project that can have a substantial impact on its economic viability. This choice affects a firm's resource allocation, productivity, and overall competitiveness.
+The process of risk identification itself involves several steps:
 
-Key factors influencing this choice include:
-* Operation and maintenance costs
-* Labor rates
-* Uncertainty about future policies or prices (e.g., electricity prices)
+1.  **Asset Identification and Valuation:** This is the first step, where all elements of an organization's system (people, procedures, data, software, hardware, networks) are identified, classified, and prioritized. The organization also assigns a value to each asset.
+2.  **Threat Identification:** After identifying assets, a threat identification process is undertaken. This examines all threats (e.g., deliberate software attacks, forces of nature, human error) that present a danger to the organization's assets.
+3.  **Vulnerability Identification:** The circumstances and settings of each information asset are examined to identify specific vulnerabilities, or weaknesses, that could be exploited by the threats.
 
-A disciplined selection methodology is needed to compare all available technologies from economic, technical, environmental, and commercial standpoints. A major consideration is the trade-off with **new technologies**. While they can offer substantial cost benefits, they also carry **increased risk** due to potential design inaccuracies or start-up problems. Therefore, the potential benefits of a new technology must be carefully weighed against the risks it presents.
+At the end of this process, the organization has a comprehensive list of its assets and their associated vulnerabilities, which is then used in the next phase, risk assessment.
 
----
-
-### 9. Describe the different types of Entrepreneurs.
-
-(Page number: 4, 14)
-
-Entrepreneurs can be classified into four main types based on their approach to innovation and change:
-
-* **Innovative Entrepreneurs:** This type is more interested in introducing new ideas, products, or methods into the market. They are aggressive in experimentation and invest in research and development.
-* **Imitating (or Adoptive) Entrepreneurs:** Often called "copy cats," these entrepreneurs observe an existing successful business model and replicate it. They are ready to adopt successful innovations and often help improve an existing product or process.
-* **Fabian Entrepreneurs:** These entrepreneurs are very careful and cautious about adopting any changes. They show great skepticism and are not prone to sudden decisions, often only changing when it becomes necessary.
-* **Drone Entrepreneurs:** This type dislikes change and refuses to adopt new opportunities or methods. They stick to traditional or orthodox systems, even if they are outdated and uneconomical.
+*(Source: IS.pdf, Pages 43, 46)*
 
 ---
 
-### 10. List & Explain any four tips for first-generation entrepreneurs to success.
+### 5. Discuss the risk control strategies that guide an organization.
 
-(Page number: 22, 23)
+Once risks have been identified and assessed, an organization can choose from four basic strategies to control the risk:
 
-First-generation entrepreneurs are those who are the first in their family to start a business and lack a family business background. Four tips for their success are:
+1.  **Avoidance:** This strategy attempts to prevent the exploitation of the vulnerability. This is accomplished by countering threats, removing the vulnerability, limiting access to the asset, or adding protective safeguards (e.g., applying new policies, training, or technology).
+2.  **Transference:** This strategy attempts to shift the risk to other assets, processes, or organizations. Common methods include outsourcing the service, purchasing insurance, or implementing service contracts with providers that hold them responsible for the risk.
+3.  **Mitigation:** This approach attempts to reduce the impact caused by the exploitation of a vulnerability. It relies on planning and preparation, primarily through three types of plans: the **Incident Response Plan (IRP)**, the **Disaster Recovery Plan (DRP)**, and the **Business Continuity Plan (BCP)**.
+4.  **Acceptance:** This is the choice to do nothing to protect a vulnerability and simply accept the outcome of its exploitation. This strategy is chosen when the organization has determined that the cost of protection is not justified by the value of the asset or the low probability of an attack.
 
-1.  **Manage your finances well:** Money will always be in short supply. It is critical to focus on your monthly cash flow to ensure you can pay all expenses. Any surplus cash should be invested, as these investments can help you survive bad periods.
-2.  **Be debt free:** Avoid taking on debt or loans to run your business as much as possible. The key is to increase your monthly cash flows so you can use your own money to operate and grow.
-3.  **Avoid fast expansion:** Many businesses fail because they expand too quickly. The goal is not to get big as fast as possible, but to build a solid business that can be sustained over a long period. Expansion should only come after the business is stable.
-4.  **Focus on revenue before profits:** In the initial years, the focus should be on increasing sales and growing cash inflows, not on immediate profitability. By keeping costs low and growing revenue, profits will eventually follow.
+*(Source: IS.pdf, Pages 63-66)*
 
 ---
 
-### 11. Demonstrate the characteristics of Entrepreneurs.
+### 6. Describe the ethical concepts in information security.
 
-(Page number: 5, 15, 17, 18)
+Ethics in information security are based on cultural mores that define socially acceptable behaviors. The key difference between ethics and laws is that laws carry the sanctions of a governing authority, while ethics do not.
 
-Entrepreneurs possess a distinct set of characteristics that are essential for success. These include:
+A major challenge is that cultural differences can create problems in determining what is ethical, as different nationalities may have different perspectives on computer use. Because many employees may not have the formal technical training to understand that their behavior (like illicit software use or misuse of corporate resources) is unethical or illegal, proper training is vital.
 
-* **Self-Confidence:** They must have a strong belief in themselves and their ability to achieve their goals.
-* **Calculated Risk-Taking Ability:** Entrepreneurship involves risk, but entrepreneurs are moderate risk-takers who learn from their failures.
-* **Initiative and Self-Starter:** They must have initiative, accept personal responsibility for outcomes, and be proactive, not waiting for permission to act.
-* **Passion:** This is one of the most important traits. They genuinely love their work and are willing to put in extra hours because the business provides a joy that goes beyond money.
-* **Creativity:** They are able to make connections between seemingly unrelated events and often come up with new solutions.
-* **Strong Work Ethic & Endurance:** They have the ability to work long hours for a sustained period and are often the first to arrive at the office and the last to leave.
+The primary method for encouraging ethical behavior and preventing unethical activity is **deterrence**. Deterrence is only effective if three conditions are present:
+1.  Fear of penalty
+2.  Probability of being caught
+3.  Probability of the penalty being administered
+
+*(Source: IS.pdf, Pages 35, 40-41)*
+
+---
+
+### 7. Explain the NIST security model in detail.
+
+The National Institute for Standards and Technology (NIST) provides a framework for designing security based on a series of publications, not a single model. Key documents include:
+
+* **SP 800-12:** *An Introduction to Computer Security* (a guide for managers).
+* **SP 800-14:** *Generally Accepted Security Principles and Practices*, which provides 33 principles (e.g., "Security Should Be Cost-Effective").
+* **SP 800-18:** *The Guide for Developing Security Plans for IT Systems*.
+
+This framework categorizes security controls into three sets:
+* **Management Controls:** Address security planning, risk management, and program management.
+* **Operational Controls:** Deal with the operational functionality of security, such as contingency planning, personnel security, and awareness training.
+* **Technical Controls:** Address the tactical issues of implementing security technology, such as logical access controls, authentication, and cryptography.
+
+(Source: IS.pdf, Pages 87-92)
+
+---
+
+### 8. Describe the critical characteristics of information.
+
+This question is a duplicate of question 2. The critical characteristics of information are the goals of information security:
+
+* **Confidentiality:** Ensures only authorized individuals can access information.
+* **Integrity:** Ensures information is whole, complete, and uncorrupted, and not modified without authorization.
+* **Availability:** Ensures information is accessible to authorized users when needed.
+* **Privacy:** Ensures information is used only for the purposes stated to the data owner.
+* **Identification:** The system's ability to recognize individual users.
+* **Authentication:** Providing proof that a user is the person they claim to be.
+* **Authorization:** Granting a user explicit permission to access, update, or delete information.
+* **Accountability:** Ensures activities can be traced to a specific person or process.
+* **Accuracy:** Information is free from mistakes or errors.
+* **Utility:** Information has value for a specific purpose.
+* **Possession:** Having ownership or control of the information.
+
+(Source: IS.pdf, Pages 5-8)
+
+---
+
+### 9. Differentiate SDLC & SSDLC.
+
+The **SDLC (Systems Development Life Cycle)** is the traditional methodology for the design and implementation of an information system to meet business needs. It follows six phases: Investigation, Analysis, Logical Design, Physical Design, Implementation, and Maintenance. Its primary focus is on system functionality.
+
+The **SecSDLC (Security Systems Development Life Cycle)** is an adaptation of the traditional SDLC that applies the same six-phase structure specifically to an information security project. The key difference is the *focus* and the *specific tasks* within each phase.
+
+* In the **SDLC**, the *Analysis* phase determines what the new system is expected to do.
+* In the **SecSDLC**, the *Analysis* phase involves conducting a formal risk analysis of existing security policies and documented threats.
+
+Similarly, the *Logical* and *Physical Design* phases of the SecSDLC are focused on creating security blueprints and selecting security controls, rather than general application and database design. The SecSDLC treats security as a formal development process, not as an afterthought to a traditional SDLC.
+
+*(Source: IS.pdf, Pages 13-17)*
+
+---
+
+### 10. State the methods of identifying and assessing risk management.
+
+Risk management is a formal process composed of Risk Identification, Risk Assessment, and Risk Control. The methods for the first two steps are:
+
+**1. Risk Identification Methods:**
+* **Asset Identification:** Identifying, classifying, and prioritizing all information assets (e.g., people, data, hardware).
+* **Threat Identification:** A threat assessment that lists potential dangers to the assets (e.g., deliberate attacks, human error, forces of nature).
+* **Vulnerability Identification:** Examining each asset to list its specific weaknesses.
+
+**2. Risk Assessment Methods:**
+* **Asset Valuation:** Assigning a weighted score or financial value to each information asset.
+* **Likelihood Determination:** Determining the probability (often rated on a scale like 0.1 for low to 1.0 for high) that a specific vulnerability will be successfully attacked.
+* **Risk Calculation:** Assigning a relative risk score to each asset-vulnerability pair. A formula for this is:
+    $Risk = (\text{Likelihood of occurrence} \times \text{Value of asset}) - \% \text{Risk mitigated by current controls} + \text{Uncertainty}$
+* **Documentation:** The final result is a ranked vulnerability risk worksheet that prioritizes the risks that must be controlled.
+
+*(Source: IS.pdf, Pages 43, 46, 59-60)*
+
+---
+
+### 11. Explain the three general categories of unethical and illegal behavior.
+
+The document supports the categorization of unethical and illegal behavior into three general types:
+
+1.  **Ignorance:** This is when an individual is unaware that their behavior is unethical or illegal. The text emphasizes that many employees may not have the formal technical training to understand that their actions (like software piracy or misuse of corporate resources) are wrong. This is why security education and awareness training are considered essential.
+2.  **Accident:** This category aligns with "Acts of Human Error or Failure." These are acts performed by an authorized user without malicious intent. They are often caused by inexperience, improper training, or incorrect assumptions, leading to accidental data deletion, modification, or storage in unprotected areas.
+3.  **Intent:** This covers all "Deliberate Acts" described in the threats section. This is when an individual or entity willfully and maliciously acts to compromise security. This includes deliberate acts of espionage (spying), trespass, theft, sabotage, vandalism, and deliberate software attacks (viruses, worms, etc.).
+
+*(Source: IS.pdf, Pages 23-25, 41, 174)*
+
+---
+
+### 12. Describe Risk mitigation. Explain the planning approaches to mitigate risks.
+
+**Risk Mitigation** is one of the four primary risk control strategies. It is the control approach that attempts to **reduce the impact** caused by the exploitation of a vulnerability, rather than eliminating the vulnerability itself. This strategy relies on thorough planning and preparation for an incident. Mitigation begins with the ability to detect an attack quickly and respond efficiently.
+
+The three main planning approaches used for mitigation are:
+
+1.  **Incident Response Plan (IRP):** This plan defines the actions to take *during* an incident. It provides a coordinated set of procedures to identify, classify, and respond to an attack, answering questions like "What do I do now?" and "Whom should I contact?"
+2.  **Disaster Recovery Plan (DRP):** This is the most common mitigation procedure. It focuses on preparations completed *before* and actions taken *after* a disaster (like a fire, flood, or major attack). It includes detailed steps to restore systems and data to return to normal operations.
+3.  **Business Continuity Plan (BCP):** This is the most strategic and long-term plan. It ensures that critical business functions can continue even if a catastrophic event occurs that renders the primary site, database, or building unusable.
+
+*(Source: IS.pdf, Pages 64-66)*
+
+---
+
+### 13. Explain various phases of Security in SDLC.
+The Security Systems Development Life Cycle (SecSDLC) incorporates security into the traditional SDLC. Its phases include:
+
+* **Investigation:** Begins with a directive from upper management. The project's goals, scope, and constraints are defined, and an organizational feasibility analysis is performed.
+* **Analysis:** The team analyzes existing security policies and programs. The risk management task begins here, involving the identification and assessment of risks facing the organization.
+* **Logical Design:** The team creates the blueprints for information security and plans for incident response and disaster recovery.
+* **Physical Design:** Specific technologies needed to support the logical blueprint are evaluated. Alternative solutions are generated, and a final feasibility study is conducted.
+* **Implementation:** Security solutions are acquired (bought or built), tested, and implemented. This phase also includes conducting training and education programs.
+* **Maintenance and Change:** An ongoing phase that involves constant monitoring, testing, modification, updating, and repairing of security solutions to meet changing threats.
+
+---
+
+### 14. Explain, with the help of neat diagrams, NSTISSC security model.
+The NSTISSC (now CNSS) Security Model provides a detailed perspective on security by using a 3x3x3 cube. This model, also known as the McCumber Cube, illustrates the 27 cells that must be addressed to secure an information system.
+
+
+
+The three dimensions of the model are:
+
+* **Security Goals (Vertical Axis):** The core principles of information security.
+    * Confidentiality
+    * Integrity
+    * Availability
+* **Information States (Horizontal Axis):** The states in which information can exist.
+    * Storage
+    * Processing
+    * Transmission
+* **Countermeasures (Depth Axis):** The controls used to protect information.
+    * Policy
+    * Education
+    * Technology
+
+To ensure total security, a control (Policy, Education, or Technology) must be applied to address each goal (Confidentiality, Integrity, Availability) for every state (Storage, Processing, Transmission).
+
+---
+
+### 15. Differentiate between quantitative and qualitative risk management practices.
+* **Quantitative Risk Assessment:** This approach uses **real numbers and financial values** to analyze risk. It involves calculating the Single Loss Expectancy (SLE), the Annualized Rate of Occurrence (ARO), and the Annualized Loss Expectancy (ALE). This data is used in a Cost-Benefit Analysis (CBA) to determine if a security control is worth its cost.
+* **Qualitative Risk Assessment:** This approach is used when **specific dollar amounts cannot be assigned**. It uses estimates based on subjective ranges or levels (e.g., High, Medium, Low). The Delphi Technique, where a group of experts iteratively rates information to reach a consensus, is a common process for this approach.
+
+---
+
+### 16. Discuss laws related to Information Security.
+Laws are rules drawn from ethics that mandate or prohibit certain behaviors and are enforced by a governing authority. Key U.S. laws related to information security include:
+
+* **Computer Fraud and Abuse Act of 1986:** Defines and formalizes laws to counter threats from computer-related offenses.
+* **Computer Security Act of 1987:** Requires all federal computer systems containing classified information to have security plans and mandates periodic security training.
+* **USA Patriot Act of 2001:** Defines stiffer penalties for the prosecution of terrorist crimes.
+* **Health Insurance Portability & Accountability Act (HIPAA):** Regulates the collection, storage, and transmission of sensitive personal health care information.
+* **Gramm-Leach-Bliley Act of 1999:** Impacts the privacy of personal information used by financial institutions like banks, insurance, and securities firms.
+* **Digital Millennium Copyright Act (DMCA):** The U.S. law aimed at reducing the impact of copyright, trademark, and privacy infringement.
+
+---
+
+### 17. Discuss about Risk Management Discussion points.
+The central discussion point in risk management is the organization's **risk appetite**. This is the quantity and nature of risk that an organization is willing to accept as it evaluates the trade-offs between perfect security and unlimited accessibility.
+
+Another key point is **residual risk**. This is the risk that remains to an information asset even after controls have been applied. The goal of risk management is to document the control strategy for each vulnerability and clearly identify any residual risk that remains.
+
+---
+
+### 18. Explain SDLC in detail.
+The Systems Development Life Cycle (SDLC) is a formal methodology for designing and implementing an information system. It consists of 6 phases:
+
+* **Investigation:** Examines the initiating event, specifies the project's objectives, scope, and constraints, and performs a feasibility analysis.
+* **Analysis:** Assesses current systems and determines what the new system must do and how it will interact with existing systems.
+* **Logical Design:** Creates the systems solution for the business problem, choosing applications and data structures based on business needs.
+* **Physical Design:** Selects specific technologies to support the logical design and evaluates components based on a "make-or-buy" decision.
+* **Implementation:** Software is created or acquired, tested, and installed. Users are trained, and the system is tested as a whole.
+* **Maintenance and Change:** The longest phase, involving all tasks to support and modify the system for its useful life, including managing upgrades and patches.
+
+---
+
+### 19. Explain the categories of threat in detail.
+A threat is a category of objects, persons, or other entities that pose a potential danger to an asset. The categories include:
+
+* **Acts of Human Error or Failure:** Unintentional acts by an authorized user, often due to inexperience or improper training.
+* **Compromises to Intellectual Property:** The unlawful use or duplication of ideas or software (software piracy).
+* **Deliberate Acts of Espionage or Trespass:** Unauthorized access to information, such as by "shoulder surfing" or industrial spying.
+* **Deliberate Acts of Information Extortion:** An attacker steals information and demands compensation for its return or nondisclosure.
+* **Deliberate Acts of Sabotage or Vandalism:** Acts to destroy an asset or damage an organization's image, including cyber terrorism.
+* **Deliberate Acts of Theft:** The illegal taking of physical, electronic, or intellectual property.
+* **Deliberate Software Attacks:** The use of malicious code (malware) such as viruses, worms, or Trojan horses.
+* **Forces of Nature:** Disasters like fire, flood, earthquake, and lightning.
+* **Deviations in Quality of Service:** Failures from interdependent support systems like power grids, ISPs, or telecom networks.
+* **Technical Hardware Failures or Errors:** Equipment flaws that cause unreliable service or loss of availability.
+* **Technical Software Failures or Errors:** Hidden faults or bugs in purchased software.
+* **Technological Obsolescence:** Outdated infrastructure that leads to unreliable and untrustworthy systems.
+
+---
+
+### 20. Describe the goals and functions of Information Security.
+**Goals of Information Security:**
+The primary goals of information security are represented by the "C.I.A. triangle" and other critical characteristics:
+
+* **Confidentiality:** Ensures that only those with sufficient privileges can access certain information.
+* **Integrity:** The state of being whole, complete, and uncorrupted; it means data cannot be modified without authorization.
+* **Availability:** Ensures that authorized users can access information without obstruction when it is needed.
+* **Other Goals:** These include Privacy, Identification, Authentication, Authorization, and Accountability.
+
+**Functions of Information Security:**
+Information security performs four important functions for an organization:
+
+* Protects the organization's ability to function.
+* Enables the safe operation of applications on the organization's IT systems.
+* Protects the data the organization collects and uses.
+* Safeguards the technology assets in use at the organization.
+
+---
+
+### 21. Explain risk management process in detail.
+Risk management is the formal process of identifying and controlling the risks facing an organization. It consists of three main steps:
+
+1.  **Risk Identification:** Examines and documents the security posture of an organization's IT. This involves identifying, classifying, and prioritizing the organization's assets (people, data, hardware, etc.), followed by threat identification and vulnerability identification to find weaknesses.
+2.  **Risk Assessment:** Assigns a risk rating or score to each vulnerable asset. This involves determining the Likelihood (probability) of an attack and multiplying it by the value (or impact) of the information asset. The result is often a ranked vulnerability risk worksheet that prioritizes which assets to protect first.
+3.  **Risk Control:** This is the process of applying controls to reduce the identified risks. The four basic control strategies are:
+    * **Avoidance:** Applying safeguards to prevent the exploitation of the vulnerability.
+    * **Transference:** Shifting the risk to other areas or outside entities, such as by purchasing insurance.
+    * **Mitigation:** Reducing the impact of an attack, often through preparatory plans like an Incident Response Plan (IRP) or Disaster Recovery Plan (DRP).
+    * **Acceptance:** The choice to do nothing to protect a vulnerability, often made when the cost of protection is not justified.
+
+---
+
+### 22. Write a short note on the history and evolution of Information Security.
+The history of information security can be traced to antiquity, with early examples like the **Caesar Cipher** (c. 50 B.C.) used by Julius Caesar to prevent secret messages from being read if captured.
+
+The modern concept evolved from "computer security" in the late 20th and early 21st centuries, driven by rapid advancements in telecommunications, computing, and data encryption. As businesses became more dependent on IT, the concept expanded to "information security," covering a broader range of issues from data protection to human resources. This shifted security from being the sole responsibility of a discrete IT group to being the responsibility of every employee.
+
+---
+
+### 23. Explain quantitative vs. qualitative approaches in risk management with examples.
+* **Quantitative Approach:** This method uses **objective, real numbers and financial values** to assess risk. It is used to perform a Cost-Benefit Analysis (CBA).
+    * **Example:** An organization calculates that a specific server (asset) is worth $100,000. They determine a successful attack would result in 60% loss, making the **Single Loss Expectancy (SLE) $60,000**. They estimate this attack will happen once every 10 years (an **Annualized Rate of Occurrence, ARO, of 0.1**). The **Annualized Loss Expectancy (ALE) is therefore $60,000 * 0.1 = $6,000**. The organization can use this $6,000 figure to justify spending on a control.
+
+* **Qualitative Approach:** This method uses **subjective estimates based on non-numerical ranges** or levels (e.g., High, Medium, Low). It is used when specific dollar amounts cannot be easily assigned.
+    * **Example:** Instead of dollar amounts, a team assesses the impact of a server failure as "**High**" and the likelihood of that failure as "**Medium**." This "**High-Medium**" risk rating is then used to prioritize it against other risks (e.g., a "Low-Low" risk) to determine which vulnerabilities to fix first. The Delphi Technique is a common process for getting a group of experts to agree on these qualitative rankings.
