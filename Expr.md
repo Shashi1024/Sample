@@ -1,788 +1,414 @@
 > *The reference page numbers are given from `DiS.pdf`*
 
+---
+
+## Unit 1
+
+
+## Short Answer Questions
+
+**1. What 'ITEM' term in IRS**
+
+
+In the context of an Information Retrieval System (IRS), the term "Item" refers to the smallest complete textual unit that is processed and manipulated by the system. The specific definition of an item depends on how a particular source or system treats its information; an item could be a full document, a paragraph, or a single news story.
+
+**2. Data Mart**
+
+*This term was not found in the provided PDF. Here is a general definition.*
+
+A **data mart** is a simple form of a data warehouse that is focused on a single subject or line of business, such as sales, finance, or marketing. Unlike a data warehouse, which stores data for the entire enterprise, a data mart contains a smaller, more targeted subset of data. This makes it easier and faster for a specific department to access and analyze the data relevant to their needs.
+
+**3. What is Precision & Recall**
+
+Precision and Recall are two key measures used to evaluate the effectiveness and quality of an information retrieval system:
+
+  * **Precision:** This is the fraction of the retrieved documents that are actually relevant to the user's information need. (Page 3)
+  * **Recall:** This is the fraction of *all relevant documents* in the entire collection that were successfully retrieved by the system. (Page 29, defined implicitly)
+
+**4. Define IRS**
+
+**Information retrieval (IR)** is defined as finding material (usually of an unstructured nature, like text) that satisfies an information need from within large collections (usually stored on computers). (Page 1)
+
 -----
 
-### 1\. With neat sketches, explain architectural styles in detail.
+## Long Answer Questions
 
-Architectural styles describe the organization of distributed systems. The document discusses four main types:
+**1. Document Database Search**
 
-  * **Layered Architectures:** Components are organized into layers, similar to the OSI model. Each layer provides services to the layer above it and acts as a client to the layer below. A request flows down from the top layer, and the response flows back up from the bottom.
-  * **Object-Based Architectures:** This style features a loosely coupled arrangement of objects. Each object has an interface, and interactions happen through method calls. These procedural calls are often implemented as Remote Procedure Calls (RPC).
-  * **Data-Centered Architectures:** This architecture is built around a central shared data store, such as a database or repository. Other components access this store to add, delete, or modify data.
-  * **Event-Based Architectures:** In this style, communication happens through the propagation of events. Components publish events to a system bus, which then delivers the events to any components that have subscribed to them.
+This type of search typically refers to the simplest form of document retrieval, which does not use an index: a **linear scan**. In this method, a computer starts at the beginning of the document collection and reads through all the text sequentially to find matches for the query. This process is commonly called **"grepping"** (after the Unix command `grep`). This approach works for simple queries on modest-sized collections, but it is not efficient or scalable for the large-scale collections and complex matching operations used in modern information retrieval. (Page 1)
 
-*(Found in DiS.pdf, Pages 6-7)*
+**2. Index base searching**
 
-Below are simplified diagrams based on the sketches in the document:
+Index-based searching is the standard, efficient method for information retrieval, designed to avoid the slow process of linearly scanning the entire text collection for every query. The most common structure used is the **inverted index**.
 
-**Layered Architecture (Page 6)**
+This index is built in advance and consists of two main parts:
+
+1.  **Dictionary:** A list of all unique terms (the vocabulary) found in the collection.
+2.  **Postings:** For each term in the dictionary, a "postings list" stores the IDs (or `docID`s) of all documents that contain that term.
+
+When a user issues a query (e.g., *Brutus AND Caesar*), the system locates each term in the dictionary, retrieves its corresponding postings list, and performs set operations (like an **intersection**) on those lists to find the documents that satisfy the query. This is vastly faster than a linear scan. (Pages 1, 3, 5)
+
+**3. What is Information Retrieval System? Explain about types of searches in IRS?**
+
+An **Information Retrieval System (IRS)** is a system designed for finding material that satisfies a user's information need from within large collections. This material is typically of an unstructured nature, such as text documents. (Page 1)
+
+Modern IR systems support several types of searches:
+
+  * **Ad hoc Retrieval:** This is the most standard task, where a user enters a "one-off" query to the system to find relevant documents. (Page 3)
+  * **Boolean Retrieval:** This model allows users to pose queries using Boolean operators like **AND**, **OR**, and **NOT** to combine terms (e.g., *Brutus AND Caesar AND NOT Calpurnia*). (Pages 1, 2)
+  * **Ranked Retrieval:** Instead of just returning all documents that match, this method scores and ranks the retrieved documents, presenting the "best" or most relevant answers first. This is essential for large collections. (Page 2)
+  * **Phrase Queries:** These queries retrieve documents where the terms appear in the exact sequence specified (e.g., "friends, romans, countrymen"). This requires a more advanced index, such as a positional index. (Page 8)
+  * **Proximity Queries:** A query (e.g., `Romans NEAR countrymen`) that finds documents where the terms appear close to each other, such as within the same sentence or within a specific number of words. (Page 2)
+  * **Wildcard Queries:** These queries use a special character (like `*`) to match variations of a term. This is useful if the user is uncertain of the spelling (e.g., `S*dney`) or wants to find multiple word forms (e.g., `judicia*`). (Page 9)
+  * **Semi-structured Search:** This allows searching on specific document fields or "zones," such as finding a document where the *title* contains "Java" and the *body* contains "threading". (Page 1, 21)
+
+**4. Explain briefly about functional Overview? Draw with figure?**
+
+A functional overview of an index-based Information Retrieval System can be broken into two main processes: **Indexing** and **Querying**.
+
+**1. Indexing Process:**
+This is the "offline" process of preparing the data for fast retrieval.
+
+  * **Collection:** First, the documents to be indexed are collected.
+  * **Tokenization:** The text of each document is broken down into a list of tokens (usually words).
+  * **Linguistic Preprocessing:** The tokens are normalized to create "indexing terms." This can include steps like case-folding (e.g., `Friends` -\> `friend`).
+  * **Inverted Index Creation:** The system creates an **inverted index**. This structure has two main parts:
+      * **Dictionary:** A list of all unique terms (the vocabulary).
+      * **Postings Lists:** For each term, a list of all document IDs (`docID`) that contain that term. (Pages 3-4)
+
+**2. Querying Process:**
+This is the "online" process of responding to a user's request.
+
+  * **Query Preprocessing:** The user's query is processed using the same tokenization and linguistic preprocessing steps used for the documents.
+  * **Postings Retrieval:** The system looks up each query term in the dictionary to retrieve its corresponding postings list.
+  * **Query Processing:** The system processes these lists. For a query like `Brutus AND Caesar`, it will **intersect** the two lists to find documents containing both terms. For ranked retrieval, it will use these lists to calculate a relevance score for each document.
+  * **Results:** The final set of matching (or top-ranked) documents is returned to the user. (Page 5)
+
+Here is a figure illustrating this overview:
 
 ```mermaid
 graph TD
-    subgraph Layers
-        direction TB
-        L_N[Layer N]
-        L_N1[Layer N-1]
-        L_dots[...]
-        L_2[Layer 2]
-        L_1[Layer 1]
+    subgraph Indexing Process
+        A(Document Collection) --> B(Tokenization);
+        B --> C(Linguistic Preprocessing);
+        C --> D(Indexing);
+        D --> E[Inverted Index \n(Dictionary + Postings)];
     end
-    
-    L_N -- Request flow --> L_N1
-    L_N1 --> L_dots
-    L_dots --> L_2
-    L_2 -- Request flow --> L_1
-    
-    L_1 -- Response flow --> L_2
-    L_2 --> L_dots
-    L_dots --> L_N1
-    L_N1 -- Response flow --> L_N
+
+    subgraph Querying Process
+        F(User Query) --> G(Query Preprocessing);
+        G --> H(Retrieve Postings);
+        E --> H;
+        H --> I(Process Postings \n e.g., Intersect, Score);
+        I --> J(Return Results);
+    end
 ```
 
-**Object-Based Architecture (Page 6)**
+**5. Explain about objectives of Information Retrieval Systems?**
+
+The primary objective of an Information Retrieval (IR) system is to find and retrieve material that **satisfies a user's information need**. The system aims to provide documents from a large collection that are **relevant** to the user's query. A document is considered relevant if the user perceives it as containing information of value with respect to their personal information need. (Pages 1, 3)
+
+Beyond this core objective, other important goals for a modern IR system include:
+
+  * **Speed:** To process queries over massive document collections quickly. (Page 2)
+  * **Flexible Matching:** To support more complex query operations than simple term matching, such as phrase queries, proximity queries (e.g., "terms NEAR each other"), and wildcard queries. (Page 2, 9)
+  * **Ranked Retrieval:** To score and rank the retrieved documents, presenting the *best* and most relevant answers first. This is crucial for navigating large result sets. (Page 2)
+  * **User Happiness:** The ultimate goal is user utility, or "user happiness." While factors like response speed are important, the most critical factor is the relevance of the search results. (Page 28)
+
+**6. Explain about Information Retrieval System Capabilities (Querying, Browsing, Miscellaneous Capabilities)**
+
+Information Retrieval Systems have a range of capabilities beyond just simple searching.
+
+  * **Querying:** This is the most common capability, allowing a user to retrieve documents that satisfy an information need. This includes various search types, such as **Boolean retrieval** (using AND, OR, NOT), **ranked retrieval** (scoring and sorting results), **phrase queries**, **proximity queries**, and **wildcard queries**. (Pages 1, 2, 8, 9)
+  * **Browsing:** This capability supports users in exploring a document collection, often without a specific query in mind. One example is the **Scatter-Gather** interface, which clusters the entire collection into topic groups. The user can then "gather" (select) interesting groups, merge them, and have the system re-cluster the new set, allowing for iterative exploration. (Page 1, 52)
+  * **Miscellaneous Capabilities:** This includes other tasks for processing and organizing documents:
+      * **Filtering:** A system can "filter" a stream of new documents against a user's standing information need (e.g., routing new articles on a specific topic to the correct person). (Page 1)
+      * **Clustering:** This is the task of automatically grouping a set of documents based on their content, putting similar documents together. This can be used to cluster search results to help a user understand the different topics returned for a query. (Page 1)
+      * **Classification:** This is the task of assigning a document to one or more predefined classes or categories, such as "sports" or "China". (Page 1)
+
+**7. Explain about Digital Libraries and Data ware houses with list of software's?**
+
+*The provided PDF does not contain detailed descriptions or software lists for these topics. It mentions "digital libraries" only as an application of structured retrieval. Here is a general explanation.*
+
+**Digital Libraries**
+A digital library is a managed collection of documents, such as books, articles, and images, stored in electronic format. It is an application of **structured retrieval**, which allows users to search not only the text but also the metadata associated with the documents (like author, title, and date). The goal is to provide an organized way for a specific community of users to access and manage this digital information. (Page 33)
+
+  * **Common Software:** DSpace, Greenstone, EPrints, Fedora Commons.
+
+**Data Warehouses**
+A data warehouse is a large, centralized repository that stores historical and current data from many different operational sources within an organization. Unlike a standard database designed for transactions (like placing an order), a data warehouse is designed for large-scale query, reporting, and analysis (OLAP). It integrates data from various departments (like sales, marketing, and finance) to provide a single, unified view of the entire organization, helping to support business decisions.
+
+  * **Common Software:** Snowflake, Google BigQuery, Amazon Redshift, Microsoft Azure Synapse Analytics, Teradata.
+
+
+
+---
+
+## Unit 2
+
+## Short Answer Questions
+
+**1. Define about stemming algo**
+
+Stemming is a process of linguistic preprocessing and token normalization . It's a method for creating equivalence classes by reducing different variations of a word to a common root form, known as a "stem." For example, a user might use a wildcard query like `judicia*` to find variants like "judicial" or "judiciary" ; a stemming algorithm automates this by reducing both terms to a common stem. This process is considered a form of lossy compression because the original forms of the words are lost .
+
+*(Found on pages: 6, 8, 9, 14)*
+
+**2. What is Cataloging & Indexing?**
+
+  * **Cataloging:** This term is not defined in the provided PDF. In general information science, cataloging is the process of creating metadata (such as author, title, and subject) for documents and organizing these descriptions in a structured list (a catalog) to make them easier to find.
+    *(Answer for "Cataloging" is from external knowledge, as it is not in the PDF.)*
+
+  * **Indexing:** Indexing is the process of building a data structure in advance to avoid having to linearly scan every document in a collection for each query . In information retrieval, this typically means creating an **inverted index**. This index consists of a **dictionary** (the set of all unique terms) and, for each term, a **postings list** (a list of all documents that contain that term) .
+
+*(Found on pages: 2, 3 for "Indexing")*
+
+**3. What is Information Extraction?**
+
+The provided PDF does not define Information Extraction. It defines Information Retrieval (IR) as "finding material (usually text) of an unstructured nature that satisfies an information need from within large collections" .
+
+In contrast, Information Extraction (IE) is a different task that involves automatically identifying and pulling out specific, structured information (like names, dates, locations, or relationships) from unstructured text. While IR returns a list of relevant *documents*, IE returns *facts* extracted from those documents.
+
+*(Answer for "Information Extraction" is from external knowledge, as it is not in the PDF.)*
+
+-----
+
+## Long Answer Questions
+
+**1. lexical analysis**
+
+The PDF does not use the specific term "lexical analysis," but it describes the equivalent steps under the heading "Determining the vocabulary of terms" . This is the process of converting a document's raw character stream into a set of normalized indexing terms. The main steps are:
+
+  * **Tokenization:** This is the initial task of chopping the character sequence into "tokens" (pieces), which are useful semantic units. This step often involves splitting the text by whitespace and removing punctuation characters . For example, the input `Friends, Romans, Countrymen,` would be tokenized into the output `Friends`, `Romans`, `Countrymen` .
+  * **Linguistic Preprocessing:** After tokenization, these tokens are normalized to create the final "indexing terms" . This involves several sub-steps:
+      * **Stop Word Removal:** Extremely common words that appear to have little value in selecting documents (like "a", "the", "to") are often identified as stop words and excluded from the index .
+      * **Normalization (Equivalence Classing):** This process canonicalizes tokens so that matches can occur despite superficial differences . This includes **case-folding** (e.g., mapping "Windows" and "windows" to the same term) and **stemming** (reducing words to their root, like matching "judicial" and "judiciary") .
+
+*(Found on pages: 3, 6, 7, 9)*
+
+**2. Phrase Detection & Document parsing**
+
+  * **Phrase Detection:** This is handled in the context of processing "phrase queries." To allow the system to detect and verify that words appear in a specific sequence, a **positional index** is used . Unlike a standard index, a positional index stores the specific token positions for each term within each document (e.g., `docID: <position1, position2, ...>`) . When a user searches for a phrase, the system retrieves the positional postings for each term and checks that their positions are compatible (e.g., that one word appears directly after another) .
+  * **Document Parsing:** The PDF describes this as the initial part of the indexing process, involving two main phases:
+    1.  **Document Delineation:** Determining what constitutes a "document unit" for indexing. For example, we might decide that each file in a folder is a separate document .
+    2.  **Character Sequence Decoding:** Converting the raw byte stream of a document (which could be in various encodings like ASCII or UTF-8) into a linear sequence of characters that can then be tokenized .
+
+*(Found on pages: 6, 8, 13)*
+
+**3. Explain about types of Cataloging?**
+
+The provided PDF does not contain the term "cataloging" or discuss its types.
+
+From external knowledge, cataloging in library and information science is generally divided into two main types:
+
+  * **Descriptive Cataloging:** This involves describing the document as a physical object. It records details like the title, author, publisher, publication date, and format.
+  * **Subject Cataloging:** This involves describing the intellectual content of the document. It consists of assigning standardized subject headings (like Library of Congress Subject Headings) or classification numbers (like the Dewey Decimal System) to organize the document by topic.
+
+*(Answer from external knowledge, as it is not in the PDF.)*
+
+**4. Explain about Objectives of Indexing?**
+
+The primary objective of indexing is to build a data structure in advance to avoid the slow and inefficient process of linearly scanning every document in a large collection for each query .
+
+The specific objectives achieved by indexing are:
+
+  * **Speed:** To process queries and retrieve results from very large document collections (e.g., billions of words) **quickly** .
+  * **Flexible Matching:** To allow for **more flexible and complex matching operations** that are not possible with simple scanning. This includes proximity queries, such as finding "Romans NEAR countrymen" (e.g., within 5 words) .
+  * **Ranked Retrieval:** To enable **ranked retrieval**, which is crucial for large collections. This allows the system to return the *best* or *most relevant* answers first, rather than just every document that happens to match the query terms .
+
+*(Found on pages: 2, 3)*
+
+**5. Explain briefly about Indexing process? Draw with Text processing of Flow chart?**
+
+The indexing process involves converting a collection of documents into an inverted index. The major steps are:
+
+1.  **Collect Documents:** Gather the set of documents to be indexed .
+2.  **Parse Documents:** Turn each document into a list of tokens. This involves **tokenization** (splitting the text into words) and **linguistic preprocessing** (normalizing these tokens by case-folding, stemming, and removing stop words) .
+3.  **Assemble Pairs:** Create (term, docID) pairs for every normalized term in every document.
+4.  **Sort Pairs:** Sort this entire list of pairs, using the term as the primary key and the docID as the secondary key .
+5.  **Build Index:** Iterate through the sorted pairs and group them. This creates the final inverted index, which consists of two parts:
+      * **Dictionary:** The list of all unique terms, along with statistics (like document frequency) and pointers to their postings lists .
+      * **Postings Lists:** For each term, a list of all the docIDs it appears in .
+
+*(Found on pages: 3, 4, 12)*
+
+Here is a flow chart of the text processing pipeline:
 
 ```mermaid
 graph TD
-    O1[Object]
-    O2[Object]
-    O3[Object]
-    O4[Object]
-    O5[Object]
-    
-    O1 <--> O2
-    O1 -- Method call --> O4
-    O2 --> O3
-    O3 --> O1
-    O4 <--> O5
-    O5 --> O3
+    A[Raw Documents] --> B(Character Sequence Decoding);
+    B --> C(Tokenization);
+    C --> D(Linguistic Preprocessing);
+    D --> E[Stop Word Removal];
+    E --> F[Normalization / Stemming];
+    F --> G[Normalized Tokens];
+    G --> H(Indexing);
+    H --> I[Dictionary];
+    H --> J[Postings Lists];
 ```
 
-**Data-Centered Architecture (Page 7)**
-
-```mermaid
-graph TD
-    C1[Component]
-    C2[Component]
-    DS[Shared data space]
-    
-    C1 -- Publish/Modify --> DS
-    DS -- Data delivery --> C1
-    C2 -- Publish/Modify --> DS
-    DS -- Data delivery --> C2
-```
-
-**Event-Based Architecture (Page 7)**
-
-```mermaid
-graph TD
-    C1[Component]
-    C2[Component]
-    C3[Component]
-    Bus[Event bus]
-    
-    C1 -- Publish --> Bus
-    Bus -- Event delivery --> C2
-    Bus -- Event delivery --> C3
-```
-
------
-
-### 2\. Describe the concept of middleware with a neat sketch.
-
-Middleware is a software layer that sits between the operating system and the distributed applications running on different machines. Its purpose is to hide the complexity and heterogeneity of the distributed system from users and applications. It provides a consistent and uniform interface, making a collection of independent computers appear to its users as a single, coherent system. Middleware offers necessary services and abstractions, such as Remote Procedure Calls (RPC) and Remote Method Invocation (RMI), and provides independence from the underlying platform, hardware, and programming language.
-
-*(Found in DiS.pdf, Pages 1, 8)*
-
-**Middleware Concept (Page 1)**
-
-```mermaid
-graph TD
-    subgraph Computer 1
-        AppA[Appl. A] --> MW["Distributed system layer (middleware)"] --> OS1[Local OS 1]
-    end
-    subgraph Computer 2 & 3
-        AppB[Application B] --> MW
-    end
-    subgraph Computer 4
-        AppC[Appl. C] --> MW --> OS4[Local OS 4]
-    end
-
-    MW --> OS2[Local OS 2]
-    MW --> OS3[Local OS 3]
-    
-    OS1 -- Network --- OS2
-    OS2 -- Network --- OS3
-    OS3 -- Network --- OS4
-```
-
------
-
-### 3\. Discuss physical clock algorithms in detail.
-
-Physical clock synchronization is a mechanism to synchronize the time of all computers in a distributed system. The document details several algorithms to achieve this:
-
-  * **Christian's Algorithm:** This is a simple algorithm where a machine sends a Remote Procedure Call (RPC) to a time server to obtain the current time (e.g., UTC). The machine measures the round-trip time of the RPC. It then sets its own clock by taking the server's time and adding half of the round-trip time to it, which helps account for the network delay. The formula is: $T_{CLIENT} = T_{SERVER} + (T_{1} - T_{0}) / 2$.
-  * **Berkeley Algorithm:** This algorithm is used in systems without a central time server receiving UTC. A master node (or server) periodically polls all other machines (slaves) for their time. It computes an average time from the responses, ignoring any outliers. The master then tells all machines to either advance their clocks to this new average time or slow down their clocks until they match.
-  * **Network Time Protocol (NTP):** NTP is a decentralized protocol used to synchronize computer clocks over a network. The network is organized into a hierarchy of "Stratums," where Stratum 0 is a high-precision reference clock (like an atomic clock). Stratum 1 servers are directly connected to Stratum 0, Stratum 2 servers synchronize with Stratum 1, and so on. NTP calculates the round-trip delay and time offset between a client and server to keep the clocks synchronized.
-
-*(Found in DiS.pdf, Pages 38-41)*
-
-**Christian's Algorithm (Page 39)**
-
-```mermaid
-sequenceDiagram
-    participant P as Process/Client
-    participant CS as Clock Server
-    
-    P->>CS: Request (at T0)
-    CS-->>P: Response (with T_SERVER)
-    Note right of P: Response received (at T1)
-    
-    Note over P,CS: Round Trip Time (D) = (T1 - T0)
-    Note right of P: T_CLIENT = T_SERVER + (T1 - T0) / 2
-```
-
------
-
-### 4\. Mention the importance of replication and explain in detail about replication protocols.
-
-**Importance of Replication:**
-Replication, or creating copies of data on multiple servers, is important for two main reasons:
-
-1.  **Reliability:** If one server fails, users can be switched to another replica, ensuring the system remains available.
-2.  **Performance:** Load can be distributed among the replicas, which is useful in cases of increased workload or a large number of users.
-
-**Replication Protocols:**
-Replication protocols manage how and when replicas are created and updated.
-
-  * **Replica Placement:**
-      * **Permanent Replicas:** A small number of permanently existing replicas, often organized as clusters.
-      * **Server-Initiated Replicas:** Replicas created by the data owner to enhance performance, often placed geographically close to users (also called "push caches").
-      * **Client-Initiated Replicas:** Replicas created at the request of a client, such as a web browser's cache.
-  * **Update Propagation Protocols:**
-      * **Push-based (Server-based):** The server "automatically" sends updates to the replicas. This is useful when a high degree of consistency is needed.
-      * **Pull-based (Client-based):** The client must request the update from the server. If there is no request, there is no update. This is common for client caches.
-  * **Epidemic Protocols:** These are used to implement eventual consistency, spreading updates like a disease.
-      * **Anti-Entropy:** A server P picks a random server Q and they exchange updates. This can be a push, a pull, or both.
-      * **Gossiping (Rumor Spreading):** A server P with a new update "gossips" by pushing it to a random server Q. If Q already knew the update, P stops spreading. If not, Q joins in and starts gossiping to other servers as well.
-  * **Consistency Protocols:** These are specific implementations of consistency models.
-      * **Primary-Based Protocols:** A "primary" replica is designated for each data item and is responsible for coordinating writes. In a *remote-write* protocol, all writes go to a single remote server. In a *local-write* protocol, the data item migrates to the replica that wants to write to it.
-
-*(Found in DiS.pdf, Pages 54, 62-66)*
-
------
-
-### 5\. Discuss the types of communication in detail.
-
-The document discusses several types of communication in distributed systems:
-
-  * **Message-Oriented Communication:** This involves processes on different machines exchanging explicit messages.
-      * **Persistent vs. Transient:**
-          * **Persistent:** The message is stored by the system until it is successfully delivered (e.g., email).
-          * **Transient:** The message is stored only as long as the sending and receiving applications are running (e.g., messages in a router).
-      * **Synchronous vs. Asynchronous:**
-          * **Synchronous:** The sender is blocked (waits) until the message is stored in a local buffer at the receiver's end.
-          * **Asynchronous:** The sender continues executing immediately after sending the message.
-  * **Stream-Oriented Communication:** This is a connection-oriented form of communication that supports continuous data transfer (e.g., audio, video, sensor data) where timing is crucial.
-  * **Multicast Communication:** This supports sending a single message to multiple receivers simultaneously.
-  * **Remote Procedure Call (RPC):** A protocol that allows a program to request a service from a program on another computer as if it were a local call.
-  * **Remote Method Invocation (RMI):** A Java-specific mechanism that allows an object on one Java Virtual Machine (JVM) to invoke methods on an object in another JVM.
-
-*(Found in DiS.pdf, Pages 24-27)*
-
------
-
-### 6\. Explain the different faults classified in distributed systems.
-
-The document classifies faults in several ways:
-
-  * **By Duration:**
-      * **Transient Faults:** These occur once and then disappear. If the operation is repeated, the fault is gone.
-      * **Intermittent Faults:** These faults occur, vanish, and then reappear, often in a loose, unpredictable pattern (e.g., a loose connection).
-      * **Permanent Faults:** These faults continue to exist until the faulty component is physically replaced (e.g., a burnt-out chip or a disk crash).
-  * **By Processor Behavior:**
-      * **Fail-Silent Faults (Fail-Stop):** A faulty processor simply stops working and does not respond to any subsequent input.
-      * **Byzantine Faults:** A faulty processor continues to run but behaves incorrectly. It may issue wrong answers or even work maliciously with other faulty processors to appear correct.
-  * **By Failure Model (Server Failures):**
-      * **Crash Failure:** A server works correctly until it suddenly halts.
-      * **Omission Failure:** A server fails to respond, send, or receive messages.
-      * **Timing Failure:** A server's response lies outside the specified time interval (too fast or too slow).
-      * **Response Failure:** The server's response is incorrect, either by providing the wrong value or deviating from the correct flow of control.
-      * **Arbitrary Failure:** A server may produce any response at any time (this includes Byzantine faults).
-
-*(Found in DiS.pdf, Pages 68-70)*
-
------
-
-### 7\. Describe all the types of distributed systems.
-
-The document categorizes distributed systems into three main types:
-
-1.  **Distributed Computing Systems:** These systems are used for high-performance computing tasks.
-      * **Cluster Computing:** A collection of (often homogenous) computers connected by a high-speed network, working together as a single integrated resource to perform a single task.
-      * **Grid Computing:** Involves coordinating resources that are *not* centrally controlled (different hardware, OS, networks) to solve large-scale problems.
-      * **Cloud Computing:** Involves storing data and applications on remote servers accessed via the internet.
-2.  **Distributed Information Systems:** These systems are focused on managing and integrating business information and applications.
-      * **Transaction Processing Systems:** These focus on database applications where operations are carried out as transactions, which must have ACID (Atomic, Consistent, Isolated, Durable) properties.
-3.  **Distributed Pervasive Systems:** These are systems involving mobile and embedded devices that are often all around us.
-      * **Examples:** Electronic healthcare systems, sensor networks.
-
-*(Found in DiS.pdf, Page 3-4)*
-
------
-
-### 8\. Compare and contrast RPC & RMI.
-
-**Remote Procedure Call (RPC)** and **Remote Method Invocation (RMI)** are both mechanisms for communication in a distributed system, but they have key differences:
-
-  * **Paradigm:**
-      * **RPC:** Is **procedural**. It allows a client to call a *function or procedure* that is located on a remote server.
-      * **RMI:** Is **object-oriented** and Java-specific. It allows an object in one Java Virtual Machine (JVM) to invoke *methods* on a remote object in another JVM.
-  * **Components:**
-      * **RPC:** Uses a **client stub** (on the client side) and a **server stub** (on the server side). The stubs handle the packing (marshaling) of parameters into a message and unpacking (unmarshaling) them on the other end.
-      * **RMI:** Also uses a **stub** (client-side gateway), but it uses a **skeleton** (server-side gateway). The skeleton is responsible for reading parameters, invoking the method on the actual remote object, and transmitting the result back.
-  * **Abstraction:**
-      * **RPC:** Hides the message-passing mechanism from the user, making a remote call look like a local one.
-      * **RMI:** Provides a higher level of abstraction by preserving the object-oriented paradigm, allowing for remote object interaction while minimizing the difference between local and remote objects.
-
-In short, RPC is for calling remote functions, while RMI is for invoking remote methods on objects (primarily in Java).
-
-*(Found in DiS.pdf, Pages 27-31)*
-
-**RPC Mechanism (Page 28)**
-
-```mermaid
-graph TD
-    subgraph Client Machine
-        C[Client] -- Call --> CS[Client stub]
-        CS -- Pack --> RT_C[RPC Runtime]
-        RT_C -- Send --> Net1[Call Packet]
-        Net2[Result Packet] -- Receive --> RT_C
-        RT_C -- Unpack --> CS
-        CS -- Return --> C
-    end
-    
-    subgraph Server Machine
-        S[Server]
-        SS[Server stub]
-        RT_S[RPC Runtime]
-        
-        Net1 -- Receive --> RT_S
-        RT_S -- Unpack --> SS
-        SS -- Call Execute --> S
-        S -- Return --> SS
-        SS -- Pack --> RT_S
-        RT_S -- Send --> Net2
-    end
-
-    Net1 --> RT_S
-```
-
------
-
-### 9\. Compare and contrast external and internal synchronization.
-
-**External Synchronization** and **Internal Synchronization** are two ways to achieve clock synchronization in a distributed system:
-
-  * **External Synchronization:** This method requires the presence of an **external reference clock** (e.g., a UTC source). All nodes in the system set and adjust their time according to this single, external, authoritative time source.
-  * **Internal Synchronization:** This method is used when no external reference clock is available. Instead, each node shares its local time with the *other nodes* in the system. The nodes then collectively set and adjust their time accordingly, for example, by computing an average time among themselves.
-
-The key difference is that external synchronization syncs all nodes to an outside reference, while internal synchronization syncs all nodes *to each other*.
-
-*(Found in DiS.pdf, Page 37)*
-
------
-
-### 10\. Discuss mutual exclusion algorithms in detail.
-
-Mutual exclusion ensures that no two processes can be in the same "critical section" (accessing a shared resource) at the same time. The document discusses four algorithms to achieve this:
-
-1.  **Centralized Algorithm:** One process is elected as the **coordinator**. When a process wants to access the resource, it sends a *request* to the coordinator. If the resource is free, the coordinator sends an *OK* reply. If not, the coordinator queues the request and sends no reply. When the process finishes, it sends a *release* message, and the coordinator grants permission to the next process in the queue.
-2.  **Decentralized Algorithm:** This algorithm relies on voting. To access a shared resource, a process must get a "majority vote" from a set of coordinators. It needs to acquire $m > n/2$ votes (where $n$ is the total number of coordinators) to gain access.
-3.  **Distributed Algorithm:** A process sends a *request* message (containing the resource name, its process number, and a logical timestamp) to *all* other processes. A process that receives this request will:
-      * Send *OK* if it is not using the resource and doesn't want to.
-      * Queue the request and not reply if it is already using the resource.
-      * Compare timestamps if it *also* wants the resource; the one with the lower timestamp wins.
-        A process can enter the critical section only after receiving an *OK* from all other processes.
-4.  **Token Ring Algorithm:** This is a simple approach where a "token" (a special message) is passed between processes in a logical ring. A process can only access the shared resource if it currently holds the token. Once it is done, it passes the token to the next process in the ring. This ensures no starvation and guarantees mutual exclusion.
+**6. Explain briefly about Data structures?**
 
-*(Found in DiS.pdf, Pages 46-48)*
-
-**Centralized Algorithm (Page 47)**
+The most important data structure in information retrieval is the **Inverted Index**, which is described as being "without rivals as the most efficient structure for supporting ad hoc text search" . It has two main components:
 
-```mermaid
-sequenceDiagram
-    participant P1 as Process 1
-    participant P2 as Process 2
-    participant C as Coordinator (3)
-    
-    P1->>C: Request
-    C->>P1: OK (Queue is empty)
-    
-    P2->>C: Request
-    Note over C: Queue: [2]
-    C--xP2: No reply
-    
-    P1->>C: Release
-    Note over C: Queue is empty
-    C->>P2: OK
-```
+1.  **The Dictionary:** This structure stores the vocabulary (all unique terms). To allow for fast lookup, it is often implemented as a **hash table** or a **search tree** (like a B-tree) .
+2.  **The Postings Lists:** For each term in the dictionary, this is a list of all document IDs (docIDs) that contain the term. These lists are kept sorted by docID, which is crucial for efficiently processing queries by "merging" or "intersecting" the lists .
 
-**Token Ring Algorithm (Page 48)**
+Other key data structures mentioned include:
 
-```mermaid
-graph TD
-    P0(0) --> P1(1)
-    P1 --> P2(2)
-    P2 --> P3(3)
-    P3 --> P4(4)
-    P4 --> P5(5)
-    P5 --> P6(6)
-    P6 --> P7(7)
-    P7 --> P0
-    
-    style P0 fill:#fff,stroke:#333,stroke-width:2px
-    style P1 fill:#fff,stroke:#333,stroke-width:2px
-    style P2 fill:#fff,stroke:#333,stroke-width:2px
-    style P3 fill:#fff,stroke:#333,stroke-width:2px
-    style P4 fill:#fff,stroke:#333,stroke-width:2px
-    style P5 fill:#fff,stroke:#333,stroke-width:2px
-    style P6 fill:#fff,stroke:#333,stroke-width:2px
-    style P7 fill:#fff,stroke:#333,stroke-width:2px
-```
+  * **Positional Index:** An enhanced version of the inverted index where the postings lists also store the `position(s)` of the term in each document. This is necessary to process phrase queries .
+  * **k-gram Index:** A data structure used to handle wildcard queries. It's an index of all k-grams (sequences of $k$ characters) found in the vocabulary terms. Its postings link k-grams to the terms that contain them .
+  * **Permuterm Index:** An alternative for wildcard queries. It stores all possible rotations of a term (e.g., `hello$` becomes `hello$`, `ello$h`, etc.) in its dictionary, allowing wildcard queries to be processed with a simple lookup .
 
------
+*(Found on pages: 3, 5, 8, 10)*
 
-### 11\. Explain in detail data-centric and client-centric consistency models.
+**7. Explain about Stemming Algorithm as well as types of stemming?**
 
-Consistency models are "contracts" between a distributed data store and its processes, defining the rules for data to be considered correct.
+A stemming algorithm is a rule-based process for reducing words to their root form, or "stem." It is a form of lossy compression that works by removing common suffixes from a token . The most famous example is the **Porter stemmer**, which is mentioned in the text .
 
-**Data-Centric Consistency Models:**
-These models focus on maintaining a **consistent, globally accessible** data store, especially in the presence of *concurrent* read/write operations by multiple processes. They define what it means for the data store as a whole to be in a valid state.
-Examples include:
+The provided PDF does not detail other types of stemming, but common approaches include:
 
-  * **Strict Consistency:** The "holy grail." Any read on a data item returns the value of the most recent write, as if all writes are instantaneously visible to all processes in an absolute global time order.
-  * **Sequential Consistency:** A weaker model. The result of any execution is the same as if all read/write operations were executed in *some* sequential order, and all processes see that *same* interleaved order.
-  * **Causal Consistency:** Even weaker. It requires that writes that are *causally related* must be seen by all processes in the same order. Concurrent (non-causally related) writes may be seen in different orders.
-  * **FIFO Consistency:** Writes done by a *single process* are seen by all others in the order they were issued. Writes from *different* processes may be seen in different orders.
+  * **Suffix-Stripping Algorithms:** This is the most common category, to which the Porter stemmer belongs. These algorithms use a set of heuristic rules to "strip" or remove known suffixes in stages.
+  * **Lemmatization:** This is a more advanced and linguistically sophisticated approach. Instead of just chopping off suffixes, lemmatization uses a dictionary and morphological analysis to return the true dictionary base form of a word (its "lemma"). For example, a lemmatizer would know that the lemma of "was" is "be," whereas a stemmer might fail or return "wa."
+  * **Lookup-based Stemmers:** These algorithms use a pre-compiled lookup table to map all known inflected forms of a word to their common stem.
 
-**Client-Centric Consistency Models:**
-These models focus on maintaining a consistent view for an **individual client process** that is accessing the data store. These are used in systems where simultaneous updates are rare (like DNS or web caching). The emphasis is on what the *client* sees, not on a global guarantee at every instant.
+*(Page 14 mentions the Porter stemmer. The descriptions of the types are from external knowledge.)*
 
-  * The primary model here is **Eventual Consistency**. This model only guarantees that if no new updates are made, all replicas will *eventually* become consistent. This allows for high availability and performance, as stale data may be returned temporarily.
+**8. Explain briefly about Inverted File Structure?**
 
-*(Found in DiS.pdf, Pages 55-61)*
+The **Inverted File Structure**, referred to in the text as the **Inverted Index**, is the most efficient data structure for ad hoc text search . It gets its name because it inverts the standard document-to-term mapping; instead of listing terms for each document, it lists documents for each term.
 
------
+It is composed of two main parts:
 
-### 12\. Describe the process of reliable client-server communication.
+1.  **The Dictionary (or Vocabulary):** This contains the list of all unique indexing terms. It is often kept in memory for fast access. For each term, it stores a pointer to its corresponding postings list on disk . It also commonly stores the **document frequency** for each term (the number of documents the term appears in) .
+2.  **The Postings Lists:** This part is stored on disk . For every term in the dictionary, there is a corresponding postings list . This list stores the IDs (docIDs) of all documents that contain that term . The postings lists are always stored sorted by docID. This sorted order is critical, as it allows the system to efficiently find documents that match multiple terms (an "AND" query) by "merging" or "intersecting" the sorted lists .
 
-Reliable client-server communication aims to mask failures that can occur in both processes and communication channels. This is often handled by a reliable transport protocol like TCP, which masks omission failures (lost messages) by using acknowledgments and re-transmissions.
+*(Found on pages: 3, 4, 5)*
 
-However, in RPC (Remote Procedure Call), the goal is to hide this communication, and several specific failures must be handled:
+**9. What is Signature File Structure? Explain briefly about Signature File Structure?**
 
-1.  **Client is unable to locate the server:** This can happen if the server is down. The system handles this by raising an exception to the client (e.g., "page cannot be reached") rather than blocking infinitely.
-2.  **The request message from client to server is lost:** The client's OS starts a timer when it sends a request. If it does not receive a reply or an acknowledgment within a certain period, it re-transmits the request.
-3.  **The reply message from server to client is lost:** This is handled the same way. The client's timer expires, and it re-sends the request. This can be problematic if the server performs the operation twice (e.g., "print text twice" instead of once), so the operation must be designed to be *idempotent* (safe to repeat).
-4.  **The server crashes:** This is the hardest problem, as the crash can occur *before*, *during*, or *after* executing the request. The client cannot know what happened. Strategies are needed to determine if the request was executed at all, exactly once, or multiple times.
-5.  **The client crashes:** If a client sends a request and then crashes, the server's computation becomes an **orphan**. Orphans can waste server resources (CPU cycles, locks on data), so mechanisms are needed to detect and terminate them.
+The provided PDF does not describe the Signature File Structure. It is an older, alternative indexing method to the inverted index.
 
-*(Found in DiS.pdf, Pages 78-80)*
+A signature file works by creating a "signature" (a fixed-length bit string, or "bitmask") for each document. This document signature is created by first generating a bit pattern (a "word signature") for every word in the document (e.g., using hashing) and then combining all these word signatures together using a bitwise OR operation.
 
------
+To process a query, the query terms are also converted into a query signature. The system then linearly scans all the *document signatures*. A document is considered a potential match if its signature "contains" the query signature (which can be checked quickly with bitwise logic). This method is "lossy" and can produce "false positives" (documents that match the signature but don't contain the query words), so a final filtering step is required to check the text of the potential matches.
 
-### 13\. Differentiate between Persistent and transient communication.
+*(Answer from external knowledge, as it is not in the PDF.)*
 
-  * **Persistent Communication:** A message submitted by the sender is **stored by the communication system** (e.g., on disk) for as long as it takes to deliver it to the receiver. The sender and receiver do not need to be running at the same time. The classic example is **email**.
-  * **Transient Communication:** A message is **stored only as long as the sending and receiving applications are running**. If the receiver is not running, the message is typically discarded. This type of communication is common in network routers, where messages are held only until they can be passed to the next hop.
+**10. What is N-Gram Data Structure? Explain briefly about N-Gram Data Structure?**
 
-*(Found in DiS.pdf, Page 24)*
+The PDF refers to this as a **k-gram index** (where $n=k$) . This is a data structure primarily used for processing wildcard queries (e.g., `fi*mo*er`). An n-gram is a sequence of $n$ characters .
 
------
+The n-gram index data structure is an index where the **dictionary** consists of all possible n-grams (e.g., 3-grams like `cas`, `ast`, `stl`) that are found in any term in the main vocabulary . The **postings list** for each n-gram points to all the *vocabulary terms* (not documents) that contain that n-gram .
 
-### 14\. Give short notes on self-management.
+To resolve a wildcard query, the query itself is broken into n-grams. The system retrieves the postings lists for these n-grams and intersects them to get a list of candidate terms. These candidate terms are then checked against the full query, and the terms that match (e.g., "fishmonger") are then looked up in the main inverted index to retrieve the final documents.
 
-Self-management refers to distributed systems that can automatically adjust and adapt themselves when changes or problems occur, without human intervention. This automatic adaptation is characterized by four properties:
+*(Found on page: 10)*
 
-1.  **Self-configuration:** The system can configure itself.
-2.  **Self-managing:** The system can manage its own state and resources.
-3.  **Self-healing:** The system can detect and recover from faults.
-4.  **Self-optimization:** The system can monitor its performance and tune itself to improve efficiency.
+**11. Explain briefly about Hidden Markov Mod[el]**
 
-These systems are often built using a **feedback control system**. The system's "Observed output" is fed into a "Metric estimation" component. An "Analysis" component compares this to a "Reference input" (the desired state) and sends "Adjustment triggers" to "Adjustment measures," which apply "Corrections" to the system.
+The provided PDF does not discuss Hidden Markov Models (HMMs). It discusses other probabilistic models, such as unigram and bigram language models .
 
-*(Found in DiS.pdf, Page 9)*
+A Hidden Markov Model is a statistical model used to represent sequences where the underlying system is a "Markov process" with "hidden" states. This means the system has a set of states that are not directly observable, but which emit *observable symbols*.
 
------
+An HMM is defined by two main sets of probabilities:
 
-### 15\. What is fault tolerance?
+1.  **Transition Probabilities:** The probability of moving from one hidden state to another.
+2.  **Emission Probabilities:** The probability of a specific hidden state "emitting" or producing a specific observable symbol.
 
-Fault tolerance is the property that enables a system to **continue operating properly** in the event of a failure of one or more of its components.
+In information retrieval and NLP, HMMs are often used for tasks like Part-of-Speech (POS) tagging. In this task, the words in a sentence are the "observable symbols," and the parts of speech (e.g., noun, verb, adjective) are the "hidden states" that the model's algorithm tries to infer.
 
-It's important to distinguish between a *fault* and a *failure*:
-
-  * A **fault** is an incorrect internal state in the system (e.g., a memory leak, a blocked thread, bad data).
-  * A **failure** is the system's inability to perform its intended job (e.g., the website is down).
-
-Fault tolerance is the set of mechanisms that prevent faults from becoming failures.
-
-*(Found in DiS.pdf, Page 67)*
-
------
-
-### 16\. List the applications of distributed systems.
-
-The document lists several applications of distributed systems, including:
-
-  * **Finance and Commerce:** Online banking, e-bay, Amazon.
-  * **Information Society:** Search engines, Wikipedia, social networking.
-  * **Creative Industries and Entertainment:** Online gaming, music, YouTube.
-  * **Health Care:** Online patient records, health informatics.
-  * **Education:** E-learning.
-  * **Transport & Logistics:** GPS, Google Maps.
-  * **Environment Management:** Sensor technology.
-
-*(Found in DiS.pdf, Pages 4-5)*
-
------
-
-### 17\. Write short notes on virtualization in distributed systems.
-
-Virtualization is the process of creating a virtual (logical) version of a physical resource. It allows a single physical instance of a resource or application to be shared among multiple organizations or users.
-
-  * **Hardware Virtualization:** This refers to creating a **Virtual Machine (VM)**, which runs its own guest operating system on top of the host machine's existing OS and hardware.
-  * **Types of Virtualization:**
-    1.  **Application Virtualization:** Allows a user to have remote access to an application from a server.
-    2.  **Network Virtualization:** Allows for running multiple virtual networks on the same physical network (e.g., a VPN).
-    3.  **Desktop Virtualization:** Allows a user's operating system to be stored remotely on a server, so it can be accessed and controlled from any device.
-    4.  **Storage Virtualization:** An array of servers managed as a single virtual storage pool (e.g., AWS).
-  * **Advantages:** Virtualization offers more flexibility and efficiency, lowers costs, and enables running multiple different operating systems on a single piece of hardware.
-
-*(Found in DiS.pdf, Pages 18-19)*
-
------
-
-### 18\. List the protocols of consistency.
-
-The document lists several "Consistency Protocols," which are specific implementations of a consistency model:
-
-  * **Sequential Consistency**
-  * **Weak Consistency** (using synchronization variables)
-  * **Atomic Transactions**
-
-The document also describes **Primary-Based Protocols** as a widely implemented set:
-
-  * **Remote Write Consistency Protocol:** All writes are performed at a single, remote primary server.
-  * **Local Write Consistency Protocol:** The data item *migrates* to the replica that wishes to perform a write, making that replica the new primary for that item.
-
-*(Found in DiS.pdf, Page 65-66)*
-
------
-
-### 19\. Define naming and list the types of naming.
-
-**Definition:**
-A **name** in a distributed system is a string of bits or characters used to refer to an **entity** (e.g., a host, printer, file, or web page). To operate on an entity, you need to access it at an **access point**. The name of an access point is called an **address**.
-
-**Types of Naming:**
-
-1.  **Unstructured Naming (Flat Naming):** Names are simply random bit strings (identifiers) with no internal structure. They are easy for machines to use but not human-readable.
-2.  **Structured Naming:** Names are organized into a **name space**, which is often a human-readable, hierarchical structure (e.g., a file path like `/home/steen/mbox` or a domain name like `cse.dtu.in`).
-3.  **Attribute-Based Naming:** Entities are found by searching for their attributes or metadata, rather than a single name. This is used in **Directory Services** like LDAP (Lightweight Directory Access Protocol).
-
-*(Found in DiS.pdf, Pages 32, 34, 35)*
-
------
-
-### 20\. What is process resilience?
-
-Process resilience is the ability to **prevent faults from turning into failures**. A *fault* is an incorrect internal state (like a bad value), while a *failure* is the system's inability to do its job.
-
-A common way to achieve process resilience is by **arranging processes in a group**. All members of the group are identical (replicas). When a message is sent to the group, it is delivered to all members, but only one of them performs the requested service. If one process in the group fails (e.g., crashes), it is assumed that one of the other identical processes will still be functioning and can take over, thus "masking" the fault and preventing a system failure.
-
-*(Found in DiS.pdf, Page 72)*
-
+*(Answer from external knowledge, as it is not in the PDF.)*
 
 
 ---
 
-### 21. Give short notes on Byzantine fault.
 
-A Byzantine fault is a type of fault in a distributed system where a component, such as a processor, continues to operate but behaves incorrectly, erratically, or maliciously. Unlike a processor that simply stops (a fail-silent fault), a processor with a Byzantine fault might send wrong answers to requests or send conflicting information to different parts of the system. This makes it the most difficult type of fault to manage, as the faulty component may appear to be working correctly.
+## Unit 3
 
-*(Found on Pages: 69, 70)*
 
----
+## Short Answer Questions
 
-### 22. List the characteristics of a distributed system.
+### 1. What is recall?
 
-The main characteristics of a distributed system are:
-* **Resource Hiding:** Computers and communication details are mostly hidden from users.
-* **Uniform Interaction:** It provides a consistent and uniform way for users to interact with the system.
-* **Scalability:** The system is designed to be easy to expand or scale.
-* **Continuous Availability:** It aims to be continuously available, even if parts of it fail.
+The provided document discusses recall in the context of evaluation (e.g., "Precision-recall curves" on Page 29), but it does not offer a direct, standalone definition.
 
-*(Found on Page: 1)*
+In information retrieval, **recall** is a performance metric that measures the fraction of *relevant* documents that were successfully retrieved by the system. It answers the question, "Of all the relevant documents that exist, how many did the system find?"
 
----
+It is calculated with the formula:
+$$
+\text{Recall} = \frac{\text{Number of relevant documents retrieved}}{\text{Total number of relevant documents}}
+$$
 
-### 23. What are the key differences between a distributed system and a computer network?
+### 2. Define Clustering.
 
-A **computer network** is the underlying infrastructure that connects autonomous computers, allowing them to communicate.
+**Clustering** is a form of unsupervised learning that groups a set of documents into subsets, or clusters. The primary goal is to create clusters that are "coherent internally, but clearly different from each other." In other words, documents within the same cluster should be as similar as possible to one another, while also being as dissimilar as possible from documents in other clusters. (Page 51)
 
-A **distributed system** is a software layer built *on top* of a network. Its primary goal is to make this collection of independent computers **appear to its users as a single, coherent system**. The key difference is this abstraction; a distributed system's main purpose is to hide the fact that there are multiple computers, whereas in a simple network, the user is often aware of and interacts with specific, individual machines.
+### 3. Over-Generation of additional Metrics
 
-*(Found on Page: 1)*
+The term "Over-Generation of additional Metrics" is not a standard term in information retrieval and is not defined or discussed in the provided document.
 
----
+This term may be a typo, as "overgeneration" is more commonly used in the field of Natural Language Generation (NLG). In that context, it refers to a system producing more output (e.g., more words or sentences) than is correct or necessary, which is a different concept from retrieval evaluation.
 
-### 24. Differentiate between synchronous and asynchronous communication in the context of IPC.
+### 4. Define fall out
 
-In the context of Inter-Process Communication (IPC):
+The term **fall-out** is not defined in the provided document. In information retrieval, fall-out is an evaluation metric that measures the proportion of *non-relevant* documents that are retrieved by a search. It is also known as the **false-positive rate (FPR)**.
 
-* **Synchronous Communication:** The sending process is **blocked** after sending a message. It must wait until its message is received (or at least stored in a buffer) at the receiver's end before it can continue its own execution.
-* **Asynchronous Communication:** The sending process **does not block**. It sends the message and can immediately continue with its own tasks, regardless of whether the receiver has processed the message yet.
-
-*(Found on Pages: 24, 25)*
+It is calculated by dividing the number of non-relevant documents retrieved by the total number of non-relevant documents in the entire collection:
+$$
+\text{Fall-out} = \frac{\text{Number of non-relevant documents retrieved}}{\text{Total number of non-relevant documents}}
+$$
 
 ---
 
-### 25. Write short notes on replication and consistency.
+## Long Answer Questions
 
-**Replication** is the process of creating and managing multiple copies of data or services on different computers within a distributed system. The primary goals of replication are to improve **reliability** (if one copy fails, others are available) and **performance** (load can be distributed, and users can access data from a nearby copy).
+### 1. Information extraction
 
-**Consistency** refers to the challenge of ensuring that these multiple copies remain in agreement. A **consistency model** acts as a contract that defines the rules for how and when changes (writes) are propagated and become visible to other processes (reads). This ranges from **Strong Consistency**, where all copies are identical at all times, to weaker models like **Eventual Consistency**, where copies are guaranteed to become the same over time.
+The provided document does not define **Information Extraction (IE)**. While Information *Retrieval* (IR), as defined in the document, is about finding *relevant documents* from a collection (Page 1), Information *Extraction* is a different task.
 
-*(Found on Pages: 54, 55, 62)*
+IE is the process of automatically identifying and extracting specific, structured pieces of information (such as names, dates, organizations, or relationships) from unstructured text. For example, rather than returning a whole news article about a corporate merger (which IR would do), an IE system would extract the names of the two companies, the value of the deal, and the date of the merger, and then store that data in a structured database.
+
+### 2. Explain briefly about Automatic Indexing? Explain about types of classes Automatic Indexing
+
+**Automatic Indexing** is the process of building an index in advance to avoid linearly scanning texts for every query, which allows for fast retrieval (Page 2). The document describes this as a four-step process (Page 3):
+
+1.  **Collect:** Gather the documents that need to be indexed.
+2.  **Tokenize:** Break the text of each document into a list of individual tokens (words).
+3.  **Linguistic Preprocessing:** Normalize these tokens into "indexing terms." This involves steps like case-folding (making everything lowercase), stop-word removal (deleting common words like "the"), and stemming (reducing words to their root).
+4.  **Index:** Create the final inverted index. This structure consists of a dictionary (all unique indexing terms) and their corresponding postings lists (a list for each term, noting which documents it appears in).
+
+The document does not explicitly define "types of classes" for automatic indexing. However, it describes different *methods* and *components* used in the process, such as **Blocked sort-based indexing** (Page 12) for efficiently building the index and **Dynamic indexing** (Page 13) for updating the index as new documents are added.
+
+### 3. Explain briefly about Statistical Indexing?
+
+The document does not use the specific term **"Statistical Indexing."** However, it describes the core concepts of this approach, which moves beyond just noting whether a term is present (like in the basic Boolean model) and instead uses statistical properties of terms to assign importance weights.
+
+The most prominent example of this described in the document is **tf-idf weighting** (Pages 22-23). This method assigns a composite weight to each term in each document based on two statistics:
+
+* **Term Frequency (tf):** This measures how often a term appears in a specific document. The idea is that a term mentioned more frequently is more important to that document's topic (Page 22).
+* **Inverse Document Frequency (idf):** This measures how rare a term is across the entire collection. Terms that appear in many documents (like "the") are less informative than terms that appear in only a few. A high idf score means the term is rare and thus has high discriminating power (Page 23).
+
+This statistical weighting is what allows a retrieval system to rank documents by their relevance to a query, rather than just returning a large, unordered set of matches.
+
+### 4. Explain briefly about Natural Language?
+
+In the context of indexing, this question refers to the use of Natural Language Processing (NLP) techniques. The document covers this under the topic of **linguistic preprocessing** (Page 6), which is essential for determining the vocabulary of terms to be included in the index.
+
+After the text is broken into tokens, linguistic preprocessing is used to build equivalence classes of those tokens to create the final "indexing terms." This involves several key steps (Pages 6-7):
+
+* **Tokenization:** This is the task of chopping the character stream into tokens, often while also throwing away punctuation. For example, "Friends, Romans, Countrymen," becomes the tokens "Friends", "Romans", and "Countrymen".
+* **Stop Word Removal:** This is the process of excluding extremely common words (e.g., "the", "a", "to", "of") from the index. These words are of little value in selecting matching documents and removing them significantly reduces the size of the index.
+* **Normalization:** This is the process of canonicalizing tokens so that matches can occur despite superficial differences in the text. This includes **stemming** (which the document mentions using, e.g., the Porter stemmer) to reduce words to a common root (e.g., "automates", "automatic", "automation" all become "automat") and **case-folding** (treating "Windows" and "windows" as the same term).
+
+### 5. Explain briefly about Hypertext Linkage Indexing?
+
+The document does not use the term **"Hypertext Linkage Indexing"** but has a detailed section on **"Link Analysis"** (Page 61), which is the use of the web's hyperlink graph structure to improve search ranking. This analysis is based on two key intuitions:
+
+1.  **Anchor Text:** The clickable text in a hyperlink (called "anchor text") from page A to page B is often a good, concise description of page B. Search engines can index the target page (B) using the anchor text terms from all the pages that link *to* it. This is extremely useful for finding pages that may not describe themselves well (e.g., the "ibm.com" homepage being findable for the query "computer" even if the word doesn't appear on the page) (Page 61).
+2.  **Endorsement:** A hyperlink from page A to page B is often treated as an endorsement, or a conferral of authority, from the creator of A to page B (Page 61).
+
+This link analysis is used to calculate static, query-independent scores for pages, such as **PageRank** (which measures a page's importance based on the links it receives from other important pages) and **Hubs and Authorities** scores (which identify pages that are good information hubs or good authorities on a topic). These scores are then used as important signals in the final ranking of search results (Pages 61-62).
+
 
 ---
-
-### 26. Describe the different types of transparencies that a distributed system should provide.
-
-Transparency is a key goal of a distributed system, aiming to hide the fact that processes and resources are physically distributed. The different types include:
-
-* **Access Transparency:** Hides differences in data representation and how a resource is accessed.
-* **Location Transparency:** Hides where a resource is physically located.
-* **Migration Transparency:** Hides the fact that a resource may be moved to a different location.
-* **Relocation Transparency:** Hides that a resource may be moved to another location *while it is in use*.
-* **Replication Transparency:** Hides the fact that a resource is replicated (i.e., multiple copies exist).
-* **Concurrency Transparency:** Hides that a resource may be shared by several competing users at the same time.
-* **Failure Transparency:** Hides the failure and recovery of a resource from the user.
-
-*(Found on Page: 2)*
-
----
-
-### 27. Explain clock synchronization techniques and their importance in distributed systems.
-
-**Importance:** Clock synchronization is crucial in distributed systems for coordinating actions between processes, especially for **event ordering** (knowing what happened before what) and ensuring **mutual exclusion** (preventing simultaneous access to shared resources). Since each computer has its own clock, their times can drift, leading to inconsistencies.
-
-**Techniques:**
-* **Physical Clocks:** These algorithms try to synchronize the clocks to a real, standard time (like UTC).
-    * **Christian's Algorithm:** A client issues an RPC to a time server to get the time and adjusts its own clock, accounting for network delay.
-    * **Berkeley Algorithm:** A master polls other "slave" machines for their times, computes an average, and then tells the slaves how to adjust.
-    * **Network Time Protocol (NTP):** A decentralized protocol that synchronizes clocks over a network using a hierarchy (strata) of time servers.
-* **Logical Clocks:** These techniques don't rely on real time. Instead, they focus on maintaining a consistent *order* of events.
-    * **Lamport's Logical Clocks:** Assigns timestamps to events based on a "happens-before" relationship, ensuring that if event A causes event B, the timestamp of A is less than the timestamp of B.
-
-*(Found on Pages: 37, 38, 39, 40, 41, 42, 43, 44)*
-
----
-
-### 28. Discuss the design goals and challenges of distributed systems.
-
-The primary **design goals** of a distributed system are:
-
-* **Resource Sharing:** To easily and securely use hardware, software, or data from anywhere in the system.
-* **Openness:** To be able to easily extend and improve the system, often by using standard interfaces.
-* **Scalability:** To remain efficient and manageable even as the number of users and resources grows.
-* **Fault Tolerance:** To continue operating, perhaps at a reduced level, even when components fail.
-* **Transparency:** To hide the complexity and distributed nature of the system from users and applications.
-* **Concurrency:** To allow multiple users to share resources and perform tasks simultaneously.
-
-The **challenges** are inherently tied to achieving these goals, and include:
-* **Handling Failures:** Detecting, masking, and recovering from partial failures.
-* **Maintaining Consistency:** Keeping data synchronized across multiple replicated copies.
-* **Synchronization:** Coordinating actions and ordering events correctly without a shared global clock.
-
-*(Found on Pages: 2, 37, 54, 67)*
-
----
-
-### 29. Distinguish between centralized systems and distributed systems with a diagram.
-
-A **centralized system** typically follows a **client-server architecture**. In this model, a single, powerful server provides all resources and services to multiple client computers. The server is the single point of control and potential failure.
-
-A **distributed system**, particularly a decentralized one like a **peer-to-peer (P2P)** system, has **no central server**. Each node (or "peer") in the system is equal and can act as both a client and a server, sharing the load and data among themselves. The system is a collection of autonomous computers that work together to appear as one coherent unit.
-
-
-*(Found on Pages: 1, 10, 12)*
-
----
-
-### 30. Describe the Election algorithm in a distributed system.
-
-An election algorithm is used in a distributed system to choose a single process to act as a **coordinator** when the previous coordinator fails or when the system is initializing. The goal is to ensure that all living processes agree on the new coordinator. Two common algorithms are:
-
-1.  **The Bully Algorithm:** In this algorithm, any process that detects the coordinator's failure can initiate an election. It sends an ELECTION message to all processes with a *higher* process ID.
-    * If no higher-ID process responds, the initiating process "wins" and becomes the new coordinator.
-    * If a higher-ID process receives the message, it responds with an "OK" message, indicating it is alive and will take over the election. The process with the highest ID ultimately "bullies" all others and wins.
-
-2.  **The Ring Algorithm:** This algorithm assumes processes are arranged in a logical ring.
-    * A process that detects a failure sends an ELECTION message containing its own ID to its next-alive successor.
-    * Each process that receives the message adds its own ID to the list and forwards it around the ring.
-    * When the message returns to the process that started it, it contains the IDs of all active processes. The initiator then circulates a new message announcing the process with the highest ID as the new coordinator.
-
-*(Found on Pages: 50, 51, 52, 53)*
-
----
-
-### 31. Explain the difference between message-oriented and stream-oriented communication.
-
-The key difference lies in the nature of the data flow:
-
-* **Message-Oriented Communication:** This involves the explicit sending and receiving of discrete units of data called **messages**. Processes communicate by exchanging these individual, self-contained packets of information.
-* **Stream-Oriented Communication:** This is a connection-oriented model that supports a **continuous flow of data**, such as audio, video, or sensor readings. In this model, timing plays a crucial role. Data is sent as a continuous stream of bytes, rather than as distinct messages.
-
-*(Found on Pages: 24, 25, 26)*
-
----
-
-### 32. What is process migration?
-
-Process migration (also referred to as **code migration** in the text) is the act of moving a process from one machine to another within a distributed system. The primary reasons for this are to improve performance, either by **balancing the load** (moving processes from a heavily loaded machine to a lightly loaded one) or by **improving communication time** (moving the process to the machine where a large data set it needs resides).
-
-Migration can be:
-* **Weak Migration:** Only the code segment is transferred. The process must restart execution from the beginning.
-* **Strong Migration:** Both the code segment and the execution segment (its current state, stack, and data) are transferred, allowing the process to continue from where it left off.
-
-*(Found on Page: 23)*
-
----
-
-### 33. What is heterogeneity in distributed systems?
-
-Heterogeneity refers to the fact that a distributed system is often built from a wide variety of different components. This includes differences in:
-
-* **Hardware:** Such as different types of computers or processors.
-* **Software:** Such as different operating systems (e.g., Windows, Linux) or components written in different programming languages.
-* **Networks:** Different network protocols, security mechanisms, etc.
-
-A key goal of distributed systems, often handled by **middleware**, is to manage this heterogeneity and present a single, uniform interface to applications, making the system "Platform Independent" or "Hardware Independent."
-
-*(Found on Pages: 1, 3, 8)*
-
----
-
-### 34. Draw the architecture of a distributed system.
-
-A common way to visualize the architecture of a distributed system is to see it as a **middleware** layer. This middleware layer sits between the local operating systems on each independent computer and the applications running on top. This layer provides a uniform interface to the applications, hiding the complexity of the underlying network and the differences between the machines.
-
-
-*(Found on Page: 1)*
-
----
-
-### 35. Define the terms marshalling and external data representation.
-
-* **Marshalling:** This is the process of taking application-level data, such as the parameters for a remote method call, and converting them into a format (e.g., a byte stream) suitable for transmission over a network. The reverse process, converting the byte stream back into data structures at the receiving end, is called **unmarshalling**. This is a key step in systems like RMI.
-
-* **External Data Representation (EDR):** (This term was not found in the provided PDF). EDR refers to a standard, platform-neutral format for encoding data. Because different computers (e.g., with different CPUs) may store data differently, an EDR is needed to ensure that data marshalled on one machine can be correctly unmarshalled on another, regardless of its local hardware or OS.
-
-*(Marshalling found on Page: 31; EDR definition from external knowledge)*
-
----
-
-### 36. List the components of a Java RMI system.
-
-A Java RMI (Remote Method Invocation) system consists of three main layers:
-
-1.  **Stub/Skeleton Layer:** This layer intercepts method calls.
-    * The **Stub** is the client-side object that acts as a proxy, marshalling parameters and sending the request to the server.
-    * The **Skeleton** is the server-side object that receives the request, unmarshals the parameters, calls the actual remote object, and marshals the result to send back.
-2.  **Remote Reference Layer:** This layer manages the references and links between the client and the remote object.
-3.  **Transport Layer:** This is the underlying network layer (e.g., TCP/IP) responsible for the actual transmission of data between the client and server JVMs.
-
-*(Found on Page: 30, 31)*
-
----
-
-### 37. What is a multi-threaded server in the context of client-server communication?
-
-A multi-threaded server is a server that uses multiple threads to handle client-server communication, allowing it to process multiple client requests in parallel. A common architecture is the **dispatcher/worker model**. In this model, a single "dispatcher" thread receives all incoming requests. It then hands off each request to a separate "worker" thread from a pool. This allows the dispatcher to immediately go back to listening for new requests, while the worker threads handle the processing and I/O for their assigned clients. This approach improves performance and responsiveness by overlapping communication and processing.
-
-*(Found on Pages: 16, 17)*
-
----
-
-### 38. Discuss the characteristics of inter-process communication in a distributed environment.
-
-In a distributed environment, Inter-Process Communication (IPC) involves exchanging information between processes that are running on separate, networked computers. Its key characteristics are:
-
-* **Communication Model:** It can be **Message-Oriented**, where processes exchange discrete messages, or **Stream-Oriented**, which involves a continuous flow of data like audio or video.
-* **Synchronization:** It can be **Synchronous**, where the sender blocks (waits) until the message is received, or **Asynchronous**, where the sender continues executing immediately after sending.
-* **Persistence:** It may be **Persistent**, where the communication system stores a message until it's successfully delivered (like email), or **Transient**, where the message is discarded if it can't be delivered immediately (like a message in a router).
-* **Abstraction Level:** It can be low-level message passing or abstracted into higher-level models like **Remote Procedure Calls (RPC)** or **Remote Method Invocation (RMI)**, which hide the network communication from the programmer.
-
-*(Found on Pages: 24, 25, 27, 30)*
-
----
-
-### 39. With a suitable diagram, describe the communication process between distributed objects using Remote Method Invocation (RMI).
-
-Remote Method Invocation (RMI) allows an object in one JVM (the client) to invoke a method on an object in another JVM (the server). This communication is facilitated by two key components: the **Stub** on the client side and the **Skeleton** on the server side.
-
-
-```mermaid
-graph TD
-    subgraph "Client JVM"
-        ClientObj[Client Object]
-        Stub[Object Stub]
-        ClientRRL[Remote Reference Layer]
-        ClientTL[Transport Layer]
-        ClientObj --> Stub
-        Stub --> ClientRRL
-        ClientRRL --> ClientTL
-    end
-
-    subgraph "Server JVM"
-        ServerObj[Server Object]
-        Skeleton[Object Skeleton]
-        ServerRRL[Remote Reference Layer]
-        ServerTL[Transport Layer]
-        ServerTL --> ServerRRL
-        ServerRRL --> Skeleton
-        Skeleton --> ServerObj
-    end
-
-    ClientTL -- Request --> ServerTL
-    ServerTL -- Reply --> ClientTL
-```
-
-
-The process is as follows:
-1.  The client object makes a regular method call to the **Stub** object, which acts as a local proxy.
-2.  The Stub **marshals** (packages) the method parameters and transmits them, via the transport layer, to the server JVM.
-3.  The **Skeleton** on the server side receives the request and **unmarshals** the parameters.
-4.  The Skeleton invokes the corresponding method on the *actual* remote server object.
-5.  When the method finishes, the Skeleton **marshals** the return value and sends it back to the client.
-6.  The Stub receives the reply, **unmarshals** the return value, and passes it back to the original client object that made the call.
-
-
-*(Found on Pages: 30, 31)*
-
----
-
-### 40. Describe the request-reply protocol used in distributed communication.
-
-The request-reply protocol is a fundamental communication pattern in distributed systems, most commonly used in the **client-server architecture**. The protocol works in a few simple steps:
-
-1.  The **Client** process initiates the communication by sending a **Request** message to the Server process, asking for a service.
-2.  After sending the request, the Client typically blocks and **waits** for a response.
-3.  The **Server** process receives the request.
-4.  The Server **carries out** the requested service or operation.
-5.  Once the service is complete, the Server sends a **Reply** message back to the Client, containing the results.
-
-This basic protocol is the foundation for higher-level communication mechanisms like Remote Procedure Calls (RPC).
-
-*(Found on Pages: 10, 27)*
