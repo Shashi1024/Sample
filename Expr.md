@@ -1,556 +1,489 @@
-> *The reference page numbers are given from `IS.pdf`*
-
------
-
-## Short Answers
+# JEE Mains & Advanced Worksheet: Atomic Structure
 
 
-### 1. Define Brute force Attack.
 
-A Brute force attack is the application of computing and network resources to try every possible combination of options for a password. This is often an attempt to repeatedly guess passwords for commonly used accounts.
-(Found on Page 32, 160)
+**Instructions:**
 
----
+* **Single Correct:** Only one option is correct.
 
-### 2. List the components used in security models.
+* **Multiple Correct:** One or more options may be correct.
 
-The NSTISSC Security Model, for example, lists three dimensions (or components) that form a $3\times3\times3$ cube:
-* **Information States:** Storage, Processing, Transmission
-* **Security Characteristics:** Confidentiality, Integrity, Availability
-* **Security Measures:** Policy, Education, Technology
-(Found on Page 8-9)
+* **Numeric Value:** Enter a numerical value (integer or decimal).
+
+* **Matrix Match:** Match items from Column I to Column II.
+
+* **Assertion-Reason:** Choose the correct option based on the assertion and reason.
+
+
 
 ---
 
-### 3. Name the counter measures on threats.
 
-Counter measures on threats generally fall under risk control strategies. The four basic strategies are:
-* **Avoidance:** Applying safeguards to eliminate or prevent the exploitation of the vulnerability.
-* **Transference:** Shifting the risk to other areas or outside entities, such as by purchasing insurance.
-* **Mitigation:** Reducing the impact of an exploited vulnerability through planning and preparation, such as having a Disaster Recovery Plan.
-* **Acceptance:** Understanding and accepting the risk without implementing a control, often when the cost of the control outweighs the potential loss.
-(Found on Page 63-66)
 
----
+### Section 1: Single Correct Choice (MCQ)
 
-### 4. Explain the common methods for risk avoidance.
 
-The three common methods for risk avoidance are:
-1.  **Application of policy:** Using policies to guide organizational behavior and prevent risky actions.
-2.  **Application of Training & Education:** Ensuring personnel are properly trained and aware of security measures and threats.
-3.  **Application of Technology:** Using technology safeguards to counter threats and remove vulnerabilities.
-(Found on Page 64)
 
----
+**Q1.** Light of frequency $\nu$ is incident on a metal surface with threshold frequency $\nu_0$. The kinetic energy of the emitted photoelectrons is $K$. If the frequency of the incident radiation is doubled to $2\nu$, the kinetic energy of the emitted photoelectrons will be:
 
-### 5. State the roles involved in risk management.
+(A) $2K$
 
-The responsibility for risk management is shared across three main "communities of interest" within an organization:
-* **Information Security:** Understands threats and attacks, and takes a leadership role in addressing risk.
-* **Management & Users:** Allocates resources and understands the value of the information assets.
-* **Information Technology:** Builds and operates secure systems.
-(Found on Page 45)
+(B) $K + h\nu$
 
----
+(C) $2K + h\nu_0$
 
-### 6. Define policy. How it is different from law?
+(D) $K + h\nu_0$
 
-A **policy** is a course of action used by an organization to convey instructions from management to those who perform duties; it defines organizational rules for acceptable and unacceptable behavior. **Laws** are rules that mandate or prohibit certain behavior in society. The key difference is that laws carry the sanctions of a governing authority, while policies are enforced by an organization. Policies must also not conflict with laws.
-(Found on Page 35, 40, 81)
 
----
 
-### 7. Define Information Security?
+**Q2.** If the uncertainty in the position of a particle is numerically equal to its de Broglie wavelength ($\Delta x = \lambda$), what is the minimum uncertainty in its velocity ($\Delta v$)?
 
-Information security is a well-informed sense of assurance that the information risks and controls are in balance. It includes the broad areas of information security management, computer and data security, and network security, all aimed at protecting information and the systems that store, transport, and process it.
-(Found on Page 4, 166)
+(A) $v$
 
----
+(B) $\frac{v}{2\pi}$
 
-### 8. What are the components of an Information System?
+(C) $\frac{v}{4\pi}$
 
-The six components of an information system are:
-* Software
-* Hardware
-* Data
-* People
-* Procedures
-* Networks
-(Found on Page 9, 158)
+(D) $4\pi v$
 
----
 
-### 9. Why is it necessary to balance between Information Security and Access?
 
-It is necessary to balance information security and access because security cannot be absolute; it is a process, not a goal. An organization must provide adequate security while also ensuring its systems are feasible to access for legitimate applications. The goal is to balance protection (security) with availability (access) to authorized users.
-(Found on Page 12)
+**Q3.** The maximum number of electrons in an atom that can have the quantum numbers $n=4$ and $|m_l| = 1$ is:
 
----
+(A) 4
 
-### 10. What is brute force attack?
+(B) 6
 
-A Brute force attack is the application of computing and network resources to try every possible combination of options for a password. This is often an attempt to repeatedly guess passwords for commonly used accounts.
-(Found on Page 32, 160)
+(C) 8
 
----
+(D) 12
 
-### 11. What are the components of risk management?
 
-Risk management is the formal process of identifying and controlling risks. Its three main components (or steps) are:
-1.  **Risk Identification:** The process of examining and documenting the security posture of an organization's IT and the risks it faces.
-2.  **Risk Assessment:** The documentation of the results of the risk identification process.
-3.  **Risk Control:** The process of applying controls to reduce the risks to an organization's data and information systems.
-(Found on Page 42)
 
----
+**Q4.** A proton, a neutron, an electron, and an alpha particle have the same kinetic energy. Which one has the shortest de Broglie wavelength?
 
-### 12. Give a list of risk control strategies?
+(A) Proton
 
-The four basic risk control strategies are:
-* **Avoidance:** Applying safeguards to prevent the exploitation of a vulnerability.
-* **Transference:** Shifting the risk to other assets, processes, or outside entities (e.g., insurance).
-* **Mitigation:** Reducing the impact of an exploited vulnerability through planning and preparation (e.g., DRP, BCP).
-* **Acceptance:** The choice to do nothing to protect a vulnerability and accept the outcome of its exploitation.
-(Found on Page 63-64)
+(B) Neutron
 
----
+(C) Electron
 
-### 13. Define information security.
+(D) Alpha particle
 
-Information security is a well-informed sense of assurance that the information risks and controls are in balance. It includes the broad areas of information security management, computer and data security, and network security, all aimed at protecting information and the systems that store, transport, and process it.
-(Found on Page 4, 166)
 
----
 
-### 14. State the types of password attacks.
+**Q5.** What is the ratio of the time period of revolution ($T_1$) of an electron in the first orbit of a hydrogen atom to the time period ($T_2$) of an electron in the second orbit of a $\text{He}^+$ ion?
 
-The document lists several types of password attacks:
-* **Password Crack:** The general attempt to reverse-calculate a password, often by comparing a hashed password to the hash of a guessed password.
-* **Brute Force:** Trying every possible combination of options for a password.
-* **Dictionary Attack:** A form of brute force attack that narrows the field by using a list of common words and passwords instead of all possible combinations.
-(Found on Page 32-33)
+(A) 1:2
 
----
+(B) 1:8
 
-### 15. Differentiate DOS & DDOS.
+(C) 8:1
 
-A **Denial-of-Service (DoS)** attack is when an attacker sends a large number of connection or information requests to a single target, overwhelming it and making it unable to perform ordinary functions. A **Distributed Denial-of-Service (DDoS)** attack is an advanced form of a DoS attack where a *coordinated stream* of requests is launched against a target from *many different locations* at the same time, making it much harder to block.
-(Found on Page 33)
+(D) 1:4
 
----
 
-### 16. Define risk management.
 
-Risk management is the formal process of identifying and controlling the risks facing an organization. It involves three main steps: risk identification, risk assessment, and risk control.
-(Found on Page 42)
+**Q6.** Which of the following sets of quantum numbers is *not* permissible for an electron in an atom?
 
----
+(A) $n=3, l=2, m_l=-1, m_s=+1/2$
 
-### 17. Define firewall.
+(B) $n=2, l=1, m_l=0, m_s=-1/2$
 
-A firewall is a software or hardware component that restricts network communication between two computers or networks. It is a device that selectively discriminates against information flowing into or out of an organization, preventing specific types of information from moving between an untrusted network (like the Internet) and a trusted internal network.
-(Found on Page 98, 108, 163)
+(C) $n=4, l=3, m_l=+3, m_s=-1/2$
 
----
+(D) $n=3, l=1, m_l=-2, m_s=+1/2$
 
-### 18. Write the difference between criminal law and civil law.
 
-The document categorizes **Criminal Law** as a type of **Public Law**, which regulates the structure and administration of government agencies and their relationship with citizens. **Civil Law** (which includes commercial and family law) is described as **Private Law**, which regulates the relationship between individuals and organizations.
-(Found on Page 35, 174)
-
----
-
-### 19. What are the characteristics of Information Security?
-
-The key characteristics of information security (often expanding on the C.I.A. triangle) include:
-* **Confidentiality:** Ensures that only those with sufficient privileges may access certain information.
-* **Integrity:** The quality of being whole and uncorrupted; data cannot be modified without authorization.
-* **Availability:** Ensures that information is accessible to authorized users without interference.
-* **Privacy:** Information is used only for purposes known to the person providing it.
-* **Identification:** The ability to recognize individual users.
-* **Authentication:** Providing proof that a user possesses the identity they claim.
-* **Authorization:** Granting explicit permission to access, update, or delete content.
-* **Accountability:** The ability to attribute every activity to a named person or process.
-(Found on Page 5-8, 166)
-
----
-
-### 20. What are the multiple layers of security?
-
-A successful organization should have multiple layers of security, which include:
-* **Physical security:** Protecting people, physical assets, and the workplace.
-* **Personal security:** Protecting the people within the organization.
-* **Operations security:** Securing the organization's ability to carry out its activities without interruption.
-* **Communications security:** Protecting communications media, technology, and content.
-* **Network security:** Protecting data networking devices, connections, and contents.
-* **Information security:** Protecting information and its critical elements (systems, hardware, etc.).
-(Found on Page 4, 108, 166)
-
----
-
-### 21. What is the need for Security?
-
-The need for security is to ensure business continuity and reduce business damage by preventing and minimizing the impact of security incidents. At a practical level, it is needed to:
-* Ensure information remains **confidential** and only accessible by authorized users.
-* Ensure the **integrity** of information, so its accuracy can be depended upon.
-* Ensure the **availability** of information when it is needed.
-(Found on Page 21)
-
----
-
-### 22. What is the difference between Laws and Ethics?
-
-Laws are rules that mandate or prohibit certain behaviors in society, and they are drawn from ethics. The key difference is that **laws carry the sanctions of a governing authority**, while **ethics do not**. Ethics define socially acceptable behaviors, which in turn form the basis for laws.
-(Found on Page 35)
-
----
-
-### 23. What is risk and how to identify it?
-
-**Risk** is the probability that an undesired event can happen, such as the probability of a threat to a system. **Risk Identification** is the process of examining and documenting the security posture of an organization's information technology and the risks it faces. This process involves identifying, classifying, and prioritizing the organization's information assets, identifying the threats they face, and identifying the vulnerabilities that exist.
-(Found on Page 20, 42, 46, 159)
-
----
-
-### 24. Mention any one U.S. law related to Information Security.
-
-One U.S. law related to information security is the **Computer Fraud and Abuse Act of 1986**. This law defines and formalizes laws to counter threats from computer-related acts and offenses.
-(Found on Page 35, 37)
 
 ---
 
 
-## Long Answers
 
-Here are the answers to your questions, based on the provided PDF document.
+### Section 2: Multiple Correct Choices
 
----
 
-### 1. Describe the phases in the security systems development life cycle.
-The Security Systems Development Life Cycle (SecSDLC) adapts the traditional SDLC to focus on security. Its phases are:
 
-* **Investigation:** Begins with a directive from management, defining the project's goals, scope, and constraints.
-* **Analysis:** The team studies existing security, analyzes documents, and begins the risk management process to identify threats and vulnerabilities.
-* **Logical Design:** Creates the blueprints for security, including plans for incident response and business continuity.
-* **Physical Design:** The specific technologies (e.g., firewalls, IDS) and physical security measures needed to support the logical blueprint are evaluated and selected.
-* **Implementation:** Security solutions are acquired, tested, and implemented. This phase also includes personnel training.
-* **Maintenance and Change:** The final, ongoing phase involves constant monitoring, testing, modification, and updating of security controls to meet new threats.
+**Q7.** Select the correct statement(s) regarding a $3p_z$ orbital:
 
-(Source: IS.pdf, Pages 15-17)
+(A) The wave function $\psi$ is zero at the nucleus.
 
----
+(B) It has one radial node.
 
-### 2. List and explain the critical characteristics of information system.
+(C) It has one angular node.
 
-The document lists the critical characteristics of information, which are the goals of information security:
+(D) The probability density ($\psi^2$) is zero in the $xy$-plane.
 
-* **Confidentiality:** Ensures only authorized individuals can access information.
-* **Integrity:** Ensures information is whole, complete, and uncorrupted, and not modified without authorization.
-* **Availability:** Ensures information is accessible to authorized users when needed.
-* **Privacy:** Ensures information is used only for the purposes stated to the data owner.
-* **Identification:** The system's ability to recognize individual users.
-* **Authentication:** Providing proof that a user is the person they claim to be.
-* **Authorization:** Granting a user explicit permission to access, update, or delete information.
-* **Accountability:** Ensures activities can be traced to a specific person or process.
-* **Accuracy:** Information is free from mistakes or errors.
-* **Utility:** Information has value for a specific purpose.
-* **Possession:** Having ownership or control of the information.
 
-(Source: IS.pdf, Pages 5-8)
 
----
+**Q8.** According to Bohr's theory for the hydrogen atom:
 
-### 3. Explain the NSTISSC security model in detail.
+(A) The kinetic energy (K.E.) of the electron is equal to the negative of its total energy (T.E.).
 
-The NSTISSC (National Security Telecommunications and Information Systems Security Committee) Security Model, also known as the "security cube," provides a detailed, multi-dimensional perspective on security. It visualizes the security challenge as a 3x3x3 cube, with each of its 27 cells representing an area that must be addressed to secure an information system.
+(B) The potential energy (P.E.) is equal to twice the total energy (T.E.).
 
-The three dimensions (or axes) of the cube are:
+(C) The velocity of the electron in the $n^{th}$ orbit is inversely proportional to $n$.
 
-1.  **Security Goals (Y-axis):** This axis represents the core principles of security: **Confidentiality**, **Integrity**, and **Availability**.
-2.  **Information States (X-axis):** This axis represents the states in which information can exist: **Storage**, **Processing**, and **Transmission**.
-3.  **Security Countermeasures (Z-axis):** This represents the types of controls used to protect information: **Policy**, **Education (and Training)**, and **Technology**.
+(D) The radius of the $n^{th}$ orbit is directly proportional to $n$.
 
-To ensure a system is secure, each cell must be addressed. For example, the intersection of (Technology, Integrity, Storage) would require a control that uses technology (like a checksum) to protect the integrity of data while it is in storage.
 
-*(Source: IS.pdf, Pages 8-9)*
+
+**Q9.** Which of the following statements is/are correct?
+
+(A) For a $1s$ orbital, the probability density ($\psi^2$) is maximum at the nucleus.
+
+(B) For a $2s$ orbital, the radial probability distribution function ($4\pi r^2 R^2$) has two peaks.
+
+(C) The wave function $\psi$ can have negative values.
+
+(D) The $d_{xy}$ orbital has no angular nodes.
+
+
 
 ---
 
-### 4. Describe the process of risk identification in detail.
 
-Risk identification is the first major step in the formal risk management process. It involves examining and documenting the security posture of an organization's information technology and the risks it faces.
 
-The process of risk identification itself involves several steps:
+### Section 3: Numeric Value Type
 
-1.  **Asset Identification and Valuation:** This is the first step, where all elements of an organization's system (people, procedures, data, software, hardware, networks) are identified, classified, and prioritized. The organization also assigns a value to each asset.
-2.  **Threat Identification:** After identifying assets, a threat identification process is undertaken. This examines all threats (e.g., deliberate software attacks, forces of nature, human error) that present a danger to the organization's assets.
-3.  **Vulnerability Identification:** The circumstances and settings of each information asset are examined to identify specific vulnerabilities, or weaknesses, that could be exploited by the threats.
 
-At the end of this process, the organization has a comprehensive list of its assets and their associated vulnerabilities, which is then used in the next phase, risk assessment.
 
-*(Source: IS.pdf, Pages 43, 46)*
+**Q10.** An electron in a $\text{Li}^{2+}$ ion is in an excited state. It emits a photon of energy $108.8 \text{ eV}$ when it transitions to the ground state ($n=1$). Calculate the de Broglie wavelength (in Å) of this electron in the *initial* excited state. (Report your answer to two decimal places. Use $\pi \approx 3.14$, $r_1(\text{H}) = 0.529 \text{ Å}$).
+
+
+
+**Q11.** The total number of orbitals in the $n=4$ shell that have at least one radial node is ____.
+
+
+
+**Q12.** The wavelength of the third line of the Balmer series for a $\text{He}^+$ ion is $\lambda$. The value of $\frac{1}{\lambda R}$ (where R is the Rydberg constant) is ____. (Report your answer to two decimal places).
+
+
+
+**Q13.** When radiation of wavelength $\lambda = 248 \text{ nm}$ is incident on a metal surface, the stopping potential is found to be $3.1 \text{ V}$. What is the threshold wavelength (in nm) for this metal? (Use $hc = 1240 \text{ eV-nm}$). (Round off to the nearest integer).
+
+
+
+**Q14.** An electron in a hydrogen atom transitions from the $n=5$ state to the $n=1$ state. The maximum number of spectral lines that can be observed in the visible region (Balmer series) is ____.
+
+
 
 ---
 
-### 5. Discuss the risk control strategies that guide an organization.
 
-Once risks have been identified and assessed, an organization can choose from four basic strategies to control the risk:
 
-1.  **Avoidance:** This strategy attempts to prevent the exploitation of the vulnerability. This is accomplished by countering threats, removing the vulnerability, limiting access to the asset, or adding protective safeguards (e.g., applying new policies, training, or technology).
-2.  **Transference:** This strategy attempts to shift the risk to other assets, processes, or organizations. Common methods include outsourcing the service, purchasing insurance, or implementing service contracts with providers that hold them responsible for the risk.
-3.  **Mitigation:** This approach attempts to reduce the impact caused by the exploitation of a vulnerability. It relies on planning and preparation, primarily through three types of plans: the **Incident Response Plan (IRP)**, the **Disaster Recovery Plan (DRP)**, and the **Business Continuity Plan (BCP)**.
-4.  **Acceptance:** This is the choice to do nothing to protect a vulnerability and simply accept the outcome of its exploitation. This strategy is chosen when the organization has determined that the cost of protection is not justified by the value of the asset or the low probability of an attack.
+### Section 4: Assertion-Reason Type
 
-*(Source: IS.pdf, Pages 63-66)*
+
+
+**Instructions:** Choose the correct option.
+
+(A) Both Assertion (A) and Reason (R) are true, and R is the correct explanation of A.
+
+(B) Both Assertion (A) and Reason (R) are true, but R is *not* the correct explanation of A.
+
+(C) Assertion (A) is true, but Reason (R) is false.
+
+(D) Assertion (A) is false, but Reason (R) is true.
+
+(E) Both Assertion (A) and Reason (R) are false.
+
+
+
+**Q15.**
+
+* **Assertion (A):** The electronic configuration of Nitrogen (Z=7) is $1s^2 2s^2 2p_x^1 2p_y^1 2p_z^1$ and not $1s^2 2s^2 2p_x^2 2p_y^1$.
+
+* **Reason (R):** This is due to Hund's rule of maximum multiplicity, which states that electron pairing in degenerate orbitals starts only after all orbitals are singly occupied.
+
+
+
+**Q16.**
+
+* **Assertion (A):** A $3p$ orbital has one radial node.
+
+* **Reason (R):** The number of radial nodes for any orbital is given by the formula $n - l$.
+
+
 
 ---
 
-### 6. Describe the ethical concepts in information security.
 
-Ethics in information security are based on cultural mores that define socially acceptable behaviors. The key difference between ethics and laws is that laws carry the sanctions of a governing authority, while ethics do not.
 
-A major challenge is that cultural differences can create problems in determining what is ethical, as different nationalities may have different perspectives on computer use. Because many employees may not have the formal technical training to understand that their behavior (like illicit software use or misuse of corporate resources) is unethical or illegal, proper training is vital.
+### Section 5: Matrix Match Type
 
-The primary method for encouraging ethical behavior and preventing unethical activity is **deterrence**. Deterrence is only effective if three conditions are present:
-1.  Fear of penalty
-2.  Probability of being caught
-3.  Probability of the penalty being administered
 
-*(Source: IS.pdf, Pages 35, 40-41)*
 
----
+**Q17.** Match the entries in Column I with the appropriate entries in Column II.
 
-### 7. Explain the NIST security model in detail.
 
-The National Institute for Standards and Technology (NIST) provides a framework for designing security based on a series of publications, not a single model. Key documents include:
-
-* **SP 800-12:** *An Introduction to Computer Security* (a guide for managers).
-* **SP 800-14:** *Generally Accepted Security Principles and Practices*, which provides 33 principles (e.g., "Security Should Be Cost-Effective").
-* **SP 800-18:** *The Guide for Developing Security Plans for IT Systems*.
-
-This framework categorizes security controls into three sets:
-* **Management Controls:** Address security planning, risk management, and program management.
-* **Operational Controls:** Deal with the operational functionality of security, such as contingency planning, personnel security, and awareness training.
-* **Technical Controls:** Address the tactical issues of implementing security technology, such as logical access controls, authentication, and cryptography.
-
-(Source: IS.pdf, Pages 87-92)
+``` csv
+Column I,Column II
+(A) 1s orbital,(P) Orbital angular momentum is 2​ℏ
+(B) 2p orbital,(Q) Energy in a H-atom is −13.6 eV
+(C) 3dz2​ orbital,(R) Has two angular nodes
+(D) Photoelectric effect,(S) Involves a threshold frequency
+,(T) Probability density is non-zero at the nucleus
+```
 
 ---
 
-### 8. Describe the critical characteristics of information.
 
-This question is a duplicate of question 2. The critical characteristics of information are the goals of information security:
-
-* **Confidentiality:** Ensures only authorized individuals can access information.
-* **Integrity:** Ensures information is whole, complete, and uncorrupted, and not modified without authorization.
-* **Availability:** Ensures information is accessible to authorized users when needed.
-* **Privacy:** Ensures information is used only for the purposes stated to the data owner.
-* **Identification:** The system's ability to recognize individual users.
-* **Authentication:** Providing proof that a user is the person they claim to be.
-* **Authorization:** Granting a user explicit permission to access, update, or delete information.
-* **Accountability:** Ensures activities can be traced to a specific person or process.
-* **Accuracy:** Information is free from mistakes or errors.
-* **Utility:** Information has value for a specific purpose.
-* **Possession:** Having ownership or control of the information.
-
-(Source: IS.pdf, Pages 5-8)
 
 ---
 
-### 9. Differentiate SDLC & SSDLC.
 
-The **SDLC (Systems Development Life Cycle)** is the traditional methodology for the design and implementation of an information system to meet business needs. It follows six phases: Investigation, Analysis, Logical Design, Physical Design, Implementation, and Maintenance. Its primary focus is on system functionality.
 
-The **SecSDLC (Security Systems Development Life Cycle)** is an adaptation of the traditional SDLC that applies the same six-phase structure specifically to an information security project. The key difference is the *focus* and the *specific tasks* within each phase.
-
-* In the **SDLC**, the *Analysis* phase determines what the new system is expected to do.
-* In the **SecSDLC**, the *Analysis* phase involves conducting a formal risk analysis of existing security policies and documented threats.
-
-Similarly, the *Logical* and *Physical Design* phases of the SecSDLC are focused on creating security blueprints and selecting security controls, rather than general application and database design. The SecSDLC treats security as a formal development process, not as an afterthought to a traditional SDLC.
-
-*(Source: IS.pdf, Pages 13-17)*
-
----
-
-### 10. State the methods of identifying and assessing risk management.
-
-Risk management is a formal process composed of Risk Identification, Risk Assessment, and Risk Control. The methods for the first two steps are:
-
-**1. Risk Identification Methods:**
-* **Asset Identification:** Identifying, classifying, and prioritizing all information assets (e.g., people, data, hardware).
-* **Threat Identification:** A threat assessment that lists potential dangers to the assets (e.g., deliberate attacks, human error, forces of nature).
-* **Vulnerability Identification:** Examining each asset to list its specific weaknesses.
-
-**2. Risk Assessment Methods:**
-* **Asset Valuation:** Assigning a weighted score or financial value to each information asset.
-* **Likelihood Determination:** Determining the probability (often rated on a scale like 0.1 for low to 1.0 for high) that a specific vulnerability will be successfully attacked.
-* **Risk Calculation:** Assigning a relative risk score to each asset-vulnerability pair. A formula for this is:
-    $Risk = (\text{Likelihood of occurrence} \times \text{Value of asset}) - \% \text{Risk mitigated by current controls} + \text{Uncertainty}$
-* **Documentation:** The final result is a ranked vulnerability risk worksheet that prioritizes the risks that must be controlled.
-
-*(Source: IS.pdf, Pages 43, 46, 59-60)*
-
----
-
-### 11. Explain the three general categories of unethical and illegal behavior.
-
-The document supports the categorization of unethical and illegal behavior into three general types:
-
-1.  **Ignorance:** This is when an individual is unaware that their behavior is unethical or illegal. The text emphasizes that many employees may not have the formal technical training to understand that their actions (like software piracy or misuse of corporate resources) are wrong. This is why security education and awareness training are considered essential.
-2.  **Accident:** This category aligns with "Acts of Human Error or Failure." These are acts performed by an authorized user without malicious intent. They are often caused by inexperience, improper training, or incorrect assumptions, leading to accidental data deletion, modification, or storage in unprotected areas.
-3.  **Intent:** This covers all "Deliberate Acts" described in the threats section. This is when an individual or entity willfully and maliciously acts to compromise security. This includes deliberate acts of espionage (spying), trespass, theft, sabotage, vandalism, and deliberate software attacks (viruses, worms, etc.).
-
-*(Source: IS.pdf, Pages 23-25, 41, 174)*
-
----
-
-### 12. Describe Risk mitigation. Explain the planning approaches to mitigate risks.
-
-**Risk Mitigation** is one of the four primary risk control strategies. It is the control approach that attempts to **reduce the impact** caused by the exploitation of a vulnerability, rather than eliminating the vulnerability itself. This strategy relies on thorough planning and preparation for an incident. Mitigation begins with the ability to detect an attack quickly and respond efficiently.
-
-The three main planning approaches used for mitigation are:
-
-1.  **Incident Response Plan (IRP):** This plan defines the actions to take *during* an incident. It provides a coordinated set of procedures to identify, classify, and respond to an attack, answering questions like "What do I do now?" and "Whom should I contact?"
-2.  **Disaster Recovery Plan (DRP):** This is the most common mitigation procedure. It focuses on preparations completed *before* and actions taken *after* a disaster (like a fire, flood, or major attack). It includes detailed steps to restore systems and data to return to normal operations.
-3.  **Business Continuity Plan (BCP):** This is the most strategic and long-term plan. It ensures that critical business functions can continue even if a catastrophic event occurs that renders the primary site, database, or building unusable.
-
-*(Source: IS.pdf, Pages 64-66)*
-
----
-
-### 13. Explain various phases of Security in SDLC.
-The Security Systems Development Life Cycle (SecSDLC) incorporates security into the traditional SDLC. Its phases include:
-
-* **Investigation:** Begins with a directive from upper management. The project's goals, scope, and constraints are defined, and an organizational feasibility analysis is performed.
-* **Analysis:** The team analyzes existing security policies and programs. The risk management task begins here, involving the identification and assessment of risks facing the organization.
-* **Logical Design:** The team creates the blueprints for information security and plans for incident response and disaster recovery.
-* **Physical Design:** Specific technologies needed to support the logical blueprint are evaluated. Alternative solutions are generated, and a final feasibility study is conducted.
-* **Implementation:** Security solutions are acquired (bought or built), tested, and implemented. This phase also includes conducting training and education programs.
-* **Maintenance and Change:** An ongoing phase that involves constant monitoring, testing, modification, updating, and repairing of security solutions to meet changing threats.
-
----
-
-### 14. Explain, with the help of neat diagrams, NSTISSC security model.
-The NSTISSC (now CNSS) Security Model provides a detailed perspective on security by using a 3x3x3 cube. This model, also known as the McCumber Cube, illustrates the 27 cells that must be addressed to secure an information system.
+## Answers & Explanations
 
 
 
-The three dimensions of the model are:
+**1. (C) $2K + h\nu_0$**
 
-* **Security Goals (Vertical Axis):** The core principles of information security.
-    * Confidentiality
-    * Integrity
-    * Availability
-* **Information States (Horizontal Axis):** The states in which information can exist.
-    * Storage
-    * Processing
-    * Transmission
-* **Countermeasures (Depth Axis):** The controls used to protect information.
-    * Policy
-    * Education
-    * Technology
+* Case 1: $K = h\nu - h\nu_0$  (Equation 1)
 
-To ensure total security, a control (Policy, Education, or Technology) must be applied to address each goal (Confidentiality, Integrity, Availability) for every state (Storage, Processing, Transmission).
+* Case 2: $K_{new} = h(2\nu) - h\nu_0 = 2(h\nu) - h\nu_0$
 
----
+* From (1), $h\nu = K + h\nu_0$.
 
-### 15. Differentiate between quantitative and qualitative risk management practices.
-* **Quantitative Risk Assessment:** This approach uses **real numbers and financial values** to analyze risk. It involves calculating the Single Loss Expectancy (SLE), the Annualized Rate of Occurrence (ARO), and the Annualized Loss Expectancy (ALE). This data is used in a Cost-Benefit Analysis (CBA) to determine if a security control is worth its cost.
-* **Qualitative Risk Assessment:** This approach is used when **specific dollar amounts cannot be assigned**. It uses estimates based on subjective ranges or levels (e.g., High, Medium, Low). The Delphi Technique, where a group of experts iteratively rates information to reach a consensus, is a common process for this approach.
+* Substitute this into Case 2: $K_{new} = 2(K + h\nu_0) - h\nu_0 = 2K + 2h\nu_0 - h\nu_0 = 2K + h\nu_0$.
 
----
 
-### 16. Discuss laws related to Information Security.
-Laws are rules drawn from ethics that mandate or prohibit certain behaviors and are enforced by a governing authority. Key U.S. laws related to information security include:
 
-* **Computer Fraud and Abuse Act of 1986:** Defines and formalizes laws to counter threats from computer-related offenses.
-* **Computer Security Act of 1987:** Requires all federal computer systems containing classified information to have security plans and mandates periodic security training.
-* **USA Patriot Act of 2001:** Defines stiffer penalties for the prosecution of terrorist crimes.
-* **Health Insurance Portability & Accountability Act (HIPAA):** Regulates the collection, storage, and transmission of sensitive personal health care information.
-* **Gramm-Leach-Bliley Act of 1999:** Impacts the privacy of personal information used by financial institutions like banks, insurance, and securities firms.
-* **Digital Millennium Copyright Act (DMCA):** The U.S. law aimed at reducing the impact of copyright, trademark, and privacy infringement.
+**2. (C) $\frac{v}{4\pi}$**
 
----
+* Heisenberg's Principle: $\Delta x \cdot \Delta p \ge \frac{h}{4\pi}$. For minimum uncertainty, $\Delta x \cdot (m\Delta v) = \frac{h}{4\pi}$.
 
-### 17. Discuss about Risk Management Discussion points.
-The central discussion point in risk management is the organization's **risk appetite**. This is the quantity and nature of risk that an organization is willing to accept as it evaluates the trade-offs between perfect security and unlimited accessibility.
+* de Broglie's equation: $\lambda = \frac{h}{p} = \frac{h}{mv}$. So, $v = \frac{h}{m\lambda}$.
 
-Another key point is **residual risk**. This is the risk that remains to an information asset even after controls have been applied. The goal of risk management is to document the control strategy for each vulnerability and clearly identify any residual risk that remains.
+* Given $\Delta x = \lambda$.
 
----
+* Substitute into Heisenberg's: $\lambda \cdot (m\Delta v) = \frac{h}{4\pi} \implies \Delta v = \frac{h}{4\pi m\lambda}$.
 
-### 18. Explain SDLC in detail.
-The Systems Development Life Cycle (SDLC) is a formal methodology for designing and implementing an information system. It consists of 6 phases:
+* Now substitute $\lambda = \frac{h}{mv}$: $\Delta v = \frac{h}{4\pi m (\frac{h}{mv})} = \frac{h \cdot mv}{4\pi m h} = \frac{v}{4\pi}$.
 
-* **Investigation:** Examines the initiating event, specifies the project's objectives, scope, and constraints, and performs a feasibility analysis.
-* **Analysis:** Assesses current systems and determines what the new system must do and how it will interact with existing systems.
-* **Logical Design:** Creates the systems solution for the business problem, choosing applications and data structures based on business needs.
-* **Physical Design:** Selects specific technologies to support the logical design and evaluates components based on a "make-or-buy" decision.
-* **Implementation:** Software is created or acquired, tested, and installed. Users are trained, and the system is tested as a whole.
-* **Maintenance and Change:** The longest phase, involving all tasks to support and modify the system for its useful life, including managing upgrades and patches.
 
----
 
-### 19. Explain the categories of threat in detail.
-A threat is a category of objects, persons, or other entities that pose a potential danger to an asset. The categories include:
+**3. (D) 12**
 
-* **Acts of Human Error or Failure:** Unintentional acts by an authorized user, often due to inexperience or improper training.
-* **Compromises to Intellectual Property:** The unlawful use or duplication of ideas or software (software piracy).
-* **Deliberate Acts of Espionage or Trespass:** Unauthorized access to information, such as by "shoulder surfing" or industrial spying.
-* **Deliberate Acts of Information Extortion:** An attacker steals information and demands compensation for its return or nondisclosure.
-* **Deliberate Acts of Sabotage or Vandalism:** Acts to destroy an asset or damage an organization's image, including cyber terrorism.
-* **Deliberate Acts of Theft:** The illegal taking of physical, electronic, or intellectual property.
-* **Deliberate Software Attacks:** The use of malicious code (malware) such as viruses, worms, or Trojan horses.
-* **Forces of Nature:** Disasters like fire, flood, earthquake, and lightning.
-* **Deviations in Quality of Service:** Failures from interdependent support systems like power grids, ISPs, or telecom networks.
-* **Technical Hardware Failures or Errors:** Equipment flaws that cause unreliable service or loss of availability.
-* **Technical Software Failures or Errors:** Hidden faults or bugs in purchased software.
-* **Technological Obsolescence:** Outdated infrastructure that leads to unreliable and untrustworthy systems.
+* We need $n=4$ and $m_l = +1$ or $m_l = -1$.
 
----
+* This is not possible for $l=0$ ($4s$), as $m_l$ is only 0.
 
-### 20. Describe the goals and functions of Information Security.
-**Goals of Information Security:**
-The primary goals of information security are represented by the "C.I.A. triangle" and other critical characteristics:
+* For $l=1$ ($4p$): $m_l = +1$ and $m_l = -1$ are two orbitals. Each holds 2 electrons. Total = 4 electrons.
 
-* **Confidentiality:** Ensures that only those with sufficient privileges can access certain information.
-* **Integrity:** The state of being whole, complete, and uncorrupted; it means data cannot be modified without authorization.
-* **Availability:** Ensures that authorized users can access information without obstruction when it is needed.
-* **Other Goals:** These include Privacy, Identification, Authentication, Authorization, and Accountability.
+* For $l=2$ ($4d$): $m_l = +1$ and $m_l = -1$ are two orbitals. Each holds 2 electrons. Total = 4 electrons.
 
-**Functions of Information Security:**
-Information security performs four important functions for an organization:
+* For $l=3$ ($4f$): $m_l = +1$ and $m_l = -1$ are two orbitals. Each holds 2 electrons. Total = 4 electrons.
 
-* Protects the organization's ability to function.
-* Enables the safe operation of applications on the organization's IT systems.
-* Protects the data the organization collects and uses.
-* Safeguards the technology assets in use at the organization.
+* Total electrons = $4 (from 4p) + 4 (from 4d) + 4 (from 4f) = 12$.
 
----
 
-### 21. Explain risk management process in detail.
-Risk management is the formal process of identifying and controlling the risks facing an organization. It consists of three main steps:
 
-1.  **Risk Identification:** Examines and documents the security posture of an organization's IT. This involves identifying, classifying, and prioritizing the organization's assets (people, data, hardware, etc.), followed by threat identification and vulnerability identification to find weaknesses.
-2.  **Risk Assessment:** Assigns a risk rating or score to each vulnerable asset. This involves determining the Likelihood (probability) of an attack and multiplying it by the value (or impact) of the information asset. The result is often a ranked vulnerability risk worksheet that prioritizes which assets to protect first.
-3.  **Risk Control:** This is the process of applying controls to reduce the identified risks. The four basic control strategies are:
-    * **Avoidance:** Applying safeguards to prevent the exploitation of the vulnerability.
-    * **Transference:** Shifting the risk to other areas or outside entities, such as by purchasing insurance.
-    * **Mitigation:** Reducing the impact of an attack, often through preparatory plans like an Incident Response Plan (IRP) or Disaster Recovery Plan (DRP).
-    * **Acceptance:** The choice to do nothing to protect a vulnerability, often made when the cost of protection is not justified.
+**4. (D) Alpha particle**
 
----
+* $\lambda = \frac{h}{p}$. K.E. = $\frac{p^2}{2m}$, so $p = \sqrt{2m(\text{K.E.})}$.
 
-### 22. Write a short note on the history and evolution of Information Security.
-The history of information security can be traced to antiquity, with early examples like the **Caesar Cipher** (c. 50 B.C.) used by Julius Caesar to prevent secret messages from being read if captured.
+* $\lambda = \frac{h}{\sqrt{2m(\text{K.E.})}}$.
 
-The modern concept evolved from "computer security" in the late 20th and early 21st centuries, driven by rapid advancements in telecommunications, computing, and data encryption. As businesses became more dependent on IT, the concept expanded to "information security," covering a broader range of issues from data protection to human resources. This shifted security from being the sole responsibility of a discrete IT group to being the responsibility of every employee.
+* Since K.E. is constant, $\lambda \propto \frac{1}{\sqrt{m}}$.
 
----
+* The particle with the largest mass ($m$) will have the shortest wavelength ($\lambda$).
 
-### 23. Explain quantitative vs. qualitative approaches in risk management with examples.
-* **Quantitative Approach:** This method uses **objective, real numbers and financial values** to assess risk. It is used to perform a Cost-Benefit Analysis (CBA).
-    * **Example:** An organization calculates that a specific server (asset) is worth $100,000. They determine a successful attack would result in 60% loss, making the **Single Loss Expectancy (SLE) $60,000**. They estimate this attack will happen once every 10 years (an **Annualized Rate of Occurrence, ARO, of 0.1**). The **Annualized Loss Expectancy (ALE) is therefore $60,000 * 0.1 = $6,000**. The organization can use this $6,000 figure to justify spending on a control.
+* Mass order: $m_{\alpha} > m_n \approx m_p > m_e$. The alpha particle is the heaviest.
 
-* **Qualitative Approach:** This method uses **subjective estimates based on non-numerical ranges** or levels (e.g., High, Medium, Low). It is used when specific dollar amounts cannot be easily assigned.
-    * **Example:** Instead of dollar amounts, a team assesses the impact of a server failure as "**High**" and the likelihood of that failure as "**Medium**." This "**High-Medium**" risk rating is then used to prioritize it against other risks (e.g., a "Low-Low" risk) to determine which vulnerabilities to fix first. The Delphi Technique is a common process for getting a group of experts to agree on these qualitative rankings.
+
+
+**5. (A) 1:2**
+
+* Time period $T = \frac{\text{Circumference}}{\text{Velocity}} = \frac{2\pi r}{v}$.
+
+* Bohr's relations: $r \propto \frac{n^2}{Z}$ and $v \propto \frac{Z}{n}$.
+
+* Substitute: $T \propto \frac{(n^2/Z)}{(Z/n)} \implies T \propto \frac{n^3}{Z^2}$.
+
+* $T_1$ (H atom, $n=1, Z=1$): $T_1 \propto \frac{1^3}{1^2} = 1$.
+
+* $T_2$ ($\text{He}^+$ ion, $n=2, Z=2$): $T_2 \propto \frac{2^3}{2^2} = \frac{8}{4} = 2$.
+
+* Ratio $T_1 : T_2 = 1:2$.
+
+
+
+**6. (D) $n=3, l=1, m_l=-2, m_s=+1/2$**
+
+* The rules for quantum numbers are:
+
+    * $l$ can be $0$ to $n-1$.
+
+    * $m_l$ can be $-l$ to $+l$.
+
+* In option (D), $l=1$. Therefore, $m_l$ can only be -1, 0, or +1. It cannot be -2.
+
+
+
+**7. (A), (B), (C), (D)**
+
+* (A) $\psi$ for all $p, d, f$ orbitals (any orbital with $l>0$) is zero at the nucleus ($r=0$). True.
+
+* (B) $3p_z$ orbital: $n=3, l=1$. Radial nodes = $n - l - 1 = 3 - 1 - 1 = 1$. True.
+
+* (C) $3p_z$ orbital: $l=1$. Angular nodes = $l = 1$. True.
+
+* (D) The angular node for a $p_z$ orbital is the $xy$-plane (where $z=0$ or $\theta = 90^\circ$). By definition, the probability density $\psi^2$ is zero at a node. True.
+
+
+
+**8. (A), (B), (C)**
+
+* (A) K.E. = $-(\text{T.E.})$. T.E. = $-K$. Total Energy = $\frac{-kZ^2e^2}{2r_n}$. Kinetic Energy = $\frac{kZ^2e^2}{2r_n}$. True.
+
+* (B) P.E. = $2 \times (\text{T.E.})$. Potential Energy = $\frac{-kZ^2e^2}{r_n}$. This is twice the total energy. True.
+
+* (C) $v_n = (\frac{2\pi kZ e^2}{h}) \frac{1}{n}$. So $v_n \propto \frac{Z}{n}$. For H-atom ($Z=1$), $v_n \propto \frac{1}{n}$. True.
+
+* (D) $r_n = (\frac{h^2}{4\pi^2 mk e^2}) \frac{n^2}{Z}$. So $r_n \propto \frac{n^2}{Z}$. The radius is proportional to $n^2$, not $n$. False.
+
+
+
+**9. (A), (B), (C)**
+
+* (A) For a $1s$ orbital, $\psi$ has its maximum value at the nucleus ($r=0$), so $\psi^2$ is also maximum at the nucleus. True.
+
+* (B) Radial probability distribution function ($4\pi r^2 R^2$) vs $r$ plot for $2s$ (which has one radial node) starts at 0, has a small peak, goes to 0 at the node, then rises to a second, larger peak. It has two regions of probability, hence two peaks. True.
+
+* (C) $\psi$ is a wave amplitude and can be positive or negative (e.g., the two lobes of a $p$-orbital). $\psi^2$ (probability density) must be positive. True.
+
+* (D) $d_{xy}$ orbital has $l=2$, so it has $l=2$ angular nodes (the $xz$ and $yz$ planes). False.
+
+
+
+**10. 3.32**
+
+* 1. Find the initial state $n$:
+
+    * $\Delta E = 13.6 \times Z^2 (\frac{1}{n_1^2} - \frac{1}{n_2^2})$
+
+    * $108.8 \text{ eV} = 13.6 \times (3^2) (\frac{1}{1^2} - \frac{1}{n^2})$
+
+    * $108.8 = 122.4 (1 - \frac{1}{n^2})$
+
+    * $\frac{108.8}{122.4} = \frac{8}{9} = 1 - \frac{1}{n^2}$
+
+    * $\frac{1}{n^2} = 1 - \frac{8}{9} = \frac{1}{9} \implies n=3$.
+
+* 2. Find the radius of this orbit ($n=3, Z=3$):
+
+    * $r_n = 0.529 \frac{n^2}{Z} \text{ Å} = 0.529 \times \frac{3^2}{3} = 0.529 \times 3 = 1.587 \text{ Å}$.
+
+* 3. Find the de Broglie wavelength:
+
+    * Bohr's quantization: $mvr = \frac{nh}{2\pi} \implies p = mv = \frac{nh}{2\pi r}$.
+
+    * de Broglie: $\lambda = \frac{h}{p}$.
+
+    * $\lambda = \frac{h}{(nh / 2\pi r)} = \frac{2\pi r}{n}$.
+
+    * $\lambda = \frac{2 \times 3.14 \times 1.587 \text{ Å}}{3} = \frac{9.966}{3} \approx 3.32 \text{ Å}$.
+
+
+
+**11. 9**
+
+* Radial nodes = $n - l - 1$. We need $n-l-1 \ge 1$.
+
+* $n=4$ shell has $4s, 4p, 4d, 4f$.
+
+* $4s$ ($l=0$): $4-0-1 = 3$ radial nodes. (1 orbital)
+
+* $4p$ ($l=1$): $4-1-1 = 2$ radial nodes. (3 orbitals)
+
+* $4d$ ($l=2$): $4-2-1 = 1$ radial node. (5 orbitals)
+
+* $4f$ ($l=3$): $4-3-1 = 0$ radial nodes. (7 orbitals)
+
+* Total orbitals with at least one radial node = $1 (4s) + 3 (4p) + 5 (4d) = 9$.
+
+
+
+**12. 0.84**
+
+* Rydberg formula: $\frac{1}{\lambda} = R Z^2 (\frac{1}{n_1^2} - \frac{1}{n_2^2})$
+
+* Balmer series: $n_1 = 2$.
+
+* Third line: $n_2 = 2+3 = 5$.
+
+* Atom: $\text{He}^+$ ion, $Z=2$.
+
+* $\frac{1}{\lambda} = R \cdot (2^2) (\frac{1}{2^2} - \frac{1}{5^2}) = 4R (\frac{1}{4} - \frac{1}{25}) = 4R (\frac{25-4}{100}) = 4R (\frac{21}{100}) = \frac{84R}{100}$.
+
+* $\frac{1}{\lambda} = 0.84 R$.
+
+* The question asks for $\frac{1}{\lambda R} = \frac{0.84 R}{R} = 0.84$.
+
+
+
+**13. 653**
+
+* 1. Energy of incident photon: $E = \frac{hc}{\lambda} = \frac{1240 \text{ eV-nm}}{248 \text{ nm}} = 5.0 \text{ eV}$.
+
+* 2. Max Kinetic Energy: $K.E._{max} = e \times V_s = e \times 3.1 \text{ V} = 3.1 \text{ eV}$.
+
+* 3. Work function ($\Phi$): $E = \Phi + K.E._{max} \implies 5.0 \text{ eV} = \Phi + 3.1 \text{ eV} \implies \Phi = 1.9 \text{ eV}$.
+
+* 4. Threshold wavelength ($\lambda_0$): $\Phi = \frac{hc}{\lambda_0}$.
+
+* $1.9 \text{ eV} = \frac{1240 \text{ eV-nm}}{\lambda_0} \implies \lambda_0 = \frac{1240}{1.9} \approx 652.63 \text{ nm}$.
+
+* Rounding to the nearest integer gives 653.
+
+
+
+**14. 3**
+
+* Visible region = Balmer series (transitions ending at $n=2$).
+
+* The electron starts at $n=5$. It can cascade, so all transitions from states $\le 5$ to $n=2$ are possible.
+
+* These are:
+
+    * $n=5 \to n=2$ ($\lambda \approx 434 \text{ nm}$, Violet) - Visible
+
+    * $n=4 \to n=2$ ($\lambda \approx 486 \text{ nm}$, Blue-Green) - Visible
+
+    * $n=3 \to n=2$ ($\lambda \approx 656 \text{ nm}$, Red) - Visible
+
+* The transition $n=6 \to n=2$ is not possible as the electron starts at $n=5$.
+
+* Thus, a maximum of 3 lines are in the visible (Balmer) region.
+
+
+
+**15. (A)**
+
+* The Assertion is the correct electronic configuration of Nitrogen, based on Hund's rule.
+
+* The Reason is the correct statement of Hund's rule of maximum multiplicity.
+
+* The Reason correctly explains the Assertion.
+
+
+
+**16. (C)**
+
+* Assertion: For a $3p$ orbital, $n=3, l=1$. Radial nodes = $n - l - 1 = 3 - 1 - 1 = 1$. The assertion is true.
+
+* Reason: The formula for radial nodes is $n - l - 1$. The reason states it is $n - l$. The reason is false.
+
+
+
+**17. (A) $\to$ (Q), (T); (B) $\to$ (P); (C) $\to$ (R); (D) $\to$ (S)**
+
+* (A) $1s$ orbital: $n=1, l=0$. In H-atom, $E = -13.6/n^2 = -13.6 \text{ eV}$ $\to$ **(Q)**. As an $s$-orbital, its $\psi$ is maximum (non-zero) at the nucleus $\to$ **(T)**.
+
+* (B) $2p$ orbital: $n=2, l=1$. Orbital angular momentum = $\sqrt{l(l+1)}\hbar = \sqrt{1(1+1)}\hbar = \sqrt{2}\hbar$ $\to$ **(P)**.
+
+* (C) $3d_{z^2}$ orbital: $n=3, l=2$. Angular nodes = $l = 2$ (it has two conical nodes) $\to$ **(R)**.
+
+* (D) Photoelectric effect: The effect only occurs if the incident light's frequency is above a minimum value, the threshold frequency $\to$ **(S)**.
