@@ -102,7 +102,7 @@ graph TD
         A(Document Collection) --> B(Tokenization);
         B --> C(Linguistic Preprocessing);
         C --> D(Indexing);
-        D --> E[Inverted Index \n(Dictionary + Postings)];
+        D --> E["Inverted Index \n(Dictionary + Postings)"];
     end
 
     subgraph Querying Process
