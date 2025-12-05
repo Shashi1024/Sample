@@ -1,629 +1,540 @@
-# Web Technologies Lab Solutions
+# Distributed Systems Lab Solutions
 
-## Part 1: First Iteration
+This document contains Java implementations for the Distributed Systems lab questions.
 
-### Set-1
-
-**1. Create a HTML webpage to display an application form for Adhaar registration.**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Aadhaar Registration</title>
-</head>
-<body>
-    <h2>Aadhaar Registration Form</h2>
-    <form>
-        <label>First Name:</label> <input type="text" name="fname"><br><br>
-        <label>Last Name:</label> <input type="text" name="lname"><br><br>
-        
-        <label>Gender:</label>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female<br><br>
-        
-        <label>Mobile Number:</label> <input type="tel" name="mobile"><br><br>
-        
-        <label>Education:</label>
-        <select name="education">
-            <option value="10th">10th Pass</option>
-            <option value="12th">12th Pass</option>
-            <option value="Graduate">Graduate</option>
-        </select><br><br>
-        
-        <label>Address:</label> <textarea name="address"></textarea><br><br>
-        
-        <label>Marital Status:</label>
-        <input type="radio" name="status" value="Single"> Single
-        <input type="radio" name="status" value="Married"> Married<br><br>
-        
-        <label>Spouse Name:</label> <input type="text" name="spouse"><br><br>
-        <label>Children:</label> <input type="number" name="children"><br><br>
-        
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </form>
-</body>
-</html>
-```
-
-\
-**2. Write a JavaScript program to swap two numbers without using a third variable.**
-
-Mathematical Logic:
-$$a = a + b$$
-$$b = a - b$$
-$$a = a - b$$
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-    <h3>Swap Two Numbers (No 3rd Variable)</h3>
-    <p id="output"></p>
-    
-    <script>
-        let a = 10;
-        let b = 20;
-        let initial = "Before Swap: a = " + a + ", b = " + b;
-        
-        // Swapping logic
-        a = a + b;  // a becomes 30
-        b = a - b;  // b becomes 10
-        a = a - b;  // a becomes 20
-        
-        let final = "After Swap: a = " + a + ", b = " + b;
-        document.getElementById("output").innerHTML = initial + "<br>" + final;
-    </script>
-</body>
-</html>
-```
+**Note:** For Client-Server programs, you must always run the **Server** program first in one terminal, and then run the **Client** program in a separate terminal.
 
 ---
 
-### Set-2
+## SET-1
 
-**3. Create a HTML webpage to display an application form to apply for a MNC job.**
+### i) Write a JAVA program to implementation of Demo Client Server Connection establishment.
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>MNC Job Application</title>
-</head>
-<body>
-    <h2>MNC Job Application Form</h2>
-    <form>
-        <label>First Name:</label> <input type="text" name="fname"><br><br>
-        <label>Last Name:</label> <input type="text" name="lname"><br><br>
-        <label>Gender:</label> <input type="radio" name="gender" value="M"> Male <input type="radio" name="gender" value="F"> Female<br><br>
-        <label>Mobile:</label> <input type="tel" name="mobile"><br><br>
-        
-        <label>Education Details:</label><br>
-        <input type="checkbox" name="edu" value="10th"> 10th
-        <input type="checkbox" name="edu" value="Inter"> Inter
-        <input type="checkbox" name="edu" value="BTech"> B.Tech
-        <input type="checkbox" name="edu" value="MTech"> M.Tech<br><br>
-        
-        <label>Languages Known:</label> <input type="text" name="languages"><br><br>
-        <label>Passport Number:</label> <input type="text" name="passport"><br><br>
-        <label>Job Experience (Years):</label> <input type="number" name="exp"><br><br>
-        <label>Address:</label> <textarea name="addr"></textarea><br><br>
-        
-        <label>Marital Status:</label> <input type="text" name="marital"><br><br>
-        <label>Spouse Name:</label> <input type="text" name="spouse"><br><br>
-        <label>Children:</label> <input type="number" name="children"><br><br>
-        
-        <input type="submit" value="Apply">
-    </form>
-</body>
-</html>
-```
+**Server Side: `Server.java`**
+```java
+import java.io.*;
+import java.net.*;
 
-\
-**4. Write a Java Script program to find whether a number is even or odd.**
+public class Server {
+    public static void main(String[] args) {
+        try {
+            ServerSocket serverSocket = new ServerSocket(5000);
+            System.out.println("Server is waiting for connection...");
 
-```html
-<!DOCTYPE html>
-<html>
-<body>
-    <h3>Even or Odd Checker</h3>
-    <input type="number" id="numInput" placeholder="Enter a number">
-    <button onclick="checkEvenOdd()">Check</button>
-    <p id="result"></p>
+            Socket socket = serverSocket.accept();
+            System.out.println("Client Connected Successfully!");
 
-    <script>
-        function checkEvenOdd() {
-            // Get value from input
-            var num = document.getElementById("numInput").value;
-            
-            // Logic check
-            if (num % 2 === 0) {
-                document.getElementById("result").innerText = num + " is Even.";
-            } else {
-                document.getElementById("result").innerText = num + " is Odd.";
-            }
+            serverSocket.close();
+        } catch (Exception e) {
+            System.out.println(e);
         }
-    </script>
-</body>
-</html>
-```
-
----
-
-### Set-3
-
-**5. Create a login page with attractive design static website using HTML and CSS.**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        /* CSS Styling */
-        body { 
-            font-family: Arial, sans-serif; 
-            background-color: #f0f2f5; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-        }
-        .login-container { 
-            background-color: white; 
-            padding: 30px; 
-            border-radius: 8px; 
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-            width: 300px; 
-        }
-        input[type=text], input[type=password] { 
-            width: 100%; 
-            padding: 12px 20px; 
-            margin: 8px 0; 
-            display: inline-block; 
-            border: 1px solid #ccc; 
-            box-sizing: border-box; 
-        }
-        button { 
-            background-color: #4CAF50; 
-            color: white; 
-            padding: 14px 20px; 
-            margin: 8px 0; 
-            border: none; 
-            width: 100%; 
-            cursor: pointer; 
-        }
-        button:hover { opacity: 0.8; }
-    </style>
-</head>
-<body>
-    <div class="login-container">
-        <h2 style="text-align:center">Login</h2>
-        <form>
-            <label>Username</label>
-            <input type="text" placeholder="Enter Username" required>
-            
-            <label>Password</label>
-            <input type="password" placeholder="Enter Password" required>
-            
-            <button type="submit">Login</button>
-        </form>
-    </div>
-</body>
-</html>
-```
-
-\
-**6. Develop a dynamic website using JavaScript Event Handling.**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body { transition: background-color 0.5s; text-align: center; padding-top: 50px; }
-        #msg { font-size: 24px; font-weight: bold; }
-    </style>
-</head>
-<body id="bodyParams">
-    <h2 id="msg">Click the button to change theme!</h2>
-    <button onclick="changeTheme()">Toggle Dark Mode</button>
-
-    <script>
-        function changeTheme() {
-            var body = document.getElementById("bodyParams");
-            var text = document.getElementById("msg");
-            
-            // Toggle Logic
-            if (body.style.backgroundColor === "black") {
-                body.style.backgroundColor = "white";
-                body.style.color = "black";
-                text.innerText = "Light Mode Active";
-            } else {
-                body.style.backgroundColor = "black";
-                body.style.color = "white";
-                text.innerText = "Dark Mode Active";
-            }
-        }
-    </script>
-</body>
-</html>
-```
-
----
-
-### Set-4
-
-**7. Create a static website for a school using HTML and CSS.**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body { font-family: sans-serif; margin: 0; }
-        header { background: #003366; color: white; padding: 20px; text-align: center; }
-        nav { background: #ddd; padding: 10px; text-align: center; }
-        nav a { margin: 0 15px; text-decoration: none; color: #333; }
-        .container { padding: 20px; }
-        footer { background: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Green Valley High School</h1>
-    </header>
-    
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Admissions</a>
-        <a href="#">Academics</a>
-        <a href="#">Contact</a>
-    </nav>
-    
-    <div class="container">
-        <h2>Welcome to our School</h2>
-        <p>We provide world-class education with a focus on holistic development.</p>
-        <h3>Upcoming Events</h3>
-        <ul>
-            <li>Science Fair - Dec 10</li>
-            <li>Annual Sports Day - Dec 20</li>
-        </ul>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 Green Valley High School</p>
-    </footer>
-</body>
-</html>
-```
-
-\
-**8. Write a react application to create two components and render them in single file to display output. Each component should have different CSS properties and separate CSS file should be included.**
-
-**Comp1.css**
-```css
-.box-one { background-color: lightblue; padding: 20px; border: 2px solid blue; }
-```
-
-**Comp2.css**
-```css
-.box-two { background-color: lightcoral; padding: 20px; border: 2px dashed red; }
-```
-
-**App.js**
-```jsx
-import React from 'react';
-import './Comp1.css';
-import './Comp2.css';
-
-// Component 1
-function ComponentOne() {
-  return <div className="box-one"><h1>I am Component One</h1></div>;
+    }
 }
+```
 
-// Component 2
-function ComponentTwo() {
-  return <div className="box-two"><h1>I am Component Two</h1></div>;
+**Client Side: `Client.java`**
+```java
+import java.io.*;
+import java.net.*;
+
+public class Client {
+    public static void main(String[] args) {
+        try {
+            Socket socket = new Socket("localhost", 5000);
+            System.out.println("Connected to Server.");
+            socket.close();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 }
+```
 
-// Main App Component
-function App() {
-  return (
-    <div>
-      <ComponentOne />
-      <hr />
-      <ComponentTwo />
-    </div>
-  );
+<br>
+
+### ii) Write a JAVA program to implementation of Bulletin Board.
+
+**Server Side: `BulletinServer.java`**
+```java
+import java.io.*;
+import java.net.*;
+
+public class BulletinServer {
+    public static void main(String[] args) throws Exception {
+        ServerSocket serverSocket = new ServerSocket(5001);
+        System.out.println("Bulletin Board Server is running...");
+
+        while (true) {
+            Socket socket = serverSocket.accept();
+            DataInputStream dataIn = new DataInputStream(socket.getInputStream());
+            
+            String message = dataIn.readUTF();
+            System.out.println("New Bulletin Post: " + message);
+            
+            socket.close();
+        }
+    }
 }
+```
 
-export default App;
+**Client Side: `BulletinClient.java`**
+```java
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
+
+public class BulletinClient {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter message to post: ");
+        String message = scanner.nextLine();
+
+        Socket socket = new Socket("localhost", 5001);
+        DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream());
+        
+        dataOut.writeUTF(message);
+        System.out.println("Message posted to board.");
+        socket.close();
+    }
+}
 ```
 
 ---
 
-## Part 2: Second Iteration
+## SET-2
 
-### Set-1 (Revisited)
+### i) Write a JAVA program to implementation of Client Server Communication to find factorial of a given number.
 
-**1. Create a HTML webpage to create time table.**
+**Server Side: `FactorialServer.java`**
+```java
+import java.io.*;
+import java.net.*;
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        table { border-collapse: collapse; width: 80%; margin: auto; }
-        th, td { border: 1px solid black; padding: 10px; text-align: center; }
-        th { background-color: #f2f2f2; }
-    </style>
-</head>
-<body>
-    <h2 style="text-align:center">Class Time Table</h2>
-    <table>
-        <tr>
-            <th>Day</th>
-            <th>9.30-10.20</th>
-            <th>10.20-11.10</th>
-            <th>11.10-12.00</th>
-            <th>12.00-12.50</th>
-            <th>12.50-1.40</th>
-            <th>1.40-2.30</th>
-            <th>2.30-3.20</th>
-        </tr>
-        <tr>
-            <th>Mon</th>
-            <td>DS</td>
-            <td>IS</td>
-            <td>IRS</td>
-            <td>MAD</td>
-            <td rowspan="6">LUNCH</td> <td colspan="2">WT Lab</td> </tr>
-        <tr>
-            <th>Tue</th>
-            <td colspan="2">Project work</td>
-            <td>MAD</td>
-            <td>IRS</td>
-            <td colspan="2">Games</td>
-        </tr>
-        <tr>
-            <th>Wed</th>
-            <td colspan="2">WT lab</td>
-            <td>IS</td>
-            <td>DS</td>
-            <td colspan="2">Library</td>
-        </tr>
-        <tr>
-            <th>Thurs</th>
-            <td colspan="2">DS LAB</td>
-            <td>MAD</td>
-            <td>IS</td>
-            <td colspan="2">Sports</td>
-        </tr>
-        <tr>
-            <th>Fri</th>
-            <td>MAD</td>
-            <td>IS</td>
-            <td>IRS</td>
-            <td>DS</td>
-            <td colspan="2">DS lab</td>
-        </tr>
-        <tr>
-            <th>Sat</th>
-            <td colspan="2">Project work</td>
-            <td colspan="2">Games</td>
-            <td colspan="2">Club Activity</td>
-        </tr>
-    </table>
-</body>
-</html>
+public class FactorialServer {
+    public static void main(String[] args) throws Exception {
+        ServerSocket serverSocket = new ServerSocket(5002);
+        System.out.println("Factorial Server Ready...");
+        
+        Socket socket = serverSocket.accept();
+        DataInputStream dataIn = new DataInputStream(socket.getInputStream());
+        DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream());
+
+        int number = dataIn.readInt();
+        long factorial = 1;
+        for(int i = 1; i <= number; i++) {
+            factorial = factorial * i;
+        }
+
+        dataOut.writeLong(factorial);
+        socket.close();
+        serverSocket.close();
+    }
+}
 ```
 
-\
-**2. Write a JavaScript function to find the factorial of a given number.**
+**Client Side: `FactorialClient.java`**
+```java
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
 
-```html
-<!DOCTYPE html>
-<html>
-<body>
-    <h3>Factorial Calculator</h3>
-    <input type="number" id="num" placeholder="Enter number">
-    <button onclick="showFactorial()">Calculate</button>
-    <p id="res"></p>
+public class FactorialClient {
+    public static void main(String[] args) throws Exception {
+        Socket socket = new Socket("localhost", 5002);
+        DataInputStream dataIn = new DataInputStream(socket.getInputStream());
+        DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream());
+        Scanner scanner = new Scanner(System.in);
 
-    <script>
-        function showFactorial() {
-            let n = parseInt(document.getElementById("num").value);
-            let result = 1;
-            
-            if (n < 0) {
-                result = "Invalid input";
-            } else if (n === 0 || n === 1) {
-                result = 1;
-            } else {
-                for(let i = 2; i <= n; i++) {
-                    result = result * i;
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        dataOut.writeInt(number);
+        long result = dataIn.readLong();
+        System.out.println("Factorial is: " + result);
+
+        socket.close();
+    }
+}
+```
+
+<br>
+
+### ii) Write a JAVA program for Tic-tac-Toe game.
+
+**File: `TicTacToe.java`**
+```java
+import java.util.Scanner;
+
+public class TicTacToe {
+    public static void main(String[] args) {
+        char[][] board = new char[3][3];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) board[i][j] = '-';
+        }
+
+        Scanner scanner = new Scanner(System.in);
+        char currentPlayer = 'X';
+        boolean hasWon = false;
+
+        while (!hasWon) {
+            printBoard(board);
+            System.out.println("Player " + currentPlayer + " enter row (0-2) and col (0-2):");
+            int r = scanner.nextInt();
+            int c = scanner.nextInt();
+
+            if (r >= 0 && r < 3 && c >= 0 && c < 3 && board[r][c] == '-') {
+                board[r][c] = currentPlayer;
+                if (checkWin(board, currentPlayer)) {
+                    printBoard(board);
+                    System.out.println("Player " + currentPlayer + " Wins!");
+                    hasWon = true;
+                } else {
+                    currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
                 }
+            } else {
+                System.out.println("Invalid Move.");
             }
-            document.getElementById("res").innerText = "Factorial: " + result;
         }
-    </script>
-</body>
-</html>
+    }
+
+    public static void printBoard(char[][] board) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) System.out.print(board[i][j] + " ");
+            System.out.println();
+        }
+    }
+
+    public static boolean checkWin(char[][] b, char p) {
+        for (int i = 0; i < 3; i++) {
+            if (b[i][0]==p && b[i][1]==p && b[i][2]==p) return true;
+            if (b[0][i]==p && b[1][i]==p && b[2][i]==p) return true;
+        }
+        if (b[0][0]==p && b[1][1]==p && b[2][2]==p) return true;
+        if (b[0][2]==p && b[1][1]==p && b[2][0]==p) return true;
+        return false;
+    }
+}
 ```
 
 ---
 
-### Set-2 (Revisited)
+## SET-3
 
-**3. Create student Registration form apply various CSS attributes and style.**
+### i) Write a JAVA program to implementation of Domain Name Server.
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        .reg-form {
-            background-color: #e3f2fd;
-            width: 350px;
-            padding: 20px;
-            border: 2px solid #2196F3;
-            border-radius: 10px;
-            margin: auto;
-            font-family: verdana;
+**Server Side: `DNSServer.java` (UDP)**
+```java
+import java.io.*;
+import java.net.*;
+
+public class DNSServer {
+    public static void main(String[] args) throws Exception {
+        DatagramSocket serverSocket = new DatagramSocket(5003);
+        byte[] receiveData = new byte[1024];
+        
+        System.out.println("DNS Server is Up...");
+
+        while(true) {
+            DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+            serverSocket.receive(receivePacket);
+            
+            String domain = new String(receivePacket.getData(), 0, receivePacket.getLength());
+            String ip = "Host Not Found";
+
+            if(domain.equalsIgnoreCase("google.com")) ip = "142.250.190.46";
+            else if(domain.equalsIgnoreCase("localhost")) ip = "127.0.0.1";
+
+            InetAddress clientIP = receivePacket.getAddress();
+            int clientPort = receivePacket.getPort();
+            
+            byte[] sendData = ip.getBytes();
+            DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, clientIP, clientPort);
+            serverSocket.send(sendPacket);
         }
-        .reg-form h2 { text-align: center; color: #0d47a1; text-decoration: underline; }
-        .reg-form input[type=text] { width: 90%; padding: 8px; margin: 5px 0; border: 1px solid #ccc; border-radius: 4px; }
-        .reg-form input[type=submit] { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; width: 100%; }
-        .reg-form input[type=submit]:hover { background-color: #45a049; }
-    </style>
-</head>
-<body>
-    <div class="reg-form">
-        <h2>Student Registration</h2>
-        <form>
-            <label>Name:</label><br>
-            <input type="text" name="name"><br>
-            
-            <label>Roll Number:</label><br>
-            <input type="text" name="roll"><br>
-            
-            <label>Branch:</label><br>
-            <input type="text" name="branch"><br><br>
-            
-            <input type="submit" value="Register">
-        </form>
-    </div>
-</body>
-</html>
+    }
+}
 ```
 
-\
-**4. Write a react application to create two components and render them in single file...**
+**Client Side: `DNSClient.java` (UDP)**
+```java
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
 
-*(Same as Part 1, Set-4, Q8)*
+public class DNSClient {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        DatagramSocket clientSocket = new DatagramSocket();
+        InetAddress ipAddress = InetAddress.getByName("localhost");
 
-```jsx
-import React from 'react';
+        System.out.print("Enter Domain Name: ");
+        String domain = scanner.nextLine();
+        byte[] sendData = domain.getBytes();
 
-// Inline styles for simplicity in this example
-const styleOne = { backgroundColor: 'yellow', padding: '10px', margin: '10px' };
-const styleTwo = { backgroundColor: 'cyan', padding: '10px', margin: '10px' };
+        DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, ipAddress, 5003);
+        clientSocket.send(sendPacket);
 
-function CompOne() {
-    return <div style={styleOne}><h2>Component A</h2></div>;
+        byte[] receiveData = new byte[1024];
+        DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+        clientSocket.receive(receivePacket);
+
+        String ip = new String(receivePacket.getData(), 0, receivePacket.getLength());
+        System.out.println("IP Address: " + ip);
+        clientSocket.close();
+    }
 }
+```
 
-function CompTwo() {
-    return <div style={styleTwo}><h2>Component B</h2></div>;
-}
+<br>
 
-function App() {
-    return (
-        <div>
-            <CompOne />
-            <CompTwo />
-        </div>
-    );
+### ii) Write a JAVA program to implementation of TCP Client & Server communication.
+
+**Server Side: `TCPServer.java`**
+```java
+import java.io.*;
+import java.net.*;
+
+public class TCPServer {
+    public static void main(String[] args) throws Exception {
+        ServerSocket serverSocket = new ServerSocket(5004);
+        System.out.println("TCP Server Waiting...");
+        
+        Socket socket = serverSocket.accept();
+        DataInputStream dataIn = new DataInputStream(socket.getInputStream());
+        
+        String clientMsg = dataIn.readUTF();
+        System.out.println("Received: " + clientMsg);
+        
+        socket.close();
+        serverSocket.close();
+    }
 }
-export default App;
+```
+
+**Client Side: `TCPClient.java`**
+```java
+import java.io.*;
+import java.net.*;
+
+public class TCPClient {
+    public static void main(String[] args) throws Exception {
+        Socket socket = new Socket("localhost", 5004);
+        DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream());
+        
+        dataOut.writeUTF("Hello Server!");
+        System.out.println("Message sent.");
+        
+        socket.close();
+    }
+}
 ```
 
 ---
 
-### Set-3 (Revisited)
+## SET-4
 
-**5. Create a HTML webpage to display an application form for Adhaar registration.**
+### i) Write a JAVA program to implementation of Demo Client & Server communication.
 
-*(Refer to Part 1, Set-1, Question 1 for the code)*
+*(Standard TCP Connection)*
 
-\
-**6. Write a react application which implements number counter. (It should contain three buttons ‘increment’, ‘decrement’ and ‘reset’ to operate counter.)**
+**Server Side: `DemoServer.java`**
+```java
+import java.io.*;
+import java.net.*;
 
-```jsx
-import React, { useState } from 'react';
-
-function CounterApp() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Counter: {count}</h1>
-      <button onClick={() => setCount(count + 1)} style={{ marginRight: '10px' }}>Increment</button>
-      <button onClick={() => setCount(count - 1)} style={{ marginRight: '10px' }}>Decrement</button>
-      <button onClick={() => setCount(0)}>Reset</button>
-    </div>
-  );
+public class DemoServer {
+    public static void main(String[] args) throws Exception {
+        ServerSocket serverSocket = new ServerSocket(6000);
+        System.out.println("Server listening...");
+        Socket socket = serverSocket.accept();
+        System.out.println("Connection established.");
+        socket.close();
+    }
 }
+```
 
-export default CounterApp;
+**Client Side: `DemoClient.java`**
+```java
+import java.io.*;
+import java.net.*;
+
+public class DemoClient {
+    public static void main(String[] args) throws Exception {
+        Socket socket = new Socket("localhost", 6000);
+        System.out.println("Connected.");
+        socket.close();
+    }
+}
+```
+
+<br>
+
+### ii) Write a JAVA program to implement date service using RPC.
+
+*(Note: This uses Java RMI. Compile all files, then run `rmiregistry` in the background before running the Server).*
+
+**1. Interface: `DateInterface.java`**
+```java
+import java.rmi.*;
+
+public interface DateInterface extends Remote {
+    public String getDate() throws RemoteException;
+}
+```
+
+**2. Server: `DateServer.java`**
+```java
+import java.rmi.*;
+import java.rmi.server.*;
+import java.util.Date;
+
+public class DateServer extends UnicastRemoteObject implements DateInterface {
+    public DateServer() throws RemoteException { super(); }
+
+    public String getDate() { return new Date().toString(); }
+
+    public static void main(String[] args) {
+        try {
+            java.rmi.registry.LocateRegistry.createRegistry(1099);
+            DateServer obj = new DateServer();
+            Naming.rebind("DateService", obj);
+            System.out.println("Date Server Ready.");
+        } catch (Exception e) { System.out.println(e); }
+    }
+}
+```
+
+**3. Client: `DateClient.java`**
+```java
+import java.rmi.*;
+
+public class DateClient {
+    public static void main(String[] args) {
+        try {
+            DateInterface stub = (DateInterface) Naming.lookup("rmi://localhost/DateService");
+            System.out.println("Server Date: " + stub.getDate());
+        } catch (Exception e) { System.out.println(e); }
+    }
+}
 ```
 
 ---
 
-### Set-4 (Revisited)
+## SET-5
 
-**7. Develop a student registration form with validation support using java script.**
+### i) Write a JAVA program to implementation FTP Client & Server.
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Form Validation</title>
-</head>
-<body>
-    <h2>Registration with Validation</h2>
-    <form onsubmit="return validateForm()">
-        Name: <input type="text" id="sname"><br><br>
-        Email: <input type="text" id="email"><br><br>
-        <input type="submit" value="Register">
-    </form>
+**Server Side: `FTPServer.java`**
+```java
+import java.io.*;
+import java.net.*;
 
-    <script>
-        function validateForm() {
-            let name = document.getElementById("sname").value;
-            let email = document.getElementById("email").value;
-            
-            // Check if empty
-            if (name == "" || email == "") {
-                alert("All fields must be filled out");
-                return false;
+public class FTPServer {
+    public static void main(String[] args) throws Exception {
+        ServerSocket serverSocket = new ServerSocket(5005);
+        System.out.println("FTP Server Ready...");
+        Socket socket = serverSocket.accept();
+
+        DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream());
+        
+        // Ensure "test.txt" exists in the server directory
+        File file = new File("test.txt");
+        if(file.exists()){
+            FileInputStream fileIn = new FileInputStream(file);
+            int ch;
+            while ((ch = fileIn.read()) != -1) {
+                dataOut.writeInt(ch);
             }
-            
-            // Simple Email Regex check
-            let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-            if (!email.match(emailPattern)) {
-                alert("Please enter a valid email address");
-                return false;
-            }
-            
-            alert("Registration Successful!");
-            return true;
+            dataOut.writeInt(-1); // EOF
+            fileIn.close();
+            System.out.println("File sent.");
         }
-    </script>
-</body>
-</html>
+        socket.close();
+    }
+}
 ```
 
-\
-**8. How do you remove duplicates from an array in JavaScript**
+**Client Side: `FTPClient.java`**
+```java
+import java.io.*;
+import java.net.*;
 
-**Method 1: Using Set (Recommended)**
-```javascript
-let numbers = [1, 2, 2, 3, 4, 4, 5];
-// Set automatically removes duplicates, spread operator converts back to array
-let uniqueNumbers = [...new Set(numbers)];
-
-console.log(uniqueNumbers); // Output: [1, 2, 3, 4, 5]
+public class FTPClient {
+    public static void main(String[] args) throws Exception {
+        Socket socket = new Socket("localhost", 5005);
+        DataInputStream dataIn = new DataInputStream(socket.getInputStream());
+        
+        FileOutputStream fileOut = new FileOutputStream("received_copy.txt");
+        
+        int ch;
+        while ((ch = dataIn.readInt()) != -1) {
+            fileOut.write(ch);
+        }
+        
+        System.out.println("File received.");
+        fileOut.close();
+        socket.close();
+    }
+}
 ```
 
-**Method 2: Using Filter**
-```javascript
-let numbers = [1, 2, 2, 3, 4, 4, 5];
-let uniqueNumbers = numbers.filter((item, index) => {
-    // Returns true only if the current index is the first occurrence of the item
-    return numbers.indexOf(item) === index;
-});
+<br>
 
-console.log(uniqueNumbers); // Output: [1, 2, 3, 4, 5]
+### ii) Write a JAVA program to implementation of Chat Client & Server communication.
+
+**Server Side: `ChatServer.java`**
+```java
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
+
+public class ChatServer {
+    public static void main(String[] args) throws Exception {
+        ServerSocket serverSocket = new ServerSocket(5006);
+        System.out.println("Chat Server Started...");
+        Socket socket = serverSocket.accept();
+
+        DataInputStream dataIn = new DataInputStream(socket.getInputStream());
+        DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream());
+        Scanner scanner = new Scanner(System.in);
+
+        String msgIn = "", msgOut = "";
+        while (!msgIn.equals("stop")) {
+            msgIn = dataIn.readUTF();
+            System.out.println("Client: " + msgIn);
+            
+            System.out.print("Server: ");
+            msgOut = scanner.nextLine();
+            dataOut.writeUTF(msgOut);
+        }
+        socket.close();
+    }
+}
+```
+
+**Client Side: `ChatClient.java`**
+```java
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
+
+public class ChatClient {
+    public static void main(String[] args) throws Exception {
+        Socket socket = new Socket("localhost", 5006);
+        DataInputStream dataIn = new DataInputStream(socket.getInputStream());
+        DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream());
+        Scanner scanner = new Scanner(System.in);
+
+        String msgIn = "", msgOut = "";
+        while (!msgIn.equals("stop")) {
+            System.out.print("Client: ");
+            msgOut = scanner.nextLine();
+            dataOut.writeUTF(msgOut);
+            
+            msgIn = dataIn.readUTF();
+            System.out.println("Server: " + msgIn);
+        }
+        socket.close();
+    }
+}
 ```
