@@ -1,505 +1,416 @@
 
-# Distributed Systems Question Bank Solutions
+# Entrepreneurship & Project Management Exam Solutions
 
 ---
 
-**1. How to achieve fault tolerance in distributed object based systems?** \
-Fault tolerance in distributed object-based systems, such as CORBA, is primarily achieved through **object replication** or by grouping objects into **object groups**. This allows the system to mask failures; if one replica fails, others can continue to provide the service, ensuring high availability. In systems like Globe, specific **replication subobjects** handle consistency and replication strategies to ensure fault tolerance.
+### **1. Define Analysis of market demand**
+Analysis of market demand is a detailed study of various market segments to understand customer preferences, competitors, untapped demand, and prevalent trade practices. It aims to identify the depth and breadth of demand, flow of stock, and the status of customers regarding their buying capacity and preferences.
+*(Source: Ent_345.pdf, Page 21, 22)*
 
 ---
 
-**2. List the key components of CORBA architecture.** \
-The key components of the CORBA architecture include:
-* **Object Request Broker (ORB):** The core that connects clients and objects.
-* **IDL (Interface Definition Language):** Defines the object interfaces.
-* **Stub (Client Proxy):** Client-side code for marshaling requests.
-* **Skeleton:** Server-side code for unmarshaling requests.
-* **Object Adapter:** Handles incoming invocation requests on the server side.
-* **Interface Repository:** Database of interface definitions.
-* **Implementation Repository:** Database of object implementations.
-
-*(See diagram in `Dist_Sys_Unit_3_Notes_Part_2.pdf` Page 1)*
+### **2. Define Feasibility of Study**
+Feasibility analysis (or feasibility study) is an assessment used to evaluate the strengths and weaknesses of a proposed project and provide directions for activities to improve the project and achieve desired results. It helps determine if a project is doable, if it makes effective use of resources, and if it should be undertaken to avoid blocking useful resources on non-viable tasks.
+*(Source: Ent_345.pdf, Page 3)*
 
 ---
 
-**3. Write short notes on SOAP?** \
-**SOAP (Simple Object Access Protocol)** is a standard XML-based protocol used for exchanging structured information in the implementation of web services. A SOAP message consists of an **Envelope** (defines the start and end), an optional **Header** (attributes), and a **Body** (the actual XML data). It typically runs over HTTP but can use other transport protocols.
+### **3. List any two components of tax burden in a project**
+Two components of tax burden in a project include:
+1.  **Direct Taxes:** Such as Income Tax and Corporate Tax, which are paid directly by the entity.
+2.  **Indirect Taxes:** Such as GST on goods and inputs, and Customs duty on imported machinery.
+*(Source: Ent_345.pdf, Page 55)*
 
 ---
 
-**4. What are the key characteristics of distributed file system?** \
-The key characteristics include **transparency** (structure, access, naming, and replication transparency), **user mobility** (users can access files from any node), and **performance** (comparable to centralized systems). Other important characteristics are **simplicity**, **data integrity** (concurrency control), **high availability**, **scalability**, **security**, and **heterogeneity**.
+### **4. List any Three Activities involved in construction phase.**
+Three key activities involved in the construction phase are:
+1.  **Site Preparation:** Clearing land, arranging utilities, and ensuring safety measures.
+2.  **Resource Mobilization:** Arranging materials, labour, equipment, and contractors.
+3.  **Scheduling Work:** Following time plans, milestones, and daily progress plans to ensure timely completion.
+*(Source: Ent_345.pdf, Page 52)*
 
 ---
 
-**5. Define and identify the importance of Hadoop?** \
-**Hadoop** is an open-source framework provided by Apache to process and analyze very huge volumes of data (Big Data) using clusters of commodity hardware. Its importance lies in its ability to provide scalable storage via **HDFS (Hadoop Distributed File System)** and distributed processing via **MapReduce**, making it a cost-effective solution used by major tech companies like Facebook and Yahoo.
+### **5. Define Procrastination**
+Procrastination is the act of unnecessarily postponing decisions or actions despite knowing that there could be negative consequences. In an entrepreneurial context, it often stems from fear of failure, perfectionism, or feeling overwhelmed by the complexity of tasks, leading to delays in critical business activities like launching a product or making investment decisions.
+*(Source: Web Search, Ent_345.pdf context implied)*
 
 ---
 
-**6. How to analyze the BigData?** \
-Big Data in the Hadoop ecosystem is analyzed using tools like **Apache Pig** and **Apache Hive**. **Pig** uses a high-level data flow language (Pig Latin) to execute MapReduce jobs for exploring large datasets. **Hive** acts as a data warehouse, providing a SQL-like query language (HQL) to query and analyze structured data stored in HDFS.
+### **6. Explain Behavioral aspects of Entrepreneurial.**
+Behavioral aspects of entrepreneurship refer to the psychological and personality traits that influence an entrepreneur's actions and success. Key elements include **Self-efficacy**, which is the individual's belief in their ability to perform demanding tasks based on prior success and psychological state. Other aspects include responsiveness to **Change Behaviour**, which involves transforming human behavior based on environmental and personal characteristics, and **Social Learning**, where behavior is determined by the interaction of environmental and personal elements.
+*(Source: Ent_345.pdf, Page 83)*
 
 ---
 
-**7. How to achieve synchronization in distributed object based systems?** \
-Synchronization in distributed object-based systems is often handled via **transaction services** or **concurrency control** mechanisms provided by the middleware (e.g., CORBA Concurrency Control Service). In **DCOM**, synchronization can be managed through **transaction attributes** (e.g., REQUIRES NEW, REQUIRED) associated with class objects, ensuring atomic changes. In **Globe**, synchronization is managed within the **replication subobject** to control method invocations.
+### **7. Define the Project Finance.**
+Project finance is the financing of long-term infrastructure, industrial projects, and public services based on a non-resource or limited-resource financial structure. It is a loan structure that relies primarily on the project's cash flow for repayment, with the project's assets, rights, and interests held as security, rather than the general assets or creditworthiness of the project sponsors.
+*(Source: Ent_345.pdf, Page 44, 50)*
 
 ---
 
-**8. List the key components of Globe architecture.** \
-The key components of a **Globe local object** include:
-* **Semantics Subobject:** Implements the actual functionality of the object.
-* **Communication Subobject:** Handles network-independent communication.
-* **Replication Subobject:** Manages consistency and state replication logic.
-* **Control Subobject:** Connects the user-defined semantics to the replication subobject.
-
-*(See diagram in `Dist_Sys_Unit_3_Notes_Part_2.pdf` Page 12)*
+### **8. What is market and demand Analysis.**
+Market and demand analysis is a process carried out by a project manager to evaluate a project idea by understanding how a firm's abilities can be synchronized with market requirements. **Market analysis** studies market needs, consumer preferences, and the competitive landscape, while **Demand analysis** aims at calculating the aggregated demand for a particular product or service using forecasting techniques.
+*(Source: Ent_345.pdf, Page 4)*
 
 ---
 
-**9. Write short notes on REST?** \
-**REST (Representational State Transfer)** is an architectural style for distributed systems, particularly web services, that uses standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources identified by URIs. It emphasizes **stateless** communication, where each request contains all necessary information, and relies on a uniform interface to improve scalability and reliability.
+### **9. List any two components of tax burden**
+*(Refer to Answer 3)*
+1.  **Direct Taxes:** e.g., Capital Gains Tax.
+2.  **Indirect Taxes:** e.g., Excise duty (where applicable).
+*(Source: Ent_345.pdf, Page 55)*
 
 ---
 
-**10. What are the services of distributed file system?** \
-A distributed file system provides three main categories of services:
-1.  **Storage Service:** Allocation and management of space on secondary storage.
-2.  **True File Service:** Handles file-sharing semantics, caching, replication, and concurrency control.
-3.  **Name/Directory Service:** Manages directory operations like creation, deletion, and mapping names to files (naming transparency).
+### **10. Define Resource Mobilization.**
+Resource mobilization is a critical activity during the project execution and construction phase that involves arranging and organizing all necessary resources required for the project. This includes securing raw materials, hiring skilled and unskilled labour, procuring equipment and machinery, and appointing contractors to ensure the project proceeds according to plan.
+*(Source: Ent_345.pdf, Page 52)*
 
 ---
 
-**11. Define and identify the importance of MapReduce?** \
-**MapReduce** is a distributed data processing model and execution environment designed to run on large clusters of commodity machines. Its importance lies in its scalability and fault tolerance; it divides massive tasks into a **Map phase** (processing key-value pairs) and a **Reduce phase** (aggregating results), allowing parallel computation across thousands of nodes efficiently.
+### **11. What is Personality Determinants?**
+Personality determinants are the factors that shape and influence an individual's personality, affecting how they view, analyze, and respond to things. These include **Biological Factors** (heredity, brain, physical features), **Situational Factors** (environmental constraints and situations), **Cultural Factors** (beliefs and values of the society), and **Family/Social Factors** (socialization and identification processes).
+*(Source: Ent_345.pdf, Page 84)*
 
 ---
 
-**12. What is Apache web server?** \
-The **Apache Web Server** is a robust, open-source HTTP server that delivers web content to clients. It typically uses a process-based or thread-based architecture to handle incoming requests, processing them via modules (like PHP or SSL) and serving static or dynamic content back to the user's browser. It is a key component of the web infrastructure.
+### **12. What are Change behaviors?**
+Change behavior refers to any transformation or modification of human behavior, often explained by theories citing environmental, personal, and behavioral characteristics. The elements of change behavior include **Self-efficacy** (an impression of one's own ability), **Learning Theories** (behavior modified through learning simpler behaviors), and **Social Learning** (behavior determined by the interaction of environmental and personal elements).
+*(Source: Ent_345.pdf, Page 83)*
 
 ---
 
-**13. Explain in detail about DCOM in distributed object based systems?** \
-**DCOM (Distributed Component Object Model)** is Microsoft's extension of COM to support communication across networks.
-
-* **Overview:** It enables software components to communicate directly over a network in a reliable, secure, and efficient manner. It evolved from OLE and COM.
-* **Architecture:**
-    * **SCM (Service Control Manager):** Responsible for activating objects, similar to CORBA's implementation repository.
-    * **Object Proxy:** Client-side representation that handles marshaling.
-    * **Object Stub:** Server-side component that receives requests.
-    * **Registry:** Stores configuration and class information.
-* **Object Model:** DCOM enforces strict binary interfaces. Clients interact with interfaces (collections of operations) rather than objects directly. Interfaces are identified by unique IIDs (Interface Identifiers).
-* **Services:** DCOM relies on the underlying OS (Windows) for services like security, directory (Active Directory), and transactions (MTS/COM+), rather than defining its own specifications like CORBA.
-* **Garbage Collection:** It uses reference counting (AddRef/Release) and pinging for lifecycle management.
-
-*(See diagram in `Dist_Sys_Unit_3_Notes_Part_2.pdf` Page 7)*
+### **13. Explain the Leadership style.**
+Leadership style refers to the different behaviors or actions that a leader exhibits in different leadership positions to influence and support employees. The behavioral theory classifies leadership styles into three main types:
+1.  **Autocratic (Authoritarian):** The leader relies on discipline, authority, and control, does not consult subordinates, and is result-oriented.
+2.  **Democratic (Participative):** The leader involves employees in decision-making and shares information.
+3.  **Laissez-Faire (Free-rein):** The leader gives subordinates freedom to make decisions.
+*(Source: Ent_345.pdf, Page 88, 100)*
 
 ---
 
-**14. Discuss about the key components in CORBA architecture in detail?** \
-The **Common Object Request Broker Architecture (CORBA)** consists of several vital components facilitating distributed object communication:
-
-1.  **Object Request Broker (ORB):** The middleware core that acts as a software bus, allowing objects to communicate transparently across different machines and languages. It handles message routing and connection management.
-2.  **IDL (Interface Definition Language):** A declarative language used to define object interfaces independently of the implementation language. It maps to various languages like C++, Java, etc.
-3.  **Client Stubs (Static IDL Proxy):** Code generated from IDL that resides on the client. It provides a local interface for the remote object and handles the marshaling (packing) of parameters into messages.
-4.  **Server Skeletons:** Code on the server side that unmarshals arguments and calls the actual object implementation.
-5.  **Dynamic Invocation Interface (DII):** Allows clients to construct requests at runtime without having compile-time knowledge of the object interface (no static stub).
-6.  **Object Adapter (POA):** Sits between the ORB and the object implementation. It handles object reference generation, activation, and mapping requests to specific servants (code).
-7.  **Interface Repository:** A runtime database containing interface definitions, allowing dynamic discovery of methods.
-
-*(See diagram in `Dist_Sys_Unit_3_Notes_Part_2.pdf` Page 1)*
+### **14. What do you mean by Technical Analysis?**
+Technical analysis is a study used by engineering and technical experts to examine and formulate a project by assessing its technical viability. It involves analyzing aspects such as the manufacturing process/technology, technical arrangements, material inputs and utilities, product mix, plant capacity, location and site, machinery and equipment, and environmental aspects to ensure the project is technically feasible.
+*(Source: Ent_345.pdf, Page 2, 33)*
 
 ---
 
-**15. Discuss the Service Oriented Architecture (SOA) and its key features?** \
-**Service-Oriented Architecture (SOA)** is an architectural pattern where application components provide services to other components via a communications protocol, typically over a network.
-
-* **Definition:** It packages functionality as a set of interoperable services that can be used within multiple, separate systems from several business domains.
-* **Key Features:**
-    * **Interoperability:** Services can communicate despite different underlying languages or platforms.
-    * **Loose Coupling:** Services are independent; changes in one do not necessarily break others.
-    * **Reusability:** Services are designed to be reused in different applications.
-    * **Service Discovery:** Mechanisms exist to find services (e.g., UDDI).
-    * **Composition:** Multiple services can be combined to form complex applications.
-    * **QoS Support:** Facilitates Quality of Service through Service Level Agreements (SLAs).
+### **15. Differentiate Technical analysis and market demand analysis.**
+**Technical Analysis** focuses on the "how" of the project—it assesses the manufacturing process, technology, plant capacity, machinery, and location to ensure the project can physically be built and operated.
+**Market Demand Analysis** focuses on the "who" and "how much"—it evaluates customer needs, market trends, competition, and forecasts the demand for the product to ensure there is a market for what is being produced.
+*(Source: Ent_345.pdf, Page 2, 4, 33)*
 
 ---
 
-**16. List and explain the characteristics of Distributed file systems in detail?** \
-A Distributed File System (DFS) has several critical characteristics:
-
-1.  **Transparency:**
-    * **Structure Transparency:** Clients don't need to know the number or location of file servers.
-    * **Access Transparency:** Local and remote files are accessed using the same operations.
-    * **Naming Transparency:** File names do not reveal their physical location.
-    * **Replication Transparency:** Multiple copies of files are hidden from the user.
-2.  **User Mobility:** Users can access their files and environment (e.g., home directory) from any node in the system.
-3.  **Performance:** The system should offer performance comparable to a centralized file system, minimizing latency introduced by the network.
-4.  **Simplicity:** The interface should be simple, similar to local file systems, with a minimal command set.
-5.  **High Availability:** The system must continue to function despite partial failures (node or link crashes), often achieved through replication.
-6.  **Scalability:** The system should handle growth in nodes and users without significant service disruption.
-7.  **High Reliability:** Probability of data loss should be minimized via backups and fault tolerance.
-8.  **Heterogeneity:** Ability to access shared data across diverse hardware and operating system platforms.
+### **16. What is market demand analysis.**
+*(Refer to Answer 8)*
+It is the strategic step in project formulation that involves situational analysis, data collection, market survey, and demand forecasting to quantify potential sales and understand consumer behavior.
+*(Source: Ent_345.pdf, Page 4)*
 
 ---
 
-**17. Explain in detail about emerging trends in distributed systems?** \
-Distributed systems are evolving rapidly. Key emerging trends include:
-
-* **Ubiquitous Edge Computing:** Moving processing power closer to the data source (the "edge") to reduce latency. This includes **Edge-AI integration**, where AI processing happens locally on devices, and **Smart Infrastructure** for cities (traffic, energy) handled by distributed edge nodes.
-* **Cloud-Distributed Integration:** Cloud platforms are increasingly adopting distributed principles for **Scalable Infrastructure** (dynamic resource allocation) and **Load Balancing** to distribute traffic globally.
-* **Grid Computing:** Connecting disparate computers to act as a virtual supercomputer for data-intensive tasks.
-* **Security Enhancements:** Adoption of **Zero Trust Architectures** (never trust, always verify) and **Advanced Cryptography** (quantum-resistant algorithms) to protect distributed data.
-* **Quantum Computing:** Integration of **Quantum-Enhanced Systems** for optimization problems and the development of **Quantum Networks** for ultra-secure communication via entanglement.
-* **Interoperability:** A focus on open standards and APIs to allow seamless communication between diverse cross-domain systems.
+### **17. Write about time management.**
+Time management involves tools and processes that allow entrepreneurs to accomplish more in a set time period by identifying key uses of time and maximizing value. It is critical for entrepreneurs as they face daily challenges; it involves identifying time usage (e.g., meetings, travel) and determining if these activities add value, ultimately helping to reduce stress and improve organizational success.
+*(Source: Ent_345.pdf, Page 83)*
 
 ---
 
-**18. Discuss the security challenges in distributed coordination based systems?** \
-In distributed coordination systems like Publish/Subscribe, security is challenging due to the decoupling of publishers and subscribers.
-* **Content-Based Routing Security:** In content-based routing, routers need to inspect message content to make routing decisions. This conflicts with end-to-end encryption.
-* **Decoupling Issues:** Since publishers don't know subscribers, traditional authentication and access control are difficult.
-* **Solution Approach:** A trusted **Accounting Service (AS)** or Broker can be used. The publisher encrypts the message. The AS provides specific encryption/decryption keys to authorized subscribers, allowing them to decrypt content without the middleware needing full access to the plain text, thus balancing routing needs with data privacy.
+### **18. What are motivation aspects.**
+Motivation aspects in entrepreneurship refer to the internal and external factors that drive an entrepreneur to achieve goals, such as the desire for independence, financial rewards, and personal fulfillment. In the context of the syllabus, it includes understanding values, attitudes, and using incentives and a supportive environment to guide the team and maintain high morale and productivity.
+*(Source: Ent_345.pdf, Page 54, 83)*
 
 ---
 
-**19. Explain the key design issues in achieving fault tolerance and security in distributed object based systems?** \
-* **Fault Tolerance:** The primary design issue is masking failures.
-    * **Replication:** In **CORBA**, this is handled by a separate server/service (not built-in initially). In **Globe**, it is handled by the **Replication Subobject** within the local object, allowing object-specific consistency protocols.
-    * **Object Groups:** Creating groups of replicas where the client communicates with the group as a single entity (transparent to the client).
-* **Security:**
-    * **Trust & Authorization:** In **DCOM**, security is based on Windows (Kerberos, ACLs). In **Globe**, a **Security Subobject** checks for authorized communication and parameter values.
-    * **Level of Implementation:** **CORBA** defines a Security Service. **DCOM** uses the environment's security. **Globe** integrates security per object.
-    * **Decoupled Policy:** Separating the policy (rules) from the mechanism (enforcement) is key, allowing security policies to be passed to the ORB or middleware as local objects.
+### **19. What is technical analysis**
+*(Refer to Answer 14)*
+It is the evaluation of the technical resources, hardware, software, and engineering requirements needed to convert a project idea into a working system.
+*(Source: Ent_345.pdf, Page 3)*
 
 ---
 
-**20. Discuss about the key components of Sun NFS architecture in detail?** \
-The **Sun Network File System (NFS)** architecture allows remote file access over a network.
-* **Virtual File System (VFS):** An abstraction layer in the kernel that distinguishes between local and remote files. It provides a standard interface for system calls, redirecting remote requests to the NFS client.
-* **NFS Client:** A module on the client machine. When VFS detects a remote file request, it passes it to the NFS client, which wraps the request into RPC calls.
-* **NFS Server:** Runs on the server machine. It receives RPC requests, interacts with the local file system (via VFS), and returns results. It is stateless (in older versions).
-* **RPC (Remote Procedure Call):** The communication mechanism used to route requests between client and server.
-* **XDR (External Data Representation):** A standard data serialization format used by RPC to ensure data compatibility across heterogeneous machines.
-* **Mount Protocol:** A separate protocol used to mount remote file systems into the local directory hierarchy before they can be accessed.
-
-*(See diagram in `Dist_Sys_Unit_4_Notes.pdf` Page 27)*
+### **20. Differentiate technical analysis and market demand analysis.**
+*(Refer to Answer 15)*
+Technical analysis deals with the internal capability to produce (machines, site, technology), whereas market demand analysis deals with the external opportunity to sell (customers, price, competitors).
+*(Source: Ent_345.pdf, Page 2, 4)*
 
 ---
 
-**21. Explain the types of distributed file systems in detail?** \
-Distributed file systems can be broadly categorized into:
-
-1.  **Network File Systems (NFS-like):**
-    * Based on a **Client-Server Architecture**.
-    * The server exports a directory, and the client mounts it.
-    * File access is transparent; remote files look local.
-    * Examples: **Sun NFS**, **AFS (Andrew File System)**. AFS uses stateful servers and aggressive caching (Venus/Vice), while NFS is typically stateless (v3).
-2.  **Cluster-Based Distributed File Systems:**
-    * Designed for massive scalability and high throughput, often running on commodity hardware.
-    * **Striping:** Files are split into chunks (e.g., 64MB) and distributed across many nodes.
-    * **Master/Chunkserver Model:** A single master handles metadata, while multiple chunkservers store data.
-    * Example: **Google File System (GFS)**. It optimizes for large files and append-heavy workloads.
-3.  **Peer-to-Peer / DHT-Based Systems:**
-    * Decentralized storage where every node acts as both client and server.
-    * Uses Distributed Hash Tables (DHT) like Chord for locating files.
-    * Example: **Ivy**, **Past**.
+### **21. What are the types of personality determinant?**
+The four main types of personality determinants are:
+1.  **Biological Factors:** Heredity, brain structure, and physical features.
+2.  **Situational Factors:** The specific environment or situation a person is placed in.
+3.  **Cultural Factors:** Beliefs, values, and patterns of behavior expected by society/culture.
+4.  **Family and Social Factors:** The influence of socialization and family upbringing.
+*(Source: Ent_345.pdf, Page 84)*
 
 ---
 
-**22. Define web proxy caching and mention its role in distributed computing with suitable examples.** \
-**Web Proxy Caching** involves using an intermediary server (proxy) to store copies of frequently accessed web content (pages, images). When a client requests a resource, the proxy checks its local cache. If found, it serves it directly; otherwise, it fetches it from the original server.
-* **Role:** It significantly reduces network traffic, lowers latency for users, and reduces the load on the origin server.
-* **Example:** In a corporate network, a proxy server caches the company's daily news page. When 1000 employees access it, the page is fetched once from the external web server and served 999 times from the local proxy cache.
-
-*(See diagram in `Dist_Sys_Unit_4_Notes.pdf` Page 40)*
+### **22. Explain the elements of project organization for successful implementation**
+Project organization involves structuring roles and responsibilities to execute a project effectively. Key elements include:
+* **Structure:** Choosing between Functional, Project (Pure), or Matrix organizations based on needs.
+* **Roles:** Defining the Project Manager, Functional Specialists, Support Team, and Contractors.
+* **Coordination:** Ensuring harmonious work among multi-department teams.
+* **Communication:** Establishing clear instructions and reporting mechanisms.
+* **Leadership:** Motivating and guiding the team towards objectives.
+*(Source: Ent_345.pdf, Page 52, 53)*
 
 ---
 
-**23. Describe the architecture of distributed coordination based system with a neat sketch?** \
-The architecture of a distributed coordination-based system (specifically **Publish/Subscribe**) decouples the sender (publisher) and receiver (subscriber).
+### **23. Explain the various determinants of personalities in detail.**
+Personality is shaped by a complex interaction of several determinants:
+1.  **Biological Factors:** These are innate characteristics. **Heredity** transmits qualities from parents to children. The **Brain** structure plays a role in personality, and **Physical Features** (height, appearance) influence how others interact with the individual and their self-image.
+2.  **Situational Factors:** A person's personality can change depending on the situation. The constraints or pushes provided by a specific environment (e.g., a stressful business meeting vs. a family gathering) determine actions, sometimes more than innate traits.
+3.  **Cultural Factors:** Culture dictates the "rules of the game" for behavior. It instills values regarding independence, aggression, competition, and cooperation. Individuals are often conditioned to behave in ways that their culture considers acceptable.
+4.  **Family and Social Factors:** The socialization process within the family and identification with social groups significantly mold personality. Early childhood experiences and the role models within the family set the foundation for future behavioral patterns.
+*(Source: Ent_345.pdf, Page 84)*
 
-* **Publishers** generate data items (events) and send them to the middleware.
-* **Subscribers** register their interest in specific data items via **subscriptions** (using attributes or topics).
-* **Middleware:** The core component that matches published events to subscriptions. It manages the **Event Channel**.
-* **Delivery:** Upon a match, the middleware delivers the data to the subscriber (Push) or sends a notification for the subscriber to fetch it (Pull/Read).
+---
+
+### **24. Explain Financial analysis and list out necessary technical analysis.**
+**Financial Analysis** is the process of identifying the financial strengths and weaknesses of a firm by establishing relationships between items of the Balance Sheet and Income Statement. Its objectives are to measure short-term and long-term solvency, operating efficiency, and profitability. In project formulation, it involves estimating project costs, operating costs, fund requirements, and using tools like discounted cash flow.
+
+**Necessary Technical Analysis** includes evaluating:
+1.  **Manufacturing Process/Technology:** Selecting the right technology.
+2.  **Plant Capacity:** Determining feasible normal and nominal maximum capacity.
+3.  **Location and Site:** Assessing proximity to markets and raw materials.
+4.  **Machineries and Equipments:** Selection based on production level.
+5.  **Structure and Civil Works:** Site preparation, buildings, and outdoor works.
+6.  **Environmental Aspects:** Effluent disposal and eco-friendly standards.
+*(Source: Ent_345.pdf, Page 29, 30, 33-38)*
+
+---
+
+### **25. Explain Urgency time management matrix?**
+The Urgency Time Management Matrix (often associated with Stephen Covey) classifies tasks based on two dimensions: **Urgency** and **Importance**. This helps in prioritizing work effectively.
+
+* **Quadrant I (Urgent & Important):** Crises, pressing problems, and deadline-driven projects. These require immediate attention.
+* **Quadrant II (Not Urgent but Important):** Prevention, relationship building, recognizing new opportunities, planning, and recreation. This is where effective entrepreneurs should spend most of their time for long-term success.
+* **Quadrant III (Urgent but Not Important):** Interruptions, some calls, some mail, some reports, and pressing matters. These are often distractions disguised as work.
+* **Quadrant IV (Not Urgent & Not Important):** Trivia, busy work, time wasters, and excessive relaxation. These should be minimized or eliminated.
+
+```mermaid
+quadrantChart
+    title Time Management Matrix
+    x-axis Low Urgency --> High Urgency
+    y-axis Low Importance --> High Importance
+    quadrant-1 "Quadrant II: Quality & Leadership"
+    quadrant-2 "Quadrant I: Necessity & Crises"
+    quadrant-3 "Quadrant IV: Waste"
+    quadrant-4 "Quadrant III: Deception"
+    "Planning": [0.2, 0.8]
+    "Crises": [0.8, 0.8]
+    " interruptions": [0.8, 0.2]
+    "Trivia": [0.2, 0.2]
+
+```
+
+*(Source: Ent_345.pdf, Page 83 (Context); Web Search for details; Diagram conceptual)*
+
+---
+
+### **26. Explain Project planning CPM techniques.**
+
+**Critical Path Method (CPM)** is a deterministic project planning technique used when activity times are known and fixed. It is widely used in construction and manufacturing to optimize resource allocation and cost control.
+
+**Steps in CPM:**
+
+1. **Identify Activities:** List all tasks required to complete the project.
+2. **Sequence Activities:** Determine the dependency between tasks.
+3. **Draw Network Diagram:** Visual representation of the sequence.
+4. **Estimate Time:** Assign a fixed duration to each activity.
+5. **Identify Critical Path:** Calculate the longest path through the network; this determines the shortest time in which the project can be completed.
+6. **Control:** Focus on critical activities to prevent delays, as any delay on the critical path delays the entire project.
+
+**Equation for Earliest/Latest times (Concept):**
+$$ EST = \max(EFT \text{ of predecessors}) $$
+$$ LST = \min(LS \text{ of successors}) - \text{Duration} $$
+*(Source: Ent_345.pdf, Page 53)*
+
+---
+
+### **27. Explain PERT Techniques in detail.**
+
+**Program Evaluation and Review Technique (PERT)** is a probabilistic model used for project management when activity durations are uncertain, such as in R&D or new product development. Unlike CPM, PERT accounts for time variation by using three time estimates for each activity.
+
+**Three Time Estimates:**
+
+1. **Optimistic time ():** The minimum time required if everything goes perfectly.
+2. **Most likely time ():** The time required under normal conditions.
+3. **Pessimistic time ():** The maximum time required if things go wrong.
+
+**Expected Time () Formula:**
+The weighted average of the three estimates is calculated as:
+$$ TE = \frac{O + 4M + P}{6} $$
+
+**Key Features:**
+
+* **Event-Oriented:** Focuses on the start and completion of events.
+* **Risk Analysis:** Helps in analyzing the probability of completing a project by a scheduled date.
+* **Network Diagram:** Similar to CPM, it uses a network to visualize tasks but focuses on the uncertainty of time.
+*(Source: Ent_345.pdf, Page 54)*
+
+---
+
+### **28. Explain Time management strengths and weaknesses in detail.**
+
+Time management approaches have distinct strengths and weaknesses that entrepreneurs must navigate:
+
+**Strengths:**
+
+* **Productivity:** Effective time management allows individuals to accomplish more in less time.
+* **Stress Reduction:** By prioritizing tasks (e.g., using the Matrix), entrepreneurs reduce the anxiety of "fire-fighting" urgent issues.
+* **Goal Achievement:** It ensures time is allocated to Quadrant II (Important/Not Urgent) activities like planning, which drives long-term success.
+* **Resource Optimization:** Helps in identifying key uses of time and minimizing waste on trivial activities.
+
+**Weaknesses (Potential Pitfalls):**
+
+* **Urgency Addiction:** Entrepreneurs may become addicted to the "rush" of solving urgent problems (Quadrant I & III), neglecting long-term planning.
+* **Rigidity:** Over-structuring time can reduce flexibility, which is often needed in dynamic entrepreneurial environments.
+* **Misidentification:** Failing to distinguish between "Urgent" and "Important" leads to spending time on Quadrant III (Deception), thinking it is productive.
+*(Source: Ent_345.pdf, Page 83)*
+
+---
+
+### **29. Describe in detail about attributes and models?**
+
+This question refers to the attributes of personality and leadership models in entrepreneurship.
+
+**Personality Attributes (Big-Five Model):**
+
+1. **Extroversion:** Sociable, assertive, and spirited. High scorers are outgoing; low scorers are introverted.
+2. **Emotional Stability:** Ability to withstand stress. High scorers are calm and confident; low scorers are anxious.
+3. **Agreeableness:** Tendency to be cooperative and compassionate.
+4. **Conscientiousness:** Measure of reliability, organization, and persistence.
+5. **Openness:** Interest in novelty and creativity. High scorers are innovative.
+
+**Physiognomy Personality Model (Sheldon):**
+
+* **Endomorph:** Comfort-loving, sociable, slow reaction.
+* **Mesomorph:** Aggressive, risk-taking, active, competitive (often associated with leadership).
+* **Ectomorph:** Anxious, ambitious, inhibited, solitary.
+
+**Leadership Models:**
+
+* **Trait Theory:** Leaders are born with specific traits like drive, integrity, and self-confidence.
+* **Behavioral Theory:** Leadership is defined by actions (Task-oriented vs. People-oriented).
+* **Managerial Grid:** Classifies leaders based on concern for production vs. people (e.g., Team Management 9,9).
+* **Situational Leadership:** Effectiveness depends on the match between leader style and situational factors.
+*(Source: Ent_345.pdf, Page 86, 87, 96, 98)*
+
+---
+
+### **30. Discuss the project management during construction phase.**
+
+Project management during the construction phase deals with converting the project plan into physical reality. The objective is to complete the project within time, budget, and quality parameters.
+
+**Key Activities:**
+
+1. **Site Preparation:** Grading, leveling, and connecting utilities.
+2. **Resource Mobilization:** organizing materials, labour, and machinery.
+3. **Scheduling:** Strictly following time plans and milestones.
+4. **Quality Control:** Testing materials and ensuring construction standards are met.
+5. **Cost Control:** Monitoring expenses to prevent wastage and overruns.
+6. **Coordination:** Managing interactions between architects, engineers, and contractors.
+7. **Risk & Safety Management:** Compliance with laws and managing hazards.
+*(Source: Ent_345.pdf, Page 52)*
+
+---
+
+### **31. What are strengths? Explain motivation aspects in details.**
+
+**Strengths (in context of SWOT/Project):** Strengths are internal capabilities or resources that help an entity achieve its objectives. In project formulation, this could be technical expertise, financial solvency, or a strong market demand.
+
+**Motivation Aspects in Entrepreneurship:**
+Motivation is the drive that initiates, guides, and maintains goal-oriented behaviors.
+
+1. **Leadership Role:** A leader must motivate the team by creating a supportive environment and providing incentives.
+2. **Internal/External Factors:** Entrepreneurs are motivated by "pull" factors (opportunity, independence) or "push" factors (necessity).
+3. **Path-Goal Theory:** Leaders motivate subordinates by clarifying the path to goals, removing obstacles, and providing rewards.
+4. **Human Factors:** Recognition, training, and a positive work culture are crucial for sustaining motivation among the project team.
+*(Source: Ent_345.pdf, Page 54, 99)*
+
+---
+
+### **32. Explain in a detail about project organization.**
+
+Project organization is the structure that facilitates the coordination and implementation of project activities. It defines the relationships between the project manager, the team, and other stakeholders.
+
+**Types of Project Organization:**
+
+1. **Functional Organization:** Based on traditional departments (e.g., Marketing, Finance). It offers specialization but may lead to slow decision-making and poor coordination across project tasks.
+2. **Project (Pure) Organization:** A separate, independent unit is created for the project. The project manager has full authority. It ensures fast decisions and strong control but can be costly due to resource duplication.
+3. **Matrix Organization:** A hybrid structure where staff report to both a functional manager and a project manager. It offers flexibility and optimal resource use but can cause conflict due to dual authority.
+
+**Key Roles:**
+
+* **Project Manager:** Leads the project, responsible for success/failure.
+* **Functional Specialists:** Provide technical expertise.
+* **Project Support Team:** Assists with administration and logistics.
+*(Source: Ent_345.pdf, Page 52, 53)*
+
+---
+
+### **33. Interpret the Types of Project Financing**
+
+Project financing in India involves various sources categorized by tenure and nature.
+
+**1. Permanent/Fixed/Long-term Finance:**
+
+* **Shares:** Equity capital raised from the public or promoters; no repayment obligation.
+* **Debentures:** Long-term debt instruments acknowledging a debt; interest is paid.
+* **Public Deposits:** Unsecured deposits accepted from the public.
+* **Ploughing Back of Profits:** Reinvesting surplus profits into the business.
+* **Loans from Financial Institutions:** Long-term loans from bodies like IFCI, IDBI, ICICI.
+
+**2. Temporary/Variable/Short-term Finance:**
+
+* **Commercial Banks:** Working capital loans.
+* **Trade Credit:** Suppliers providing goods on credit.
+* **Installment Credit:** Purchasing assets with down payments and installments.
+* **Factoring:** Raising funds against accounts receivable.
+* **Commercial Paper:** Unsecured promissory notes for short-term funds.
+*(Source: Ent_345.pdf, Page 39, 40, 41)*
+
+---
+
+### **34. Describe in detail about project planning and control using CPM and PERT techniques.**
+
+Project planning and control are essential to ensure a project is completed on time and within resources. Two major network techniques used are CPM and PERT.
+
+**A. Critical Path Method (CPM):**
+CPM is used for projects with well-defined, predictable activities (e.g., construction).
+
+* **Process:** It involves breaking down the project into activities, determining their sequence, and estimating a fixed duration for each.
+* **Critical Path:** The longest sequence of dependent tasks is identified. This path determines the minimum project duration. If any task on this path is delayed, the project is delayed.
+* **Control:** Managers focus on critical activities. "Float" or "Slack" is calculated for non-critical tasks to see how much they can be delayed without affecting the deadline.
+
+**B. Program Evaluation and Review Technique (PERT):**
+PERT is used for projects with high uncertainty (e.g., R&D).
+
+* **Probabilistic Time:** It uses three estimates (, , ) to calculate a weighted average Expected Time ().
+* **Variance:** It calculates variance to understand the risk and uncertainty associated with time estimates.
+* **Control:** It allows managers to calculate the probability of meeting a specific deadline using standard deviation concepts.
+
+**Comparison:**
+
+* **CPM** is deterministic (Time is known) and cost-oriented.
+* **PERT** is probabilistic (Time is uncertain) and event-oriented.
 
 ```mermaid
 graph LR
-    P[Publisher] -- Data item --> M[Middleware]
-    S1[Subscriber 1] -- Subscription --> M
-    S2[Subscriber 2] -- Subscription --> M
-    M -- Notification/Data --> S1
-    M -- Notification/Data --> S2
-    M -- Match Logic --> M
+    A[Start] --> B(Task 1)
+    A --> C(Task 2)
+    B --> D{Milestone}
+    C --> D
+    D --> E[Finish]
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#ccf,stroke:#333,stroke-width:2px
 
 ```
 
-*(Diagram reference: `Dist_Sys_Unit_5_Notes.pdf` Page 4)*
-
----
-
-**24. Explain Grid Computing and its significance in modern computing environments.**
-
-**Grid Computing** is a distributed computing model where a network of loosely coupled, heterogeneous computers work together to perform large tasks, acting as a **virtual supercomputer**.
-
-* **Significance:** It allows organizations to utilize idle resources (CPU, storage) from various administrative domains to solve complex scientific or analytical problems (e.g., weather simulation, genome sequencing) that are too large for a single machine. It enables high-throughput computing and resource sharing at a low cost compared to building physical supercomputers.
-
----
-
-**25. What are the two primary functions required by the Map-Reduce programming model?**
-
-The two primary functions are:
-
-1. **Map Function:** Processes input data (key-value pairs) and produces a set of intermediate key-value pairs.
-2. **Reduce Function:** Takes the intermediate data, groups it by key, and aggregates the values to produce the final output.
-
----
-
-**26. List out any four CORBA services.**
-
-Four common CORBA services are:
-
-1. **Naming Service:** For binding names to object references.
-2. **Concurrency Service:** For managing locks and concurrent access.
-3. **Transaction Service:** For handling atomic transactions across multiple objects.
-4. **Event Service:** For decoupled, asynchronous notification and communication.
-
----
-
-**27. What are two main goals of a Distributed File System (DFS)?**
-
-The two main goals are:
-
-1. **Network Transparency:** Users should not be aware of the physical location of the files; they should access remote files exactly as they access local ones.
-2. **High Availability:** Files should remain accessible even in the event of partial system failures (server or network crashes), typically achieved via replication.
-
----
-
-**28. What are Pig and Hive?**
-
-**Apache Pig** is a high-level data flow platform that uses a scripting language called **Pig Latin** to write MapReduce programs easily; it is preferred by programmers for handling unstructured/semi-structured data. **Apache Hive** is a data warehouse infrastructure built on top of Hadoop that provides a SQL-like interface (**HQL**) to query and manage structured data stored in HDFS; it is preferred by data analysts.
-
----
-
-**29. Write about the Internet Inter-ORB Protocol (IIOP).**
-
-**IIOP (Internet Inter-ORB Protocol)** is a protocol defined by CORBA to enable communication between different ORBs over the Internet using **TCP/IP**. It allows systems written in different languages and running on different platforms to interoperate by standardizing how object references and messages are formatted and transmitted across the network, essentially serving as the bridge for CORBA's interoperability.
-
----
-
-**30. What role does the Master Node play in GFS(Google file system)?**
-
-The **Master Node** in GFS is the central coordinator. It stores **metadata** (file names, access control, mapping of files to chunks, and chunk locations). It handles system-wide activities like **lease management** (locking), **garbage collection** of orphaned chunks, and **chunk migration** between chunkservers. Crucially, it does **not** handle the actual data transfer to clients, preventing it from becoming a bottleneck.
-
----
-
-**31. Explain in detail about consistency and replication in distributed object based systems?** \
-
-* **Replication:**
-* **CORBA:** Historically did not support replication natively. It relies on separate services or fault-tolerant CORBA implementations.
-* **Globe:** Built with replication in mind. The **Replication Subobject** in the local object contains the implementation of a consistency protocol (e.g., master-slave). This allows different objects to have different replication strategies hidden from the client.
-* **DCOM:** Does not provide built-in support for replication; it relies on the underlying OS or application logic.
-
-
-* **Consistency:**
-* Consistency models ensure all replicas show the same data.
-* **Globe:** Supports flexible consistency models (object-specific).
-* **Active Replication:** All replicas perform the operation.
-* **Primary-Backup:** One primary handles updates and propagates them to backups (common in fault-tolerant CORBA).
-
-
-
----
-
-**32. Discuss about DCOM in detail?**
-
-*(See answer to Question 13. DCOM is Microsoft's distributed component model using SCM, Proxies, and Stubs, relying on Windows services for security and transactions.)*
-
----
-
-**33. Explain how replication works in web hosting systems?**
-
-Replication in web hosting is primarily handled via **Content Delivery Networks (CDNs)**.
-
-* **Origin Server:** Updates content (master copy).
-* **Edge Servers:** Replicas of the content are distributed to edge servers located geographically closer to users.
-* **Mechanism:** When a client requests a page, DNS resolution directs them to the nearest Edge Server (replica).
-* **Consistency:** Updates are propagated from the origin to edge servers either via **Push** (origin sends updates) or **Pull** (edge requests update upon expiration/TTL). Akamai is a prime example of this global replication architecture.
-
----
-
-**34. Describe the working and design of the Google File System (GFS)?**
-
-**GFS** is designed for large-scale data processing on commodity hardware.
-
-* **Architecture:** Consists of a single **Master** and multiple **Chunkservers**.
-* **Files:** Files are divided into fixed-size **Chunks** (64 MB). Each chunk is identified by a unique 64-bit Chunk Handle.
-* **Replication:** Each chunk is replicated (default 3 copies) across different chunkservers for fault tolerance.
-* **Operation:**
-1. Client asks Master for chunk location (metadata).
-2. Master replies with the IP of the chunkserver holding the replica.
-3. Client caches this metadata and communicates **directly** with the Chunkserver to read/write data (avoiding Master bottleneck).
-
-
-* **Writes:** Uses a primary replica for each chunk to order concurrent mutations, which are then pushed to secondary replicas.
-
-*(See architecture diagram in `Dist_Sys_Unit_4_Notes.pdf` Page 20)*
-
----
-
-**35. What is MapReduce? Explain its working with an example.**
-
-**MapReduce** is a programming model for processing large datasets in parallel.
-
-* **Working:**
-1. **Input:** Data is split into chunks.
-2. **Map Phase:** The user defines a `Map` function that processes input key-value pairs and outputs intermediate key-value pairs.
-3. **Shuffle/Sort:** The framework groups all intermediate values associated with the same key.
-4. **Reduce Phase:** The user defines a `Reduce` function that merges the values for a specific key to produce the final output.
-
-
-* **Example (Word Count):**
-* **Input:** "Deer Bear River"
-* **Map:** Outputs `(Deer, 1), (Bear, 1), (River, 1)`.
-* **Shuffle:** Aggregates counts for "Deer", "Bear", etc.
-* **Reduce:** Sums the list `[1, 1...]` for each word.
-
-
-
----
-
-**36. Explain virtualization in distributed computing and its advantages.**
-
-**Virtualization** creates a virtual version of a resource (server, storage, network) rather than a physical one. It allows a single physical machine to run multiple Virtual Machines (VMs).
-
-* **Types:** Application, Network, Desktop, and Storage virtualization.
-* **Advantages:**
-* **Efficiency:** Higher utilization of physical hardware.
-* **Isolation:** Applications run in isolated environments; a crash in one VM doesn't affect others.
-* **Flexibility:** VMs can be easily migrated or cloned.
-* **Cost:** Reduces hardware costs (CAPEX) and operational costs (OPEX) by consolidating servers.
-
-
-
----
-
-**37. What is the primary focus of the GLOBE system architecture?**
-
-The primary focus of **Globe (Global Object Based Environment)** is **scalability**. It aims to support a billion shared objects distributed worldwide. Unlike CORBA or DCOM, which focus on interoperability or functionality, Globe focuses on partitioning the state of objects across multiple machines (truly distributed objects) and handling location/replication internally to scale efficiently across a wide-area network (WAN).
-
----
-
-**38. What is the purpose of a Web Proxy Cache?**
-
-The purpose of a **Web Proxy Cache** is to store copies of frequently or recently accessed web documents closer to the client. This **reduces latency** for the user (content loads faster), **conserves bandwidth** (fewer requests go to the external internet), and **reduces the load** on the remote origin servers.
-
----
-
-**39. What is SOA (Service-Oriented Architecture)?**
-
-**SOA** is an architectural style for building software systems based on interacting **services**. A service is a self-contained unit of functionality (like "CheckCredit" or "ProcessOrder") that can be accessed remotely. SOA allows different applications to communicate and reuse these services via standard protocols (like SOAP/HTTP), promoting interoperability and flexibility in enterprise systems.
-
----
-
-**40. List a few emerging trends in distributed systems?** \
-
-* **Edge Computing:** Processing data near the source (IoT devices).
-* **Zero Trust Security:** Strict identity verification for every user/device.
-* **Quantum Computing:** Using quantum mechanics for massive computational speedups.
-* **Serverless Computing:** Developers run code without managing servers (FaaS).
-* **Green Computing:** Optimizing distributed systems for energy efficiency.
-
----
-
-**41. What protocol typically forms the basis of communication for SUN NFS?**
-
-**RPC (Remote Procedure Call)** is the protocol that forms the basis of communication for Sun NFS. Specifically, NFS operations (like read, write, lookup) are defined as RPC procedures that the client invokes on the server. It often uses **XDR** for data formatting on top of the RPC transport.
-
----
-
-**42. What is the core function of a CDN (Content Delivery Network) in a distributed web-based system?**
-
-The core function of a **CDN** is to improve the performance and availability of web content by distributing copies of the content to **edge servers** located geographically close to end-users. When a user requests content, the CDN redirects the request to the nearest edge server, minimizing network hops and latency.
-
----
-
-**43. Write short notes on DCOM, CORBA & GLOBE?** \
-
-* **CORBA:** An industry standard (OMG) for distributed objects focusing on **interoperability** across languages and platforms using IDL and ORBs.
-* **DCOM:** Microsoft's technology for distributed objects, focusing on **functionality** within the Windows ecosystem, using binary interfaces and OS-level services.
-* **GLOBE:** A research system focusing on **scalability** (billion users/objects) by physically distributing object state and encapsulating replication logic within the object itself (local objects/subobjects).
-
-*(Comparison Table in `Dist_Sys_Unit_3_Notes_Part_2.pdf` Page 16)*
-
----
-
-**44. Discuss about CODA in detail?**
-
-**Coda** is a distributed file system derived from AFS, optimized for high availability and mobile computing.
-
-* **Disconnected Operation:** A key feature where a client can continue working when the network is down. It uses a local cache (hoarding) to store files.
-* **Replication:** It uses server replication (Volume Storage Group - VSG) to ensure data is available even if some servers fail.
-* **Conflict Resolution:** Upon reconnection, Coda synchronizes the local cache with the servers. If conflicts arise (file modified in both places), it attempts automatic resolution or flags it for the user.
-
----
-
-**45. What is REST architecture?**
-
-**(See Answer 9)** REST (Representational State Transfer) is a resource-based architectural style for web services. It relies on stateless communication, standard HTTP methods, and URIs to identify resources, offering a simpler, scalable alternative to SOAP-based services.
-
----
-
-**46. How is it used in web services?**
-
-In **RESTful web services**, functionality is exposed as resources (e.g., `/users`, `/orders/1`). Clients interact with these resources using standard HTTP verbs:
-
-* **GET:** To retrieve a resource representation.
-* **POST:** To create a new resource.
-* **PUT:** To update an existing resource.
-* **DELETE:** To remove a resource.
-Data is typically exchanged in **JSON** or **XML** format.
-
----
-
-**47. Explain the architecture and working of the NFS (Network File System).**
-
-**NFS Architecture:**
-
-* **Client-Server:** Clients mount remote directories exported by servers.
-* **RPC-Based:** All file operations (read/write) are sent as RPC requests.
-* **VFS Layer:** Intercepts file calls; checks if the file is local or remote.
-* **Caching:** Clients cache file data and attributes to reduce network traffic.
-* **Session Semantics:** (NFSv3) Changes to a file are visible to others only after the file is closed (or flushed), though modern NFS approximates UNIX semantics closer.
-* **Stateless Server:** (NFSv3) Server doesn't maintain state (like open file pointers) for clients, making crash recovery easy. (NFSv4 introduced statefulness).
-
----
-
-**48. Compare Hadoop, Pig, and Hive in the context of big data processing.** \
-
-* **Hadoop:** The foundational **framework** providing storage (HDFS) and raw processing power (MapReduce). It requires low-level Java programming.
-* **Pig:** A **scripting platform** running on top of Hadoop. It uses **Pig Latin**, a data-flow language suitable for semi-structured data and complex transformations. It is easier to write than raw MapReduce.
-* **Hive:** A **data warehousing** tool on top of Hadoop. It uses **HQL** (SQL-like) to query structured data. It is best for summarization, ad-hoc queries, and users familiar with SQL databases.
-
----
-
-**49. Explain in detail distributed coordination based systems?**
-
-Distributed coordination-based systems focus on how processes communicate and coordinate actions.
-
-* **Taxonomy:** Coordination models are classified by **Temporal** (coupled/decoupled in time) and **Referential** (coupled/decoupled in name) dimensions.
-* **Direct:** Coupled in both (e.g., RPC).
-* **Mailbox:** Temporally decoupled, Referentially coupled (e.g., Email).
-* **Meeting:** Temporally coupled, Referentially decoupled (e.g., Publish/Subscribe).
-* **Generative (Linda):** Decoupled in both (e.g., Shared Tuple Spaces).
-
-
-* **Publish/Subscribe:** The most common coordination model. Publishers send events; Subscribers subscribe to specific topics or content attributes. Middleware matches them.
-* **Routing:** Efficiently routing events to subscribers using **content-based routing** is a key challenge in these systems.
-
-*(See taxonomy diagram in `Dist_Sys_Unit_5_Notes.pdf` Page 1)*
+*(Diagram represents a simple network flow found in CPM/PERT)*
+*(Source: Ent_345.pdf, Page 53, 54)*
 
 ```
-
