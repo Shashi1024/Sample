@@ -1151,7 +1151,7 @@ $x-\frac{1}{x}=\frac{24}{5}$ అయితే, $x+\frac{1}{x}=$
 
 ---
 
-**Q97.** If $A=\{x:x=n^2 \text{ and } 0<n<4\}$ and $B=\{x:x\in\mathbb{R} \text{ and } x^2-13x+36=0\}$, then choose the relation between the sets A and B. \
+**Q97.** If `A= {x:x=n^2 and 0<n<4}` and `B= {x:x\in\mathbb{R} and x^2-13x+36=0}`, then choose the relation between the sets A and B. \
 $A=\{x:x=n^2 \text{ మరియు } 0<n<4\}$ మరియు $B=\{x:x\in\mathbb{R} \text{ మరియు } x^2-13x+36=0\}$ అయితే, A మరియు B సమితుల మధ్య గల సంబంధాన్ని గుర్తించండి.
 
 1. A and B are disjoint sets. \
