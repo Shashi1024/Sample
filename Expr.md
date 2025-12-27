@@ -921,8 +921,8 @@ Choose the option that correctly reports the given sentence.
 
 ---
 
-**Q76.** A canner can can anything he can can. \
-Pick out the meaning of the underlined word (second 'can').
+**Q76.** A canner 'can' can anything he can can. \
+Pick out the meaning of the underlined word ('can').
 
 1. A person who preserves things in containers.
 2. A container.
