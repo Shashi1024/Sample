@@ -894,10 +894,10 @@ Choose the best option to replace the word 'abject'.
 
 **Q73.** The most appropriate complementary closing to a letter addressed to your younger brother is
 
-1. Yours truly,
-2. Yours faithfully,
-3. Yours affectionately,
-4. Yours obediently,
+1. Yours sincerely,
+2. Yours truly,
+3. Yours faithfully,
+4. Yours affectionately,
 
 ---
 
