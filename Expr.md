@@ -1,1829 +1,1887 @@
-# Mathematics and Science Telugu - 20th Jan 2025 Shift 1
+# Mathematics and Science Telugu - 05th Jan 2025 Shift 2
 
 ## Child Development and Pedagogy
 
-**Question 1:**
-Choose the correct statements among the following regarding development of child. \
-ఈ కింది వానిలో శిశువు వికాసమునకు సంబంధించి సరియైన స్టేట్మెంట్లను గుర్తించండి. \
-A) Maturation refers to the emergence of an organism's genetic potential (పరిపక్వత జీవి జన్యు సామర్థ్య ఉద్భవాన్ని తెలుపుతుంది) \
-B) Development is continuous and cumulative process (వికాసం అవిచ్ఛిన్నంగా జరిగే సంచిత ప్రక్రియ) \
-C) Development is comprehensive than growth (వికాసం పెరుగుదల కంటే సమగ్రమైనది) \
-D) Environment will not affect the development at pre-natal stage (జనన పూర్వ దశలో వికాసంపై పరిసర ప్రభావం ఉండదు)
+**Q1.** When we say that development is spiral it should be understood that \
+వికాసం అనేది సర్పిలాకారంగా సాగుతుందనడానికి మనం ఈ విధంగా అర్థం చేసుకోవచ్చు
 
-**Options:**
-1. A, B, C & D
-2. A, B & C only (A, B & C మాత్రమే)
-3. B, C & D only (B, C & D మాత్రమే)
-4. B & D only (B & D మాత్రమే)
+1. Development is uniform in all stages \
+వికాసం అన్ని దశలలో ఏకరీతిగా ఉంటుంది.
+2. Development proceeds abnormally \
+వికాసం అసాధారణంగా సాగుతుంది.
+3. Development does not proceed on a straight path with a steady pace \
+వికాసం స్థిరమైన వేగంతో రేఖీయంగా కొనసాగదు
+4. Development cannot be observed \
+వికాసంను పరిశీలించలేము
 
 ---
 
-**Question 2:**
-As per this principle of developmental direction, child initially gets control over his head followed by arms and legs. \
-ఈ కింది వికాస సూత్రం ప్రకారం శిశువు తన వికాస క్రమంలో మొదట తన తలను నిలిపిన తరువాత చేతులు, కాళ్లపై నియంత్రణను సాధించును.
+**Q2.** A mother has observed four changes in her son between the beginning and end of class V. Among them the one that can be purely termed as growth \
+Vవ తరగతి ప్రారంభం మరియు ముగింపు మధ్య ఒక తల్లి తన కొడుకులో నాలుగు మార్పులను గమనించింది. వాటిలో పూర్తిగా పెరుగుదల అని చెప్పగలిగినది.
 
-**Options:**
-1. Principle of proximo-distal direction (సమీప దూరస్థ వికాస సూత్రం)
-2. Principle of Rhythmic growth (లయ వికాస సూత్రం)
-3. Principle of spontaneity (స్వయంసిద్ధ సూత్రం)
-4. Principle of Cephalocaudal direction (శిరఃపాదాభిముఖ దిశ సూత్రం)
+1. Doing additions in abstract method \
+ఆమూర్త పద్ధతిలో కూడికలు చేయడం
+2. Reaching the topmost shelf of his cupboard \
+అతని అల్మారా యొక్క పై అరను చేరుకోవడం
+3. Controlling emotions when scolded \
+తిట్లు పడినప్పుడు భావోద్వేగాలను నియంత్రించుకోవడం
+4. Making friends with strangers \
+అపరిచితులతో స్నేహం చేయడం
 
 ---
 
-**Question 3:**
-Identify the internal factors among the following, which will influence the growth and development of child. \
-ఈ కింది వానిలో, శిశువు పెరుగుదల, వికాసములను ప్రభావితం చేయు అంతర్గత కారకములను గుర్తించుము. \
-A) Heredity factors (అనువంశికత కారకాలు) \
-B) Biological factors (జీవ సంబంధ కారకాలు) \
-C) Emotional factors (ఉద్వేగ కారకాలు) \
+**Q3.** Lying, cheating, truancy and stealing if found in a child should be viewed from the angle of poor \
+పిల్లల్లో అబద్ధాలు చెప్పడం, మోసం చేయడం, బడి ఎగ్గొట్టడం, దొంగతనం చేయడం వంటి వాటిని గమనించినప్పుడు ఈ అంశం బాగా లేనట్లు భావించాలి.
+
+1. social adjustment of the child \
+పిల్లవాడి సాంఘిక సర్దుబాటు
+2. school curriculum \
+పాఠశాల పాఠ్యప్రణాళిక
+3. law and order \
+శాంతి భద్రతలు
+4. socio economic status of the family \
+కుటుంబం యొక్క సామాజిక ఆర్థిక స్థితి
+
+---
+
+**Q4.** Vinny studying in Grade 2 can solve problems related to addition or subtraction separately. In a talent examination she was given a problem involving the combination of the concepts of addition and subtraction. Vinny tried and solved the problem by using the concepts of addition and subtraction. According to Piaget, this is \
+గ్రేడ్ 2లో చదువుతున్న విన్నీ కూడిక లేదా తీసివేతలకు సంబంధించిన సమస్యలను విడివిడిగా పరిష్కరించగలదు. ఒక ప్రతిభ పరీక్షలో కూడిక మరియు తీసివేత భావనల కలయికతో కూడిన సమస్య ఆమెకు ఇవ్వబడింది. విన్నీ కూడిక మరియు తీసివేత భావనలను ఉపయోగించి సమస్యను పరిష్కరించింది.
+
+1. Fluctuation \
+హెచ్చుతగ్గులు
+2. Disequilibration \
+అసమతుల్యత
+3. Dissociation \
+వియోగం
+4. Equilibration \
+సమతుల్యత
+
+---
+
+**Q5.** According to Erikson, if the teacher or parents of a child in the age group of 6 to 12 years does not express satisfaction in the work of the child, the child tends to develop \
+ఎరిక్సన్ ప్రకారం, 6 నుండి 12 సంవత్సరాల వయస్సు గల పిల్లల ఉపాధ్యాయుడు లేదా తల్లిదండ్రులు పిల్లవాని పనిపట్ల సంతృప్తిని వ్యక్తం చేయకపోతే, పిల్లవాడిలో ఈ భావన పెరగవచ్చు
+
+1. Guilt \
+అపరాధం
+2. Role confusion \
+పాత్ర సంభ్రమం
+3. Inferiority \
+న్యూనత
+4. Shame \
+సిగ్గు
+
+---
+
+**Q6.** Language acquisition according to Noam Chomsky is \
+నోమ్ ఛామ్ స్కీ ప్రకారం భాషా సముపార్జన
+
+1. Formal \
+నియతమైనది
+2. Natural \
+సహజసిద్ధమైనది
+3. Conscious \
+చేతనమైనది
+4. Conditioned \
+నిబంధితమైనది
+
+---
+
+**Q7.** All but one among the following are abilities of divergent thinking \
+కింది వాటిలో ఒకటి తప్ప మిగతావన్నీ విభిన్న ఆలోచనా సామర్థ్యాలు
+
+1. Sensitivity to problems \
+సమస్యల పట్ల సున్నితత్వం
+2. Flexibility \
+నమ్యత
+3. Originality \
+సహజత్వం
+4. Conventional \
+సంప్రదాయ
+
+---
+
+**Q8.** In a standardized intelligence test consisting of 100 questions, a score of 55 on that test is considered as having a mental age of 12 years. Raju, an 8 year old boy scored 55 on that test. Raju's IQ will be \
+100 ప్రశ్నలతో కూడిన ఒక ప్రామాణిక ప్రజ్ఞా పరీక్షలో, 55 స్కోర్ చేసిన పిల్లలను 12 సంవత్సరాల మానసిక వయస్సుగా పరిగణిస్తారు. ఆ పరీక్షలో రాజు అనే 8 ఏళ్ల బాలుడు 55 గణనను సాధించాడు. రాజు యొక్క ప్రజ్ఞా లబ్ది
+
+1. 150
+2. 67
+3. 100
+4. 96
+
+---
+
+**Q9.** Parenting style in which parents are detached from their children's life is \
+తమ పిల్లల జీవితంతో సంబంధంలేన్నట్టుగా వుండే తల్లిదండ్రుల పెంపక శైలి.
+
+1. Authoritarian \
+నిరంకుశ
+2. Uninvolved \
+జోక్య రహిత
+3. Authoritative \
+అధికారయుత
+4. Permissive \
+అనుమతి పూర్వక
+
+---
+
+**Q10.** An eight year old boy who did not like his new born brother turned to a very caring, helping and protective elder brother. The defense mechanism used by the boy in the example is \
+కొత్తగా పుట్టిన తన సోదరుడిని ఇష్టపడని ఒక ఎనిమిదేళ్ల బాలుడు, చాలా శ్రద్ధగల, సహాయం చేసే మరియు రక్షించే అన్నయ్యగా మారాడు. ఈ ఉదాహరణలో బాలుడు ఉపయోగించిన రక్షక తంత్రం
+
+1. Repression \
+దమనం
+2. Projection \
+ప్రక్షేపణం
+3. Reaction formation \
+ప్రతిచర్య ఉద్భవం
+4. Displacement \
+విస్థాపనం
+
+---
+
+**Q11.** The tool used to record the degree to which an individual possesses a given trait between the lowest and the highest degrees is \
+ఒక వ్యక్తి ఏదైనా ఒక లక్షణాంశములో అత్యల్ప మరియు అత్యధిక స్థాయిల మధ్యన ఎక్కడ నిలిచేది నమోదు చేయడానికి ఉపయోగించే సాధనం
+
+1. Anecdotal record \
+సంఘటన రచనాత్మక రికార్డ్
+2. Interview schedule \
+ఇంటర్వ్యూ షెడ్యూల్
+3. Checklist \
+చెక్ లిస్టు
+4. Rating scale \
+నిర్ధారణ మాపని
+
+---
+
+**Q12.** In a questionnaire the sample item is as follows: \
+'In what ways do you think this opportunity to study abroad will help you? \
+i. Financially \
+ii. Personal progress \
+iii. Professional growth \
+iv. Opportunity to work with renowned experts in the field \
+v. Any other, please specify \
+This type of questionnaire is called \
+ఒక ప్రశ్నావళిలో నమూనా అంశం ఈ విధంగా ఉంది: \
+విదేశాల్లో చదువుకునే ఈ అవకాశం మీకు ఏ విధాలుగా సహాయపడుతుందని మీరు అనుకుంటున్నారు'? \
+i. ఆర్థికంగా \
+ii. వ్యక్తిగత పురోగతికి \
+iii. వృత్తిపరమైన అభివృద్ధి \
+iv. ఆ రంగంలో పేరున్న నిపుణులతో కలిసి పనిచేసే అవకాశం \
+v. ఏదైనా ఇతరమైనది ఉంటే దయచేసి పేర్కొనండి \
+ఈ రకమైన ప్రశ్నావళి
+
+1. Partially closed ended \
+పాక్షికంగా నిర్ధారితమైనవి
+2. Open ended \
+స్వేచ్ఛాపూరితమైనవి
+3. Closed ended \
+నిర్ధారితమైనవి
+4. Indefinable \
+అనిర్వచనీయమైనవి
+
+---
+
+**Q13.** Match the following \
+కింది వాటిని జతపరచండి.
+
+A) Learner related factor (అభ్యాసకులకు సంబంధించిన అంశం) \
+B) Teacher related factor (ఉపాధ్యాయ సంబంధిత అంశం) \
+C) Content related factor (విషయ సంబంధిత అంశం) \
+D) Process related factor (ప్రక్రియ సంబంధిత అంశం)
+
+i) Methodology (బోధన పద్ధతి) \
+ii) Achievement motivation (సాధన ప్రేరణ) \
+iii) Mastery over the subject matter (విషయ నైపుణ్యం) \
+iv) Nature of learning material (అభ్యసన సామగ్రి యొక్క స్వభావం)
+
+Choose the correct answer: \
+సరైన సమాధానాలు ఎంచుకోండి:
+
+1. A-i, B-ii, C-iii, D-iv
+2. A-ii, B-iii, C-iv, D-i
+3. A-iv, B-iii, C-ii, D-i
+4. A-ii, B-i, C-iii, D-iv
+
+---
+
+**Q14.** Starting a conversation between two people is an example of \
+ఇద్దరు వ్యక్తుల మధ్య సంభాషణను ప్రారంభించడం దీనికి ఒక ఉదాహరణ
+
+1. Discrimination \
+విచక్షణ
+2. Chaining \
+చైనింగ్
+3. Shaping \
+షేపింగ్
+4. Generalisation \
+సాధారణీకరణ
+
+---
+
+**Q15.** Rajitha learned to knit good sweaters but stopped due to some reason. After 20 years when she wanted to start knitting again she struggled. It is an example of Thorndike's this Law of learning \
+రజిత మంచి స్వెటర్లు అల్లడం నేర్చుకుంది కానీ కొన్ని కారణాల వల్ల ఆపివేసింది. 20 ఏళ్ల తర్వాత మళ్లీ అల్లడం ప్రారంభించాలనుకున్నప్పుడు తనకు కష్టమనిపించింది. ఇది థారన్ డైక్ యొక్క ఈ అభ్యసన నియమానికి ఉదాహరణ
+
+1. Law of Disuse \
+నిరుపయోగ నియమం
+2. Law of Use \
+ఉపయోగ నియమం
+3. Law of Effect \
+ఫలిత నియమం
+4. Law of Attitude \
+వైఖరి నియమం
+
+---
+
+**Q16.** A novice medical student learns performing surgery by \
+ఒక అనుభవం లేని వైద్య విద్యార్థి శస్త్రచికిత్స చేయడం ఇలా నేర్చుకుంటారు.
+
+1. Learning by conditioning \
+నిబంధనం ద్వారా అభ్యసనం
+2. Stimulus response learning \
+ఉద్దీపన - ప్రతిస్పందన అభ్యసనం
+3. Learning by connection \
+సంధానం ద్వారా అభ్యసనం
+4. Observational learning \
+పరిశీలనాత్మక అభ్యసనం
+
+---
+
+**Q17.** Shivani who is upset with her father not allowing her to go to picnic throwed her books, bag and shoes. The actions exhibited by Shivani come under this domain \
+తన తండ్రి తనను పిక్నిక్కి వెళ్లనివ్వకపోవడంతో మనస్తాపానికి గురైన శివాని తన పుస్తకాలు, బ్యాగ్ మరియు బూట్లు విసిరి వేసింది. శివాని ప్రదర్శించిన చర్యలు ఈ రంగం లోకి వస్తాయి
+
+1. Observation \
+పరిశీలనాత్మక
+2. Cognitive \
+సంజ్ఞానాత్మక
+3. Conative \
+చలనాత్మక
+4. Application \
+అన్వయాత్మక
+
+---
+
+**Q18.** Identify the correct sequence of motivation cycle \
+ప్రేరణ చక్రం యొక్క సరైన క్రమాన్ని గుర్తించండి
+
+1. Needs -> Goal -> Action -> Drive -> Need reduction \
+అవసరాలు -> గమ్యం -> చర్య -> ఉత్సుకత -> అవసరం తీరడం
+2. Needs -> Action -> Drive -> Goal -> Need reduction \
+అవసరాలు -> చర్య -> ఉత్సుకత -> గమ్యం -> అవసరం తీరడం
+3. Needs -> Drive -> Action -> Goal -> Need reduction \
+అవసరాలు -> ఉత్సుకత -> చర్య -> గమ్యం -> అవసరం తీరడం
+4. Needs -> Drive -> Goal -> Action -> Need reduction \
+అవసరాలు -> ఉత్సుకత -> గమ్యం -> చర్య -> అవసరం తీరడం
+
+---
+
+**Q19.** Saraswathi first learned to make mango pickle and then tomato pickle. When she later tried to make tomato pickle she was getting confused with mango pickle. This is due to \
+సరస్వతి మొదట మామిడికాయ పచ్చడి చేయడం, ఆ తర్వాత టమాటా పచ్చడి చేయడం నేర్చుకుంది. ఆమె తరువాత టొమాటో పచ్చడి చేయడానికి ప్రయత్నించినప్పుడు మామిడికాయ పచ్చడి చేసే విధానంతో అయోమయానికి గురైంది. దీనికి కారణం
+
+1. Induced forgetting \
+ప్రేరేపిత విస్మృతి
+2. Retro-active inhibition \
+తిరోగమన అవరోధం
+3. Abnormal forgetting \
+అసాధారణ విస్మృతి
+4. Pro-active inhibition \
+పురోగమన అవరోధం
+
+---
+
+**Q20.** Srinivas observed that his daughter was scared of every small thing. He kept talking to his daughter about growing up as a strong girl who can defend herself. His influence has brought a change in the mindset of his daughter and she joined Taekwondo so that she could be helpful to herself and also others. Srinivas has brought a change in his daughter's \
+శ్రీనివాస్ తన కూతురు ప్రతి చిన్న విషయానికి భయపడుతుండటం గమనించాడు. తనను తాను రక్షించుకోగల బలమైన అమ్మాయిగా ఎదగడం గురించి అతను తన కుమార్తెతో మాట్లాడుతూ ఉన్నాడు. అతని ప్రభావం అతని కుమార్తె ఆలోచనా విధానంలో మార్పు తెచ్చింది మరియు ఆమె తనకు మరియు ఇతరులకు కూడా సహాయకారిగా ఉండేందుకు టైక్వాండోలో చేరింది. శ్రీనివాస్ తన కూతురిలో ఈ అంశానికి సంబంధించిన మార్పు తీసుకొచ్చాడు.
+
+1. Attitude \
+వైఖరి
+2. Aptitude \
+సహజ సామర్థ్యం
+3. Intelligence \
+ప్రజ్ఞ
+4. Cognition \
+సంజ్ఞానం
+
+---
+
+**Q21.** After completing his secondary level education in distinction from his remote village school Naveen, whose parents were not educated joined college in the nearest city which is 300 kms away from his village. Naveen faced difficulty in using computer and other technological devices as he did not have access for them before due to non affordability and was lagging behind his classmates. This lag may be attributed to \
+నవీన్ తల్లిదండ్రులు చదువుకోలేదు. నవీన్ తన మారుమూల గ్రామ పాఠశాల నుండి అత్యుత్తమంగా తన మాధ్యమిక స్థాయి విద్యను పూర్తి చేసాక వారి గ్రామానికి 300 కిలోమీటర్ల దూరంలో ఉన్న సమీప నగరంలోని కళాశాలలో చేరారు. నవీను ఆర్థిక స్థోమత లేకపోవడం వల్ల అంతకు ముందు కంప్యూటర్ మరియు ఇతర సాంకేతిక పరికరాలు ఉపయోగించ లేదు. ఇప్పుడు అవి ఉపయోగించడంలో ఇబ్బందులు ఎదుర్కొన్నాడు మరియు అతని సహవిద్యార్థుల కంటే వెనుకబడుతున్నాడు. నవీన్ ఈ విషయంలో వెనుక బడుటకు ఇవి కారణమని చెప్పవచ్చు.
+
+A) Geographical location (భౌగోళిక ప్రదేశం) \
+B) Socio-economic status (సామాజిక-ఆర్థిక స్థితి) \
+C) Age (వయస్సు) \
 D) Intelligence (ప్రజ్ఞ)
 
-**Options:**
-1. A, B, C & D
-2. B, C & D only (B, C & D మాత్రమే)
-3. A, B & D only (A, B & D మాత్రమే)
-4. A, C & D only (A, C & D మాత్రమే)
+Choose the correct answer: \
+సరైన సమాధానాలు ఎంచుకోండి:
+
+1. A & B only \
+A & B మాత్రమే
+2. A, B, C & D
+3. A only \
+A మాత్రమే
+4. B only \
+B మాత్రమే
 
 ---
 
-**Question 4:**
-As per Erikson's Psycho-social development theory, an individual begins to search for his/her personal identity during: \
-ఎరిక్సన్ మనో-సాంఘిక వికాస సిద్ధాంతం ప్రకారం, వ్యక్తి తన వ్యక్తిగత గుర్తింపు కోసం అన్వేషణను ఈ వయస్సులో ప్రారంభిస్తారు:
+**Q22.** 'Hemophilia', 'Thalassemia' and 'Sickle cell disease included in the Rights of Persons with Disabilities (RPWD) Act, 2016 are \
+వికలాంగుల హక్కుల (RPwD) చట్టం, 2016 లో చేర్చబడిన 'హీమోఫీలియా', 'తలసేమియా' మరియు 'సికిల్ సెల్ వ్యాధి' లు
 
-**Options:**
-1. 6 to 12 years (6 - 12 ఏళ్ళు)
-2. 3 to 6 years (3 - 6 ఏళ్ళు)
-3. 12 to 20 years (12 - 20 ఏళ్ళు)
-4. 20 to 25 years (20 - 25 ఏళ్ళు)
-
----
-
-**Question 5:**
-Match the following List-A with List-B. \
-ఈ కింది జాబితా- A ని జాబితా- B తో జతపర్చండి.
-
-List - A (జాబితా- A) \
-A) Likert (లైకర్ట్) \
-B) Bogardus (బొగార్డస్) \
-C) J.C. Raven (జె.సి. రావెన్) \
-D) E.K. Strong (ఇ.కె. స్టాంగ్)
-
-List - B (జాబితా - B) \
-i) Intelligence test (ప్రజ్ఞ పరీక్ష) \
-ii) Interest Inventory (అభిరుచి శోధిక) \
-iii) Social distance scale (సాంఘిక అంతరాల మాపని) \
-iv) Summative rating scale (సమ్మేటివ్ రేటింగ్ స్కేల్)
-
-**Options:**
-1. A-iv; B-i; C-ii; D-iii
-2. A-iv; B-iii; C-i; D-ii
-3. A-iii; B-iv; C-ii; D-i
-4. A-iii; B-iv; C-i; D-ii
+1. Mental illness \
+మానసిక అనారోగ్యం
+2. Disability due to chronic neurological condition \
+దీర్ఘకాలిక నరాల పరిస్థితి కారణంగా వైకల్యం
+3. Multiple disabilities \
+బహుళ వైకల్యాలు
+4. Blood disorders \
+రక్త సంబంధ రుగ్మతలు
 
 ---
 
-**Question 6:**
-According to Kohlberg, at this stage, the individual's decisions are based on his/her conscience and believes in the universal ethical principles. \
-కోల్బర్గ్ ప్రకారం, ఈ దశలో, వ్యక్తి నిర్ణయాలు అతని/ఆమె మనస్సాక్షి, సార్వత్రిక నైతిక సూత్రాల నమ్మకాలపై ఆధారపడి ఉంటాయి.
+**Q23.** This is a systematic process of deciding what and how learners should learn \
+ఇది అభ్యాసకులు ఏమి మరియు ఎలా అభ్యసించాలో నిర్ణయించే క్రమబద్ధమైన ప్రక్రియ
 
-**Options:**
-1. Stage 2 (దశ 2)
-2. Stage 3 (దశ 3)
-3. Stage 4 (దశ 4)
-4. Stage 6 (దశ 6)
-
----
-
-**Question 7:**
-Choose the correct statement from the following regarding learning. \
-ఈ క్రింది వానిలో అభ్యసనానికి సంబంధించి సరియైన స్టేట్మెంట్ను గుర్తించండి.
-
-**Options:**
-1. Trial and error learning is based more on critical thinking than insightful learning (అంతర్ దృష్టి అభ్యసనం కంటే యత్నదోష అభ్యసనము ఎక్కువగా విమర్శనాత్మక ఆలోచనపై ఆధారపడి ఉంటుంది.)
-2. There is no provision for immediate feedback in programmed learning (కార్యక్రమాయుత అభ్యసనంలో తక్షణ పరిపుష్ఠికి అవకాశం ఉండదు.)
-3. Stimulus generalisation and stimulus discrimination are the principles of Classical Conditioning Theory (ఉద్దీపన సామాన్యీకరణము, ఉద్దీపన విచక్షణలు శాస్త్రీయ నిబంధన యొక్క సూత్రాలు)
-4. Learning through imitation is not related to social learning (అనుకరణ ద్వారా అభ్యసనము సాంఘిక అభ్యసనమునకు సంబంధించినది కాదు.)
+1. Teacher Planning \
+ఉపాధ్యాయ ప్రణాళిక రచన
+2. Classroom transaction \
+తరగతి గది లావాదేవీలు
+3. Evaluation \
+మూల్యాంకనం
+4. Summing up \
+సంగ్రహించడం
 
 ---
 
-**Question 8:**
-While doing the project work in Physical science a class-9 student is getting reinforcement for every two days from his teacher. The reinforcement schedule being used by the teacher is: \
-ఒక తొమ్మిదవ తరగతి విద్యార్థికి, భౌతిక శాస్త్రానికి సంబంధించిన ప్రాజెక్టు పని చేస్తున్నప్పుడు ప్రతి రెండు రోజులకు ఒకసారి పునర్బలనం ఇవ్వడం జరుగుతుంది. ఇక్కడ ఉపాధ్యాయుడు ఉపయోగించిన పునర్బలన నియమము:
+**Q24.** According to Bruner, teacher should present specific activity and students should be encouraged to make generalizations through their discovery because learning should take place \
+బ్రూనర్ ప్రకారం అభ్యసనం ఈ విధంగా జరగాలి కనుక ఉపాధ్యాయుడు నిర్దిష్ట కృత్యాన్ని ప్రదర్శించాలి. మరియు విద్యార్థులు వారి ఆవిష్కరణ ద్వారా సాధారణీకరణలు చేయడానికి ప్రోత్సహించాలి
 
-**Options:**
-1. Continuous (నిరంతర)
-2. Fixed Ratio (స్థిర నిష్పత్తి)
-3. Fixed Interval (స్థిర వ్యవధి)
-4. Variable (చరశీల)
-
----
-
-**Question 9:**
-A class-X student is showing highest performance in mathematical activities and not showing the same performance in Language activities. This is an example for: \
-ఒక పదవ తరగతి విద్యార్థి గణిత కృత్యాలలో అత్యధిక నిష్పాదనను ప్రదర్శిస్తున్నాడు, కాని భాషా సంబంధ కృత్యాలలో సమానమైన నిష్పాదనను ప్రదర్శించుట లేదు. ఇది దీనికి ఉదాహరణ:
-
-**Options:**
-1. Intra individual differences (వ్యక్త్యంతర్గత భేదాలు)
-2. Inter individual differences (వ్యక్త్యంతర భేదాలు)
-3. Both intra and inter individual differences (వ్యక్త్యంతర మరియు వ్యక్త్యంతర్గత భేదాలు రెండూ)
-4. Neither Intra nor inter individual differences (వ్యక్త్యంతర, వ్యక్త్యంతర్గత రెండూ కాదు)
+1. Spirally \
+సర్పిలంగా
+2. Deductively \
+నిగమనాత్మకంగా
+3. Linearly \
+రేఖీయంగా
+4. Inductively \
+ఆగమనాత్మకంగా
 
 ---
 
-**Question 10:**
-The psychologist who has introduced the concept of 'coding system' in learning is: \
-అభ్యసనంలో 'కోడింగ్ సిస్టమ్' అనే భావనను ప్రవేశపెట్టిన మనో వైజ్ఞానిక శాస్త్రవేత్త:
+**Q25.** Which among the following principles of classroom management helps in effective teaching? \
+తరగతి గది నిర్వహణ యొక్క క్రింది సూత్రాలలో ఏది సమర్థవంతమైన బోధనలో సహాయపడుతుంది?
 
-**Options:**
-1. Bruner (బ్రూనర్)
-2. Piaget (పియాజె)
-3. Thorndike (థారన్ డైక్)
-4. Skinner (స్కిన్నర్)
+A) Teacher clarity and mastery over content \
+ఉపాధ్యాయుల స్పష్టత మరియు విషయం పై పట్టు \
+B) Democratic behaviour of teacher \
+ఉపాధ్యాయుని ప్రజాస్వామ్య ప్రవర్తన \
+C) Teacher self control \
+ఉపాధ్యాయ స్వీయ నియంత్రణ \
+D) Flexibility of teacher to accommodate learner's ideas \
+అభ్యాసకుడి ఆలోచనలను అనుగుణ్యం చేసుకునే ఉపాధ్యాయుని నమ్యత
 
----
+Choose the correct answer: \
+సరైన సమాధానాలు ఎంచుకోండి:
 
-**Question 11:**
-In SQ3R technique, the step that refers to a quick glance through the title page, preface, headings, etc. of a text is: \
-SQ3R టెక్నిక్లో, టెక్స్ట్ యొక్క టైటిల్ పేజీ, ముందుమాట, హెడ్డింగ్లు మొదలైన వాటి ద్వారా త్వరిత దృష్టిని సూచించే సోపానం:
-
-**Options:**
-1. Survey (సర్వే)
-2. Question (ప్రశ్న)
-3. Read (పఠనం)
-4. Recall (పునః స్మరణ)
-
----
-
-**Question 12:**
-To improve the mental health in students, the teacher need to develop these characteristics among them: \
-విద్యార్థులలో మానసిక ఆరోగ్యంను మెరుగుపరచుటకు, ఉపాధ్యాయుడు వారిలో ఈ క్రింది లక్షణాలను పెంపొందింపజేయాలి: \
-A) Balanced emotionality (ఉద్వేగాత్మక సమతౌల్యత) \
-B) Social immaturity (సాంఘిక అపరిపక్వత) \
-C) Personality integration (మూర్తిమత్వ సమైక్యత) \
-D) Respecting himself not others (ఇతరులను కాకుండా తనని తాను గౌరవించుకొనుట) \
-E) Adaptability (అనుగుణ్యత)
-
-**Options:**
-1. A, B, C, D & E
-2. A, B, C & D only
-3. B, C, D & E only
-4. A, C & E only (A, C & E మాత్రమే)
+1. A, B & D only \
+A, B & D మాత్రమే
+2. A, B, C & D
+3. B, C & D only \
+B, C & D మాత్రమే
+4. A, B & C only \
+A, B & C మాత్రమే
 
 ---
 
-**Question 13:**
-The researcher has to follow this sequence of steps in conducting an experimental study: \
-ఒక ప్రయోగాత్మక పద్ధతిలో అధ్యయనం చేయునప్పుడు, పరిశోధకుడు ఈ క్రింది వరుసక్రమంలో సోపానాలను అనుసరించాలి. \
-A) Identification of problem (సమస్యను గుర్తించటం) \
-B) Formulation of Hypothesis (పరికల్పనలను రూపొందించటం) \
-C) Collection of data (దత్తాంశాలను సేకరించటం) \
-D) Interpretation of data (దత్తాంశాన్ని వ్యాఖ్యానించటం) \
-E) Conclusion (ముగింపు)
+**Q26.** Among the following identify those that can be tested through recall or recognition tests \
+కింది వాటిలో పునఃస్మరణ లేదా గుర్తింపు పరీక్షల ద్వారా పరీక్షించబడే వాటిని గుర్తించండి
 
-**Options:**
-1. A, B, D, E & C
-2. A, B, C, D & E
-3. A, C, D, B & E
-4. A, B, D, C & E
+A) Concepts (భావనలు) \
+B) Generalizations (సాధారణీకరణలు) \
+C) Attitudes (వైఖరులు)
 
----
+Choose the correct answer: \
+సరైన సమాధానాలు ఎంచుకోండి:
 
-**Question 14:**
-A school has planned to organize a debate session for students on the topic, 'Should plastic be banned'. This activity shall be appropriate for students in this stage of cognitive development according to Piaget: \
-'ప్లాస్టిక్ ను నిషేధించాలా' అనే అంశంపై ఓ పాఠశాల విద్యార్థుల కోసం డిబేట్ సెషన్ను నిర్వహించాలనుకుంది. పియాజె ప్రకారం, ఈ కృత్యం ఈ సంజ్ఞానాత్మక వికాస దశలో ఉన్న విద్యార్థులకు సరైనది:
-
-**Options:**
-1. Formal operational stage (అమూర్త ప్రచాలక దశ)
-2. Concrete operational stage (మూర్త ప్రచాలక దశ)
-3. Sensory motor stage (ఇంద్రియ చాలక దశ)
-4. Pre-operational stage (పూర్వ ప్రచాలక దశ)
+1. A & C only \
+A & C మాత్రమే
+2. A, B, & C
+3. A & B only \
+A & B మాత్రమే
+4. B & C only \
+B & C మాత్రమే
 
 ---
 
-**Question 15:**
-Identify the INCORRECT statement among the following regarding factors influencing learning. \
-ఈ క్రింది వానిలో అభ్యసనమును ప్రభావితం చేయు కారకములకు సంబంధించి సరికాని స్టేట్మెంట్ను గుర్తించండి.
+**Q27.** Among the following, the method that has greater scope for developing bonding and empathy towards fellow students \
+కింది వాటిలో, తోటి విద్యార్థుల పట్ల సత్సంబంధం మరియు సహానుభూతిని పెంపొందించడానికి ఎక్కువ అవకాశం ఉన్న పద్ధతి
 
-**Options:**
-1. Attention and motivation of the learner influence the learning (అభ్యాసకుడి అవధానము, ప్రేరణ అభ్యసనమును ప్రభావితము చేస్తాయి.)
-2. Learning will not get influenced by the age and sex of the learner (అభ్యసనం అభ్యాసకుడి వయస్సు, లింగముచే ప్రభావితం కాదు)
-3. Appreciation and approval have a role in learning (ప్రశంస, ఆమోదాలకు అభ్యసనంలో పాత్ర ఉంటుంది)
-4. Both personal and environmental factors influence learning (వ్యక్తిగత, పరిసర కారకాలు రెండూ అభ్యసనమును ప్రభావితము చేస్తాయి)
-
----
-
-**Question 16:**
-When we say a child should be ready for a specific learning experience before we introduce it, we are talking about: \
-ఒక నిర్దిష్ట అభ్యసన అనుభవాన్ని పరిచయం చేయడానికి ముందు పిల్లవాడు దానికి సిద్ధంగా ఉండాలని చెప్పినప్పుడు, మనము దీని గురించి మాట్లాడుతున్నట్లు:
-
-**Options:**
-1. Maturation (పరిపక్వత)
-2. Mastery (పాండిత్యం)
-3. Achievement (సాధన)
-4. Development (వికాసం)
+1. Survey \
+సర్వే
+2. Cooperative learning \
+సహకార అభ్యసనం
+3. Observation \
+పరిశీలన
+4. Lecture \
+ఉపన్యాస
 
 ---
 
-**Question 17:**
-According to Maslow theory of Hierarchy of Needs, identify the physiological need from the following: \
-మాస్లో అవసరాల అనుక్రమణిక సిద్ధాంతం ప్రకారం, కింది వాటి నుండి శరీరధర్మానికి సంబంధించిన అవసరాన్ని గుర్తించండి:
+**Q28.** One of the following should be avoided in dealing with slow learners \
+నిదానాభ్యాసకులతో వ్యవహరించేటప్పుడు కింది వాటిలో ఒకదానిని నివారించాలి.
 
-**Options:**
-1. Love (ప్రేమ)
-2. Security (భద్రత)
-3. Esteem (గౌరవము)
-4. Sleep (నిద్ర)
-
----
-
-**Question 18:**
-Which of the techniques among the following help the teacher in improving motivation among students in the classroom? \
-తరగతి గదిలో విద్యార్థులలో ప్రేరణను మెరుగుపరచడంలో ఉపాధ్యాయులకు ఈ క్రింది వాటిలో ఏ టెక్నిక్లు సహాయపడతాయి? \
-A) Giving rewards appropriately (సముచితంగా బహుమానాలు ఇవ్వడం) \
-B) Keeping students always in stressful conditions (విద్యార్థులను ఎప్పుడు ఒత్తిడితో కూడిన పరిస్థితుల్లో ఉంచడం) \
-C) Providing immediate feedback (తక్షణ పరిపుష్ఠిని అందించడం) \
-D) Using Audio visual aids (దృశ్యశ్రవణ ఉపకరణాలను ఉపయోగించడం) \
-E) Creating healthy competition (ఆరోగ్యకరమైన పోటీని సృష్టించడం)
-
-**Options:**
-1. A, B, C & D only (A, B, C & D మాత్రమే)
-2. A, C, D & E only (A, C, D & E మాత్రమే)
-3. B, C, D & E only (B, C, D & E మాత్రమే)
-4. A, B, C, D & E
+1. Reducing fear and anxiety \
+భయం మరియు ఆందోళనను తగ్గించడం
+2. Reading practice in variety of areas \
+వివిధ అంశాలలో పఠనాభ్యాసం
+3. Forcing the child to take part in competitions when not ready \
+పిల్లలు సిద్ధంగా లేనప్పుడు పోటీల్లో పాల్గొనమని బలవంతం చేయడం
+4. Building self confidence \
+ఆత్మవిశ్వాసాన్ని పెంపొందించడం
 
 ---
 
-**Question 19:**
-A child praying daily like their parents reflects: \
-ఒక పిల్లవాడు అతడి తల్లిదండ్రుల వలె ప్రతిరోజూ ప్రార్థించడం దీనిని ప్రతిబింబిస్తుంది.
+**Q29.** One of the following is an Input source in ICT \
+కింది వాటిలో ఒకటి ICTలో ఇన్పుట్ సోర్స్
 
-**Options:**
-1. Insightful learning (అంతర్ దృష్టి అభ్యసనం)
-2. Cognitive learning (సంజ్ఞానాత్మక అభ్యసనం)
-3. Social learning (సాంఘిక అభ్యసనం)
-4. Associative learning (సంసర్గ అభ్యసనం)
-
----
-
-**Question 20:**
-A left hand spinner learnt to bowl with right hand. The transfer of learning that occurred here is: \
-ఎడమ చేతి స్పిన్నర్ తన కుడిచేతితో బౌలింగ్ చేయడం నేర్చుకున్నాడు. ఇక్కడ జరిగిన అభ్యసన బదలాయింపు:
-
-**Options:**
-1. Positive (అనుకూల)
-2. Zero (శూన్య)
-3. Bilateral (ద్విపార్శ్వ)
-4. Negative (ప్రతికూల)
+1. Application software \
+అప్లికేషన్ సాఫ్ట్ వేర్
+2. Projector \
+ప్రొజెక్టర్
+3. Monitor \
+మానిటర్
+4. Interactive whiteboard \
+ఇంటరాక్టివ్ వైట్ బోర్డ్
 
 ---
 
-**Question 21:**
-The age at which social group expects its members to master the developmental tasks of that age is: \
-సాంఘిక సమూహం దాని సభ్యులు తగిన వయస్సుకు సంబంధించిన వికాస కృత్యాలలో ప్రావీణ్యం పొందాలని ఆశించే వయస్సు:
+**Q30.** Identify the factors that affect play among the following \
+కింది వాటిలో క్రీడపై ప్రభావం చూపే కారకాలను గుర్తించండి.
 
-**Options:**
-1. Critical age (క్లిష్టమైన వయస్సు)
-2. Chronological age (వాస్తవిక వయస్సు)
-3. Social age (సాంఘిక వయస్సు)
-4. Mental age (మానసిక వయస్సు)
+A) Age (వయస్సు) \
+B) Gender (లింగం) \
+C) Culture (సంస్కృతి) \
+D) Social class (సామాజిక వర్గం)
 
----
+Choose the correct answer: \
+సరైన సమాధానాలు ఎంచుకోండి:
 
-**Question 22:**
-As per this chapter and section of RTE-Act 2009 no child shall be subjected to physical punishment or mental harassment: \
-ఏ బాలుడు / బాలికను కూడా శారీరక శిక్షకు, మానసిక వేధింపులకు గురి చెయ్యకూడదని విద్యాహక్కు చట్టం - 2009 లోని ఈ క్రింది అధ్యాయం, సెక్షన్ లలో పేర్కొనబడినది:
-
-**Options:**
-1. Chapter-IV section 17 (i) (అధ్యాయం-IV సెక్షన్ 17 (i))
-2. Chapter-IV section 16 (అధ్యాయం-IV సెక్షన్ 16)
-3. Chapter-VI section 31 (i) (అధ్యాయం-VI సెక్షన్ 31 (i))
-4. Chapter-V section 29 (g) (అధ్యాయం -V సెక్షన్ 29 (g))
+1. A, B & C only \
+A, B & C మాత్రమే
+2. A, B, C & D
+3. A, C & D only \
+A, C & D మాత్రమే
+4. B, C & D only \
+B, C & D మాత్రమే
 
 ---
 
-**Question 23:**
-On passing class-X, the student approached the class teacher and requested to suggest a course to be taken at intermediate level. Then the teacher explained the advantages of various courses offered at intermediate and suggested a course suitable to the candidate's abilities. It reflects this type of guidance: \
-పదవ తరగతిలో ఉత్తీర్ణుడైన విద్యార్థి, తన క్లాస్ టీచరు వద్దకు వెళ్లి, ఇంటర్ మీడియట్లో ఏ కోర్సు తీసుకోవాలో సలహా ఇవ్వమని అడిగాడు. ఉపాధ్యాయుడు ఇంటర్ మీడియట్ లోని వివిధ కోర్సుల యొక్క ప్రయోజనములను వివరించి, ఆ విద్యార్థి సామర్థ్యాలకు సరిపోయే ఒక కోర్సును సూచించారు. ఇది ఈ క్రింది మార్గదర్శకత్వాన్ని ప్రతిబింబిస్తుంది:
-
-**Options:**
-1. Educational guidance (విద్యా మార్గదర్శకత్వం)
-2. Personal guidance (వ్యక్తిగత మార్గదర్శకత్వం)
-3. Vocational guidance (ఔద్యోగిక మార్గదర్శకత్వం)
-4. Indirect guidance (పరోక్ష మార్గదర్శకత్వం)
-
----
-
-**Question 24:**
-Smitha went to buy a saree for her wedding. She liked one saree because it is her favourite colour and another saree because the design is very appealing. Smitha was caught in this conflict: \
-స్మిత తన పెళ్లికి చీర కొనేందుకు వెళ్లింది. ఆమెకు ఇష్టమైన రంగు కాబట్టి ఒక చీర, డిజైన్ చాలా ఆకర్షణీయంగా ఉన్నందున మరొక చీర నచ్చింది. స్మిత ఈ సంఘర్షణలో చిక్కుకుంది:
-
-**Options:**
-1. Approach-approach (ఉపగమ - ఉపగమ)
-2. Avoidance-Avoidance (పరిహార - పరిహార)
-3. Avoidance-approach (పరిహార - ఉపగమ)
-4. Double approach-avoidance (డబుల్ ఉపగమ పరిహార)
-
----
-
-**Question 25:**
-One of the following is NOT a feature of interview method: \
-కింది వాటిలో ఒకటి పరిపృచ్చ పద్ధతి యొక్క లక్షణం కాదు:
-
-**Options:**
-1. No scope for subjectivity (ఆత్మాశ్రయతకు తావు లేదు)
-2. Face-to-face (ముఖాముఖి)
-3. Eliciting of information (సమాచారాన్ని రాబట్టడం)
-4. Pre-planned questions (ముందుగా ప్రణాళిక వేసుకున్న ప్రశ్నలు)
-
----
-
-**Question 26:**
-In the initial stage of learning bicycle a father provided support to Kiran. Gradually he has withdrawn his support as Kiran is riding cycle confidently. This is an example of this concept of Vygotsky: \
-సైకిల్ నేర్చుకునే తొలి దశలో కిరణ్కు తండ్రి సహకారం అందించారు. కిరణ్ ఆత్మవిశ్వాసంతో సైకిల్ తొక్కడంతో క్రమంగా తన మద్దతును ఉపసంహరించుకున్నాడు. వైగోట్స్కీ యొక్క ఈ భావనకు ఇది ఒక ఉదాహరణ:
-
-**Options:**
-1. Zone of Proximal Development (ZPD) (వికాస సామీప్య మండలం)
-2. Scaffolding (సారువ)
-3. Fading (ఫేడింగ్)
-4. Shaping (షేపింగ్)
-
----
-
-**Question 27:**
-This type of learning demands smaller class size in terms of students' strength: \
-ఈ రకమైన అభ్యసనానికి విద్యార్థుల సంఖ్యాపరంగా తరగతి చిన్నదిగా ఉండాలి:
-
-**Options:**
-1. Discovery (ఆవిష్కరణ)
-2. Conditioning (నిబంధిత)
-3. Association (సహచర్యం)
-4. Connection (అనుసంధానం)
-
----
-
-**Question 28:**
-Prithvi has learnt equations in set 1 on day one and those in set 2 on day 2. At the time of recall of the equations learnt on day 2, the equations learnt on day 1 were interfering. This type of inhibition is: \
-మొదటి రోజు సెట్ 1లోని సమీకరణాలను నేర్చుకున్నాడు. 2వ రోజు సెట్ 2లో ఉన్నవాటిని నేర్చుకున్నాడు. 2వ రోజు నేర్చుకున్న సమీకరణాలను పునః స్మరణ చేసే సమయంలో, 1వ రోజు నేర్చుకున్న సమీకరణాలు అవరోధం కలిగించాయి. ఇది ఈ రకమైన అవరోధం:
-
-**Options:**
-1. Pro-active (పురోగమన)
-2. Retro-active (తిరోగమన)
-3. Repression (దమనం)
-4. Storage failure (నిల్వ వైఫల్యం)
-
----
-
-**Question 29:**
-Identify the INCORRECT statement among the following: \
-ఈ కింది వానిలో సరికాని స్టేట్ మెంట్ ను గుర్తించండి:
-
-**Options:**
-1. Learner centric learning leads to knowledge construction than knowledge acquisition (అభ్యాసకుని కేంద్రిత అభ్యసనంలో జ్ఞాన సముపార్జన కంటే జ్ఞాన నిర్మాణానికి దారి తీస్తుంది.)
-2. Learner has more freedom than teacher in teacher centric environment (ఉపాధ్యాయ కేంద్రిత పరిసరంలో ఉపాధ్యాయునికంటే అభ్యాసకునికి స్వేచ్ఛ ఎక్కువగా ఉంటుంది)
-3. In collaborative learning, the teacher can attend to the individual differences of learners (సహచర అభ్యసనంలో, ఉపాధ్యాయుడు అభ్యాసకుల వైయక్తిక భేదాలపై దృష్టి పెట్టవచ్చు)
-4. Learner centric environment leads to individual accountability among learners (అభ్యాసకుని కేంద్రిత పరిసరం అభ్యాసకులలో వ్యక్తిగత జవాబుదారీతనంనకు దారి తీస్తుంది.)
-
----
-
-**Question 30:**
-One of the following is NOT a quality of activity: \
-కింది వాటిలో ఒకటి కృత్యం యొక్క లక్షణం కాదు:
-
-**Options:**
-1. Memorisation (కంఠస్థం)
-2. Interesting (ఆసక్తికరమైన)
-3. Meaningful (అర్థవంతమైన)
-4. Scope for thinking (ఆలోచనకు అవకాశం)
-
----
 ## Language I Telugu
 
-**Question 31:**
-చదువు చెప్పిన వారెవరు?
+**Q31 to Q34**
+కింది పద్యాన్ని చదివి '31 నుండి 34' వరకు ఉన్న ప్రశ్నలకు సరైన సమాధానాలను గుర్తించండి.
 
-**Options:**
-1. దనుజాధిపుడు
-2. సురారులు
-3. రాజసుతులు
-4. శుక్రకుమారులు
-
----
-
-**Question 32:**
-సురారి రాజసుతుడు ఎలాంటివాడు?
-
-**Options:**
-1. పాఠాయోగ్యుడు
-2. శాస్త్రలాలిత్యుడు
-3. వైష్ణవ భక్తి పూర్ణుడు
-4. శుక్రకుమారుల గురువు వంటి వాడు
+ఎఱుకగలవారి చరితలు \
+గఱచుచు, సజ్జనుల గోష్ఠి కదలక ధర్మం \
+బెఱుఁగుచు, నెఱిఁగిన దానిని \
+మఱవకనుష్ఠించునది సమంజస బుద్ధిన్
 
 ---
 
-**Question 33:**
-శుక్రకుమారులు ఎవరిని తీసుకెళ్ళినారు?
+**Q31.** ఎవరి చరితలు అభ్యసించాలి?
 
-**Options:**
-1. ధనుజాధిపుడిని
-2. సురారిని
-3. సురారులను
-4. సురారి రాజసుతుని
+1. సజ్జనులవి
+2. ధర్మపరులవి
+3. ఎఱుకగలవారివి
+4. బుద్ధిమంతులవి
 
 ---
 
-**Question 34:**
-పాఠయోగ్యములైనవి, అనేక శాస్త్రములను చదివినది ఎవరు?
+**Q32.** దేనిని తెలుసుకోవాలి?
 
-**Options:**
-1. శుక్రకుమారులు
-2. సురారిజనకులు
-3. వైష్ణవ పూర్ణులు
-4. సురారి రాజసుతుడు
+1. జ్ఞానము
+2. ధర్మము
+3. నీతి
+4. ఎఱుక
 
 ---
 
-**Question 35:**
-ఇచ్చిన గద్యము దేని గురించి చర్చించింది?
+**Q33.** ధర్మాన్ని ఎక్కడ నుండి గ్రహించాలి?
 
-**Options:**
-1. మానుష శాస్త్రము ఘనత
-2. మానవ శాస్త్రము ఘనత
-3. భాషా శాస్త్రము ఘనత
-4. లలిత కళల ఘనత
+1. ఎఱుకగల వారి నుండి
+2. సమంజస బుద్ధి గలవారి నుండి
+3. మంచివారి సభల నుండి
+4. ఎరిగిన దానిని మరువక ఉండే వారి నుండి
 
 ---
 
-**Question 36:**
-కింది వాటిలో సరైన సమాచార వాక్యాలు ఏవి? \
-A) మానవ శాస్త్రము మనిషి వికాసాన్ని కూడా చర్చిస్తుంది \
-B) మనిషి అజ్ఞానిగా ఉండకపోవడానికి భాషా శాస్త్రం కూడా కారణమే \
-C) మానవ సాంఘిక తత్త్వమునకు భాషాశాస్త్రము దీపము లాంటిదని అనుకోవడం పొరపాటు \
-D) భాషా శాస్త్రానికి మానవుల పూర్వచరిత్రకు సంబంధం లేదు.
+**Q34.** ఏది సమంజస బుద్ధి?
 
-**Options:**
-1. A & C మాత్రమే
-2. B & D మాత్రమే
-3. A & D మాత్రమే
-4. A & B మాత్రమే
+1. తెలియనిది పట్టుకునేది
+2. తెలిసినది అనుష్ఠించేది
+3. తెలుపకూడనిది తెలిపేది
+4. తెలుపవలసినది చెప్పనిది
 
 ---
 
-**Question 37:**
-భాషాశాస్త్రము మనిషిని ఏ రకంగా మార్చింది?
+**Q35 to Q38**
+ఈ కింది గద్య భాగాన్ని చదివి '35 నుండి 38' వరకు గల ప్రశ్నలకు సరైన సమాధానాలను గుర్తించండి..
 
-**Options:**
-1. అనాగరికుడిగా
-2. జ్ఞానిగా
-3. అజ్ఞానిగా
-4. అంధుడిగా
+వచన గేయమునకు 'లయ' ముఖ్యము. ఈ 'లయ' గణములను కూర్చుటతోనే ఉత్పన్నము కాదు. ఒకానొక ఊపులో; విసురులో పదములను గుప్పించుట వలన ఈ లయ ఏర్పడును. ఏ నియమములు లేకుండ శుద్ధ వచనమును లయాత్మకముగా మార్చినచో అది వచన గేయమగును. వచనమునకు వచన గేయమునకొక్కడే వ్యత్యాసమున్నది. వచనములో విషయప్రకటనమే ముఖ్య లక్ష్యము. అందుకు వచన రచయిత వైశద్యము కొరకు మాత్రమే ప్రయత్నించును, వచన గేయములో వైశద్యము ప్రధాన గుణము కాదు. పాఠకునిలో భావోద్వేగము కలిగించు 'అంతర్లయ' దీని ప్రధాన లక్షణము. దీనిలో కేవలము అనుప్రాసాదుల వలన సంక్రమించు శబ్దలయ ఆనుషంగికమైనది. దీనికతీతమైన 'భావలయ' ముఖ్యమైనది. భావలయయనగా వచన గేయమున పూసలలో దారము వలెనుండు అంతర్లయ. వచనగేయములోని యీ అంతర్లయ ఎల్లప్పుడొకేరీతిగా ఉండరాదు. ఒకప్పుడీ వచనగేయము మందమందముగా నడవవచ్చును. ఇంకొకప్పుడు తురగధాటిలో పరుగిడవచ్చును. మరియొకప్పుడు చటుక్కున విరిగి విరిగి సాగవచ్చును. ఎట్లున్నను ఆ అంతర్ణయగాని, విరుపులుగాని మొత్తము గేయము యొక్క గమనమునకు ఉపస్కారకముగా నుండవలెను. అంతమాత్రమున వచన గేయములోని పాదములన్నియు ఒకేతూగులో నుండవలెనని నా అభిమతము కాదు.
+ఛందోనియమము గల పద్యములోని 'లయ' 'ఏకతార' వంటిది. దానిలో వైవిధ్యము తక్కువ. వచన గేయములోని లయ అట్లుగాక స్వచ్ఛందమైనది. ఈ స్వచ్ఛందత వలన పద్యములో గేయములో అసంకల్పముగా చొరబారు కృత్రిమ పదబంధములు, పాదపూరణ శబ్దములు వచనగేయమున ప్రవేశించుటకు వీలులేకుండ పోయినది. చెప్పదలచుకొన్న భావమును సూటిగా గుండెకు తాకునట్లు చెప్పెడి గుణము అలవడినది. కవిత్వమునకు జీవితమునకు సాన్నిహిత్యమేర్పడినది. సమకాలీన వస్తువును కవితావస్తువుగా జేసికొనుటకు మరింత వీలుకలిగినది.
 
 ---
 
-**Question 38:**
-మానవ వికాసం, సమాజం మరియు పద్ధతిని గురించి చర్చించే శాస్త్రం ఏది?
+**Q35.** అనుప్రాసాదుల వలన కలిగే లయ ఏది?
 
-**Options:**
-1. సాహిత్య శాస్త్రం
-2. ఆర్థిక శాస్త్రం
-3. మానవ శాస్త్రం
-4. సామాజిక శాస్త్రం
+1. భావలయ
+2. అంతర్లయ
+3. శబ్ద లయ
+4. వచన లయ
 
 ---
 
-**Question 39:**
-"బురద, పంకం" మొదలుగా గల పర్యాయ పదాలు కలిగిన పదం ఏది?
+**Q36.** ఏ నియమాలు లేకుండా శుద్ధ వచనమును ఎట్లా మారిస్తే వచన గేయమవుతుంది?
 
-**Options:**
-1. కర్దమం
-2. క్వణము
-3. నిశాధిని
-4. నిశాచరుడు
+1. భావాత్మకం
+2. లయాత్మకం
+3. వైశద్యం
+4. గుణాత్మకం
 
 ---
 
-**Question 40:**
-తమ్మి అనే పదానికి అర్థమేమి?
+**Q37.** ఏకతార వంటి లయ దేనిలో ఉంటుంది?
 
-**Options:**
-1. తుమ్మి
-2. పద్మం
-3. తామర
-4. తుమ్మెద
+1. పద్యం
+2. వచన గేయం
+3. వచనం
+4. గేయం
 
 ---
 
-**Question 41:**
-'కాకోదరం' అనే పదానికి వ్యుత్పత్తి ఏమిటి?
+**Q38.** వచన గేయములోని లయ ఎటువంటిది?
 
-**Options:**
-1. పొట్టిపొట్ట కలిగినది
-2. కాకము కలిగిన ఉదరము
-3. వంకరలు తిరిగే పొట్ట కలది
-4. కాకి వంకరల ఉదరమున్నది
+1. స్వచ్ఛందమైనది
+2. కృత్రిమమైనది
+3. నియమబద్ధమైనది
+4. ఆనుషంగికమైనది
 
 ---
 
-**Question 42:**
-'కన్నీరు, ఆవిరి, ఇనుము' అనే నానార్థాలు కలిగిన పదమేది?
+**Q39.** ద్విపద ఛందస్సులోని గణాల వరుస ఏది?
 
-**Options:**
-1. బాష్పము
-2. ఆనందం
-3. అయము
-4. అక్షిజలము
+1. 3 సూర్య గణాలు 1 ఇంద్ర గణము
+2. 2 ఇంద్ర గణాలు 1 సూర్య గణము
+3. 3 ఇంద్ర గణాలు 1 సూర్య గణము
+4. 2 ఇంద్ర గణాలు 2 సూర్య గణాలు
 
 ---
 
-**Question 43:**
-'యజ్ఞం, సంద్రము, జన్నం, మిత్తి, మృత్యువు, సముద్రము' - ఈ పదాలలోని సరైన ప్రకృతి – వికృతి పదాలు ఏవి?
+**Q40.** మతేమి, మఱియేమి వంటి రెండు రూపాలకు కారణం ఏమిటి?
 
-**Options:**
-1. సంద్రము – జన్నం, యజ్ఞం - మిత్తి, మృత్యువు - సముద్రము
-2. సముద్రం – సంద్రము, యజ్ఞం - జన్నం, మృత్యువు - మిత్తి
-3. యజ్ఞం – మిత్తి, జన్నం - యజ్ఞం, సంద్రము - సముద్రము
-4. మృత్యువు – యజ్ఞం, సంద్రము - మిత్తి, జన్నం - సముద్రము
+1. నిత్యము
+2. ఏకాదేశము
+3. బహుళము
+4. వైకల్పికము
 
 ---
 
-**Question 44:**
-"పేదరాలు" పదాన్ని విడదీయగా
+**Q41.** 'మాత్రుపదేశం' లో జరిగిన సంధి ఏది?
 
-**Options:**
-1. పేద + ఆలు
-2. పేద + రాలు
-3. పేదర + ఆలు
-4. పేద + అర్లు
+1. వృద్ధి సంధి
+2. ఉకార సంధి
+3. గుణ సంధి
+4. యణాదేశ సంధి
 
 ---
 
-**Question 45:**
-కింది వాటిలో సంభావన పూర్వపద కర్మధారయ సమాసమునకు ఉదాహరణ ఏది?
+**Q42.** 'మానవ జీవనం సుకుమారమైనది' లో ఉన్న అలంకారం ఏమిటి?
 
-**Options:**
-1. గోలకొండ పట్టణము
-2. గరళ కంఠుడు
-3. అందచందములు
-4. భిక్షార్ది
+1. రూపక
+2. యమక
+3. దృష్టాంత
+4. ఉపమ
 
 ---
 
-**Question 46:**
-'వసంతోత్సవం'లోని 'గుణము' ఏది?
+**Q43.** "ముఖచంద్రము" ఏ సమాసము?
 
-**Options:**
-1. ఏ
-2. ఓ
-3. అర్
-4. అల్
+1. విశేషణ పూర్వ పద కర్మధారయము
+2. విశేషణ ఉత్తరపద కర్మధారయము
+3. ఉపమాన ఉత్తరపద కర్మధారయము
+4. ఉపమాన పూర్వపద కర్మధారయము
 
 ---
 
-**Question 47:**
-'వృత్త పద్యము' లో గణాలు ఎలా ఉంటాయి?
+**Q44.** 'వడుకుడుపులు' అర్థం ఏమిటి?
 
-**Options:**
-1. గణాలు వృత్తాకారంలో ఉండటం
-2. వృత్తాకార గణాలు పద్యంలో ఉండటం
-3. నాలుగు పాదాల్లో ఒకే రకమైన గణాలు ఒకే వరుసలో ఉండటం
-4. వేరు వేరు గణాలు మళ్ళీ ఆవృత్తం ఒకే పాదంలో రావడం
+1. వడలు కుడుములు
+2. వడికిన కండెలు
+3. చేనేత వస్త్రములు
+4. వణికే చేతులు
 
 ---
 
-**Question 48:**
-'ఇక్కట్లలో కూడ నిక్కమును వక్కాణిస్తూ నొక్కి చెప్పేవాడే చక్కనివాడు' - ఇందులోని అలంకారమేది?
+**Q45.** కింది పదాలలో అవ్యయ పదము ఏది?
 
-**Options:**
-1. యమకం
-2. వృత్త్యనుప్రాసం
-3. రూపక
-4. ఉత్ప్రేక్ష
+1. మనము
+2. వారు
+3. ఊరక
+4. చూపు
 
 ---
 
-**Question 49:**
-వేముగంటివారు "ఎంత తీయని దానవే!" అని ఏ నదిని సంబోధించారు?
+**Q46.** 'బండ జింకలు' అనగా అర్థం ఏమిటి?
 
-**Options:**
-1. గోదావరి నది
-2. గంగా నది
-3. మంజీర నది
-4. సరయు నది
+1. పావురాలు
+2. గబ్బిలాలు
+3. లేళ్ళు
+4. కప్పలు
 
 ---
 
-**Question 50:**
-శివభక్తులను 'హంస, చిలుక, చకోరం, తుమ్మెద'లతో పోల్చిన కవి ఎవరు?
+**Q47.** 'తస్కరుడు'కు పర్యాయ పదాలు ఏవి?
 
-**Options:**
-1. పాల్కురికి
-2. శ్రీనాథుడు
-3. చేమకూర
-4. పోతన
+1. మానవుడు, మర్త్యుడు, నరుడు, మనుజుడు
+2. విష్ణువు, నారాయణుడు, శ్రీహరి
+3. దొంగ, చోరుడు, ముచ్చు
+4. ఎలుక, మూషికము, పందికొక్కు
 
 ---
 
-**Question 51:**
-నన్నయ ఆంధ్రమహాభారతంలోని చివరి పద్యం ఏది?
+**Q48.** 'పణం' కు నానార్థాలు ఏవి?
 
-**Options:**
-1. సారపు ధర్మము...
-2. శ్రీకైవల్యపదంబు...
-3. శ్రీవాణీగిరిజా...
-4. శారదరాత్రులు...
+1. చోటు, భూమి, శరీరం
+2. కన్నీరు, ఆవిరి, ఇనుము
+3. వంశం, జాతి, శరీరం
+4. పందెం, కూలి, వెల, ధనం
 
 ---
 
-**Question 52:**
-డా॥ ఇరివెంటి కృష్ణమూర్తిగారి సిద్ధాంత గ్రంథం ఏది?
+**Q49.** తెలుగులో తొలి రామాయణం ఏది?
 
-**Options:**
-1. వేగుచుక్కలు
-2. అడుగుజాడలు
-3. కవి సమయములు
-4. వెలుగుబాటలు
+1. భాస్కర రామాయణం
+2. రంగనాథ రామాయణం
+3. మొల్ల రామాయణం
+4. చిఱుతల రామాయణం
 
 ---
 
-**Question 53:**
-'ఎచ్చమ్మ కథలు' కథా సంపుటిని రాసిన వారు ఎవరు?
+**Q50.** తెలంగాణ భాషా దినోత్సవాన్ని ఎప్పుడు జరుపుకుంటారు?
 
-**Options:**
-1. ఇల్లిందుల సరస్వతీదేవి
-2. పాకాల యశోదారెడ్డి
-3. మాదిరెడ్డి సులోచన
-4. యద్దనపూడి సులోచన రాణి
+1. నవంబర్ 14
+2. జూలై 29
+3. నవంబర్ 13
+4. సెప్టెంబర్ 9
 
 ---
 
-**Question 54:**
-సి. నారాయణ రెడ్డి గారి ఏ కావ్యానికి జ్ఞాన పీఠ అవార్డు లభించింది?
+**Q51.** దక్షిణ భారతదేశంలో జానపద గేయ సాహిత్యంపై మొదట పిహెచ్.డి చేసిన వారు ఎవరు?
 
-**Options:**
-1. ఆధునికాంధ్ర కవిత్వము - సంప్రదాయములు - ప్రయోగములు
-2. నాగార్జున సాగరం
-3. కర్పూర వసంతరాయలు
-4. విశ్వంభర
+1. తూమాటి దోణప్ప
+2. బిరుదురాజు రామరాజు
+3. నాయని కృష్ణ కుమారి
+4. నేదునూరి గంగాధరం
 
 ---
 
-**Question 55:**
-తెలంగాణ రాష్ట్రంలోని 9, 10 తరగతులలోని ప్రథమ భాషా తెలుగు వాచకం
+**Q52.** 'ఆత్మవేదన' కవితా సంపుటి రాసిన వారు ఎవరు?
 
-**Options:**
-1. సింగిడి
-2. నవవసంతం
-3. తేనెపలుకులు
-4. జాబిల్లి
+1. మాడపాటి హనుమంతరావు
+2. కొమఱ్ఱాజు లక్ష్మణ రావు
+3. పొట్లపల్లి రామారావు
+4. ఆదిరాజు వీరభద్ర రావు
 
 ---
 
-**Question 56:**
-క, ఖ, గ, ఘ, ఙ అనే అక్షరాలు
+**Q53.** శ్రీ యాదగిరి నృసింహ శతక కర్త ఎవరు?
 
-**Options:**
-1. కంఠ్యాలు
-2. తాలవ్యాలు
-3. ఓష్ఠ్యాలు
-4. మూర్ధన్యాలు
+1. ధూపాటి సంపత్కుమారాచార్య
+2. శ్రీశ్రీ
+3. కోవెల సంపత్కుమారాచార్య
+4. ఆచ్చి వేంకటాచార్య
 
 ---
 
-**Question 57:**
-పఠనాలయంలో దినపత్రికా పఠనం
+**Q54.** కింది వారిలో రఘునాథ నాయకుని ఆస్థాన కవి ఎవరు?
 
-**Options:**
-1. విస్తార - మౌనపఠనం
-2. క్షుణ్ణ - ప్రకాశ పఠనం
-3. విస్తార – ప్రకాశ పఠనం
-4. క్షుణ్ణ - మౌన పఠనం
+1. చింతలపాటి ఎల్లన
+2. పెద తిరుమలాచార్యుడు
+3. రంగాజమ్మ
+4. చేమకూర వేంకట కవి
 
 ---
 
-**Question 58:**
-తన బోధనకు ముందు నిర్ధారించుకొన్న బోధనా లక్ష్యాలు ఏ మేరకు నెరవేరిందీ లేనిదీ తెలుసుకోవడానికి, ఉపాధ్యాయుడు తరగతిగదిలో నిర్వహించే బోధనా సోపానం
+**Q55.** మాతృభాష బోధనా లక్ష్యాల వర్గీకరణలో - సంధులు, సమాసాలు, పర్యాయ పదాలు, నానార్థాలు, జాతీయాలు, వ్యుత్పత్యర్థాలు, ప్రకృతి - వికృతుల బోధన ఈ లక్ష్య విభాగంలోకి వస్తుంది.
 
-**Options:**
-1. ప్రవేశం
-2. పునశ్చరణ
-3. ఇంటిపని
-4. ప్రదర్శనం
+1. విషయ జ్ఞానం
+2. సాహిత్య జ్ఞానం
+3. భాషా జ్ఞానం
+4. భాషాంతరీకరణ జ్ఞానం
 
 ---
 
-**Question 59:**
-"మానవ జాతి తరతరాలుగా పొందిన పరిణామ పునరభినయమే శిశుక్రీడలో కనిపిస్తుందనీ, జాతిలోని క్షుద్రప్రవృత్తులు శైశవ దశలో ప్రతి వ్యక్తిలోనూ క్రీడారూపంలో వ్యక్తమై బహిర్గతమవుతాయని క్రీడను గూర్చి అభిప్రాయపడినవారు:
+**Q56.** ‘అలవోకగా ఉత్పన్నమయ్యే కంఠధ్వనుల సాధనాలతో, కేవలం మానవ సంబంధమై, సహజాతేతర పద్ధతి ద్వారా మనోద్రేకాలను, ఆలోచనలను, వాంఛలను తెలియజేసేదే భాష", అని నిర్వచించిన భాషావేత్త
 
-**Options:**
-1. కార్ల్ గ్రూస్
-2. మాక్ డొగల్
-3. స్టాన్లీ హాల్
-4. కాల్డ్వెల్ కుక్
+1. హాకెట్
+2. సఫైర్
+3. స్టర్ట్ వర్ట్
+4. హ్యూగ్స్
 
 ---
 
-**Question 60:**
-'భాషాంశాలు' కు సంబంధించినవి
+**Q57.** ప్రకాశ పఠనంలో, ఒక గుక్కలో అర్థవంతంగా పలుకగలిగే పద సముదాయాన్ని మరియు ఒక్క చూపులో విద్యార్థి ఎంతవరకు చూడగలుగుతాడో దానిని - వరుసక్రమంలో ఇలా పిలుస్తారు.
 
-**Options:**
-1. శ్రవణం, భాషణం
-2. పఠనం, లేఖనం
-3. పదజాలం, వ్యాకరణాంశాలు
-4. సృజనాత్మకత, ప్రాజెక్టు పని
+1. వాణ్మితి - నయనమితి
+2. నయనమితి - వాణ్మితి
+3. వాఙ్నయనమితి
+4. పురోగమన వాఙ్మయనమితి
 
 ---
+
+**Q58.** గౌణవాచకం, పూరణ వాచకం, విస్తార పఠన వాచకం అనే పేర్లతో వ్యవహరింపబడే వాచకం
+
+1. కృషి పుస్తకం
+2. ప్రధాన వాచకం
+3. అధ్యాపక దర్శిని
+4. ఉపవాచకం
+
+---
+
+**Q59.** వ్యక్తిగత పద్ధతి, వైయక్తిక పద్ధతి, వ్యష్టి పద్ధతి, నియోజనాల పద్ధతి గా పిలువబడే ఆధునిక బోధన పద్ధతి
+
+1. మాంటిసోరి పద్ధతి
+2. డాల్టన్ పద్ధతి
+3. కిండర్ గార్డెన్ పద్ధతి
+4. కృత్యాధార పద్ధతి
+
+---
+
+**Q60.** నిరంతర సమగ్ర మూల్యాంకనంలో భాగంగా 'లఘు పరీక్ష' - అనే మూల్యాంకన ఉపకరణం. ఈ రకమైన మూల్యాంకనము కిందకు చేరుతుంది.
+
+1. సంగ్రహణాత్మక
+2. లోపనిర్ధారణ
+3. నిర్మాణాత్మక
+4. ప్రాగుక్తిక
+
+---
+
 ## Language II English
 
-**Question 61:**
-Read the following two statements. \
-A) An individual's mental status is determined by his biological inheritance. \
-B) An individual's mental status is determined by his environmental influences. \
-Choose the correct option.
+**Q61 to Q65**
+Read the following passage and answer the questions given.
 
-**Options:**
-1. Only the statement A is correct.
-2. Only the statement B is correct.
-3. The statements A and B are correct.
-4. The statements A and B are incorrect.
+Conversation is a fine art. It is the art of exchanging thought. It is an art which anybody can cultivate or master. Not everybody can paint or play music, but almost everyone can talk. Thus it affords the greatest pleasure to the greatest number. "To talk", says R.L. Sleversan, "is our chief business in the world. And talk is by far the most accessible of pleasures. It costs nothing in money, it is all profit. It completes our education, makes friends and can be enjoyed at any age. Conversation is indeed the most teachable of all the arts. All you need to do is to find a subject that interests you and your listeners. Hobbies are for example, numberless hobbies to talk about. But the important thing is that you must talk about the other fellow's hobby rather than your own. Therein lies the secret of your popularity. There is nothing that pleases people so much as your interest in their interest. It is just as important to know what subjects to avoid and what subjects to select for good conversation. If you don't want to be set down as a bore, avoid certain unpleasant topics. Avoid talking about yourself unless you are asked to do so. Sickness or death bores everybody. The only one who willingly listens to such talk is, the doctor, but he gets paid for it. You must also know not only what to say but also how to say it.
 
 ---
 
-**Question 62:**
-According to the hereditarians, the desirable or undesirable traits of an individual are strengthened by:
+**Q61.** The author defines 'conversation' as
 
-**Options:**
-1. his biological inheritance.
-2. his environmental influences.
-3. his behaviour resemblances.
-4. his parent's genes.
+1. a hobby that gives pleasure to all.
+2. a fine art of exchanging thoughts that is within everybody's reach.
+3. a sickness and deathlike thing.
+4. a subject of interest for everyone.
 
 ---
 
-**Question 63:**
-Identify the correct statement based on the passage.
+**Q62.** Read the following statements based on the passage: \
+(A) "To talk" is our chief business in the world and by far the most accessible of pleasures. \
+(B) Talking costs nothing and is all profit. It helps us make friends and can be enjoyed at any age. \
+Choose the correct answer:
 
-**Options:**
-1. We can fully control the environment of a child.
-2. We can fully control the biological influences on a child.
-3. The environmentalist believes that biological inheritance plays a minor role in the development of an individual.
-4. Biological inheritance can strengthen the desirable or undesirable traits of an individual transmitted to child through the environmental influences.
-
----
-
-**Question 64:**
-"Blood will tell" is the favourite saying of:
-
-**Options:**
-1. an environmentalist.
-2. the author of the passage.
-3. the revolutionaries.
-4. a hereditarian.
+1. Only the statement (A) is correct
+2. Only the statement (B) is correct
+3. Both the statements (A) & (B) are incorrect.
+4. Both the statements (A) & (B) are correct.
 
 ---
 
-**Question 65:**
-Identify the word from the passage which means "similarity".
+**Q63.** While talking, the secret of your popularity lies in
 
-**Options:**
-1. stimulation
-2. inheritance
-3. resemblance
-4. accomplishment
+1. talking about fine arts.
+2. talking about art and culture.
+3. talking about hobbies of others than of yours.
+4. talking about personal affairs and issues.
 
 ---
 
-**Question 66:**
-Choose the option that correctly sequences the following sentences. \
-A) As I was walking, suddenly a bicyclist ran into me right in front of my college. \
-B) When people nearby were rushing towards me, he left me unhurt. \
-C) Yesterday, I got up and took a shower like I always do. \
-D) The attacker was trying to pin me against a wall. \
-E) Then I got a quick breakfast and walked to college.
+**Q64.** If you don't want to be set down as a bore, you need to avoid \
+A) talking about your personal affairs and issues. \
+B) talking about sickness and death. \
+C) talking about other fellow's hobby. \
+Choose the correct answer:
 
-**Options:**
-1. C, E, A, D, B
-2. A, B, C, D, E
-3. C, A, E, B, D
-4. C, E, D, A, B
+1. A and B only
+2. A and C only
+3. A, B and C
+4. B and C only
 
 ---
 
-**Question 67:**
-Today's weather is more pleasant \_\_\_\_\_\_\_\_\_\_\_. \
-Identify the suitable option to complete the sentence.
+**Q65.** Talking affords the greatest pleasure to the greatest number because
 
-**Options:**
-1. than yesterday
-2. than yesterday's
-3. then that of yesterday's
-4. then that of yesterday
+1. it costs nothing.
+2. it can be enjoyed at any age.
+3. everybody cannot paint or play music, but almost everyone can talk.
+4. people are interested in listening about others' hobbies.
 
 ---
 
-**Question 68:**
-The professor has subscribed to the magazine until the cows come home. \
-The meaning of the expression 'until the cows come home' is:
+**Q66.** Raghav met a girl **with blue eyes.** \
+Choose the most appropriate clause to replace "with blue eyes"
 
-**Options:**
-1. for a very long time
-2. recently
-3. just now
-4. lately
+1. whose eyes was blue.
+2. those eyes were blue.
+3. whose eyes were blue.
+4. those eyes are blue.
 
 ---
 
-**Question 69:**
-Choose the correctly spelt word.
-
-**Options:**
-1. deterence
-2. diterrence
-3. deterrance
-4. deterrence
-
----
-
-**Question 70:**
-Identify the silent consonant sound in the word "indictment".
-
-**Options:**
-1. c
-2. d
-3. the middle 't'
-4. the last 't'
-
----
-
-**Question 71:**
-Choose the correct sentence.
-
-**Options:**
-1. The passer-by asked the stranger where was the post office.
-2. The stranger asked the passer-by where was the post office.
-3. The stranger asked the passer-by where the post office was.
-4. The stranger was asked the passer-by where the post office.
-
----
-
-**Question 72:**
-The opposition party has \_\_\_\_\_\_\_ the government on its short-sighted foreign policy. \
+**Q67.** Things _______ better if I get a job and earn some money. \
 Choose the correct option to complete the sentence.
 
-**Options:**
-1. come down on
-2. come down with
-3. came down up
-4. come upon with
+1. was
+2. will be
+3. had been
+4. would have been
 
 ---
 
-**Question 73:**
-Identify the part with an error in the given sentence. \
-$\frac{The~tour}{A}~\frac{was~neither}{B}~\frac{funny}{C}~\frac{or~memorable.}{D}$
-
-**Options:**
-1. C
-2. B
-3. A
-4. D
-
----
-
-**Question 74:**
-My father said to me, "Where are you coming from?" \
-Choose the appropriate reported sentence.
-
-**Options:**
-1. My father asked me where I am coming from.
-2. My father asked me where am I coming from.
-3. My father asked me where was I coming from.
-4. My father asked me where I was coming from.
-
----
-
-**Question 75:**
-Fools only can believe in such a half-truth, \_\_\_\_\_\_\_ ? \
-Choose the correct option.
-
-**Options:**
-1. couldn't they
-2. can they
-3. could they
-4. can't they
-
----
-
-**Question 76:**
-In the prolonged war, the country lost a fleet of 25 \_\_\_\_\_\_\_. \
-Choose appropriate word to complete the sentence.
-
-**Options:**
-1. aircrafts
-2. aircraft
-3. air crafts
-4. air craft
-
----
-
-**Question 77:**
-My mother usually \_\_\_\_\_\_\_ yoga daily, but these days she \_\_\_\_\_\_\_. \
-Choose the appropriate option to complete the given sentence.
-
-**Options:**
-1. does, is walking
-2. is walking, does
-3. did, walking
-4. do, is walking
-
----
-
-**Question 78:**
-But for the traffic, the student would have reached the exam hall in time. \
-The meaning of the sentence is:
-
-**Options:**
-1. The student had reached the exam hall in time, even though there was heavy traffic on her way.
-2. The student had not reached the exam hall in time, as there was heavy traffic on her way.
-3. Due to the heavy traffic, the student will not reach the exam hall in time.
-4. Irrespective of the heavy traffic, the student was able to have reached the exam hall in time.
-
----
-
-**Question 79:**
-If you start now and maintain the speed of 75 KM an hour, you \_\_\_\_\_\_\_ them. \
-Identify the expression to make the sentence meaningful.
-
-**Options:**
-1. caught up with
-2. catch with
-3. can catch up with
-4. can caught up with
-
----
-
-**Question 80:**
-Look! The children \_\_\_\_\_\_\_. \
+**Q68.** He threw himself into the Barcelona river _______ committed suicide. \
 Choose the correct option to complete the sentence.
 
-**Options:**
-1. is crying
-2. are crying
-3. was cried
-4. is cried
+1. if
+2. however
+3. yet
+4. and
 
 ---
 
-**Question 81:**
-My father watches the TV \_\_\_\_\_\_\_ he reads the newspaper. \
-Choose the appropriate option to combine the following sentences
+**Q69.** Sudhakar has the habit of fishing in the troubled waters. \
+Choose the correct meaning of the idiom 'fishing in the troubled waters'.
 
-**Options:**
-1. during
-2. over
-3. while
-4. since
+1. taking advantage of troubled conditions for personal profit.
+2. putting others in trouble.
+3. indulging in evil conspiracies.
+4. aggravating the situation.
 
 ---
 
-**Question 82:**
-The students skipped the classes. The students failed in the exam. \
-The two sentences can be combined as:
+**Q70.** You were brought up by the parish, _______ ? \
+Choose the correct option.
 
-**Options:**
-1. The students skipped the classes however they failed in the exam.
-2. The students failed in the exam in spite of they skipped the classes.
-3. Though the students skipped the classes, they failed in the exam.
-4. The students failed in the exam as they skipped the classes.
+1. aren't you
+2. haven't you
+3. isn't you
+4. weren't you
 
 ---
 
-**Question 83:**
-A process involving too much official formality is:
+**Q71.** Many children become child labour due to domestic violence and **abject** poverty. \
+Choose the best option to replace the word 'abject'.
 
-**Options:**
-1. Red tapism
-2. Diplomacy
-3. Bureaucracy
-4. Authoritarianism
-
----
-
-**Question 84:**
-\_\_\_\_\_\_\_ lost their capital to the Nazi Germany during the World War II. \
-Choose the correct option to complete the given sentence.
-
-**Options:**
-1. The France
-2. French
-3. A French
-4. The French
+1. little
+2. miserable
+3. clear
+4. low
 
 ---
 
-**Question 85:**
-In an English classroom, the teacher instructs students to write an essay on Global Warming and Climate Change. To do so, students collect information from science and social science books. This task aims at:
+**Q72.** Choose the INCORRECT pair of British and American English words respectively from the following.
 
-**Options:**
-1. Completing both the science and social studies syllabus along with English.
-2. Facilitating language development across all disciplines.
-3. Guiding other subject teachers to use English in their classroom instruction.
-4. Promoting conceptual knowledge in science and social studies.
+1. autumn - fall
+2. curtains - drapes
+3. eraser - rubber
+4. flat - apartment
 
 ---
 
-**Question 86:**
-In 1940s, the first discussion on languages in school education was initiated by:
+**Q73.** The most appropriate complementary closing to a letter addressed to your younger brother is
 
-**Options:**
-1. National Knowledge Commission.
-2. Chief Ministers Conference.
-3. Central Advisory Board on Education.
-4. Secondary Education Commission.
+1. Yours truly,
+2. Yours faithfully,
+3. Yours affectionately,
+4. Yours obediently,
 
 ---
 
-**Question 87:**
-"What do you think will happen next in the story?". This question is an example of:
+**Q74.** Mohan is a good digital citizen. \
+The phrase "good digital citizen" means:
 
-**Options:**
-1. Closed-Ended Question
-2. Rhetorical Question
-3. Clarification Question
-4. Inferential Question
-
----
-
-**Question 88:**
-Identify the effective approach to grammar teaching:
-
-**Options:**
-1. Disregard grammar learning entirely by emphasizing fluency and communication skills.
-2. Teach grammar by relying solely on the memorization of rules and principles.
-3. Instruct the learners to adhere to grammar rules without integrating them into context.
-4. Combine the grammar lessons with real-life contexts and communicative tasks.
+1. one whose name is entered in a digital register of citizens.
+2. one who uses the internet responsibly and safely.
+3. one who uses the internet widely.
+4. one who always reads e-magazines.
 
 ---
 
-**Question 89:**
-The International Phonetic Alphabet (IPA) is a standardized system used to represent:
+**Q75.** Manvi said to her teacher, "May I play now?". \
+Choose the option that correctly reports the given sentence.
 
-**Options:**
-1. the transcription of the auditory elements of language.
-2. the structural framework of a language's sentence formation.
-3. the historical and cultural context of language development.
-4. the orthography of languages.
+1. Manvi asked her teacher if she might play then.
+2. Manvi asked her teacher if might she play then.
+3. Manvi asked her teacher if she might play now.
+4. Manvi asked her teacher if she may play now.
+
+---
+
+**Q76.** A canner can can anything he can can. \
+Pick out the meaning of the underlined word (second 'can').
+
+1. A person who preserves things in containers.
+2. A container.
+3. Sense of ability.
+4. The process of preserving in containers.
 
 ---
 
-**Question 90:**
-The content that uses a combination of different content formats such as text, audio, images, animation, video, and interactive content is known as:
+**Q77.** What prefix would the word 'balance' take to convey negative sense?
 
-**Options:**
-1. Visual media.
-2. Multimedia.
-3. Print media.
-4. Podcast.
+1. dis-
+2. non-
+3. mis-
+4. im-
 
 ---
+
+**Q78.** Arrange the following jumbled parts of a sentence in a correct sequence to make it meaningful. \
+A) to enhance interoperability \
+B) quickly establish networks \
+C) radio operators can use hundreds of frequencies and \
+D) tying disparate agencies together \
+Choose the correct answer.
+
+1. CBDA
+2. ABCD
+3. DCAB
+4. BDCA
+
+---
+
+**Q79.** Read the following sentences and identify the pair of homophones therein. \
+A) The view of the sea from my window is so beautiful. \
+B) People believe that, to see a widow while you go out on a purpose is a bad sign.
+
+1. window-widow
+2. my-while
+3. sea-see
+4. view-you
+
+---
+
+**Q80.** The moon has hidden _______ face behind the clouds. \
+Choose the correct option.
+
+1. hers
+2. its
+3. it's
+4. him
+
+---
+
+**Q81.** Choose the appropriate word to complete the following word analogy. \
+cherry: tree :: rose: _______
+
+1. flower
+2. bunch
+3. bouquet
+4. plant
+
+---
+
+**Q82.** Identify the sentence which shows that you are seeking permission.
+
+1. May I leave now?
+2. May I help you?
+3. Could you please help me getting my luggage down?
+4. Is anyone in here?
+
+---
+
+**Q83.** Identify the part with an error in the following sentence. \
+Neither the boys (A) / or the girls (B) / can be allowed (C) / to dance (D).
+
+1. A
+2. D
+3. C
+4. B
+
+---
+
+**Q84.** I was asked to go and sit in the last bench. \
+Choose the appropriate active voice for the above sentence:
+
+1. My teacher asks me to go and sit in the last bench.
+2. My teacher asked me to go and sat in the last bench.
+3. My teacher asked me to go and sit in the last bench.
+4. My teacher ask me to go and sit in the last bench.
+
+---
+
+**Q85.** In the State Board schools, in order to have parity among students of English and non- English medium, a common English Textbook was introduced in all media from
+
+1. June 2011
+2. June 2010
+3. June 2014
+4. June 2012
+
+---
+
+**Q86.** Identify hypothetical question among the following.
+
+1. Whom do you like to marry?
+2. What would you do, if you were the Prime Minister of India?
+3. Do you go with your family or alone?
+4. What is your favourite subject?
+
+---
+
+**Q87.** The following one is NOT a feature of Structural syllabus.
+
+1. Use of mother tongue was partially allowed.
+2. Meaning was not given importance while teaching language.
+3. Only one structure was taught at a time.
+4. It was a purely grammatical syllabus.
+
+---
+
+**Q88.** Authentic material is the material produced
+
+1. with the obvious intent of teaching in class.
+2. exclusively by Ed-tech companies as Teaching and Learning Material.
+3. and supplied by SCERT.
+4. without the obvious intent of teaching in class.
+
+---
+
+**Q89.** Why does English have the largest vocabulary? \
+Reason A: The English language has absorbed words from many other languages and made them its own. \
+Reason B: The English language has inherited a vast reservoir of vocabulary from its beginning. \
+Choose the correct option.
+
+1. Both Reason A and Reason B are correct.
+2. Only Reason B is correct.
+3. Both Reason A and Reason B are incorrect.
+4. Only Reason A is correct.
+
+---
+
+**Q90.** While 'skimming', a reader
+
+1. quickly finds specific information in a text using keywords.
+2. gets the minute details quickly.
+3. obtains immense pleasure.
+4. gets quickly the main idea or general overview of a text.
+
+---
+
 ## Mathematics
 
-**Question 91:**
-Which of the following statements is true? \
-క్రింది వానిలో ఏది సత్యవాక్యం?
+**Q91.** Choose an INCORRECT statement from the following related to sets. \
+క్రింది వాటిలో నుండి సమితులకు సంబంధించి సరికాని వ్యాఖ్యను గుర్తించండి.
 
-**Options:**
-1. Cube of an even number is an odd number (సరి సంఖ్య యొక్క ఘనము ఒక బేసి సంఖ్య)
-2. A perfect cube number ends with two zeroes (సంపూర్ణ ఘన సంఖ్య చివర రెండు స్థానాలు సున్నాలతో అంతమవుతాయి)
-3. Cube of a even prime number is a single digit number (సరి ప్రధాన సంఖ్య యొక్క ఘనము ఒక అంకె సంఖ్య)
-4. Cube of a two digit number may be a three digit number (రెండంకెల సంఖ్య యొక్క ఘనము మూడంకెల సంఖ్య కావచ్చు)
-
----
-
-**Question 92:**
-The ratio of two angles is 5:3. If the smaller angle is $180^\circ$, then the larger angle is: \
-రెండు కోణాలు 5:3 నిష్పత్తిలో ఉన్నాయి. వానిలో చిన్న కోణము $180^\circ$ అయితే పెద్ద కోణము విలువ:
-
-**Options:**
-1. $280^\circ$
-2. $300^\circ$
-3. $360^\circ$
-4. $450^\circ$
+1. If $P = \{x: x \text{ is a natural number, } x<8 \text{ and } x>6\}$, then set P is an empty set. \
+$P = \{x : x \text{ ఒక సహజ సంఖ్య, } x<8 \text{ మరియు } x>6\}$ అయితే, సమితి P శూన్యసమితి అవుతుంది.
+2. If A and B are two non-empty disjoint sets, then $n(A\cup B)=n(A)+n(B)$. \
+A మరియు B రెండు శూన్యేతర వియుక్త సమితులు అయితే, $n(A\cup B) = n(A) + n(B)$.
+3. The set of lines passing through a given point in a plane is an infinite set. \
+ఒక తలంలోని ఒక బిందువు గుండా వెళ్ళే సరళ రేఖల సమితి అపరిమిత సమితి అవుతుంది.
+4. If $A = \{x: x \text{ is an even prime number and } x>2\}$, then set A is a finite set. \
+$A = \{x : x \text{ ఒక సరి ప్రధాన సంఖ్య మరియు } x>2\}$ అయితే, సమితి A ఒక పరిమిత సమితి అవుతుంది.
 
 ---
 
-**Question 93:**
-When the sum of $x^2-3xy+2y^2$ and $y^2-xy-2x^2$ is subtracted from the sum of $5x^2-6xy-2y^2$ and $-2y^2+xy+2x^2$ the resultant algebraic expression is: \
-$x^2-3xy+2y^2$ మరియు $y^2-xy-2x^2$ ల మొత్తమును $5x^2-6xy-2y^2$ మరియు $-2y^2+xy+2x^2$ ల మొత్తము నుండి తీసివేసినప్పుడు వచ్చే బీజీయ సమాసం:
+**Q92.** A parallelogram and a square have the same area. If a side of the square is 40meters and the ratio of base and height of the parallelogram is 1:4 respectively, then the height of the parallelogram (in meters) is \
+ఒక సమాంతర చతుర్భుజం మరియు ఒక చతురస్రంల యొక్క వైశాల్యం సమానం. చతురస్రం యొక్క భుజము 40మీ. సమాంతర చతుర్భుజం యొక్క భూమి మరియు ఎత్తులు వరుసగా 1 : 4 నిష్పత్తిలో ఉన్నట్లయితే, సమాంతర చతుర్భుజం యొక్క ఎత్తు (మీ.లలో)
 
-**Options:**
-1. $8x^2-xy-7y^2$
-2. $6x^2-9xy-y^2$
-3. $8x^2-9xy-5y^2$
-4. $6x^2-xy-5y^2$
-
----
-
-**Question 94:**
-If the points $(k-3, 3k+2)$ lie on the graph of the equation $2x-3y+19=0$ then the value of k is: \
-బిందువు $(k-3, 3k+2)$ సమీకరణం $2x-3y+19=0$ యొక్క గ్రాఫ్ పై ఉంటే, k విలువ:
-
-**Options:**
-1. 2
-2. 1
-3. 0
-4. 3
-
----
-
-**Question 95:**
-Area of a trapezium is $960$ sq.cm. Length of one of the parallel sides is $48$cm and the distance between the parallel sides is $16$cm. Then, the length of the other parallel side (in cm) is: \
-ఒక ట్రెపీజియం వైశాల్యం $960$చ.సెం.మీ. దాని సమాంతర భుజాలలో ఒకదాని పొడవు $48$సెం.మీ మరియు సమాంతర భుజాల మధ్య దూరం $16$సెం.మీ. అయితే, మరో సమాంతర భుజం పొడవు (సెం.మీ.లలో):
-
-**Options:**
-1. 60
-2. 76
-3. 80
-4. 72
-
----
-
-**Question 96:**
-The sum of all odd natural numbers from 10 to 48 is: \
-10 నుండి 48 వరకు గల అన్ని బేసి సహజ సంఖ్యల మొత్తము:
-
-**Options:**
-1. 576
-2. 600
-3. 551
-4. 526
-
----
-
-**Question 97:**
-$x^2 - (y^2 - 2yz + z^2) =$
-
-**Options:**
-1. $(x-y+z)(x+y-z)$
-2. $(x-y+z)(x-y-z)$
-3. $(x-y-z)(x+y-z)$
-4. $(x-y-z)(x-y-z)$
-
----
-
-**Question 98:**
-The curved surface area and volume of a right circular cylinder with radius $r$ and height $h$ are: \
-$r$ వ్యాసార్థం మరియు $h$ ఎత్తు కలిగిన క్రమ వృత్తాకార స్థూపం యొక్క వక్రతల వైశాల్యం మరియు ఘనపరిమాణం:
-
-**Options:**
-1. $\pi r h$ and $\pi r^2 h$
-2. $2\pi r h$ and $\pi r^2 h$
-3. $\pi r h$ and $\frac{1}{3}\pi r^2 h$
-4. $2\pi r h$ and $\frac{1}{3}\pi r^2 h$
-
----
-
-**Question 99:**
-Median of numbers $\frac{11}{13}, \frac{15}{17}, \frac{27}{31}, \frac{19}{24}, \frac{13}{18}$ is: \
-సంఖ్యలు $\frac{11}{13}, \frac{15}{17}, \frac{27}{31}, \frac{19}{24}, \frac{13}{18}$ యొక్క మధ్యగతం:
-
-**Options:**
-1. $\frac{15}{17}$
-2. $\frac{11}{13}$
-3. $\frac{27}{31}$
-4. $\frac{19}{24}$
-
----
-
-**Question 100:**
-How many perfect cube numbers are present from 1 to 1000? \
-1 నుండి 1000 వరకు ఎన్ని పరిపూర్ణ ఘన సంఖ్యలు ఉన్నాయి?
-
-**Options:**
-1. 9
-2. 11
-3. 8
-4. 10
-
----
-
-**Question 101:**
-The solution of the equation $\frac{3}{2x-2} = \frac{-2}{3x-3}$ is: \
-సమీకరణం $\frac{3}{2x-2} = \frac{-2}{3x-3}$ యొక్క సాధన:
-
-**Options:**
-1. 0
-2. 1
-3. -1
-4. 2
-
----
-
-**Question 102:**
-The simple interest on some money for 5 years becomes $\frac{3}{4}$ of the principal, then the rate of simple interest will be: \
-కొంత డబ్బుపై 5 సంవత్సరాలకు సాధారణ వడ్డీ అసలులో $\frac{3}{4}$ వ వంతు అవుతుంది, అయితే ఆ సాధారణ వడ్డీ రేటు:
-
-**Options:**
-1. 15%
-2. 10%
-3. 12%
-4. 14%
-
----
-
-**Question 103:**
-The recurring decimal $2.\overline{35}$ written in fraction form is: \
-ఆవర్తిత దశాంశము $2.\overline{35}$ ను భిన్న రూపంలో రాయగా:
-
-**Options:**
-1. $\frac{234}{99}$
-2. $\frac{235}{100}$
-3. $\frac{235}{99}$
-4. $\frac{233}{99}$
-
----
-
-**Question 104:**
-If $\frac{\sqrt{7}+\sqrt{3}}{\sqrt{7}-\sqrt{3}} = a+b\sqrt{21}$, then the value of $2(a+b)$ is: \
-$\frac{\sqrt{7}+\sqrt{3}}{\sqrt{7}-\sqrt{3}} = a+b\sqrt{21}$ అయితే, $2(a+b)$ విలువ:
-
-**Options:**
 1. 20
-2. 8
-3. 6
-4. 12
+2. $\sqrt{80}$
+3. 40
+4. 80
 
 ---
 
-**Question 105:**
-The number $1.101001000100001.......$ is: \
-$1.101001000100001.......$ అనే సంఖ్య:
+**Q93.** The angle of elevation of an aeroplane from a point P on the ground is 60°. After a flight of 45 seconds at a speed of $864km/hr$ the angle of elevation changes to $30^\circ$. If the aeroplane is flying at a constant height, then the aeroplane is flying at a height (in meters) of \
+భూమి పై వున్న P బిందువు నుండి ఒక విమానాన్ని పరిశీలిస్తే 60° ఊర్థ్వ కోణం చేస్తుంది. 864కి./మీ. వేగంతో 45 సెకన్ల తర్వాత దాని ఊర్థ్వ కోణం $30^\circ$ గా మారుతుంది. ఆ విమానం స్థిర ఎత్తులో ఎగురుతూ ఉంటే, ఆ విమానం ఎంత ఎత్తులో (మీ.లలో) ఎగురుతుంది.
 
-**Options:**
-1. a whole number (ఒక పూర్ణాంక సంఖ్య)
-2. an irrational number (ఒక కరణీయ సంఖ్య)
-3. a natural number (ఒక సహజ సంఖ్య)
-4. a rational number (ఒక అకరణీయ సంఖ్య)
+1. $5400\sqrt{3}$
+2. $\frac{5400}{\sqrt{3}}$
+3. $54\sqrt{3}$
+4. 5400
 
 ---
 
-**Question 106:**
-Which of the following numbers is divisible by 3? \
-కింది సంఖ్యలలో ఏది 3 చే నిశ్శేషంగా భాగించబడుతుంది?
+**Q94.** Choose an equivalent version of Euclid's fifth postulate from the following. \
+క్రింది వాటిలో నుండి యూక్లిడ్ యొక్క 5వ ప్రతిపాదనకి సమానార్థక ప్రవచనాన్ని గుర్తించండి.
 
-**Options:**
-1. 93231
-2. 92387
-3. 90523
-4. 91808
-
----
-
-**Question 107:**
-A father is five times as old as his son, but after 15 years, he will remain only twice as old as his son. The present age (in years) of the father is: \
-ఒక తండ్రి వయస్సు తన కొడుకు వయస్సుకు ఐదు రెట్లు. 15 సంవత్సరాల తర్వాత, అతని వయస్సు తన కొడుకు వయస్సుకు రెండు రెట్లు అయితే, ఆ తండ్రి ప్రస్తుత వయస్సు (సంవత్సరాలలో):
-
-**Options:**
-1. 20
-2. 15
-3. 30
-4. 25
+1. If a straight line intersects any one of the two parallel lines, then it will intersect the other also. \
+ఒక జత సమాంతర రేఖలలో ఒక దానిని ఏదైనా సరళరేఖ ఖండించిన, అది సమాంతర రేఖలలో రెండవ దానిని కూడా ఖండిస్తుంది.
+2. If A, B, C are three points on a line and B lies between A and C, then AC - AB = BC. \
+A, B మరియు C లు ఒక సరళరేఖ పై గల బిందువులు మరియు A, Cల మధ్య బిందువు 'B' ఉన్నట్లయితే AC - AB = BC అవుతుంది.
+3. An equilateral triangle can be constructed on any given line segment. \
+ఇచ్చిన ఏ రేఖా ఖండము పైన అయినా ఒక సమబాహు త్రిభుజమును నిర్మించవచ్చు.
+4. Two distinct lines cannot have more than one point in common. \
+రెండు వేర్వేరు రేఖలు ఒకటికన్నా ఎక్కువ ఉమ్మడి బిందువులను కలిగియుండవు.
 
 ---
 
-**Question 108:**
-The perimeter (in cm) of a regular hexagon of side 10.20cm is: \
-10.20సెం.మీ. భుజము కొలత కలిగిన సాధారణ షడ్భుజి యొక్క చుట్టుకొలత (సెం.మీ.లలో):
+**Q95.** Choose the correct statement/s related to properties of numbers from the following \
+క్రింది వాటిలో నుండి సంఖ్యల ధర్మాలకు సంబంధించి సరైన వ్యాఖ్య/లను గుర్తించండి. \
+A) Set of rational numbers is not closed with respect to division. \
+అకరణీయ సంఖ్యల సమితి భాగహారం దృష్ట్యా సంవృత ధర్మాన్ని పాటించదు. \
+B) Set of integers excluding zero is closed with respect to division. \
+పూర్ణ సంఖ్యల సమితి నుండి సున్నాను మినహాయిస్తే అది భాగహారం దృష్ట్యా సంవృత ధర్మాన్ని పాటిస్తుంది. \
+Choose the correct answer. \
+సరైన సమాధానాన్ని గుర్తించండి.
 
-**Options:**
-1. 51.00
-2. 601.20
-3. 61.20
-4. 51.020
-
----
-
-**Question 109:**
-Two angles of 5 sided polygon are $105^\circ$ each and the remaining three angles are equal. The value of each equal angle is: \
-5 భుజాలు గల బహుభుజి యొక్క రెండు కోణాలు ఒక్కొక్కటి $105^\circ$ మరియు మిగిలిన మూడు కోణాలు సమానం. అయిన, ప్రతి సమాన కోణం విలువ:
-
-**Options:**
-1. $105^\circ$
-2. $110^\circ$
-3. $80^\circ$
-4. $130^\circ$
+1. Both the statements are correct. \
+రెండు వ్యాఖ్యలు సరైనవి.
+2. Both the statements are incorrect. \
+రెండు వ్యాఖ్యలు సరికావు.
+3. Statement A is correct and Statement B is incorrect. \
+వ్యాఖ్య A సరైనది మరియు వ్యాఖ్య B సరికానిది.
+4. Statement A is incorrect and Statement B is correct. \
+వ్యాఖ్య A సరికానిది మరియు వ్యాఖ్య B సరైనది.
 
 ---
 
-**Question 110:**
-Kaprekar constant in the following is: \
-క్రింది వానిలో కాప్రేకర్ స్థిరాంకం:
+**Q96.** If $x-\frac{1}{x}=\frac{24}{5}$, then $x+\frac{1}{x}=$ \
+$x-\frac{1}{x}=\frac{24}{5}$ అయితే, $x+\frac{1}{x}=$
 
-**Options:**
-1. 6719
-2. 1729
-3. 6174
-4. 6714
+1. $\pm 5$
+2. $\pm \frac{1}{5}$
+3. $\pm \frac{22}{5}$
+4. $\pm \frac{26}{5}$
 
 ---
 
-**Question 111:**
-The sum of squares of two numbers is 116 and the square of their difference is 64. The product of the two numbers is: \
-రెండు సంఖ్యల వర్గాల మొత్తం 116 మరియు వాటి బేధం యొక్క వర్గము 64 అయితే, ఆ రెండు సంఖ్యల లబ్దం:
+**Q97.** If $A=\{x:x=n^2 \text{ and } 0<n<4\}$ and $B=\{x:x\in\mathbb{R} \text{ and } x^2-13x+36=0\}$, then choose the relation between the sets A and B. \
+$A=\{x:x=n^2 \text{ మరియు } 0<n<4\}$ మరియు $B=\{x:x\in\mathbb{R} \text{ మరియు } x^2-13x+36=0\}$ అయితే, A మరియు B సమితుల మధ్య గల సంబంధాన్ని గుర్తించండి.
 
-**Options:**
-1. 52
-2. 64
-3. 32
-4. 26
-
----
-
-**Question 112:**
-If 30 men working for 7 hours a day can finish a work in 20 days, in how many days 21 men working for 8 hours a day can finish the same work? \
-30 మంది పురుషులు రోజుకు 7 గంటలు పనిచేసి ఒక పనిని 20 రోజుల్లో పూర్తి చేయగలిగితే, 21 మంది పురుషులు రోజుకు 8 గంటలు పనిచేసి అదే పనిని ఎన్ని రోజుల్లో పూర్తి చేయగలరు?
-
-**Options:**
-1. 25
-2. 24
-3. 21
-4. 23
+1. A and B are disjoint sets. \
+A మరియు B లు వియుక్త సమితులు.
+2. A is subset of B. \
+A అనేది B యొక్క ఉపసమితి.
+3. B is subset of A. \
+B అనేది A యొక్క ఉపసమితి.
+4. A and B are equal sets. \
+A మరియు B సమ సమితులు.
 
 ---
 
-**Question 113:**
-The number of lines of symmetry in a rhombus is: \
-ఒక సమ చతుర్భుజం (రాంబస్)లో ఉండే సౌష్ఠవ రేఖల సంఖ్య:
+**Q98.** Choose quadrilateral/s from the following whose diagonals are perpendicular. \
+క్రింది వాటిలో నుండి కర్ణాలు లంబంగా ఉండే చతుర్భుజాలను గుర్తించండి. \
+A) Rectangle (దీర్ఘచతురస్రం) \
+B) Rhombus (రాంబస్ / సమ చతుర్భుజం) \
+C) Square (చతురస్రం) \
+Choose the correct answer. \
+సరైన సమాధానాన్ని గుర్తించండి.
 
-**Options:**
-1. 4
-2. 3
-3. 2
-4. 1
+1. B only \
+B మాత్రమే
+2. B & C only \
+B & C మాత్రమే
+3. A & C only \
+A & C మాత్రమే
+4. A, B & C
 
 ---
 
-**Question 114:**
-$\frac{4}{5}$th of a number is greater than $\frac{2}{3}$rd of that number by 4. The number is: \
-ఒక సంఖ్యలో $\frac{4}{5}$ వ వంతు ఆ సంఖ్య యొక్క $\frac{2}{3}$ వ వంతు కంటే 4 ఎక్కువ. అయితే, ఆ సంఖ్య:
+**Q99.** Mean of the first 15 terms of the Arithmetic progression 2, 7, 12..... is \
+2, 7, 12,.... అంక శ్రేఢి యొక్క మొదటి 15 పదాల సగటు
 
-**Options:**
-1. 60
+1. 39.5
+2. 36
+3. 38.5
+4. 37
+
+---
+
+**Q100.** The population of a city is 1.4 crores at present, if the rate of increase is 2% per annum, then the increase in population of the city after 2 years is \
+ఒక పట్టణ ప్రస్తుత జనాభా 1.4 కోట్లు, సంవత్సరమునకు 2% చొప్పున జనాభా పెరుగుతూ ఉంటే, 2 సంవత్సరముల తరువాత పట్టణ జనాభాలో పెరుగుదల
+
+1. 5,65,600
+2. 5,65,000
+3. 5,60,000
+4. 5,00,000
+
+---
+
+**Q101.** If $\sqrt{8^n}=4096$ and $n\in\mathbb{N}$, then $7^{3(\frac{n}{2}-3)}=$ \
+$\sqrt{8^n}=4096$ మరియు $n\in\mathbb{N}$ అయితే, $7^{3(\frac{n}{2}-3)}=$
+
+1. 1
+2. 7
+3. 343
+4. 2401
+
+---
+
+**Q102.** Vijay withdraws an amount of ₹80 from his bank account on first day for his needs, and decided to increase the withdraw amount to ₹20 every day, then the number of days required by Vijay to withdraw an amount of ₹7440 is \
+విజయ్ తన బ్యాంక్ అకౌంట్ నుండి తన అవసర నిమిత్తం మొదటిరోజు ₹80 లు తీసుకొని, ఆ తర్వాత రోజు నుండి ప్రతిదినము ₹20 పెంచుతూ తీసుకోవాలని నిర్ణయించుకున్నాడు. అయితే ₹7440 ని బ్యాంకు నుండి తీసుకోవడానికి ఎన్నిరోజులు పడుతుంది?
+
+1. 32
 2. 30
-3. 25
-4. 40
+3. 28
+4. 24
 
 ---
 
-**Question 115:**
-If a student is able to list the types of quadrilaterals, then the student has achieved this objective: \
-ఒక విద్యార్థి చతుర్భుజాల రకాలను జాబితా చేయగలిగితే, అప్పుడు ఆ విద్యార్థి ఈ లక్ష్యాన్ని సాధించాడు:
+**Q103.** If $\text{cosec } 60^\circ \cos 45^\circ = X \cot 60^\circ \sec 60^\circ$, then the value of X is \
+$\text{cosec } 60^\circ \cos 45^\circ = X \cot 60^\circ \sec 60^\circ$ అయితే, X విలువ
 
-**Options:**
-1. Knowledge (జ్ఞానం)
-2. Understanding (అవగాహన)
-3. Application (వినియోగం)
-4. Skills (నైపుణ్యాలు)
+1. $\sqrt{2}$
+2. $\frac{1}{\sqrt{2}}$
+3. $\sqrt{3}$
+4. $\frac{1}{\sqrt{3}}$
 
 ---
 
-**Question 116:**
-The most suitable method/methods of teaching mathematics to teach the problem "Area of a trapezium is 480sq.cm. Length of one of the parallel sides is 24cm and the distance between the parallel sides is 8cm. Find the length of the other parallel side", is/are: \
-"ఒక సమలంబ చతుర్భుజం యొక్క వైశాల్యం 480చ. సెం.మీ. సమాంతర భుజాలలో ఒక భుజం కొలత 24సెం.మీ. మరియు వాటి మధ్య లంబ దూరం 8సెం. మీ. రెండవ సమాంతర భుజము యొక్క కొలతను కనుగొనుము", అనే సమస్యను బోధించడానికి మిక్కిలి అనువైన గణిత బోధనా పద్ధతి/పద్ధతులు:
+**Q104.** Choose the correct statement/s related to rational numbers from the following \
+క్రింది వాటిలో నుండి అకరణీయ సంఖ్యలకు సంబంధించి సరైన వ్యాఖ్య /లను గుర్తించండి. \
+A) $(\sqrt{32}-\sqrt{8})^2$ is an irrational number. \
+$(\sqrt{32}-\sqrt{8})^2$ కరణీయ సంఖ్య అవుతుంది. \
+B) $(5-\sqrt{27})(5+\sqrt{3})$ is a rational number. \
+$(5-\sqrt{27})(5+\sqrt{3})$ అకరణీయ సంఖ్య అవుతుంది. \
+Choose the correct answer. \
+సరైన సమాధానాన్ని గుర్తించండి.
 
-**Options:**
-1. Analytic Method (విశ్లేషణ పద్ధతి)
-2. Activity-based Method (కృత్యాధార పద్ధతి)
-3. Project and Demonstration Methods (ప్రకల్పన, ప్రదర్శన పద్ధతులు)
-4. Inductive and Deductive Methods (ఆగమన, నిగమన పద్ధతులు)
-
----
-
-**Question 117:**
-Identify the suitable examples for "formative evaluation" from the following: \
-కింది వాటిలో "నిర్మాణాత్మక మూల్యాంకనానికి" తగిన ఉదాహరణలను గుర్తించండి: \
-A) Annual examination (వార్షిక పరీక్ష) \
-B) Assignment (నియోజనం) \
-C) Project work (ప్రాజెక్టు పని) \
-D) Quarterly examination (త్రైమాసిక పరీక్ష) \
-E) Quiz (క్విజ్)
-
-**Options:**
-1. A & D only (A & D మాత్రమే)
-2. B, C & E only (B, C & E మాత్రమే)
-3. B, C, D & E only (B, C, D & E మాత్రమే)
-4. A, B, C, D & E
+1. Statement A is correct and Statement B is incorrect. \
+వ్యాఖ్య A సరైనది మరియు వ్యాఖ్య B సరికానిది.
+2. Both the statements are correct. \
+రెండు వ్యాఖ్యలు సరైనవి.
+3. Both the statements are incorrect. \
+రెండు వ్యాఖ్యలు సరికావు.
+4. Statement A is incorrect and Statement B is correct. \
+వ్యాఖ్య A సరికానిది మరియు వ్యాఖ్య B సరైనది.
 
 ---
 
-**Question 118:**
-Read the following statements related to the advantages of the spiral approach in organizing the mathematics curriculum: \
-గణిత విద్యా ప్రణాళికను నిర్వహించడంలో సర్పిల విధానం యొక్క ప్రయోజనాలకు సంబంధించిన క్రింది వ్యాఖ్యలను చదవండి: \
-A) It provides opportunities to recall the concepts learned in the previous class. (ఇది గత తరగతిలో నేర్చుకున్న భావనలను గుర్తుకు తెచ్చుకునే అవకాశాలను అందిస్తుంది.) \
-B) It creates dislike for mathematics among students. (ఇది విద్యార్థులకు గణితం పట్ల అయిష్టతను కల్పిస్తుంది.) \
-Choose the correct answer:
+**Q105.** If the coordinates of the points of trisection of the line segment joining the points (4,-1) and (-2,-3) are (2, a) and (0, -b), then $a+b=$ \
+బిందువులు (4,-1) మరియు (-2,-3) లచే ఏర్పడు రేఖాఖండము యొక్క త్రిథాకరణ బిందువులు (2,a) మరియు (0,-b) అయితే, $a+b=$
 
-**Options:**
-1. A and B are true (A మరియు B లు సత్యం)
-2. A is false and B is true (A అసత్యం మరియు B సత్యం)
-3. A is true and B is false (A సత్యం మరియు B అసత్యం)
-4. A and B are false (A మరియు B లు అసత్యం)
+1. $\frac{2}{3}$
+2. $\frac{-2}{3}$
+3. 4
+4. -4
 
 ---
 
-**Question 119:**
-The most suitable mathematics learning resource to save teachers' and students' time among the following is: \
-కింది వాటిలో ఉపాధ్యాయుల, విద్యార్థుల సమయాన్ని పొదుపు చేసే అత్యంత అనువైన గణితాభ్యసన వనరు:
+**Q106.** The mean of prime numbers between 50 and 78 is \
+50, 78 మధ్య గల ప్రధాన సంఖ్యల సగటు
 
-**Options:**
-1. Mathematics club (గణిత క్లబ్బు)
-2. Mathematics Laboratory (గణిత ప్రయోగశాల)
-3. Mathematics Textbook (గణిత పాఠ్య పుస్తకం)
-4. Mathematics Olympiad (గణిత ఒలింపియాడ్)
+1. 66.14
+2. 64
+3. 67
+4. 68.33
 
 ---
 
-**Question 120:**
-The item which is an essential part in the designing of period plan among the following is: \
-కింది వాటిలో పీరియడ్ పథక రూపకల్పనలో ఆవశ్యక అంశం:
+**Q107.** The number 453a8 is divisible by 6, where 'a' is a digit. Then the possible value for 'a' from the following is \
+6 చే సంఖ్య 453a8 నిశ్శేషముగా భాగింపబడుతుంది. దీనిలో 'a' అనేది ఒక అంకె అయితే, క్రింది వాటిలో నుండి 'a' కి సాధ్యమయ్యే విలువ
 
-**Options:**
-1. Month wise division of units (నెలల వారిగా యూనిట్ల విభజన)
-2. Number of school working days (పాఠశాల పని దినాల సంఖ్య)
-3. Goals of teaching mathematics (గణిత బోధనా గమ్యాలు)
-4. Setting learning objectives for the topic (పాఠ్యాంశానికి అభ్యసన లక్ష్యాలను ఏర్పరచుకోవడం)
+1. 2
+2. 0
+3. 3
+4. 7
 
 ---
+
+**Q108.** Two numbers are in the ratio of 6 : 11 and their difference is 160, then the sum of those numbers is \
+రెండు సంఖ్యల యొక్క నిష్పత్తి 6 : 11 మరియు ఆ సంఖ్యల భేదము 160 అయితే, ఆ సంఖ్యల మొత్తం
+
+1. 544
+2. 352
+3. 444
+4. 192
+
+---
+
+**Q109.** The ratio between the radius of the base and height of a cylinder is 1:6. If its volume is $808.5 cm^3$, then the height of the cylinder (in centimeters) is (Use $\pi=\frac{22}{7}$) \
+స్థూపం యొక్క భూ వ్యాసార్థం మరియు ఎత్తుల మధ్య నిష్పత్తి 1 : 6. దాని ఘన పరిమాణం 808.5 ఘ. సెం.మీ. అయితే, స్థూపం ఎత్తు (సెంటీమీటర్లలో) ($\pi=\frac{22}{7}$ ఉపయోగించండి)
+
+1. 14
+2. 21
+3. 28
+4. 35
+
+---
+
+**Q110.** $7 \tan 72^\circ \tan 18^\circ - 4 \cot 36^\circ \cot 54^\circ = $
+
+1. 11
+2. 4
+3. 3
+4. 7
+
+---
+
+**Q111.** The number of unit cubes are needed to make a cuboid with $6\times5\times3$ dimensions is \
+$6\times5\times3$ కొలతలు గల ఒక దీర్ఘ ఘనాన్ని తయారు చేయడానికి ఎన్ని యూనిట్ల సమఘనాలు అవసరం.
+
+1. 27
+2. 75
+3. 108
+4. 90
+
+---
+
+**Q112.** If the marked price of a refrigerator is ₹80,250 and a 6% discount was given, then the sale price of the refrigerator is \
+ఒక రిఫ్రిజిరేటర్ ప్రకటన వెల ₹80,250 మరియు దానిపై 6% డిస్కౌంట్ ఇస్తే, రిఫ్రిజిరేటర్ యొక్క అమ్మకం వెల
+
+1. ₹75,435
+2. ₹65,805
+3. ₹65,797
+4. ₹71,643
+
+---
+
+**Q113.** Fourteen bags of sugar, each marked 10kg, actually contained the following weights of sugar (in kg): \
+సంచి పై 10 కిలోలు అని రాయబడిన పద్నాలుగు చక్కెర సంచుల అసలు బరువులు (కి.గ్రా.లలో) క్రింద ఇవ్వబడినవి. \
+9.09, 10.2, 10.01, 9.99, 10, 9.85, 10.11, 10, 9.55, 11.01, 8.96, 10, 9.04, 10.08 \
+Then, the probability that any one of these bags chosen at random contains less than 10kg of sugar is \
+వీటిల్లో యాదృచ్ఛికంగా ఒక సంచిని తీసినప్పుడు అది 10 కిలోల కంటే తక్కువ బరువు ఉండే సంభావ్యత
+
+1. $\frac{4}{7}$
+2. $\frac{5}{14}$
+3. $\frac{9}{14}$
+4. $\frac{3}{7}$
+
+---
+
+**Q114.** Choose the correct statement/s related to operations on sets from the following \
+క్రింది వాటిలో నుండి సమితుల పరిక్రియలకు సంబంధించి సరైన వ్యాఖ్య/లను గుర్తించండి. \
+A) If A and B are two non-empty sets and $A\subseteq B$, then $A\cup B=A$. \
+A మరియు B రెండు శూన్యేతర సమితులు మరియు $A\subseteq B$ అయితే, $A\cup B=A$. \
+B) If X and Y are two non-empty sets and $X\subseteq Y$, then $Y\cap X=X$. \
+X మరియు Y రెండు శూన్యేతర సమితులు మరియు $X\subseteq Y$ అయితే, $Y\cap X=X$. \
+Choose the correct answer. \
+సరైన సమాధానాన్ని గుర్తించండి.
+
+1. Both the statements are incorrect. \
+రెండు వ్యాఖ్యలు సరికావు.
+2. Statement A is incorrect and Statement B is correct. \
+వ్యాఖ్య A సరికానిది మరియు వ్యాఖ్య B సరైనది.
+3. Both the statements are correct. \
+రెండు వ్యాఖ్యలు సరైనవి.
+4. Statement A is correct and Statement B is incorrect. \
+వ్యాఖ్య A సరైనది మరియు వ్యాఖ్య B సరికానిది.
+
+---
+
+**Q115.** Arrange the following topics of number system in a sequential order based on their difficulty and logical order to introduce in different classes in concentric approach: \
+సంఖ్యా వ్యవస్థలోని కింది అంశాలను ఏకకేంద్ర పద్ధతిలో వివిధ తరగతులలో పరిచయం చేయడానికి వీలుగా వాటి కాఠిన్యత మరియు తార్కికక్రమం ఆధారంగా క్రమమైన పద్ధతిలో అమర్చండి: \
+A) Rational numbers (అకరణీయ సంఖ్యలు) \
+B) Natural numbers (సహజ సంఖ్యలు) \
+C) Integers (పూర్ణ సంఖ్యలు) \
+D) Whole numbers (పూర్ణాంకాలు) \
+Choose the correct answer: \
+సరియైన సమాధానాన్ని ఎంచుకోండి:
+
+1. A, B, C, D
+2. B, D, C, A
+3. C, D, A, B
+4. D, A, B, C
+
+---
+
+**Q116.** Arrange the following Herbartian steps in sequential order for writing a lesson plan: \
+పాఠ్య పథక రచనలోని కింది హెర్బార్టియన్ సోపానాలను వరుస క్రమంలో అమర్చండి. \
+A) Preparation (సన్నాహం) \
+B) Presentation (సమర్పణ) \
+C) Application (అన్వయం) \
+D) Association (సంసర్గం) \
+E) Recapitulation (పునర్విమర్శ) \
+F) Generalisation (సాధారణీకరణం) \
+Choose the correct answer: \
+సరియైన సమాధానాన్ని ఎంచుకోండి:
+
+1. A, B, C, D, E, F
+2. A, B, D, E, F, C
+3. A, B, D, F, C, E
+4. B, C, D, E, F, A
+
+---
+
+**Q117.** "Construct a quadrilateral with given measurements and write steps of construction". This type of question is: \
+"ఇచ్చిన కొలతలతో చతుర్భుజం నిర్మించి, నిర్మాణ సోపానాలను వ్రాయండి." ఇది ఈ రకమైన ప్రశ్న:
+
+1. Objective type question \
+విషయ నిష్ట ప్రశ్న
+2. Very short answer type question \
+అతి సంక్షిప్త సమాధాన ప్రశ్న
+3. Short answer type question \
+సంక్షిప్త సమాధాన ప్రశ్న
+4. Essay type question \
+వ్యాస రూప ప్రశ్న
+
+---
+
+**Q118.** Identify the objectives of mathematical fair among the following: \
+కింది వాటిలో గణిత ప్రదర్శన లక్ష్యాలను గుర్తించండి: \
+A) To develop interest among students towards mathematics \
+విద్యార్థులలో గణితం పట్ల ఆసక్తిని పెంపొందించడం. \
+B) To remove fear and misconceptions formed among the students due to abstract concepts of mathematics \
+గణిత అమూర్త భావనల కారణంగా విద్యార్థుల్లో ఏర్పడ్డ భయాన్ని, అపోహలను పోగొట్టడం \
+C) To inculcate positive attitude among students towards mathematics \
+విద్యార్థుల్లో గణితం పట్ల అనుకూల వైఖరులు పెంపొందేటట్లు చేయడం \
+D) To create good relation among teachers & students \
+విద్యార్థులకు, ఉపాధ్యాయులకు మధ్య సత్సంబంధాలను పెంపొందించడం \
+Choose the correct answer: \
+సరైన సమాధానాన్ని ఎంచుకోండి:
+
+1. A & B only \
+A & B మాత్రమే
+2. B & C only \
+B & C మాత్రమే
+3. C & D only \
+C & D మాత్రమే
+4. A, B, C & D
+
+---
+
+**Q119.** Identify the characteristics of gifted students in mathematics among the following: \
+కింది వాటిలో గణితంలో ప్రతిభావంతులైన విద్యార్థులకు సంబంధించిన లక్షణాలను గుర్తించండి: \
+A) Understands the concepts quickly and responds accurately \
+భావనలను త్వరగా అవగాహన చేసుకొని కచ్చితంగా ప్రతిస్పందించడం \
+B) Ability to find relationships and make generalizations \
+సంబంధాలను కనుక్కోవడంలో, సాధారణీకరణాలు చేయడంలోనూ సామర్థ్యం కలిగి ఉండడం \
+C) Possessing advanced problem-solving skills \
+ఉన్నతస్థాయి సమస్య పరిష్కార నైపుణ్యాలను కలిగి ఉండటం \
+D) Facing difficulty in understanding abstract concepts \
+అమూర్త భావనలను అర్థం చేసుకోవడంలో ఇబ్బంది పడడం \
+Choose the correct answer: \
+సరైన సమాధానాన్ని ఎంచుకోండి:
+
+1. A, B & C only \
+A, B & C మాత్రమే
+2. B, C & D only \
+B, C & D మాత్రమే
+3. A, C & D only \
+A, C & D మాత్రమే
+4. A, B & D only \
+A, B & D మాత్రమే
+
+---
+
+**Q120.** The method which is most suitable to derive formulas in Mathematics in the following is: \
+గణితంలో సూత్రీకరణ చేయడానికి కింది వాటిలో అత్యంత అనువైన పద్ధతి:
+
+1. Analytic method \
+విశ్లేషణ పద్ధతి
+2. Inductive method \
+ఆగమన పద్ధతి
+3. Deductive method \
+నిగమన పద్ధతి
+4. Synthetic method \
+సంశ్లేషణ పద్ధతి
+
+---
+
 ## Science
 
-**Question 121:**
-An anemometer measures this property of the air/wind. \
-ఎనిమోమీటర్ గాలి/పవనం యొక్క ఈ ధర్మాన్ని కొలుస్తుంది.
+**Q121.** Consider the following with respect to impurities of water contamination. Choose the correct answer. \
+నీటి కాలుష్యం యొక్క మలినాలకు సంబంధించి క్రింది వాటిని పరిగణించండి. సరైన సమాధానాన్ని ఎంచుకోండి. \
+A) Organic impurities: Nitrates, Phosphates \
+కర్బన మలినాలు : నైట్రేట్లు, ఫాస్పేట్లు \
+B) Inorganic impurities: Urea, Oil \
+అకర్బన మలినాలు : యూరియా, నూనె
 
-**Options:**
-1. humidity (తేమ)
-2. speed and direction (వేగం మరియు దిశ)
-3. heat conduction (ఉష్ణ వహనం)
-4. pollution (కాలుష్యం)
-
----
-
-**Question 122:**
-The first outer planet in solar system counted from the Sun: \
-సౌర కుటుంబంలో సూర్యుని నుండి లెక్కించినప్పుడు మొదటి బాహ్య గ్రహం:
-
-**Options:**
-1. Mars (అంగారకుడు)
-2. Mercury (బుధుడు)
-3. Saturn (శని)
-4. Jupiter (బృహస్పతి)
+1. Both pairs A & B are correct \
+A & B రెండు జతలు సరైనవి
+2. Both pairs A & B are incorrect \
+A & B రెండు జతలు సరికానివి
+3. Pair A is correct; Pair B is incorrect \
+జత A సరైనది; జత B సరికానిది
+4. Pair A is incorrect; Pair B is correct \
+జత A సరికానిది; జత B సరైనది
 
 ---
 
-**Question 123:**
-Identify the correct set of vision defects (myopia and hypermetropia), along with the type of lens used for their correction. \
-దృష్టి దోషాలు (హ్రస్వదృష్టి మరియు దీర్ఘదృష్టి) మరియు వాటిని సవరించడానికి ఉపయోగించే కటకాల యొక్క సరైన సెట్ను గుర్తించండి.
+**Q122.** The planet often called a morning or evening star is \
+వేగుచుక్క లేదా సాయంకాల చుక్క అని పిలువబడే గ్రహం
 
-**Options:**
-1. Myopia - Plano Convex lens (హ్రస్వదృష్టి - సమతల కుంభాకార కటకం)
-2. Hypermetropia - Plano Concave lens (దీర్ఘదృష్టి - సమతల పుటాకార కటకం)
-3. Myopia - Concave lens (హ్రస్వదృష్టి - పుటాకార కటకం)
-4. Hypermetropia - Concave lens (దీర్ఘదృష్టి - పుటాకార కటకం)
-
----
-
-**Question 124:**
-Identify the correct statement from the following about sound waves. \
-ధ్వని తరంగాల గురించి కింది వాటిలో సరైన వ్యాఖ్యను గుర్తించండి.
-
-**Options:**
-1. Sound waves are longitudinal waves and mechanical waves. (ధ్వని తరంగాలు అనుదైర్ఘ్య తరంగాలు మరియు యాంత్రిక తరంగాలు.)
-2. Sound waves are transverse waves and do not require a medium to travel. (ధ్వని తరంగాలు తిర్యక్ తరంగాలు మరియు ప్రయాణించడానికి యానకం అవసరం లేదు.)
-3. Sound waves are electromagnetic waves and can travel through a vacuum. (ధ్వని తరంగాలు విద్యుదయస్కాంత తరంగాలు మరియు శూన్యంలో ప్రయాణించగలవు.)
-4. Sound waves are longitudinal waves but do not require a medium to travel. (ధ్వని తరంగాలు అనుదైర్ఘ్య తరంగాలు కానీ ప్రయాణించడానికి యానకం అవసరం లేదు.)
+1. Venus \
+శుక్రుడు
+2. Mars \
+అంగారకుడు
+3. Jupiter \
+బృహస్పతి
+4. Saturn \
+శని
 
 ---
 
-**Question 125:**
-If an object is in non-uniform motion, it means that: \
-ఒక వస్తువు అసమ చలనంలో ఉంటే, దాని అర్థం:
+**Q123.** Due to atmospheric refraction, the Sun is visible before the actual sunrise and after the actual sunset. The additional time, the Sun remains visible due to atmospheric refraction, is \
+వాతావరణ వక్రీభవనం కారణంగా, వాస్తవ సూర్యోదయానికి ముందు మరియు వాస్తవ సూర్యాస్తమయం తర్వాత మనకు సూర్యుడు కనిపిస్తాడు. వాతావరణ వక్రీభవనం కారణంగా సూర్యుడు కనిపించే అదనపు సమయం
 
-**Options:**
-1. Its speed is constant but direction changes. (దాని వడి స్థిరంగా ఉంటుంది కానీ దిశ మారుతుంది.)
-2. Its velocity remains constant. (దాని వేగం స్థిరంగా ఉంటుంది.)
-3. Its speed is changing with time. (దాని వడి కాలంతో పాటు మారుతూ ఉంటుంది.)
-4. It moves in a straight line. (అది సరళ రేఖ మార్గంలో చలిస్తుంది.)
-
----
-
-**Question 126:**
-How many $220\Omega$ resistors (connected in parallel) are required to carry 5A current on a 220 V line? \
-220 V లైన్పై 5A విద్యుత్ ప్రవాహాన్ని తీసుకువెళ్లడానికి ఎన్ని $220\Omega$ నిరోధాలు (సమాంతర సంధానంలో) అవసరం?
-
-**Options:**
-1. 1
-2. 2
-3. 5
-4. 10
+1. Before sunrise: 2 minutes; After sunset: 2 minutes \
+సూర్యోదయానికి ముందు: 2 నిమిషాలు; సూర్యాస్తమయం తర్వాత: 2 నిమిషాలు
+2. Before sunrise: 4 minutes; After sunset: 4 minutes \
+సూర్యోదయానికి ముందు: 4 నిమిషాలు; సూర్యాస్తమయం తర్వాత: 4 నిమిషాలు
+3. Before sunrise: 8 minutes; After sunset: 8 minutes \
+సూర్యోదయానికి ముందు: 8 నిమిషాలు; సూర్యాస్తమయం తర్వాత: 8 నిమిషాలు
+4. Before sunrise: 10 minutes; After sunset: 10 minutes \
+సూర్యోదయానికి ముందు: 10 నిమిషాలు; సూర్యాస్తమయం తర్వాత: 10 నిమిషాలు
 
 ---
 
-**Question 127:**
-Tincture of iodine is a mixture of iodine and: \
-టింక్చర్ అయోడిన్ అనునది అయోడిన్ మరియు దీని యొక్క మిశ్రమం:
+**Q124.** The phenomena caused by multiple reflections of sound waves in an enclosed space is: \
+పరివేష్టిత(మూసి ఉన్న) ప్రదేశంలో ధ్వని తరంగాల బహుళ పరావర్తనాల వల్ల ఏర్పడే దృగ్విషయం
 
-**Options:**
-1. Ethanol (ఇథనాల్)
-2. Water (నీరు)
-3. Acetone (అసిటోన్)
-4. Glycerine (గ్లిజరిన్)
-
----
-
-**Question 128:**
-Among the following, the inert gas having the lowest atomic number is: \
-కింది వాటిలో అత్యల్ప పరమాణు సంఖ్య కలిగిన జడ వాయువు:
-
-**Options:**
-1. Xenon (జినాన్)
-2. Neon (నియాన్)
-3. Crypton (క్రిప్టాన్)
-4. Radon (రాడాన్)
+1. Echo \
+ప్రతిధ్వని
+2. Absorption \
+శోషణం
+3. Refraction \
+వక్రీభవనం
+4. Reverberation \
+ప్రతినాదం
 
 ---
 
-**Question 129:**
-Visible light wave with maximum wavelength corresponds to the colour: \
-దృశ్య కాంతిలో గరిష్ట తరంగదైర్ఘ్యం గల రంగు:
+**Q125.** Among the following, identify the substance that expands on freezing: \
+కింది వాటిలో, ఘనీభవనం చెందినప్పుడు వ్యాకోచించే పదార్థాన్ని గుర్తించండి:
 
-**Options:**
-1. violet (ఊదా)
-2. blue (నీలం)
-3. green (ఆకుపచ్చ)
-4. red (ఎరుపు)
-
----
-
-**Question 130:**
-The acid found in the body of ants is: \
-చీమల శరీరంలో ఉండే ఆమ్లం:
-
-**Options:**
-1. acetic acid (ఎసిటిక్ ఆమ్లం)
-2. formic acid (ఫార్మిక్ ఆమ్లం)
-3. citric acid (సిట్రిక్ ఆమ్లం)
-4. phosphoric acid (ఫాస్ఫారిక్ ఆమ్లం)
+1. Iron \
+ఇనుము
+2. Mercury \
+పాదరసం
+3. Water \
+నీరు
+4. Lead \
+సీసం
 
 ---
 
-**Question 131:**
-You are a chemist working in a laboratory to purify gold. You need to select a suitable solution that can dissolve gold. Which of the following solutions should you choose? \
-మీరు బంగారాన్ని శుద్ధి చేసే ప్రయోగశాలలో పనిచేస్తున్న రసాయన శాస్త్రవేత్త. మీరు బంగారాన్ని కరిగించే సరైన ద్రావణాన్ని ఎంచుకోవాలి. మీరు ఈ క్రింది ద్రావణాలలో దేనిని ఎంచుకోవాలి?
+**Q126.** 80 kg object is acted upon by a constant force of 480 N. Then the acceleration of the object is \
+80 కిలోల వస్తువుపై 480 న్యూటన్ ల స్థిర బలం పని చేస్తుంది. అయిన ఆ వస్తువు యొక్క త్వరణం
 
-**Options:**
-1. Aqua regia (ఆక్వా రెజియా)
-2. Blue vitriol (బ్లూ విట్రియోల్)
-3. Concentrated ammonia (గాఢ అమ్మోనియా)
-4. Caustic soda (కాస్టిక్ సోడా)
+1. $\frac{1}{6} m/s^2$
+2. $6 m/s^2$
+3. $\frac{6}{10} m/s^2$
+4. $\frac{10}{6} m/s^2$
 
 ---
 
-**Question 132:**
-Among the following, identify the non-polar solvent commonly used to dissolve non-polar substances like oils and grease. \
-కింది వాటిలో, నూనెలు మరియు గ్రీజు వంటి అధృవ పదార్థాలను కరిగించడానికి సాధారణంగా ఉపయోగించే అధృవ ద్రావణాన్ని గుర్తించండి.
+**Q127.** The standard frequency of the AC electric power supply in Telangana is: \
+తెలంగాణలో AC విద్యుత్ సరఫరా యొక్క ప్రామాణిక పౌనఃపున్యం:
 
-**Options:**
-1. Water (నీరు)
-2. Ethanol (ఇథనాల్)
-3. Acetone (అసిటోన్)
-4. Hexane (హెక్సేన్)
-
----
-
-**Question 133:**
-One among the following is NOT an adaptation to temperature in plants. \
-కింది వాటిలో ఒకటి మొక్కలలో ఉష్ణోగ్రతకు సంబంధించిన అనుకూలనం కాదు:
-
-**Options:**
-1. Plants shedding leaves in temperate zones before the winter starts. (శీతాకాలం ప్రారంభం కావడానికి ముందు సమశీతోష్ణ మండలాలో పెరిగే మొక్కలు ఆకులు రాల్చడం.)
-2. Water salinity tolerance in Hydrilla. (హైడ్రిల్లా నీటి లవణీయతను తట్టుకోవడం.)
-3. Thorny leaves in Xerophytic plants. (ఎడారి మొక్కలలో ముళ్ల వంటి ఆకులు.)
-4. Ability to grow in low light intensity. (తక్కువ కాంతి తీవ్రతలో పెరిగే సామర్థ్యం.)
+1. 40 Hz \
+40 హెర్ట్జ్
+2. 50 Hz \
+50 హెర్ట్జ్
+3. 60 Hz \
+60 హెర్ట్జ్
+4. 60 V \
+60 వోల్ట్లు
 
 ---
 
-**Question 134:**
-This type of papillae are located at the back of the tongue and the tastebuds around these are thought to be responsible for the identification of bitterness. \
-ఈ రకమైన పాపిల్లే/సూక్ష్మాంకురాలు నాలుక వెనుక భాగంలో ఉంటాయి మరియు వాటి చుట్టూ ఉన్న రుచి కళికలు చేదును గుర్తించడానికి కారణమని భావిస్తారు.
+**Q128.** An electric appliance is connected to a 110V generator. If the current is 2A, calculate the power of that appliance. (in Watts) \
+ఒక విద్యుత్ ఉపకరణం 110V జనరేటర్కు అనుసంధానించబడి ఉంది. విద్యుత్ ప్రవాహం 2A అయితే, ఆ పరికరం యొక్క సామర్థ్యంను లెక్కించండి. (వాట్ లలో)
 
-**Options:**
-1. Foliate papillae (ఫోలియేట్ పాపిల్లే)
-2. Fungiform papillae (ఫంగిఫాం పాపిల్లే)
-3. Filiform papillae (ఫిలిఫాం పాపిల్లే)
-4. Circumvallate papillae (సర్కవ్వాల్లేట్ పాపిల్లే)
+1. 55
+2. 110
+3. 220
+4. 330
 
 ---
 
-**Question 135:**
-When the kidneys stop working completely, our body is filled with extra water and waste products, this condition is known as: \
-మూత్రపిండాలు పూర్తిగా పనిచేయడం మానేస్తే, మన శరీరం అదనపు నీరు మరియు వ్యర్థ పదార్థాలతో నిండిపోతుంది. ఈ పరిస్థితిని ఇలా అంటారు:
+**Q129.** Substances W, X, Y, and Z have pH values of 1, 13, 7, and 10 respectively. Then the strongest base from the following \
+W, X, Y మరియు Z పదార్థాలు వరుసగా 1, 13, 7 మరియు 10 pH విలువలను కలిగి ఉంటాయి. అయితే కింది వాటిలో బలమైన క్షారం
 
-**Options:**
-1. Umami (ఉమామి)
-2. Uremic syndrome (యురేమిక్ సిండ్రోమ్)
-3. Uremia (యురేమియా)
-4. Urinary tract infection (యూరినరీ ట్రాక్ట్ ఇన్ఫెక్షన్)
+1. Z
+2. W
+3. Y
+4. X
 
 ---
 
-**Question 136:**
-Match the following: \
-కింది వాటిని జతపరచండి: \
-A) Laminaria (లామినేరియా) \
-B) Selaginella (సెలాజినెల్లా) \
-C) Ginkgo (జింకో) \
-D) Sphagnum (స్పాగ్నమ్)
+**Q130.** Lead nitrate $(Pb(NO_3)_2)$ is mixed with potassium iodide (KI). The colour and the name of the precipitate formed are \
+లెడ్ నైట్రేట్ $(Pb(NO_3)_2)$ ను పొటాషియం అయోడైడ్ (KI)తో కలిపినప్పుడు, ఏర్పడే అవక్షేపం యొక్క రంగు మరియు పేరు
 
-i) Gymnosperms (వివృత బీజాలు) \
-ii) Bryophytes (బ్రయోఫైట్స్) \
-iii) Algae (శైవలాలు) \
-iv) Pteridophytes (టెరిడోఫైట్స్)
-
-**Options:**
-1. A-iv; B-iii; C-ii; D-i
-2. A-iii; B-iv; C-i; D-ii
-3. A-ii; B-iv; C-i; D-iii
-4. A-iii; B-ii; C-i; D-iv
+1. The precipitate is white, and it is lead iodide (PbI2). \
+అవక్షేపం తెల్లగా ఉంటుంది మరియు అది లెడ్ అయోడైడ్ (PbI2).
+2. The precipitate is green, and it is potassium iodide (KI). \
+అవక్షేపం ఆకుపచ్చగా ఉంటుంది మరియు అది పొటాషియం అయోడైడ్ (KI).
+3. The precipitate is yellow, and it is lead iodide (PbI2). \
+అవక్షేపం పసుపు పచ్చగా ఉంటుంది మరియు అది లెడ్ అయోడైడ్ (PbI2).
+4. The precipitate is red, and it is potassium nitrate (KNO3). \
+అవక్షేపం ఎర్రగా ఉంటుంది మరియు అది పొటాషియం నైట్రేట్ (KNO3).
 
 ---
 
-**Question 137:**
-These blood cells secrete Histamine, Serotonin, Heparin, etc., and are involved in inflammatory reactions. \
-ఈ రక్త కణాలు హిస్టామిన్, సెరోటోనిన్, హెపారిన్ మొదలైనవాటిని స్రవిస్తాయి మరియు వాపు సంబంధ ప్రతిచర్యలలో పాల్గొంటాయి.
+**Q131.** The isotope of carbon used in 'Radio Carbon Dating' is: \
+'రేడియో కార్బన్ డేటింగ్'లో ఉపయోగించే కార్బన్ ఐసోటోప్:
 
-**Options:**
-1. Basophils (బేసోఫిల్స్)
-2. Eosinophils (ఇసినోఫిల్స్)
-3. Erythrocytes (ఎరిథ్రోసైట్లు)
-4. Neutrophils (న్యూట్రోఫిల్స్)
+1. $^{12}C$
+2. $^{13}C$
+3. $^{15}C$
+4. $^{14}C$
 
 ---
 
-**Question 138:**
-Bacterial and Fungal enzymes degrade detritus into simpler inorganic substances. This process is called: \
-బాక్టీరియ మరియు శీలీంధ్ర సంబంధ ఎంజైమ్లు వ్యర్థ పదార్థాలను సూక్ష్మమైన అకర్బన పదార్థాలుగా క్షీణింప చేస్తాయి. ఈ ప్రక్రియను ఇలా అంటారు:
+**Q132.** Read the following statements and choose the correct answer. \
+కింది వ్యాఖ్యలను చదివి సరైన సమాధానాన్ని ఎంచుకోండి. \
+Statement I : Alloying is a very good method of improving the properties of a metal. \
+వ్యాఖ్య I : మిశ్రణం అనేది లోహం యొక్క లక్షణాలను మెరుగుపరచడానికి చాలా మంచి పద్ధతి. \
+Statement II : An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal. \
+వ్యాఖ్య II : మిశ్రమ లోహం అనేది రెండు లేదా అంతకంటే ఎక్కువ లోహాల లేదా ఒక లోహం మరియు ఒక అలోహంల సజాతీయ మిశ్రమం.
 
-**Options:**
-1. Humification (హ్యూమిఫికేషన్)
-2. Leaching (లీచింగ్)
-3. Magnification (మాగ్నిఫికేషన్)
-4. Catabolism (కెటబోలిజం)
-
----
-
-**Question 139:**
-In the process of human reproduction, this is formed around 12 weeks of pregnancy and becomes an important structure for nourishment of the embryo: \
-మానవ ప్రత్యుత్పత్తి ప్రక్రియలో, గర్భం దాల్చిన 12 వారాలలో ఇది ఏర్పడుతుంది మరియు పిండం యొక్క పోషణకు ముఖ్యమైన భాగంగా మారుతుంది:
-
-**Options:**
-1. Yolk sac (సొనసంచి)
-2. Amnion (ఉల్బము)
-3. Placenta (జరాయువు)
-4. Allantois (అళిందం)
+1. Both Statement I and Statement II are correct. \
+వ్యాఖ్య I మరియు వ్యాఖ్య II రెండూ సరైనవి.
+2. Statement I is correct, but Statement II is incorrect. \
+వ్యాఖ్య I సరైనది, కానీ వ్యాఖ్య II సరికానిది.
+3. Statement I is incorrect, but Statement II is correct. \
+వ్యాఖ్య I సరికానిది, కానీ వ్యాఖ్య II సరైనది.
+4. Both Statement I and Statement II are incorrect. \
+వ్యాఖ్య I మరియు వ్యాఖ్య II రెండూ సరికానివి.
 
 ---
 
-**Question 140:**
-Which of the following part of human brain coordinates reflexes like swallowing, coughing, sneezing and vomiting? \
-కింది వానిలో మింగడం, దగ్గు, తుమ్ములు మరియు వాంతుల వంటి ప్రతిక్రియ ప్రతిచర్యలను మెదడులోని ఏ భాగం సమన్వయం చేస్తుంది?
+**Q133.** Identify the tissue that connects bones together, especially in joints. \
+ముఖ్యంగా కీళ్ల వద్ద ఎముకలను కలిపే కణజాలాన్ని గుర్తించండి.
 
-**Options:**
-1. Cerebellum (అనుమస్తిష్కం)
-2. Medulla oblongata (మజ్జాముఖం)
-3. Mid-brain (మధ్య మెదడు)
-4. Diencephalon (ద్వార గోర్థం)
-
----
-
-**Question 141:**
-Read the following Assertion and Reason: \
-కింది వాదన మరియు కారణాన్ని చదవండి: \
-A: When the cells divide mitotically, the daughter cells always have the same number of chromosomes. (కణాలు సమవిభజనలో పాల్గొన్నప్పుడు, పిల్ల కణాలు ఎల్లప్పుడూ ఒకే సంఖ్యలో క్రోమోజోమ్లను కలిగి ఉంటాయి.) \
-R: Mitosis takes place in all body cells which retains the same number of chromosomes and before this mitotic division, the chromosomes are replicated in a parent cell. (సమవిభజన అన్ని శరీర కణాలలో జరుగుతుంది, ఇది ఒకే సంఖ్యలో క్రోమోజోమ్లను కలిగి ఉంటుంది మరియు ఈ విభజనకు ముందు మాతృకణంలో క్రోమోజోమ్లు రెట్టింపు అవుతాయి.) \
-Choose the correct answer:
-
-**Options:**
-1. A is correct and R is incorrect. (A సరైనది మరియు R సరికాదు)
-2. Both A and R are correct but R is not the correct explanation of A. (A మరియు R రెండూ సరైనవే కానీ A కి R సరైన వివరణ కాదు.)
-3. A is incorrect and R is correct. (A సరికాదు మరియు R సరైనది.)
-4. Both A and R are correct and R is the correct explanation of A. (A మరియు R రెండూ సరైనవి మరియు R అనేది A యొక్క సరైన వివరణ)
+1. Smooth muscle \
+నునుపు కండరం
+2. Fibroblast \
+ఫైబ్రోబ్లాస్ట్
+3. Tendon \
+స్నాయు బంధనం (టెండాన్)
+4. Ligament \
+స్నాయువు
 
 ---
 
-**Question 142:**
-Which of the following are parasites? \
-కింది వాటిలో పరాన్నజీవులు ఏవి? \
-A) Yeast (ఈస్ట్) \
-B) Mushrooms (పుట్టగొడుగులు) \
-C) Cuscuta (కుస్కుటా) \
-D) Leeches (జలగలు)
+**Q134.** Who was the first scientist to discover and describe microorganisms such as protists and bacteria? \
+ప్రొటిస్ట్లు మరియు బ్యాక్టీరియా వంటి సూక్ష్మజీవులను కనుగొని వివరించిన మొదటి శాస్త్రవేత్త ఎవరు?
 
-**Options:**
-1. A & C only (A & C మాత్రమే)
-2. B & D only (B & D మాత్రమే)
-3. C & D only (C & D మాత్రమే)
-4. A & D only (A & D మాత్రమే)
+1. Robert Brown \
+రాబర్ట్ బ్రౌన్
+2. Robert Hooke \
+రాబర్ట్ హుక్
+3. Antonie Van Leeuwenhoek \
+ఆంటోనీ వాన్ లీవెన్లాక్
+4. Alexander Fleming \
+అలెగ్జాండర్ ఫ్లెమింగ్
 
 ---
 
-**Question 143:**
-What does a food chain always start with? \
-ఆహార గొలుసు ఎల్లప్పుడూ దేనితో ప్రారంభమవుతుంది?
+**Q135.** Which of the following are NOT granulocytic White Blood Cells? \
+కింది వాటిలో రేణుసహిత (గ్రాన్యులోసైటిక్) తెల్ల రక్త కణాలు కానివి ఏవి?
 
-**Options:**
-1. A herbivore (ఒక శాకాహారి)
-2. The producer (ఉత్పత్తిదారు)
-3. A carnivore (ఒక మాంసాహారి)
-4. Either a herbivore or producer (ఒక శాకాహారి లేదా ఉత్పత్తిదారు)
-
----
-
-**Question 144:**
-When heavy pressure is applied on salt solution which is separated from fresh water with semi permeable membrane, the water moves from salt solution to fresh water leaving the salt behind. Identify from the following the process involved in this: \
-ఉప్పు ద్రావణాన్ని అత్యధిక పీడనానికి గురి చేసినపుడు దానిలోని నీరు ఉప్పును వదిలి మంచి నీటిలోకి చేరుతుంది. దీనిలో జరిగే ప్రక్రియను గుర్తించండి.
-
-**Options:**
-1. Reverse osmosis (రివర్స్ ఆస్మాసిస్)
-2. Diffusion (విస్తరణ)
-3. Osmosis (ద్రవాభిసరణ)
-4. Exosmosis (బాహ్య ద్రవాభిసరణ)
+1. Lymphocytes \
+లింఫోసైట్లు
+2. Basophils \
+బాసోఫిల్స్
+3. Neutrophils \
+న్యూట్రోఫిల్స్
+4. Eosinophils \
+ఇసినోఫిల్స్
 
 ---
 
-**Question 145:**
-Identify the correct statement among the following. \
-కింది వాటిలో సరైన వ్యాఖ్యను గుర్తించండి.
+**Q136.** Identify the protozoan from the following \
+కింది వాటిలో ప్రోటోజోవను గుర్తించండి.
 
-**Options:**
-1. Constructivist approach shifts emphasis from teaching to learning. (నిర్మాణాత్మక ఉపగమంలో ప్రాధాన్యత బోధన నుండి అభ్యసనానికి మార్చబడింది.)
-2. Constructivist approach shifts emphasis from learning to teaching. (నిర్మాణాత్మక ఉపగమంలో ప్రాధాన్యత అభ్యసనం నుండి బోధనకు మార్చబడింది.)
-3. Constructivist approach shifts emphasis from active learning to passive listening. (నిర్మాణాత్మక ఉపగమంలో ప్రాధాన్యత సక్రియ అభ్యసనం నుండి నిష్క్రియ శ్రవణానికి మార్చబడింది.)
-4. Constructivist approach shifts emphasis from teaching to listening. (నిర్మాణాత్మక ఉపగమంలో ప్రాధాన్యత బోధన నుండి వినడానికి మార్చబడింది.)
-
----
-
-**Question 146:**
-The correct hierarchical sequence of terms used in science: \
-సైన్స్లో ఉపయోగించే పదాల సరైన క్రమానుగత క్రమం:
-
-**Options:**
-1. Terms - Concepts - Facts - Theories (పదాలు – భావనలు – సత్యాలు – సిద్ధాంతాలు)
-2. Facts - Terms - Concepts - Theories (సత్యాలు – పదాలు – భావనలు – సిద్ధాంతాలు)
-3. Terms - Facts - Concepts - Theories (పదాలు – సత్యాలు – భావనలు – సిద్ధాంతాలు)
-4. Facts - Concepts - Theories - Terms (సత్యాలు - భావనలు - సిద్ధాంతాలు – పదాలు)
+1. Cyclops \
+సైక్లోప్స్
+2. Vorticella \
+వోర్టిసెల్లా
+3. Ceratium \
+సెరాటియం
+4. Aspergillus \
+ఆస్పర్జిల్లస్
 
 ---
 
-**Question 147:**
-Among the following, identify the best example of "Task-based assessment" of students: \
-కింది వాటిలో, విద్యార్థుల "కార్యాధార మదింపు" యొక్క ఉత్తమ ఉదాహరణను గుర్తించండి:
+**Q137.** Which of the following stores food materials in the root? \
+కింది వాటిలో ఏది వేరులో ఆహార పదార్థాలను నిల్వ చేస్తుంది?
 
-**Options:**
-1. A written test where students answer multiple-choice questions (విద్యార్థులు బహుళైచ్ఛిక ప్రశ్నలకు సమాధానమిచ్చే వ్రాత పరీక్ష)
-2. A project where students design and present a model of a solar system (విద్యార్థులు సౌర వ్యవస్థ యొక్క నమూనాను రూపొందించి, ప్రదర్శించే ప్రాజెక్ట్)
-3. A quiz that tests students knowledge of vocabulary (పదజాలం గురించి విద్యార్థుల జ్ఞానాన్ని పరీక్షించే క్విజ్)
-4. A project where teachers create a model of a renewable energy sources (ఉపాధ్యాయులు పునరుత్పాదక ఇంధన వనరుల యొక్క నమూనాను రూపొందించే ప్రాజెక్ట్)
-
----
-
-**Question 148:**
-Hunter's Score Card and Vogel's Spot Check Evaluation Scale are associated with: \
-హంటర్ స్కోర్ కార్డ్ మరియు వోగెల్ యొక్క స్పాట్ చెక్ ఎవాల్యుయేషన్ స్కేల్ దీనితో సంబంధించినవి:
-
-**Options:**
-1. Evaluation of students' learning (విద్యార్థుల అభ్యసనం యొక్క మూల్యాంకనం)
-2. Evaluation of Textbook (పాఠ్యపుస్తకం యొక్క మూల్యాంకనం)
-3. Evaluation of Curriculum (విద్యా ప్రణాళిక యొక్క మూల్యాంకనం)
-4. Evaluation of Teaching (బోధన యొక్క మూల్యాంకనం)
+1. Turmeric \
+పసుపు
+2. Ginger \
+అల్లం
+3. Radish \
+ముల్లంగి
+4. Garlic \
+వెల్లుల్లి
 
 ---
 
-**Question 149:**
-Students visiting a bread factory to know the ingredients used in making bread, the chemical reaction during the process of making bread, etc., comes under this stage of learning in 5E learning model of the Constructivist approach. \
-బ్రెడ్ తయారీలో ఉపయోగించే పదార్థాలు, తయారీ ప్రక్రియలో రసాయన ప్రతిచర్య మొదలైనవాటిని తెలుసుకోవడానికి బ్రెడ్ ఫ్యాక్టరీని సందర్శించే విద్యార్థులు, నిర్మాణాత్మక విధానంలోని 5E లెర్నింగ్ మోడల్ అభ్యసన లోని ఈ దశ కిందకు వస్తారు.
+**Q138.** Identify the Saprophyte from the following \
+కింది వానిలో పూతికాహారిని గుర్తించండి.
 
-**Options:**
-1. Elaborate (విపులీకరించడం)
-2. Explain (వివరించడం)
-3. Evaluate (మూల్యాంకనం చేయడం)
-4. Explore (అన్వేషించడం)
+1. Nepenthes \
+నేపెంథెస్
+2. Cuscuta \
+కస్కుటా
+3. Drosera \
+డ్రోసెరా
+4. Agaricus \
+అగారికస్
 
 ---
 
-**Question 150:**
-Which of the following can be considered as the most suitable rationale for team teaching? \
-కింది వానిలో బృంద బోధనకు సంబంధించి తగిన హేతుకీకరణ ఏది?
+**Q139.** Identify the pair in which both the organisms show External fertilization \
+రెండు జీవులు బాహ్య ఫలదీకరణాన్ని చూపే జతను గుర్తించండి.
 
-**Options:**
-1. It is an effective strategy for large sized classes. (అధిక సంఖ్యలో విద్యార్థులున్న తరగతిలో ఉపయోగించడానికి ప్రభావవంతమైన వ్యూహం.)
-2. It is helpful in increasing student participation. (విద్యార్థుల భాగస్వామ్యాన్ని పెంచడానికి ఉపకరిస్తుంది.)
-3. It makes the task of assessment easier. (మదింపు ప్రక్రియను సులభతరంచేస్తుంది.)
-4. It benefits the students with diverse expertise. (విద్యార్థులకు వైవిధ్యమైన నిపుణుల ద్వారా ప్రయోజనం అందిస్తుంది.)
+1. Frog & Cockroach \
+కప్ప & బొద్దింక
+2. Frog & Fish \
+కప్ప & చేప
+3. Fish & Earthworm \
+చేప & వానపాము
+4. Cockroach & Earthworm \
+బొద్దింక & వానపాము
+
+---
+
+**Q140.** The percentage of Argon in the atmosphere is about \
+వాతావరణంలో ఆర్గాన్ యొక్క శాతం సుమారుగా
+
+1. 0.93%
+2. 0.04%
+3. 20.95%
+4. 78.08%
+
+---
+
+**Q141.** Which of the following disease is NOT caused by protozoan pathogen? \
+కింది వ్యాధులలో ఏది ప్రోటోజోవా వ్యాధిజనకం వలన సంక్రమించదు?
+
+1. Kala-azar \
+కాలా-అజర్
+2. Filariasis \
+ఫైలేరియాసిస్
+3. Malaria \
+మలేరియా
+4. Sleeping sickness \
+స్లీపింగ్ సిక్నెస్
+
+---
+
+**Q142.** Identify the cell organelle present in both prokaryotic and eukaryotic cells \
+కేంద్రక పూర్వ కణం మరియు నిజకేంద్రక కణాలు రెండింటిలో ఉండే కణాంగాన్ని గుర్తించండి
+
+1. Endoplasmic Reticulum \
+అంతర్జీవ ద్రవ్యజాలం
+2. Mitochondrion \
+మైటోకాండ్రియన్
+3. Ribosomes \
+రైబోజోమ్ లు
+4. Nucleus \
+కేంద్రకం
+
+---
+
+**Q143.** Identify the primary air pollutants that cause acid rain. \
+ఆమ్ల వర్షాన్ని కలిగించే ప్రాథమిక వాయు కాలుష్య కారకాలను గుర్తించండి.
+
+1. $SO_2$ & CFC
+2. $CO_2$ & CFC
+3. CFC & PAN
+4. $SO_2$ & $NO_2$
+
+---
+
+**Q144.** The second tropic level in a food chain is always occupied by these \
+ఆహార గొలుసులోని రెండవ పోషకస్థాయి ఎల్లప్పుడూ వీటిచే ఆక్రమించబడి ఉంటుంది.
+
+1. Producers \
+ఉత్పత్తిదారులు
+2. Herbivores \
+శాకాహారులు
+3. Omnivores \
+సర్వభక్షకులు
+4. Carnivores \
+మాంసాహారులు
+
+---
+
+**Q145.** The lecture method can be made more effective by: \
+దీని ద్వారా ఉపన్యాస పద్ధతిని మరింత ప్రభావవంతంగా చేయవచ్చు:
+
+1. Increasing the lecture time \
+ఉపన్యాస సమయాన్ని పెంచడం
+2. Incorporating group discussions and activities \
+సమూహ చర్చలు మరియు కృత్యాలను చేర్చడం
+3. Avoiding visual teaching aids \
+దృశ్య బోధనోపకరణాలను నివారించడం
+4. Relying solely on textbooks \
+పాఠ్యపుస్తకాలపై మాత్రమే ఆధారపడటం
+
+---
+
+**Q146.** "Assessment of Learning" is assessment relating to \
+"అభ్యసన యొక్క మదింపు" దీనికి సంబంధించిన మదింపు
+
+1. Understanding level of students only \
+విద్యార్థుల అవగాహన స్థాయి మాత్రమే
+2. Individual learning styles of students \
+విద్యార్థుల వ్యక్తిగత అభ్యసన శైలులు
+3. Student engagement during the learning process \
+అభ్యసన ప్రక్రియలో విద్యార్థి నిమగ్నం అవ్వడం
+4. Final performance of students \
+విద్యార్థుల తుది నిష్పాదన
+
+---
+
+**Q147.** In Telangana science text books questions are given under this heading at the end of the lesson \
+తెలంగాణ సైన్స్ పాఠ్య పుస్తకాలలో పాఠం పూర్తి అయిన తరువాత ప్రశ్నలను ఈ శీర్షిక కింద ఇవ్వడం
+
+1. What we have learnt? \
+మనం ఏం నేర్చుకున్నాం?
+2. Exercises \
+అభ్యాసాలు
+3. Improve your learning \
+అభ్యసనాన్ని మెరుగుపరుచుకోండి
+4. Test items \
+ప్రశ్నాంశాలు
+
+---
+
+**Q148.** Development of vaccines in the medical field is related to this value of teaching Biological Sciences. \
+వైద్య రంగంలో వ్యాక్సిన్లు అభివృద్ధి చేయడం అనేది జీవశాస్త్ర బోధనలో ఈ విలువకు సంబంధించినది.
+
+1. Aesthetic value \
+సౌందర్యాత్మక విలువ.
+2. Inspirational value \
+స్ఫూర్తి కలిగించే విలువ.
+3. Disciplinary value \
+క్రమశిక్షణ విలువ.
+4. Value of Basis for Better living \
+మంచి జీవనం కోసం భూమిక విలువ.
+
+---
+
+**Q149.** A student of class 8 is reading an article on controlling environmental pollution in a Science magazine and is noting down important points from it. This is related to the following domain and aspect. \
+8వ తరగతి చదువుతున్న ఒక విద్యార్థి ఒక సైన్స్ మ్యాగజైన్లో పర్యావరణ కాలుష్యాన్ని నియంత్రించడంపై కథనాన్ని చదువుతున్నాడు మరియు వాటిలోని ముఖ్యమైన అంశాలను నోట్ చేసుకుంటున్నాడు. ఇది క్రింది ఈ రంగం మరియు అంశానికి సంబంధించినది.
+
+1. Cognitive domain - Application \
+జ్ఞానాత్మక రంగం – అనుప్రయుక్తం
+2. Affective domain - responding \
+భావావేశ రంగం - ప్రతిస్పందించడం
+3. Psychomotor domain - imitation \
+మానసిక చలనాత్మక రంగం అనుకరణ
+4. Cognitive domain - receiving \
+జ్ఞానాత్మక రంగం - గ్రహించడం
+
+---
+
+**Q150.** Identify from the following, the features of Fill in the blanks type of questions: \
+కింది వాటి నుండి, 'ఖాళీలను పూరించండి' రకం ప్రశ్నల లక్షణాలను గుర్తించండి: \
+A) These questions always begin with blank. \
+ఈ ప్రశ్నలు ఎల్లప్పుడూ ఖాళీతో ప్రారంభమవుతాయి. \
+B) One or more key words are to be missed in this type of questions. \
+ఈ తరహా ప్రశ్నలలో ఒకటి లేదా అంతకంటే ఎక్కువ కీలక పదాలను తప్పించాలి. \
+C) These questions are useful in testing the memory of the students. \
+విద్యార్థుల జ్ఞాపకశక్తిని పరీక్షించడంలో ఈ ప్రశ్నలు ఉపయోగపడతాయి. \
+Choose the correct answer: \
+సరైన సమాధానాన్ని ఎంపిక చేయండి:
+
+1. A & B only \
+A & B మాత్రమే
+2. A & C only \
+A & C మాత్రమే
+3. B & C only \
+B & C మాత్రమే
+4. A, B & C only \
+A, B & C మాత్రమే
