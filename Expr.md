@@ -1076,14 +1076,14 @@ Choose the correct option.
 **Q91.** Choose an INCORRECT statement from the following related to sets. \
 క్రింది వాటిలో నుండి సమితులకు సంబంధించి సరికాని వ్యాఖ్యను గుర్తించండి.
 
-1. If $P = \{x: x \text{ is a natural number, } x<8 \text{ and } x>6\}$, then set P is an empty set. \
-$P = \{x : x \text{ ఒక సహజ సంఖ్య, } x<8 \text{ మరియు } x>6\}$ అయితే, సమితి P శూన్యసమితి అవుతుంది.
+1. If `P = {x: x is a natural number, x<8 and  x>6}`, then set P is an empty set. \
+`P = {x : x ఒక సహజ సంఖ్య, x<8 మరియు x>6}` అయితే, సమితి P శూన్యసమితి అవుతుంది.
 2. If A and B are two non-empty disjoint sets, then $n(A\cup B)=n(A)+n(B)$. \
 A మరియు B రెండు శూన్యేతర వియుక్త సమితులు అయితే, $n(A\cup B) = n(A) + n(B)$.
 3. The set of lines passing through a given point in a plane is an infinite set. \
 ఒక తలంలోని ఒక బిందువు గుండా వెళ్ళే సరళ రేఖల సమితి అపరిమిత సమితి అవుతుంది.
-4. If $A = \{x: x \text{ is an even prime number and } x>2\}$, then set A is a finite set. \
-$A = \{x : x \text{ ఒక సరి ప్రధాన సంఖ్య మరియు } x>2\}$ అయితే, సమితి A ఒక పరిమిత సమితి అవుతుంది.
+4. If `A = {x: x is an even prime number and x>2}`, then set A is a finite set. \
+`A = {x : x ఒక సరి ప్రధాన సంఖ్య మరియు x>2}` అయితే, సమితి A ఒక పరిమిత సమితి అవుతుంది.
 
 ---
 
