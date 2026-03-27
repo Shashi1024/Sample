@@ -1,676 +1,373 @@
-# Lab Record / Exam Solutions
-
-## 🛠️ MongoDB Windows Setup Guide
-
-**Note:** This setup applies to all "Question 2" database problems below.
-
-1. Open **Command Prompt (cmd)** or **PowerShell**.
-2. Type the command: `mongosh`
-3. You will see a prompt (e.g., `test>`).
-4. **Common Commands** (Use these before running specific answers):
-* `show dbs`
-* `use <databaseName>`
-* `show collections`
-
-
+# IoT CIE-1 Exam Preparation Guide
 
 ---
 
-# 📘 CSE-A
+## Part A: 1-Mark Questions
 
-## Set-1
+### 1. Define internet of things.
+\
+**Answer:** The Internet of Things (IoT) is a massive, interconnected network of physical devices embedded with sensors, software, and communication hardware. These "things" collect, process, and exchange data with other devices and cloud systems over the internet, typically without requiring active human intervention.
 
-### Question 1: Student Registration Form
+### 2. List the Domain specific IoTs.
+\
+**Answer:** Domain-specific IoT refers to IoT networks tailored for particular industries. Major examples include **Smart Homes** (automation), **Smart Cities** (traffic and waste management), **Industrial IoT or IIoT** (manufacturing and predictive maintenance), **Smart Agriculture** (soil and crop monitoring), and **Healthcare IoT** (remote patient monitoring).
 
-**Requirement:** Separate HTML, CSS, and JavaScript files.
+### 3. What is YANG used for in IoT system management?
+\
+**Answer:** YANG (Yet Another Next Generation) is a formal data modeling language. In IoT network management, it is used to strictly define the structure, configuration data, and state data of network devices, which is then transported and manipulated using the NETCONF protocol.
 
-**index.html**
+### 4. Name one function of SNMP in IoT.
+\
+**Answer:** One primary function of SNMP (Simple Network Management Protocol) in IoT is **performance and health monitoring**. It allows administrators to poll remote edge devices to check their uptime, monitor CPU or bandwidth usage, and receive automated alerts (Traps) if a device fails.
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <form onsubmit="return validateForm(event)">
-        <h2>Student Registration</h2>
-        Name: <input type="text" id="name"><br>
-        <span id="nameError" class="error"></span><br>
+### 5. What is the function of a sensor in an IoT system?
+\
+**Answer:** A sensor acts as the input mechanism for an IoT system. Its primary function is to detect physical parameters or changes in the surrounding environment (such as temperature, humidity, motion, or pressure) and convert these physical phenomena into readable electrical signals or digital data for the microcontroller to process.
+
+### 6. Explain its characteristics of IoT.
+\
+**Answer:** The key characteristics of IoT include **Connectivity** (devices must be linked to a network), **Dynamic and Self-Adapting** behavior (devices adjust to environmental changes), **Enormous Scale** (networks can comprise millions of nodes), and **Unique Identity** (each device has a unique IP or URI for addressing).
+
+### 7. Differentiate between Sensors and Actuators with examples.
+\
+**Answer:** A **sensor** monitors the environment and collects input data (e.g., a PIR sensor detecting human motion). An **actuator** takes electrical control signals from the system and converts them into physical action or output (e.g., a relay turning on a light bulb, or a servo motor opening a valve).
+
+### 8. Explain Embedded Systems in IoT architecture.
+\
+**Answer:** An embedded system is a specialized computing system that functions as the "brain" of an IoT node. It typically consists of a microcontroller (like an Arduino) or microprocessor (like a Raspberry Pi), embedded memory, and specific software (firmware) designed to perform a dedicated task, such as reading sensor data and transmitting it over a network. 
+
+### 9. Define software defined networking (SDN).
+\
+**Answer:** Software-Defined Networking (SDN) is a modern network architecture that separates the network's **control plane** (the logic that decides where traffic goes) from the **data plane** (the underlying hardware that forwards the traffic). This allows network administrators to centrally and programmatically control network behavior using software applications.
+
+### 10. Explain network function virtualization (NFV).
+\
+**Answer:** Network Function Virtualization (NFV) is the process of replacing dedicated, proprietary networking hardware (like physical firewalls, load balancers, and routers) with software-based virtual machines. These virtual functions run on standard, commercial off-the-shelf (COTS) servers, highly reducing hardware costs and increasing deployment flexibility.
+
+### 11. Explain SNMP Protocol and its applications in IoT.
+\
+**Answer:** SNMP is an application-layer protocol used heavily in network management. In IoT, it is applied to manage large fleets of gateway devices. It allows a central server to query devices for status updates (`GET`), change their configurations remotely (`SET`), and listen for critical system warnings (`TRAPS`) like a sudden loss of network connectivity.
+
+### 12. Define the term "Metadata" in the context of IoT device resources.
+\
+**Answer:** Metadata is fundamentally "data that describes other data." In IoT, raw sensor data (e.g., "25") is meaningless on its own. Metadata provides the necessary context, such as the unit of measurement ("Celsius"), the timestamp of the reading, the sensor's geographic location, and the device ID.
+
+### 13. State the difference between a Physical Device and a Virtual Entity in IoT.
+\
+**Answer:** A **physical device** is the actual, tangible piece of hardware deployed in the real world, like a smart thermostat on a wall. A **virtual entity** (often called a Digital Twin) is the software representation or data model of that physical device stored in the cloud, which mimics its current state and allows applications to interact with the device virtually.
+
+### 14. What is the role of the Data Plane in an SDN architecture?
+\
+**Answer:** The Data Plane, also known as the forwarding plane, consists of the actual network switches and routers. Its sole role is to execute the forwarding rules dictated by the SDN Controller (the Control Plane), moving data packets from incoming ports to the correct outgoing ports efficiently.
+
+### 15. What is the full form of YANG in the context of device modeling?
+\
+**Answer:** YANG stands for **Yet Another Next Generation**. It is an IETF standard modeling language used specifically to model network configuration data.
+
+### 16. What is the purpose of the SoC (System on Chip) in a Raspberry Pi compared to a traditional CPU?
+\
+**Answer:** An SoC integrates almost all critical computer components—including the CPU, GPU, RAM, and input/output controllers—onto a single silicon chip. Compared to a traditional multi-chip CPU motherboard, an SoC drastically reduces power consumption, physical size, and manufacturing cost, making it ideal for compact IoT edge devices.
+
+### 17. Which pin on the Arduino provides a regulated 5V output?
+\
+**Answer:** The pin labeled **5V** located in the power header section of the Arduino board provides a regulated 5-volt DC output. This pin is commonly used to power external components like sensors, breadboards, and small displays.
+
+### 18. What role does cloud computing play in IoT?
+\
+**Answer:** Cloud computing provides the centralized infrastructure needed to support massive IoT deployments. It offers virtually limitless storage for accumulating historical sensor data, powerful compute resources to run complex machine learning analytics on that data, and globally accessible platforms to build user-facing dashboards and applications.
+
+### 19. What is the focus of physical design in IoT?
+\
+**Answer:** The physical design of an IoT system focuses on the tangible, hardware-level architecture. It defines the specific types of IoT nodes (sensors, actuators, edge devices), the physical network topology, and the hardware communication interfaces (like USB, I2C, SPI) required to build the physical network.
+
+### 20. Name one function of SNMP in IoT.
+\
+**Answer:** *(Note: Duplicate of Q4)* A key function of SNMP is **fault management**. It allows IoT gateway devices to instantly notify a central management server if a critical error occurs, ensuring rapid response to hardware or network failures.
+
+### 21. What is the purpose of the controller in the SDN architecture?
+\
+**Answer:** The SDN Controller acts as the "brain" of the network. It maintains a global, comprehensive view of the entire network topology and translates the administrator's high-level network policies into low-level forwarding rules, which it then pushes down to the data plane switches.
+
+### 22. What is the primary function of GPIO pins in Arduino and Raspberry Pi?
+\
+**Answer:** General Purpose Input/Output (GPIO) pins act as the physical bridge between the microcontroller's software and the real world. They are programmed to act either as **inputs** (reading electrical voltages from sensors) or as **outputs** (sending electrical voltages to trigger actuators like LEDs or motors).
+
+### 23. Which cable is typically used to connect Arduino to a PC for programming and power?
+\
+**Answer:** A standard **USB Type-A to Type-B** cable (commonly known as a printer cable) is used to connect an Arduino Uno to a computer. This single cable facilitates the transfer of compiled code from the IDE to the board and supplies the necessary 5V power to run the microcontroller.
+
+---
+
+## Part B: Long Questions
+
+### 1. What are the characteristics of IoT?
+\
+**Answer:** The Internet of Things represents a paradigm shift in computing, defined by several core characteristics that distinguish it from standard internet applications:
+* **Dynamic and Self-Adapting:** IoT devices must be capable of dynamically adapting to changing contexts. For example, a smart camera can automatically switch to infrared night mode when light levels drop, or a system can lower its transmission rate if network bandwidth becomes constrained.
+* **Self-Configuring:** Large IoT deployments require devices that can connect to the network, fetch their required configurations, and register themselves with cloud platforms with minimal human intervention.
+* **Interoperable Communication Protocols:** IoT systems rely on a diverse mix of specialized protocols (like MQTT, CoAP, Zigbee, and BLE) to ensure that heterogeneous devices from different manufacturers can communicate effectively.
+* **Unique Identity:** Every IoT node requires a unique identifier (such as an IPv6 address, MAC address, or universal resource identifier) so that the control system can query, update, or command individual devices among millions.
+* **Enormous Scale:** Unlike traditional IT networks, an IoT network might consist of hundreds of thousands of endpoints. The architecture must be inherently scalable to manage the massive influx of data and connections.
+
+### 2. How do IoT levels and templates contribute to designing an efficient IoT architecture?
+\
+**Answer:** Designing an IoT system from scratch is complex. **IoT Levels (1 through 6)** and **Templates** provide standardized blueprints that streamline this process by aligning the system architecture with the specific operational requirements.
+* **IoT Levels:** These levels categorize architectures based on where data is processed, the complexity of the nodes, and the volume of data. 
+    * *Level 1* is entirely local; a single device collects data, analyzes it, and controls an actuator without cloud reliance (e.g., a simple room thermostat).
+    * *Level 6* involves independent end nodes, centralized cloud computing, and complex cloud-based analytics (e.g., a city-wide smart grid). By selecting the correct level, engineers avoid over-engineering simple problems or under-powering complex ones.
+* **IoT Templates:** Templates provide modular definitions for the functional blocks of a system (Device, Communication, Services, Management, Application). By using standardized templates, developers can ensure interoperability, reuse existing codebases, and maintain a clear separation of concerns, drastically reducing development time and improving overall system efficiency.
+
+### 3. Analyse the functional differences between SDN and NFV when deployed in a distributed IoT infrastructure.
+\
+**Answer:** Both Software-Defined Networking (SDN) and Network Function Virtualization (NFV) are heavily utilized to make IoT infrastructures more flexible and scalable, but they address entirely different aspects of network management. 
+
+| Feature | SDN (Software-Defined Networking) | NFV (Network Function Virtualization) |
+| :--- | :--- | :--- |
+| **Primary Goal** | Centralize network control and routing logic. | Replace dedicated hardware appliances with software. |
+| **Mechanism** | Separates the Control Plane from the Data Plane. | Decouples network functions from proprietary hardware. |
+| **IoT Application** | Dynamically reroutes traffic if an IoT gateway becomes congested; creates isolated "slices" for critical sensor data. | Deploys virtual firewalls, load balancers, or intrusion detection systems directly onto edge servers. |
+| **Focus** | How data packets are moved through the network. | The services and security functions applied to the data. |
+
+**In a distributed IoT system:** NFV allows a company to spin up a virtual security gateway at a remote factory using standard servers rather than shipping specialized hardware. SDN then manages how the thousands of factory sensors route their traffic through that newly created virtual gateway.
+
+### 4. Describe the architecture and functions of SNMP used for IoT system management.
+\
+**Answer:** The Simple Network Management Protocol (SNMP) is a legacy, yet robust, architecture used to monitor the health and performance of IoT gateways and routers. 
+
+```mermaid
+graph TD
+    subgraph snmp_architecture ["SNMP Architecture"]
+        M["SNMP Manager\n(Central Server)"]
+        subgraph agent_node ["Managed IoT Gateway"]
+            A["SNMP Agent\n(Software)"]
+            MIB["MIB\n(Management Info Base)"]
+            A --- MIB
+        end
+        M -->|1. GET Request| A
+        A -->|2. GET Response| M
+        M -->|3. SET Request| A
+        A -->|"4. TRAP (Asynchronous Alert)"| M
+    end
+```
+**Architecture Components:**
+1.  **SNMP Manager:** A centralized software console used by network administrators to monitor the network.
+2.  **SNMP Agent:** A software module running on the managed IoT device (like a router). It collects local operational data.
+3.  **MIB (Management Information Base):** A hierarchical database on the device that structures the data the agent collects using Object Identifiers (OIDs).
+
+**Functions:**
+* **Polling (GET):** The Manager requests specific data points (e.g., CPU load) from the Agent.
+* **Configuration (SET):** The Manager sends a command to alter a configuration value in the MIB.
+* **Alerting (TRAP):** If a critical event occurs (like a port failure), the Agent autonomously sends a Trap message to the Manager without waiting to be polled, enabling rapid incident response.
+
+### 5. Explain the steps involved in setting up Raspberry Pi for IoT applications. State differences between Arduino and Raspberry Pi.
+\
+**Answer:** Setting up a Raspberry Pi transforms it from a bare board into a fully functional edge-computing node.
+**Setup Steps:**
+1.  **OS Installation:** Download the Raspberry Pi Imager and flash a microSD card with a Linux-based OS (typically Raspberry Pi OS).
+2.  **Hardware Connection:** Insert the microSD card, connect a keyboard, mouse, monitor (via HDMI), and power the device using a 5V USB-C or Micro-USB supply.
+3.  **Initial Configuration:** Boot the OS, connect to the local Wi-Fi, and open the `raspi-config` terminal utility.
+4.  **Enable IoT Interfaces:** Within `raspi-config`, explicitly enable necessary communication interfaces such as SSH (for remote access), I2C, SPI, and 1-Wire.
+5.  **Environment Setup:** Update the package lists (`sudo apt update`) and install necessary programming libraries (like Python's `RPi.GPIO` or `gpiozero`).
+
+**Differences:**
+* **Computing Power:** Arduino is a simple *microcontroller* designed to execute a single, highly repetitive task (like reading a sensor) with absolute real-time precision. Raspberry Pi is a complex *microprocessor* running a full operating system.
+* **Multitasking:** Arduino runs one loop continuously (bare-metal). The Pi can multitask, meaning it can simultaneously read sensors, host a database, and run a web server.
+* **Connectivity:** Pi has native Wi-Fi, Ethernet, and Bluetooth. Standard Arduinos require external shields or modules for internet connectivity.
+
+### 6. Compare MQTT, CoAP and HTTP protocols used in IoT. Design an IoT architecture for smart city traffic monitoring.
+\
+**Answer:** Choosing the right communication protocol is critical based on device constraints and network reliability.
+
+* **HTTP (Hypertext Transfer Protocol):** A heavy, robust Client/Server protocol. It relies on TCP, making it highly reliable but very resource-intensive. It is generally avoided for battery-powered sensors due to large header overheads.
+* **MQTT (Message Queuing Telemetry Transport):** A lightweight Publish/Subscribe protocol running over TCP. Devices (Publishers) send data to a central Broker, which distributes it to interested Subscribers. It is excellent for low-bandwidth environments and code-constrained devices.
+* **CoAP (Constrained Application Protocol):** A specialized web transfer protocol for heavily constrained nodes. It uses a Client/Server model like HTTP but runs over UDP to minimize overhead and power consumption.
+
+**Smart City Traffic Architecture:**
+1.  **Perception Layer:** Inductive loop sensors and low-power cameras at intersections collect traffic density data. They use **CoAP** over a low-power wireless network to send small data packets locally.
+2.  **Edge/Gateway Layer:** Roadside IoT gateways aggregate this CoAP data. They translate the data and **Publish** it to a central server using **MQTT** over standard cellular networks (4G/5G).
+3.  **Cloud Layer:** A central MQTT Broker receives the data and routes it to an analytics application. The application updates city dashboards via standard **HTTP/WebSockets** and publishes new timing sequences back to the traffic light controllers via MQTT.
+
+### 7. Explain how SDN improves scalability in large IoT networks.
+\
+**Answer:** Traditional networking relies on distributed control; every individual router and switch must be manually configured with routing tables and security policies. In a massively scaling IoT network (where thousands of devices are added monthly), this manual approach becomes an unmanageable bottleneck. 
+
+Software-Defined Networking (SDN) fundamentally solves this scalability issue by centralizing the network's intelligence. 
+* **Centralized Provisioning:** Administrators interact with a single, central SDN Controller. When a new subnet of 500 IoT sensors is deployed, the administrator defines the routing and security policies once in the software controller.
+* **Automated Deployment:** The SDN Controller uses standard protocols (like OpenFlow) to automatically push these new forwarding rules down to the data plane switches in real-time. 
+* **Dynamic Adaptation:** If network traffic spikes from a specific sensor array, the SDN controller can automatically recalculate optimal paths and reprogram the switches on the fly, ensuring the network scales elastically without human intervention.
+
+### 8. Compare NETCONF and SNMP for network device management.
+\
+**Answer:** While both protocols serve to manage network devices, NETCONF was designed to overcome the severe limitations of SNMP in modern, complex networks.
+
+* **Data Modeling:** SNMP relies on Management Information Bases (MIBs) and simple OIDs, which are unstructured and difficult to read. NETCONF utilizes **YANG**, a highly structured modeling language that clearly defines how configuration data should be formatted.
+* **Operations:** SNMP essentially only offers basic `GET` and `SET` commands. NETCONF uses Remote Procedure Calls (RPCs) formatted in XML, allowing for complex, nested configuration commands.
+* **Reliability & Transport:** SNMP traditionally runs over UDP, meaning a configuration command could get lost in transit without the manager knowing. NETCONF runs over SSH (TCP), ensuring secure, reliable, and verified delivery.
+* **Transactions:** The most significant difference is transactional support. If an administrator uses NETCONF to update 10 settings on a router and the 9th setting fails, NETCONF rolls back the entire transaction to prevent the router from breaking. SNMP cannot do this.
+
+### 9. Explain Raspberry Pi architecture and features.
+\
+**Answer:** The Raspberry Pi is a series of single-board computers built around a Broadcom System-on-Chip (SoC). Its architecture is designed to provide PC-level capabilities in a credit-card-sized footprint.
+* **Core Processing:** It features an ARM Cortex CPU (ranging from single-core in early models to quad-core in the Pi 4/5) and a fully integrated VideoCore GPU capable of decoding high-definition video.
+* **Memory and Storage:** It utilizes onboard RAM (1GB to 8GB) and relies entirely on a removable microSD card to house its Linux operating system and user data.
+* **Extensive Connectivity:** Modern Pi architectures include built-in dual-band Wi-Fi, Bluetooth/BLE, Gigabit Ethernet, and multiple USB (2.0 and 3.0) ports for peripherals.
+* **IoT Interfacing:** The defining feature is the **40-pin GPIO header**. These pins allow direct electrical interaction with physical hardware. The architecture supports standard digital input/output, Hardware PWM (Pulse Width Modulation) for motor control, and specialized serial protocols like I2C and SPI for communicating with advanced sensors and displays.
+
+### 10. Explain I2C communication protocol.
+\
+**Answer:** I2C (Inter-Integrated Circuit) is a widely used, synchronous serial communication protocol developed to attach lower-speed peripheral integrated circuits to microcontrollers. It is highly valued in IoT for its simplicity and efficiency.
+
+It operates using only two functional wires (plus ground):
+1.  **SDA (Serial Data Line):** The bidirectional line used to actually transmit the data bits.
+2.  **SCL (Serial Clock Line):** The line that carries the clock signal generated by the Master device to synchronize the data transfer.
+
+**How it works:** I2C utilizes a Master-Slave architecture. The microcontroller (e.g., Arduino) acts as the Master. Every sensor or display attached to the bus acts as a Slave and has a unique 7-bit or 10-bit hexadecimal address. When the Master wants to communicate, it transmits the target address over the SDA line. Only the Slave matching that address responds. This allows dozens of sensors to be daisy-chained to the exact same two pins on a microcontroller, saving immense physical space and wiring complexity.
+
+### 11. Explain the IoT Level-5 architecture. Why is a "Coordinator" node essential in this level?
+\
+**Answer:** IoT Level-5 is a complex architecture typically deployed in environments like Wireless Sensor Networks (WSNs) for smart agriculture or structural monitoring, where end nodes are distributed over a wide area.
+
+```mermaid
+graph TD
+    subgraph level_5 ["IoT Level-5 System"]
+        subgraph wsn ["Wireless Sensor Network"]
+            E1["End Node (Battery/BLE)"]
+            E2["End Node (Battery/BLE)"]
+            E3["End Node (Battery/BLE)"]
+            C["Coordinator Node\n(Powered Gateway)"]
+        end
+        Cloud["Cloud Storage\n& Analytics"]
+        App["End User App"]
         
-        Email: <input type="text" id="email"><br>
-        <span id="emailError" class="error"></span><br>
-        
-        Class: <input type="text" id="classVal"><br>
-        <span id="classError" class="error"></span><br>
-        
-        Fav Subject: <input type="text" id="subject"><br>
-        <span id="subjectError" class="error"></span><br>
-        
-        <button type="submit">Register</button>
-    </form>
-    <script src="script.js"></script>
-</body>
-</html>
-
+        E1 -.->|Local RF| C
+        E2 -.->|Local RF| C
+        E3 -.->|Local RF| C
+        C ==>|Wi-Fi / Ethernet| Cloud
+        Cloud --- App
+    end
 ```
 
-**style.css**
+**Why a Coordinator is Essential:**
+In a Level-5 system, the End Nodes are usually highly constrained—they run on batteries, have very weak processors, and utilize low-power, short-range radios (like Zigbee or Bluetooth). They do not have the power, network stack, or hardware to connect directly to the Internet. 
+The **Coordinator Node** acts as a crucial bridge. It is physically wired to a power source and has high computing capability. It collects the low-power RF data from all the local end nodes, aggregates it, translates it into standard IP protocols, and transmits it over Wi-Fi or Cellular to the Cloud. Without the Coordinator, the sensor network would be entirely isolated.
 
-```css
-body { background-color: #f0f8ff; font-family: sans-serif; }
-form { background-color: white; padding: 20px; width: 300px; border: 1px solid #ccc; }
-.error { color: red; font-size: 12px; }
-input { margin-bottom: 5px; }
+### 12. Analyze the functional blocks of an IoT system. How do the "Service" and "Management" blocks interact to ensure system reliability?
+\
+**Answer:** A complete IoT system relies on a stack of functional blocks:
+* **Device:** The hardware sensors and microcontrollers.
+* **Communication:** The protocols mapping data across networks.
+* **Services:** The logic that exposes device capabilities (APIs), handles device discovery, and performs data analytics.
+* **Management:** The block responsible for device provisioning, health monitoring, firmware updates, and tracking CPU/battery status.
+* **Security:** Handles authentication and encryption.
+* **Application:** The user-facing dashboard.
 
-```
+**Interaction for Reliability:** The **Management** block constantly monitors the hardware state of the Device block. If the Management block detects an anomaly—for example, a sensor's battery dropping below 10%, or the CPU overheating—it immediately communicates this context to the **Service** block. The Service block can then autonomously trigger a reliability protocol, such as halting intensive local machine learning analytics or reducing the data transmission frequency, thereby extending the life of the failing node and preventing system-wide data corruption.
 
-**script.js**
+### 13. Explain the concept of Interoperability in IoT. Why is it a significant challenge in multi-vendor environments?
+\
+**Answer:** Interoperability is the ability of disparate computing systems, software platforms, and hardware devices to connect seamlessly, exchange data, and use the information that has been exchanged without requiring complex, custom integration efforts.
 
-```javascript
-function validateForm(e) {
-    e.preventDefault();
+**The Multi-Vendor Challenge:**
+In the current IoT landscape, interoperability is a massive hurdle because manufacturers frequently develop isolated "walled gardens." Vendor A might build a smart thermostat using a proprietary 900MHz radio protocol and a closed cloud API. Vendor B might build smart blinds using standard Zigbee. 
+Because there is no universally enforced standard at the application layer, getting Vendor A's thermostat to automatically close Vendor B's blinds to cool a room is incredibly difficult. It requires developers to build complex, custom middleware to translate the varying data formats and protocols. This fragmentation stifles innovation, increases deployment costs, and frustrates end-users who expect seamless automation.
+
+### 14. Differentiate between M2M and IoT based on three parameters: Communication type, Data handling, and Hardware focus.
+\
+**Answer:** While Machine-to-Machine (M2M) is the historical foundation of IoT, the two paradigms differ significantly in scope and application.
+
+| Parameter | M2M (Machine-to-Machine) | IoT (Internet of Things) |
+| :--- | :--- | :--- |
+| **Communication Type** | Point-to-point. Uses dedicated, closed networks (cellular, wired, or proprietary RF). | IP-based and open. Uses standard Internet protocols to communicate across wide-area networks. |
+| **Data Handling** | Highly localized. Data is used strictly for immediate automation, alerting, or local control loops. | Cloud-centric. Massive data volumes are aggregated globally and subjected to Big Data analytics and Machine Learning. |
+| **Hardware Focus** | Specific and rigid. Hardware is hard-coded to solve one exact industrial problem. | Generalized and versatile. Edge hardware often runs operating systems and can be updated over-the-air to perform new tasks. |
+
+### 15. How does the Raspberry Pi OS (Linux-based) provide an advantage over the Arduino's Bare-Metal programming for complex IoT applications?
+\
+**Answer:** The fundamental advantage of the Raspberry Pi OS lies in its capability for **preemptive multitasking** and advanced resource management. 
+
+When an Arduino runs bare-metal, it executes a single loop of code sequentially. If it pauses to wait for a network request to complete, it cannot read a sensor during that pause. 
+Because the Raspberry Pi runs a full Linux kernel, it can manage multiple independent threads and processes simultaneously. This means a single Pi can act as an advanced IoT gateway: it can constantly read data from a serial port in the background, run a local SQL database to store that data, host a lightweight Apache web server to display the data to users, and execute heavy Python scripts to encrypt the data before sending it to the cloud. This concurrent execution environment is mandatory for complex edge computing, which bare-metal microcontrollers simply cannot support.
+
+### 16. Analyze the GPIO pinout of a Raspberry Pi. Explain the steps to interface a PIR motion sensor and trigger a camera module when motion is detected.
+\
+**Answer:** The standard Raspberry Pi features a 40-pin GPIO header. It includes a mix of power pins (two 5V, two 3.3V), eight Ground pins, and 26 standard GPIO data pins that operate at a strictly 3.3V logic level.
+
+**Interfacing Steps:**
+1.  **Hardware Wiring:** A PIR (Passive Infrared) motion sensor typically has three pins. Connect the sensor's VCC to a 5V pin on the Pi, GND to a Ground pin, and the OUT (digital signal) to a designated data pin, such as GPIO 17.
+2.  **Camera Setup:** Connect the official Raspberry Pi Camera Module to the CSI (Camera Serial Interface) port using the ribbon cable. Enable the camera interface via the `raspi-config` tool.
+3.  **Software Configuration:** Write a Python script importing the `gpiozero` library (which simplifies interaction) and the system `subprocess` or `picamera` library.
+4.  **Logic Execution:** Configure GPIO 17 as an input. The script enters a monitoring loop. When the PIR detects motion, it sends a `HIGH` voltage to GPIO 17. The script detects this state change and executes a system command to trigger the camera module, capturing and saving a photograph.
+
+### 17. How are sensors and actuators integrated into the design of IoT systems, and how do they affect system performance?
+\
+**Answer:** Sensors and actuators represent the "Perception" layer of an IoT architecture, serving as the critical interface between the digital system and the physical world.
+* **Integration:** They are physically integrated with microcontrollers via varying interfaces. Simple digital sensors connect directly to GPIO pins. Analog sensors require an ADC (Analog-to-Digital Converter) to translate varying voltages into discrete numbers. Complex sensors use I2C or SPI buses.
+* **Impact on Performance:** The quality of this hardware directly dictates the viability of the entire system (the "garbage in, garbage out" principle). A poorly calibrated sensor will flood the cloud with inaccurate data, rendering advanced analytics useless. Furthermore, high-frequency polling of sensors consumes significant power and network bandwidth. Therefore, integrating "edge intelligence"—where the microcontroller filters out redundant sensor noise before transmitting—is essential to maintain system responsiveness and battery life.
+
+### 18. How do wireless sensor networks (WSNs) work in IoT systems, and what role do they play in collecting and sending data?
+\
+**Answer:** A Wireless Sensor Network (WSN) consists of dozens to thousands of autonomous, spatially distributed sensor nodes. 
+
+**How they work:** Each node is equipped with a specific sensor, a microcontroller, a power source (usually a battery), and a low-power radio transceiver. Instead of every node trying to connect directly to a distant router, nodes organize themselves into self-healing topologies, such as a **Mesh Network**. 
+**Their Role:** In a mesh setup, nodes cooperate. If Node A wants to send data but is too far from the central Gateway, it sends its data to Node B, which forwards it to Node C, hopping across the network until it reaches the Gateway. This multi-hop routing allows the WSN to monitor massive physical areas (like agricultural fields or forest fire zones) while keeping the power consumption and radio strength of individual nodes incredibly low, ensuring the network can run unattended for years.
+
+### 19. Identify the key features of NETOPEER and explain how it enhances configuration and control in IoT networks.
+\
+**Answer:** NETOPEER is a robust, open-source toolset (functioning as both a client and a server) designed to implement the NETCONF network management protocol.
+
+**Key Features:**
+* **Native YANG Support:** NETOPEER inherently understands and enforces YANG data models, ensuring all configuration data is strictly validated before being applied.
+* **Secure Transport:** It mandates secure communication by tunneling all XML-encoded RPC commands through SSH or TLS.
+* **Datastore Architecture:** It maintains clear separation between `running`, `startup`, and `candidate` configurations.
+
+**Enhancement of Control:** NETOPEER drastically enhances IoT control by enabling highly automated, programmatic management of edge routers. Instead of an engineer writing fragile scripts to parse CLI text outputs, NETOPEER provides structured XML responses. Its transactional nature ensures that complex configuration updates across an IoT gateway are applied safely; if any part of a multi-step configuration fails validation, NETOPEER rejects the entire candidate config, preventing the router from entering an unstable state.
+
+### 20. Apply SDN and NFV in an industrial IoT system and show how they help improve resource use, system growth, and automation.
+\
+**Answer:** In an Industrial IoT (IIoT) setting, such as a massive smart manufacturing plant, the combination of SDN and NFV transforms static operational technology into an agile IT environment.
+
+* **Improving Resource Use (NFV):** A factory typically relies on dozens of hardware-based PLCs (Programmable Logic Controllers) and physical security appliances. NFV allows the factory to virtualize these PLCs. The logic now runs as software on centralized, high-performance edge servers. This eliminates the need to maintain, power, and cool dozens of disparate hardware boxes.
+* **System Growth and Automation (SDN):** As the factory expands, adding hundreds of new robotic sensors, SDN manages the scaling. The SDN controller automatically provisions new subnets and applies security policies. Furthermore, SDN enables **Network Slicing**. It can automatically guarantee high-bandwidth, zero-latency network paths for critical robotic control signals, while isolating less critical data (like ambient temperature logs) to lower-priority paths, entirely through automated software commands.
+
+### 21. Explain the difference between analog and digital signals, and how Raspberry Pi and Arduino handle them using their input/output pins.
+\
+**Answer:** Understanding signal types is fundamental for interfacing hardware.
+* **Analog Signals:** These are continuous signals that can represent an infinite number of values within a given range (e.g., a light sensor outputting a smooth curve of voltages anywhere between 0V and 5V).
+* **Digital Signals:** These are discrete signals that represent only two possible states: HIGH (typically 5V or 3.3V, representing binary 1) or LOW (0V, representing binary 0).
+
+**Hardware Handling:**
+* **Arduino:** Contains a built-in Analog-to-Digital Converter (ADC). Its dedicated analog pins (`A0` through `A5`) can directly read varying analog voltages and convert them into discrete digital values (ranging from 0 to 1023) for the code to understand. It handles digital signals natively on its standard numbered pins.
+* **Raspberry Pi:** The Pi is purely a digital device. Its GPIO pins can perfectly read digital HIGH/LOW states. However, it **does not** possess a built-in ADC. To read an analog signal, you must wire an external ADC microchip (such as the MCP3008) to the Pi using the SPI communication protocol.
+
+### 22. How can you connect a temperature sensor to a Raspberry Pi using GPIO pins, read data from it, and use that data to control an output device?
+
+**Answer:** This process involves physical wiring, library integration, and programmatic logic. Let's use a standard DHT11 digital temperature sensor and a simple LED as an alarm actuator.
+
+**Step 1: Physical Wiring**
+* **Sensor:** Connect the DHT11 VCC pin to the Pi's 3.3V pin, the GND pin to a Pi Ground, and the Data pin to a specific GPIO, let's say GPIO 4.
+* **Actuator:** Connect the anode (long leg) of an LED to GPIO 17 via a current-limiting resistor (e.g., 330 ohm). Connect the cathode to Ground.
+
+**Step 2: Software Implementation**
+In Python, you would install a library designed for the sensor (e.g., `Adafruit_DHT`) to handle the complex timing required to read the data pin, and the `gpiozero` library for the LED.
+
+**Step 3: Control Logic**
+```python
+import Adafruit_DHT
+from gpiozero import LED
+from time import sleep
+
+sensor = Adafruit_DHT.DHT11
+pin = 4
+warning_led = LED(17)
+
+while True:
+    humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
     
-    document.getElementById("nameError").innerText = "";
-    document.getElementById("emailError").innerText = "";
-    
-    let email = document.getElementById("email").value.trim();
-    let name = document.getElementById("name").value.trim();
-    let isValid = true;
-
-    if (!name) {
-        document.getElementById("nameError").innerText = "Name is required";
-        isValid = false;
-    }
-    if (!email) {
-        document.getElementById("emailError").innerText = "Email is required";
-        isValid = false;
-    }
-
-    if(isValid) {
-        alert("Form Submitted Successfully");
-        return true;
-    }
-    return false;
-}
-
+    if temperature is not None:
+        if temperature > 30.0:
+            warning_led.on()  # Trigger actuator if threshold exceeded
+        else:
+            warning_led.off()
+    sleep(2)
 ```
-
-### Question 2: Store Inventory Database
-
-```javascript
-// Open 'mongosh'
-use storeDB
-
-// a) Insert 5 products individually
-db.products.insertOne({pid: 1, pname: "Pen", price: 10, stock: 100})
-db.products.insertOne({pid: 2, pname: "Book", price: 50, stock: 50})
-db.products.insertOne({pid: 3, pname: "Bag", price: 600, stock: 20})
-db.products.insertOne({pid: 4, pname: "Box", price: 100, stock: 0})
-db.products.insertOne({pid: 5, pname: "Ink", price: 20, stock: 10})
-
-// b) Insert 3 products using array insertion
-db.products.insertMany([
-    {pid: 6, pname: "Calc", price: 700, stock: 5},
-    {pid: 7, pname: "Eraser", price: 5, stock: 0},
-    {pid: 8, pname: "Scale", price: 15, stock: 30}
-])
-
-// c) Update stock for products priced above 500
-db.products.updateMany({ price: { $gt: 500 } }, { $inc: { stock: 10 } })
-
-// d) Delete two products that are out of stock
-db.products.deleteMany({ stock: 0 })
-
-```
-
----
-
-## Set-2
-
-### Question 1: MNC Job Application Form
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-    <div style="width: 500px; margin: auto; border: 1px solid black; padding: 20px;">
-        <h2 style="text-align: center; text-decoration: underline;">MNC Job Application</h2>
-        <form>
-            <div style="margin-bottom: 10px;">
-                <label style="width: 150px; display: inline-block;">First Name:</label>
-                <input type="text">
-            </div>
-            <div style="margin-bottom: 10px;">
-                <label style="width: 150px; display: inline-block;">Last Name:</label>
-                <input type="text">
-            </div>
-            <div style="margin-bottom: 10px;">
-                <label style="width: 150px; display: inline-block;">Gender:</label>
-                <input type="radio" name="g"> Male <input type="radio" name="g"> Female
-            </div>
-            <div style="margin-bottom: 10px;">
-                <label style="width: 150px; display: inline-block;">Mobile:</label>
-                <input type="number">
-            </div>
-            
-            <h4 style="border-bottom: 1px solid #ccc;">Education Details</h4>
-            <div style="margin-bottom: 5px;">10th: <input type="text"></div>
-            <div style="margin-bottom: 5px;">Inter: <input type="text"></div>
-            <div style="margin-bottom: 5px;">B.Tech: <input type="text"></div>
-            
-            <div style="margin-top: 10px;">
-                <label>Job Experience:</label><br>
-                <textarea style="width: 100%;"></textarea>
-            </div>
-            
-            <button type="submit" style="margin-top: 10px; padding: 5px 15px;">Submit</button>
-        </form>
-    </div>
-</body>
-</html>
-
-```
-
-### Question 2: Student Database
-
-```javascript
-// Open 'mongosh'
-use studentDB
-
-// a) Insert 5 documents individually
-db.students.insertOne({studentID: 101, Name: "Arun", Branch: "CSE", CGPA: 8.5})
-db.students.insertOne({studentID: 102, Name: "Balu", Branch: "ECE", CGPA: 7.0})
-db.students.insertOne({studentID: 103, Name: "Cat", Branch: "CSE", CGPA: 9.1})
-db.students.insertOne({studentID: 104, Name: "Dev", Branch: "EEE", CGPA: 6.5})
-db.students.insertOne({studentID: 105, Name: "Eva", Branch: "MECH", CGPA: 7.5})
-
-// b) Insert 2 documents at a time
-db.students.insertMany([
-    {studentID: 106, Name: "Fay", Branch: "CSE", CGPA: 8.0},
-    {studentID: 107, Name: "Guy", Branch: "IT", CGPA: 7.8}
-])
-
-// c) Update values in existing documents
-db.students.updateOne({ studentID: 101 }, { $set: { CGPA: 9.0 } })
-
-// d) Delete any 2 student records
-db.students.deleteMany({ studentID: { $in: [104, 105] } })
-
-```
-
----
-
-## Set-3
-
-### Question 1: HTML Calendar
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-    <h2 style="text-align: center;">December 2025</h2>
-    <table style="width: 50%; margin: auto; border-collapse: collapse; text-align: center;">
-        <tr style="background-color: lightgray;">
-            <th style="border: 1px solid black; padding: 10px;">Sun</th>
-            <th style="border: 1px solid black; padding: 10px;">Mon</th>
-            <th style="border: 1px solid black; padding: 10px;">Tue</th>
-            <th style="border: 1px solid black; padding: 10px;">Wed</th>
-            <th style="border: 1px solid black; padding: 10px;">Thu</th>
-            <th style="border: 1px solid black; padding: 10px;">Fri</th>
-            <th style="border: 1px solid black; padding: 10px;">Sat</th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 10px;"></td>
-            <td style="border: 1px solid black; padding: 10px;">1</td>
-            <td style="border: 1px solid black; padding: 10px;">2</td>
-            <td style="border: 1px solid black; padding: 10px;">3</td>
-            <td style="border: 1px solid black; padding: 10px;">4</td>
-            <td style="border: 1px solid black; padding: 10px;">5</td>
-            <td style="border: 1px solid black; padding: 10px;">6</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 10px;">7</td>
-            <td style="border: 1px solid black; padding: 10px;">8</td>
-            <td style="border: 1px solid black; padding: 10px;">9</td>
-            <td style="border: 1px solid black; padding: 10px;">10</td>
-            <td style="border: 1px solid black; padding: 10px;">11</td>
-            <td style="border: 1px solid black; padding: 10px;">12</td>
-            <td style="border: 1px solid black; padding: 10px;">13</td>
-        </tr>
-    </table>
-</body>
-</html>
-
-```
-
-### Question 2: Library Database
-
-```javascript
-// Open 'mongosh'
-use libraryDB
-
-// a) Insert 5 book records
-db.books.insertOne({bookId: 1, title: "C Prog", author: "Dennis", price: 500, qty: 10})
-db.books.insertOne({bookId: 2, title: "Java", author: "James", price: 600, qty: 5})
-db.books.insertOne({bookId: 3, title: "Python", author: "Guido", price: 400, qty: 8})
-db.books.insertOne({bookId: 4, title: "HTML", author: "Tim", price: 300, qty: 15})
-db.books.insertOne({bookId: 5, title: "OS", author: "Galvin", price: 700, qty: 4})
-
-// b) Insert 2 records
-db.books.insertMany([
-    {bookId: 6, title: "Networks", author: "Tanenbaum", price: 800, qty: 6},
-    {bookId: 7, title: "AI", author: "Russell", price: 900, qty: 3}
-])
-
-// c) Update quantity
-db.books.updateOne({ title: "Java" }, { $inc: { qty: 5 } })
-
-// d) Delete books by author
-db.books.deleteMany({ author: "Galvin" })
-
-```
-
----
-
-## Set-4
-
-### Question 1: Restaurant Menu
-
-**Requirement:** Maintain separate HTML, CSS, and JS files.
-
-**index.html**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="header">
-        <h1>Spicy Bites</h1>
-    </div>
-    <div class="container">
-        <button onclick="highlightVeg()">Highlight Veg</button>
-        <table>
-            <tr><th>Dish</th><th>Price</th><th>Category</th></tr>
-            <tr class="veg"><td>Salad</td><td>100</td><td>Veg</td></tr>
-            <tr class="non-veg"><td>Chicken</td><td>300</td><td>Non-Veg</td></tr>
-            <tr class="veg"><td>Paneer</td><td>200</td><td>Veg</td></tr>
-        </table>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
-
-```
-
-**style.css**
-
-```css
-.header { position: fixed; top: 0; left: 0; width: 100%; background: orange; text-align: center; padding: 10px; }
-.container { margin-top: 80px; padding: 20px; }
-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-th, td { border: 1px solid #ccc; padding: 8px; }
-tr:hover { background-color: #f0f0f0; }
-.highlight { background-color: lightgreen; }
-
-```
-
-**script.js**
-
-```javascript
-function highlightVeg() {
-    let items = document.getElementsByClassName("veg");
-    for(let i=0; i<items.length; i++) {
-        items[i].classList.add("highlight");
-    }
-}
-
-```
-
-### Question 2: React Application
-
-**Component1.css**
-
-```css
-.comp1 { background-color: lightblue; padding: 20px; text-align: center; }
-
-```
-
-**Component2.css**
-
-```css
-.comp2 { background-color: lightcoral; padding: 20px; text-align: center; }
-
-```
-
-**App.js**
-
-```jsx
-import React from 'react';
-import './Component1.css';
-import './Component2.css';
-
-function Component1() {
-    return <div className="comp1"><h1>I am Component 1</h1></div>;
-}
-
-function Component2() {
-    return <div className="comp2"><h1>I am Component 2</h1></div>;
-}
-
-function App() {
-    return (
-        <div>
-            <Component1 />
-            <hr />
-            <Component2 />
-        </div>
-    );
-}
-export default App;
-
-```
-
----
-
----
-
-# 📗 CSE-B, C
-
-## Set-1
-
-### Question 1: Time Table
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-    <h2 style="text-align: center;">Class Time Table</h2>
-    <table style="width: 80%; margin: auto; border-collapse: collapse; text-align: center;">
-        <tr style="background-color: #eee;">
-            <th style="border: 1px solid black; padding: 8px;">Day</th>
-            <th style="border: 1px solid black; padding: 8px;">9:30-10:20</th>
-            <th style="border: 1px solid black; padding: 8px;">10:20-11:10</th>
-            <th style="border: 1px solid black; padding: 8px;">11:10-12:00</th>
-            <th style="border: 1px solid black; padding: 8px;">Lunch</th>
-            <th style="border: 1px solid black; padding: 8px;">1:40-2:30</th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">Mon</td>
-            <td style="border: 1px solid black; padding: 8px;">DS</td>
-            <td style="border: 1px solid black; padding: 8px;">IS</td>
-            <td style="border: 1px solid black; padding: 8px;">IRS</td>
-            <td rowspan="6" style="border: 1px solid black; padding: 8px; vertical-align: middle;">BREAK</td>
-            <td style="border: 1px solid black; padding: 8px;">WT Lab</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 8px;">Tue</td>
-            <td colspan="2" style="border: 1px solid black; padding: 8px;">Project Work</td>
-            <td style="border: 1px solid black; padding: 8px;">-</td>
-            <td style="border: 1px solid black; padding: 8px;">MAD</td>
-        </tr>
-    </table>
-</body>
-</html>
-
-```
-
-### Question 2: Employee Database
-
-```javascript
-// Open 'mongosh'
-use employeeDB
-
-// a) Insert 4 employees
-db.employees.insertOne({empId: 1, name: "Alice", salary: 40000, dept: "HR"})
-db.employees.insertOne({empId: 2, name: "Bob", salary: 25000, dept: "IT"})
-db.employees.insertOne({empId: 3, name: "Charlie", salary: 60000, dept: "Finance"})
-db.employees.insertOne({empId: 4, name: "David", salary: 28000, dept: "HR"})
-
-// b) Insert 3 together
-db.employees.insertMany([
-    {empId: 5, name: "Eve", salary: 35000, dept: "IT"},
-    {empId: 6, name: "Frank", salary: 20000, dept: "Admin"},
-    {empId: 7, name: "Grace", salary: 50000, dept: "HR"}
-])
-
-// c) Update HR salary
-db.employees.updateMany({ dept: "HR" }, { $inc: { salary: 5000 } })
-
-// d) Delete low salary
-db.employees.deleteMany({ salary: { $lt: 30000 } })
-
-```
-
----
-
-## Set-2
-
-### Question 1: School Website
-
-**Requirement:** Keep HTML, CSS, and JavaScript in separate files.
-
-**index.html**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="school_style.css">
-</head>
-<body>
-    <div class="header"><h1>City High School</h1></div>
-    <div class="content">
-        <button onclick="changeColor()">Change Color</button>
-        <table id="sportsTable">
-            <tr><th>Sport</th><th>Coach</th></tr>
-            <tr><td>Cricket</td><td>Mr. Raj</td></tr>
-        </table>
-    </div>
-    <script src="school_script.js"></script>
-</body>
-</html>
-
-```
-
-**school_style.css**
-
-```css
-.header { position: fixed; top: 0; width: 100%; background: navy; color: white; text-align: center; padding: 10px; }
-.content { position: relative; top: 80px; padding: 20px; }
-table { border-collapse: collapse; border: 1px solid black; width: 50%; margin-top: 10px; }
-th, td { border: 1px solid black; padding: 10px; }
-
-```
-
-**school_script.js**
-
-```javascript
-function changeColor() {
-    document.getElementById("sportsTable").style.backgroundColor = "lightblue";
-}
-
-```
-
-### Question 2: React Application
-
-**Component1.css**
-
-```css
-.comp1 { background-color: lightblue; padding: 20px; text-align: center; }
-
-```
-
-**Component2.css**
-
-```css
-.comp2 { background-color: lightcoral; padding: 20px; text-align: center; }
-
-```
-
-**App.js**
-
-```jsx
-import React from 'react';
-import './Component1.css';
-import './Component2.css';
-
-function Component1() {
-    return <div className="comp1"><h1>I am Component 1</h1></div>;
-}
-
-function Component2() {
-    return <div className="comp2"><h1>I am Component 2</h1></div>;
-}
-
-function App() {
-    return (
-        <div>
-            <Component1 />
-            <hr />
-            <Component2 />
-        </div>
-    );
-}
-export default App;
-
-```
-
----
-
-## Set-3
-
-### Question 1: Adhaar Registration
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-    <div style="width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ddd;">
-        <h2 style="text-align: center;">Adhaar Registration</h2>
-        <form>
-            <label style="display:block; margin: 5px 0;">First Name:</label>
-            <input type="text" style="width: 100%;">
-            
-            <label style="display:block; margin: 5px 0;">Last Name:</label>
-            <input type="text" style="width: 100%;">
-            
-            <label style="display:block; margin: 5px 0;">Mobile:</label>
-            <input type="number" style="width: 100%;">
-            
-            <label style="display:block; margin: 5px 0;">Address:</label>
-            <textarea style="width: 100%;"></textarea>
-            
-            <div style="margin-top: 15px;">
-                <button type="submit" style="background: green; color: white; padding: 5px 10px;">Submit</button>
-                <button type="reset" style="background: orange; color: white; padding: 5px 10px;">Reset</button>
-            </div>
-        </form>
-    </div>
-</body>
-</html>
-
-```
-
-### Question 2: React Counter
-
-**App.js**
-
-```jsx
-import React, { useState } from 'react';
-
-function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div style={{textAlign: "center", marginTop: "50px"}}>
-      <h1>Counter: {count}</h1>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
-      <button onClick={() => setCount(0)}>Reset</button>
-    </div>
-  );
-}
-export default App;
-
-```
-
----
-
-## Set-4
-
-### Question 1: Personal Portfolio
-
-**Requirement:** Use separate HTML, CSS, and JS files.
-
-**index.html**
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="port_style.css">
-</head>
-<body>
-    <div class="bio">
-        <h1>John Doe</h1>
-        <p>Web Developer.</p>
-        <button onclick="showAlert()">Contact</button>
-    </div>
-    <div class="photo-box">
-        <img src="photo.jpg" alt="Me" width="100">
-    </div>
-    <script src="port_script.js"></script>
-</body>
-</html>
-
-```
-
-**port_style.css**
-
-```css
-body { font-family: Arial; padding: 20px; }
-.bio { width: 60%; }
-.photo-box { position: absolute; top: 20px; right: 50px; border: 5px solid #333; }
-
-```
-
-**port_script.js**
-
-```javascript
-function showAlert() {
-    alert("Hello from my Portfolio!");
-}
-
-```
-
-### Question 2: Hospital Database
-
-```javascript
-// Open 'mongosh'
-use hospitalDB
-
-// a) Insert 6 patients
-db.patients.insertOne({Id: 1, Name: "Amit", Age: 30, mobile: "99999", category: "OP"})
-db.patients.insertOne({Id: 2, Name: "Sumit", Age: 45, mobile: "88888", category: "IP"})
-db.patients.insertOne({Id: 3, Name: "Ravi", Age: 72, mobile: "77777", category: "OP"})
-db.patients.insertOne({Id: 4, Name: "Kiran", Age: 25, mobile: "66666", category: "IP"})
-db.patients.insertOne({Id: 5, Name: "Lata", Age: 75, mobile: "55555", category: "ICU"})
-db.patients.insertOne({Id: 6, Name: "Mona", Age: 50, mobile: "44444", category: "OP"})
-
-// b) Insert 2 patients
-db.patients.insertMany([
-    {Id: 7, Name: "Nikhil", Age: 80, mobile: "33333", category: "IP"},
-    {Id: 8, Name: "Priya", Age: 20, mobile: "22222", category: "OP"}
-])
-
-// c) Update status
-db.patients.updateMany({ Id: { $in: [1, 2, 4] } }, { $set: { category: "Discharged" } })
-
-// d) Delete patients > 70
-db.patients.deleteMany({ Age: { $gt: 70 } })
-
-```
+This loop continuously reads the environmental context and applies a control structure to trigger physical automation.
